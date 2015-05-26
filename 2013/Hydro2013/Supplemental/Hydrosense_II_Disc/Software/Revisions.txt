@@ -1,0 +1,349 @@
+______________________________________________________________________________________
+
+     Hydrosense II Support Software Revision History                                                                                                                  
+______________________________________________________________________________________
+
+
+
+v1.0.8.216 : Released 3 July 2012
+
+ - Added a warning message to the Operating System Updater to warn the user that 
+   sending an operating system to the HydroSense II will remove all measurements and
+   zones from the device.
+
+v1.0.8.215
+
+ - The maximum length of zone names has been reduced to 14 characters. This is to fix 
+   an issue where the software was allowing zone names of 15 characters, while the 
+   HydroSense II only allows zone names of 14 characters.
+
+v1.0.8.214
+
+ - Fixed an issue where the Zone Settings window would not be drawn completely on 
+   Windows systems with a DPI different to 96.
+
+ - Fixed an issue where changes to zone settings in the Map View would not update the 
+   Zone Name column in the Data View immediately.
+
+ - The timeline chart below the Data View and Chart View will now update to reflect 
+   changes in the currently selected zones. Points from unselected zones will not be 
+   shown in the timeline.
+
+
+v1.0.8.212
+
+ - The user can now right click on a measurement point in the Map View and choose 
+   "Find in Data View". This wil display the Data View select the row for the chosen 
+   point.
+
+ - The user can now right click on one or more rows in the Data View and choose "Find 
+   in Map View". This will display the Map View and highlight the chosen points.
+
+ - Fixed a typo where the edit zone dialog would inform the user that the zone size 
+   should be larger than 3m. This now reads "larger than or equal to 3m".
+
+ - Improved layout code for the Map View. Point positions are now more precise and 
+   will not "jitter" when zooming in.
+
+ - Added a zoom in / zoom out control to the Map View. The Map View can now be scaled 
+   using the mousewheel, zoom in / zoom out buttons or a slider for finer scale 
+   control.
+
+ - Added the current view area in meters to the bottom of the Map View.
+
+ - The Main Window now saves its screen position, active monitor and size when 
+   closing. 
+
+ - Fixed an issue where on certain installations the height of the Main Window would 
+   grow with each software restart.
+
+ - New zones can now be created from the Map View. The user can right click an 
+   existing point or empty position on the Map Canvas and choose "Create New Zone".
+
+ - Zones are now listed alphabetically in the Zones drop down box above the Data, 
+   Chart and Map Views.
+
+
+v1.0.8.208
+
+ - Changed the Edit Zone Settings dialog to restrict input of invalid settings:
+    o The zone name cannot be empty
+    o The zone name cannot match an existing zone name
+    o The zone radius must be a valid decimal number
+    o The zone radius must be greater than or equal to 3 meters
+
+ - Fixed a bug where a zone could be given a zero radius using the Edit Zone Settings 
+   dialog and hence not be displayed on the Map View.
+
+   After setting a zero radius for the zone, double clicking on the zone in the Zones 
+   List would cause a software crash. This meant that the zone radius could not be 
+   changed back to the previous value.
+
+   The software will now change all zero radius zones to 3 meter radius zones on a 
+   software restart making them available for editing on the Map View.
+
+______________________________________________________________________________________
+
+v1.0.7.206 : Released 4 January 2012
+
+ - The user will now be prompted to immediately perform a synchronise after a firmware 
+   upgrade so that zones saved to the PC can be uploaded to the HydroSense II. The 
+   zones table on the HydroSense II will have been cleared during the firmware upgrade.
+
+ - Removed the option to install for all users from the windows installer package.
+   Previously having the option to install for all users or for the current user could 
+   result in duplicate short cut and uninstall entries.
+
+
+v1.0.7.205
+
+ - Improved code added to 1.0.6.202 to better detect devices running firmware version
+   v1.02 which have stored 1000+ points, thus causing a connection or synchronise 
+   failure.
+
+ - Fixed a rare issue where unchecking the "Select all Dates" checkbox could cause an 
+   application hang. 
+
+
+______________________________________________________________________________________
+
+v1.0.6.202 : Released 14 December 2011
+
+ - Added code to handle a known issue with HydroSense II firmware v1.02. When more 
+   than 1000 points are stored on a device running v1.02 firmware, the software is 
+   unable to retrieve table information from the device. Previously this resulted in 
+   a connection failure, now the software will connect and warn the user that
+   synchronising will re-download all data from the device and overwrite any local
+   zone changes with the zone information store on the device. See the help file
+   for more information.
+
+ - Fixed a typo in the Synchronise toolbar; the zones row would display 
+   "New zones to upload" when both device and PC zones had changed. This is incorrect 
+   and has been changed to "New zones to download".
+
+ - Now displaying transfer progress in the main window status bar during a synchronise
+   including an estimated transfer time.
+
+ - Fixed an issue where reducing a timeline selection to the width required to zoom 
+   in would force an immediate zoom in. This version now waits until the mouse button 
+   is released to zoom in.
+
+ - Fixed an issue where maximising the main window, then closing the application would 
+   cause the main window to resize to the screen resolution on startup without 
+   maximising. This version now only remembers the window size while not maximised.
+
+ - Help changes:
+       - Added the Bluetooth pairing code the Getting Started Guide.
+       - Added descriptions for all measurement columns to the Data View section.
+       - Added NoTableInfo error code section.
+
+______________________________________________________________________________________
+
+v1.0.5.194 : Released 23 November 2011
+
+ - Fixed an issue where collecting less than three minutes of data on the very first 
+   collection could cause the selected length of time in the timeline chart to be too 
+   small to move if the second data collection is more than 1 hour later.
+
+ - Fixed a typo where an extra closing bracket was being displayed behind timestamps
+   in the timeline chart when the chart was showing 1 day of data.
+
+v1.0.5.193
+
+ - Added the Bluetooth Pairing Code for the HydroSense II to the Getting Started Guide
+   in the help file.
+
+v1.0.5.192
+
+ - Fixed an issue where device operating system version 1.0.2 can possibly cause 
+   connection with the software to fail with a BTUnknownError.
+
+ - Fixed an issue where the Zones menu would be hidden in the Chart View after 
+   deselecting Show All Zones.
+
+ - Now displaying the build number in the software version at the bottom right of the 
+   main window.
+
+______________________________________________________________________________________
+
+v1.0.4.191 : Released 21 November 2011
+
+ - Removed the Temperature and EC (Electrical Conductivity) columns from the Data View 
+   and CSV export. The Temperature and EC measurements supplied by the sensor are not 
+   intended for use in the HydroSense II system. These values will not be accurate 
+   unless the sensor is fixed in place under the soil for a considerable amount of 
+   time (hours), which is only feasible when using the sensor with a datalogger.
+
+ - Added a Help page for the Log Files introduced in 1.0.3.185.
+
+ - Changed images in the Help file which still show the text "Data is synchronised".
+
+______________________________________________________________________________________
+
+v1.0.3.187 : Released 18 November 2011
+
+ - The following windows are now displayed with a fixed size (instead of auto-sizing 
+   to fit all controls). Previously these windows would be partially drawn on displays
+   using a DPI other than 96.
+
+	- Device Settings Window
+	- Device Time Window
+	- Reading Colours Window
+
+
+v1.0.3.186
+
+ - Fixed an issue which causes an unhandled exception on startup when running  
+   v1.0.3.185 in Windows XP
+
+ - Changed text on the toolbar from "Data is synchronised" to "Data are synchronised".
+
+ - Now fitting the Map View to zones as well as measurements after pressing the Zoom to 
+   Extents button.
+
+ - Fixed an issue where the Map View would not correctly zoom to fit all zones and 
+   measurements on startup.
+
+
+v1.0.3.185
+
+ - Fixed an issue where a remote device may not be discovered on the first ever 
+   discovery attempt.
+
+ - Fixed an issue where storing exactly one record on the device would cause an 
+   application crash directly after synchronising and subsequently on each software 
+   restart.
+
+ - Fixed an issue where writing an export file (KML, GPX, PNG, JPG, BMP or CSV) to an 
+   existing file which is currently in use would cause an application crash.
+
+ - Fixed an issue in the Operating System Updater where the device list was not being 
+   remembered between sessions.
+
+ - The Operating System Updater now parses all .a43 files before sending to the device.
+   Any errors in the file will be shown to the user and the send will be cancelled.
+
+ - Changed status bar updates in the Operating System Updater and Support Software to 
+   match actual flash erase times and discover times (rather than using estimates as 
+   before).
+
+ - The Chart View and all Timelines are now hidden when less than two records have 
+   been synchronised.
+
+ - The Map View is now hidden when no records or zones with GPS coordinates have been 
+   synchronised.
+
+ - Now creating two log files in the AppData folder.
+
+     application.log contains error messages from the Firmware Updater or the main 
+     HydroSense II software since the application was started.
+
+     bluetooth.log contains full transaction details for the last bluetooth session. 
+     This can be used to diagnose connection problems.
+
+   These logs are intended to be used by Campbell Scientific technicians to solve 
+   software issues.
+
+ - Added a link to the logs folder in the Firmware Updater, this allows the user easy 
+   access to the folder for sending reports to Campbell Scientific.
+
+ - Added a link to the logs directory to the application menu in the Support Software 
+   main window.
+
+ - Added the software version number to the title bar of the Operating System Updater.
+
+______________________________________________________________________________________
+
+v1.0.2.177 : Released 5 Oct 2011
+
+ - Fixed an issue where computers running Windows XP and using the Widcomm Bluetooth
+   stack would not detect the Bluetooth stack correctly.
+
+ - Fixed an issue in the Timeline control where deleting measurements from the 
+   beginning or end of a data set would cause the Timeline to become unresponsive. 
+   The issue would resolve itself after a program restart. This fix has removed the 
+   issue completely.
+
+ - Resized images in the help file to suit 800x600 screens.
+
+ - Changed the program version tooltip at the bottom of the main screen to include 
+   the day this version was released.
+
+ - Pressing delete while having points selected in the Data View now removes the 
+   selected points.
+
+ - Added a confirmation dialog before removing points from the Data View.
+
+ - Added a caching system for the Data View, this should provide a small improvement 
+   to performance when changing the date filter via the Timeline.
+
+ - Now saving the size of the main screen between program starts.
+
+ - Fixed a typo in the Edit Zone Window, 'center' has been changed to 'centre'.
+
+ - Changes to the layout of the help file to match the software manual.
+
+ - Small cosmetic changes to the scrollbar underneath the timeline to fit in with 
+   other scrollbars in the software.
+
+______________________________________________________________________________________
+
+v1.0.1.169 : Released 1 Sept 2011
+
+ - Moved to a new versioning system. Hydrosoft versions are now of the format: 
+   Major.Minor.Build.Revision where Major, Minor and Build numbers are 
+   autoincremented and the Revision number specifies the source control revision 
+   number.
+
+ - The HydroSense II Support Software entry in Add/Remove programs now uses the 
+   HydroSoft icon.
+
+ - Devices with data saved to disk will now appear in the device list when no 
+   Bluetooth hardware is present.
+
+ - The last device selected will be saved on exit so that the next time the software 
+   starts, this device will be selected again (rather than defaulting to the first 
+   device in the list).
+
+ - Fixed an issue where the following would occur:
+
+     - Connect to a device and synchronise
+     - Store a new datapoint on the device without 
+       disconnecting the software
+     - Press the Sync button in the software
+     - This sync will fail and will need to be retried a 
+       second time.
+
+ - Removed erroneous lines at the edges of the Chart View when Show All Dates 
+   is selected.
+
+ - Fixed an issue where the application would crash if a large date range of data was 
+   about to be displayed. This could occur if the clock is not set properly on the 
+   Hydrosense II, resulting in data from 1/1/2000 to the current date. These changes
+   will allow date ranges of any size.
+
+ - Small changes to the datestamps shown at the bottom of the timeline charts to make 
+   the date they are indicating more obvious (e.g. "4.33pm" -> "4.33pm, 30 Aug" and 
+   "30 Aug" -> "30 Aug 11")
+
+ - Now hiding the main data list and displaying a progress spinner when the list is
+   being updated. Large amounts of data (>500 points) would cause this list to become 
+   unresponsive if visible during the update.
+
+ - Fixed a cosmetic bug where the scrollbar for the main data list would be half drawn 
+   when large amounts of data (>500 points) are displayed in the list.
+
+ - Fixed a bug where zooming any of the three timeline charts to the maximum zoom 
+   level would cause the application to become unresponsive.
+
+ - Changed the TimeChart export images to use the system date format for the x-axis 
+   timestamps, so these will update correctly for U.S. machines.
+
+ - Fixed a display issue where the timeline view width would be reported as 0 hours 
+   if the width was less than an hour. This will now read X minutes.
+
+______________________________________________________________________________________
+
+v1.0 : Released 26 Aug 2011
+
+ - Initial Release

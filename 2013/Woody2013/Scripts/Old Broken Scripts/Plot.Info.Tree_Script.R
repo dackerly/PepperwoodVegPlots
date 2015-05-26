@@ -1,0 +1,292 @@
+# June 11, 2013 MFO
+# Intention of script is to pull plot characters (SW lat/long, slope, aspect) out of 'PlotInfo'
+# csv and combine with tree data by plot;
+# Columns: 
+# Plot.ID, UTM.E (SW corner), UTM.N(SW corner), Slope (field collected), Aspect (field collected) 
+# Tree.Species, Tree.Number(per species, DBH > 1cm), Basal.Area_cm2(per species, DBH>1cm), 
+#Total.Basal.Area_cm2 (per plot, all species combined, DBH > 1cm), Percent.Cover (per species) 
+
+options(stringsAsFactors=FALSE) 
+#Setting this option makes sure that character strings aren't treated as factors. 
+
+if (Sys.getenv("USER")=='meaganoldfather') setwd("/Users/meaganoldfather/Dropbox/PepperwoodVegPlots/Database/2013/Woody2013/Data/OriginalCSV/PlotInfo/") else setwd("/Users/david/Documents/Projects/Dropbox/PepperwoodVegPlots_2013/Database/2013/Woody2013Data/OriginalCSV/PlotInfo/")
+# In order to use the same script with multiple users; Final folder is 'PlotInfo'
+
+file.list <-dir(paste(getwd(),"/", sep=''))
+file.list # list of file names of csv's in 'PlotInfo'
+
+strlen <- nchar(file.list[1]) # strlen is the length of all of the file names
+plot.list <- substr(file.list,strlen-10,strlen-4) # extracts plot numbers from file name vector
+plot.list # list of plot names
+
+plot.data<-lapply(file.list, read.csv, skip=5, nrows=5, header=F)
+head(plot.data) 
+
+plot.data[[1]] # return first element in plot.data (PPW1301)
+
+plot.info<-data.frame("Plot.ID"=numeric(length(plot.data)),
+                      "UTM.E"=numeric(length(plot.data)),
+                      "UTM.N"=numeric(length(plot.data)),
+                      "Slope"=numeric(length(plot.data)),
+                      "Aspect"=numeric(length(plot.data))) 
+
+plot.info$Plot.ID<-plot.list 
+for (i in 1:length(plot.data)){
+  plot.info$UTM.E[i]<-plot.data[[i]][1,2]
+  plot.info$UTM.N[i]<-plot.data[[i]][2,2]
+  plot.info$Slope[i]<-plot.data[[i]][3,5]
+  plot.info$Aspect[i]<-plot.data[[i]][3,8]
+}
+plot.info
+
+# Slope and aspect are missing for plot PPW1302 and not applicable for PPW1329 (on crest) 
+plot.info$Slope[2]<-NA # changes slope for plot 1302 to NA
+plot.info$Aspect[2]<-NA # same for 1329 aspect
+plot.info$Slope[29]<-NA # changes slope for plot 1329 to NA
+plot.info$Aspect[29]<-NA # same for 1329 aspect
+plot.info
+
+# Now go into woody plot data in order to pull out the tree species present in each plot,
+# the number of tree of that species, and the total cover of each species in each plot
+
+if (Sys.getenv("USER")=='meaganoldfather') setwd("/Users/meaganoldfather/Dropbox/PepperwoodVegPlots/Database/2013/Woody2013/Data/OriginalCSV/Woody/") else setwd("/Users/david/Documents/Projects/Dropbox/PepperwoodVegPlots_2013/Database/2013/Woody2013")
+# final folder is 'Woody' 
+
+file.list <-dir(paste(getwd(),"/", sep='')) # file list is a character vector of the names of woody csv file
+strlen <- nchar(file.list[1]) # strlen is the length of all of the file names
+plot.list <- substr(file.list,strlen-10,strlen-4) # extracts plot numbers from file name vector
+
+mega.data<-lapply(file.list, read.csv,skip=3) 
+names(mega.data) <- plot.list
+
+# Make all the lists of tree vectors
+trees<-vector("list", length(mega.data)) 
+names(trees) <- plot.list
+tree.cover.by.plot<-vector("list", length(mega.data))
+names(tree.cover.by.plot) <- plot.list
+trees.clean<-vector("list", length(mega.data))
+names(trees.clean)<-plot.list
+
+# And for saplings
+saplings<-vector("list", length(mega.data))
+names(saplings) <- plot.list
+sapling.cover.by.plot<-vector("list", length(mega.data))
+names(sapling.cover.by.plot) <- plot.list
+#saplings.clean<-vector("list", length(mega.data))
+#names(saplings.clean)<-plot.list
+
+for (i in 1:length(mega.data)) #iterates through the whole list of data.frames corresponding to the number of plots worth of .csv files entered
+{
+  Plot<-plot.list[i] #Pulls the plot out of the plot.list variable made above
+  mega.data[[i]]<-cbind(Plot=Plot, mega.data[[i]]) #Inserts a plot column before the rest of the columns in the data.frame
+  colnames(mega.data[[i]])<-c("Plot", "Quad", "Type", "TreeNum", "Species", "Confidence", "Dead.Stump", "SA.Stump.Height_cm", "SA.Stump.BD_cm", "SA.Branch.Num", "DBH_cm", "X_cm", "Y_cm", "Notes") #Sets column names of data.frame to the names defined above 
+  mega.data[[i]]<-mega.data[[i]][,1:14] 
+  
+  mega.data[(mega.data$Species=="QUELOB"), "Species"]<-"QUEDEC"
+  mega.data[(mega.data$Species=="QUEWIS"), "Species"]<-"QUEDEC"
+  mega.data[(mega.data$Species=="QUEDOU"), "Species"]<-"QUEDEC"
+  mega.data[(mega.data$Species=="QUEKEL"), "Species"]<-"QUEDEC"
+  # Changes QUELOB, QUEDOU, QUEKEL, QUEWIS individuals into QUEDEC
+  
+  trees[[i]]<-mega.data[[i]][intersect(grep('TR',mega.data[[i]]$Type),(which(is.na(mega.data[[i]]$Dead.Stump)|(mega.data[[i]]$Dead.Stump=='')))), c(1:5,11)] # modified version of command below because 1302 had TR listed as ' TR' so wasn't matching with first condition
+  head(trees[[i]])
+  
+  trees[[i]]<-trees[[i]][order(trees[[i]]$Species),] #alphabetizes according to Species column
+  
+  trees.clean[[i]]<-subset(trees[[i]], subset=(!is.na(trees[[i]][,6]))) # removes trees with NA for DBH
+  
+  tree.species<-unique(trees.clean[[i]]$Species) #tree.species is defined as a vector of the unique values of the species
+
+  tree.cover.by.plot[[i]]<-as.data.frame(matrix(NA, nrow=length(tree.species), ncol=4))
+  
+  names(tree.cover.by.plot[[i]])<-c("Plot", "Species", "Number","Basal.Area_cm2")
+  
+  if(length(tree.species)>0) 
+  {
+    tree.cover.by.plot[[i]][,1]<-Plot # First column is the Plot
+    tree.cover.by.plot[[i]][,2]<-tree.species # Second column is the Tree Species
+    
+    for(j in 1:length(tree.species))
+    {	
+      tree.cover.by.plot[[i]]$"Number"[j] <- length(which(trees.clean[[i]]$Species==tree.species[j]))
+      tree.cover.by.plot[[i]]$"Basal.Area_cm2"[j]<-sum(pi*(1/4)*(as.numeric(trees.clean[[i]][trees.clean[[i]]$Species==tree.species[j],6]))^2) # area calculated with diameter
+    }
+  }
+
+  saplings[[i]]<-mega.data[[i]][intersect(grep('SA',mega.data[[i]]$Type),(which(is.na(mega.data[[i]]$Dead.Stump)|(mega.data[[i]]$Dead.Stump=='')))), c(1:5,8:10)]
+  saplings[[i]]<-saplings[[i]][order(saplings[[i]]$Species),]
+  
+  sapling.species<-unique(saplings[[i]]$Species)
+  
+  sapling.cover.by.plot[[i]]<-as.data.frame(matrix(NA, nrow=length(sapling.species), ncol=2))
+  names(sapling.cover.by.plot[[i]])<-c("Plot", "Species")
+  
+  
+  if(length(sapling.species)>0)
+  {
+    Plot<-plot.list[i]
+    sapling.cover.by.plot[[i]][,1]<-Plot
+    sapling.cover.by.plot[[i]][,2]<-sapling.species
+    for(j in 1:length(sapling.species))
+    {  
+      sapling.cover.by.plot[[i]]$Number[j]<-sum(as.numeric(saplings[[i]][saplings[[i]]$Species==sapling.species[j],8]))
+      sapling.cover.by.plot[[i]]$Basal.Area_cm2[j]<-sum(as.numeric(saplings[[i]][saplings[[i]]$Species==sapling.species[j],7])*pi/4*(as.numeric(saplings[[i]][saplings[[i]]$Species==sapling.species[j],8]))^2)
+    }
+  }
+}
+
+
+
+
+head(tree.cover.by.plot)
+tree.cover<-do.call(rbind, tree.cover.by.plot)
+
+head(tree.cover) 
+head(plot.info) 
+colnames(tree.cover)[1]<-"Plot.ID" # change the name of the first column form 'Plot' to 'Plot.ID'
+
+Plot.Info.Tree<- merge(tree.cover, plot.info, by="Plot.ID")  # merges tree cover and plot info by the Plot ID column                           
+Plot.Info.Tree                             
+
+total.area<-aggregate(tree.cover$Basal.Area_cm2~tree.cover$Plot.ID, FUN=sum) # sums tree cover of all species by plot
+colnames(total.area)[1]<- "Plot.ID"
+colnames(total.area)[2]<-"Total.Basal.Area_cm2"
+total.area
+
+Plot.Info.Tree<-merge(Plot.Info.Tree, total.area, by="Plot.ID") # add column in Plot.Info.Tree that is the total basal area of all tree species in each plot 
+
+Plot.Info.Tree$Percent.Cover<-round((Plot.Info.Tree$Basal.Area_cm2/Plot.Info.Tree$Total.Basal.Area_cm2)*100,2)
+
+# To swap columns order
+Plot.Info.Tree<-cbind(Plot.Info.Tree[,1], Plot.Info.Tree[,5:8], Plot.Info.Tree[,2], Plot.Info.Tree[,3:4], Plot.Info.Tree[,9:10])
+colnames(Plot.Info.Tree)[1]<-"Plot.ID"
+colnames(Plot.Info.Tree)[6]<- "Species"
+
+Plot.Info.Tree$Type<-'TR'
+
+Plot.Info.Tree
+
+#write.csv(Plot.Info.Tree, file="/Users/meaganoldfather/Dropbox/PepperwoodVegPlots/Database/2013/Woody2013/Outputs/Plot.Info.Tree.csv")
+
+# Now do the same thing for the saplings and merge the two so that each species in each plot has 2 rows (unless) the species
+# was only recorded as a tree or sapling
+
+head(plot.info)
+
+mega.data<-lapply(file.list, read.csv,skip=3) # need to recall mega.data so things do not go haywire
+names(mega.data) <- plot.list
+
+
+
+for (i in 1:length(mega.data)) #iterates through the whole list of data.frames corresponding to the number of plots worth of .csv files entered
+{
+
+  Plot<-plot.list[[i]] #Pulls the plot out of the plot.list variable made above
+  mega.data[[i]]<-cbind(Plot=Plot, mega.data[[i]]) #Inserts a plot column before the rest of the columns in the data.frame
+  colnames(mega.data[[i]])<-c("Plot", "Quad", "Type", "TreeNum", "Species", "Confidence", "Dead.Stump", "SA.Stump.Height_cm", "SA.Stump.BD_cm", "SA.Branch.Num", "DBH_cm", "X_cm", "Y_cm", "Notes") #Sets column names of data.frame to the names defined above 
+  mega.data[[i]]<-mega.data[[i]][,1:14] 
+  
+  
+saplings[[i]]<-mega.data[[i]][intersect(grep('SA',mega.data[[i]]$Type),(which(is.na(mega.data[[i]]$Dead.Stump)|(mega.data[[i]]$Dead.Stump=='')))), c(1:5,8:10)]
+saplings[[i]]<-saplings[[i]][order(saplings[[i]]$Species),]
+
+sapling.species<-unique(saplings[[i]]$Species)
+
+sapling.cover.by.plot[[i]]<-as.data.frame(matrix(NA, nrow=length(sapling.species), ncol=2))
+names(sapling.cover.by.plot[[i]])<-c("Plot", "Species")
+
+
+if(length(sapling.species)>0)
+{
+  Plot<-plot.list[i]
+  sapling.cover.by.plot[[i]][,1]<-Plot
+  sapling.cover.by.plot[[i]][,2]<-sapling.species
+  for(j in 1:length(sapling.species))
+  {  
+    sapling.cover.by.plot[[i]]$Number[j]<-sum(as.numeric(saplings[[i]][saplings[[i]]$Species==sapling.species[j],8]))
+    sapling.cover.by.plot[[i]]$Basal.Area_cm2[j]<-sum(as.numeric(saplings[[i]][saplings[[i]]$Species==sapling.species[j],7])*pi/4*(as.numeric(saplings[[i]][saplings[[i]]$Species==sapling.species[j],8]))^2)
+  }
+}
+}
+
+# # # # # # # # # # # # # # # # # # # # # #
+
+sapling.cover<-do.call(rbind, sapling.cover.by.plot)
+head(sapling.cover)
+
+colnames(sapling.cover)[1]<-"Plot.ID" # change the name of the first column form 'Plot' to 'Plot.ID'
+
+Plot.Info.Sapling<- merge(sapling.cover, plot.info, by="Plot.ID")  # merges tree cover and plot info by the Plot ID column                           
+Plot.Info.Sapling                             
+
+total.area.sap<-aggregate(sapling.cover$Basal.Area_cm2~sapling.cover$Plot.ID, FUN=sum)
+colnames(total.area.sap)[1]<- "Plot.ID"
+colnames(total.area.sap)[2]<-"Total.Basal.Area_cm2"
+total.area.sap
+
+Plot.Info.Sapling<-merge(Plot.Info.Sapling, total.area.sap, by="Plot.ID") # add column in Plot.Info.Tree that is the total basal area of all tree species in each plot 
+
+Plot.Info.Sapling$Percent.Cover<-round((Plot.Info.Sapling$Basal.Area_cm2/Plot.Info.Sapling$Total.Basal.Area_cm2)*100,2)
+
+# To swap columns order
+Plot.Info.Sapling<-cbind(Plot.Info.Sapling[,1], Plot.Info.Sapling[,5:8], Plot.Info.Sapling[,2], Plot.Info.Sapling[,3:4], Plot.Info.Sapling[,9:10])
+colnames(Plot.Info.Sapling)[1]<-"Plot.ID"
+colnames(Plot.Info.Sapling)[6]<- "Species"
+
+Plot.Info.Sapling$Type<-'SA'
+
+head(Plot.Info.Sapling)
+head(Plot.Info.Tree)
+
+# Now try to combine the tree and sapling data....
+Plot.Info.All<-rbind(Plot.Info.Tree, Plot.Info.Sapling)
+head(Plot.Info.All) #Yay!
+
+
+# Plot attempts to view relationship between sapling abundace and tree abundance &  sapling cover and tree cover 
+# Also might be very interesting to bring in seedling/juvenile counts
+
+Sapling.Species<-unique(Plot.Info.Sapling$Species) # missing QUELOB, QUEDOU, QUEKEL, QUEWIS --> MAKE ALL QUEDEC? Yes- in loop (not done)
+
+Tree.Species<-unique(Plot.Info.Tree$Species) # missing CEOCUN, UNK21, UNK28, UNK30,UNK32, TORCAL, UNK47
+
+Plot.Info.All[(Plot.Info.All$Species=="QUELOB"), "Species"]<-"QUEDEC"
+Plot.Info.All[(Plot.Info.All$Species=="QUEWIS"), "Species"]<-"QUEDEC"
+Plot.Info.All[(Plot.Info.All$Species=="QUEDOU"), "Species"]<-"QUEDEC"
+Plot.Info.All[(Plot.Info.All$Species=="QUEKEL"), "Species"]<-"QUEDEC"
+
+match(Sapling.Species, Tree.Species)
+
+match(Tree.Species, Sapling.Species)
+
+Species.Both<-c("QUEGAR", "PSEMEN", "QUEAGR", "UMBCAL", "AESCAL", "QUEDEC", "HETARB", "ARBMEN", "ARCMAN", "AMOCAL",
+               "FRACAL", "BACPIL", "QUEBER", "NOTDEN", "ADEFAS")
+
+Plot.Info.All<-subset(Plot.Info.All, subset=(Plot.Info.All$Species!="CEOCUN")) 
+Plot.Info.All<-subset(Plot.Info.All, subset=(Plot.Info.All$Species!="UNK21")) 
+Plot.Info.All<-subset(Plot.Info.All, subset=(Plot.Info.All$Species!="UNK28")) 
+Plot.Info.All<-subset(Plot.Info.All, subset=(Plot.Info.All$Species!="UNK30")) 
+Plot.Info.All<-subset(Plot.Info.All, subset=(Plot.Info.All$Species!="UNK32"))
+Plot.Info.All<-subset(Plot.Info.All, subset=(Plot.Info.All$Species!="TORCAL"))
+Plot.Info.All<-subset(Plot.Info.All, subset=(Plot.Info.All$Species!="UNK47")) 
+
+par(mfrow=c(1,1))
+par(ask=TRUE)
+
+i=1
+for (i in 1:length(Species.Both)) {
+  plot()
+ points()
+}
+
+
+#############
+
+oaks<-c("QUELOB", "QUEWIS", "QUEDOU", "QUEKEL")
+
+
+
+# But also want to sum them... 
+
+aggregate()
+

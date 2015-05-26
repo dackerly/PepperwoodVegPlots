@@ -1,0 +1,58 @@
+PPW2013 metadata
+Pepperwood Preserve Woody Vegetation Research Plots
+Installed at Pepperwood Preserve, Spring 2013
+
+Datafile prepared June 17, 2013 by David Ackerly
+
+PIs: 
+David Ackerly (UC Berkeley), dackerly@berkeley.edu
+Lisa Micheli (Pepperwood Preserve), lmicheli@pepperwoodpreserve.org
+
+Project Staff:
+Michelle Jensen (Pepperwood Preserve), mjensen@pepperwoodpreserve.org
+Meagan Oldfather (UC Berkeley), meagan_oldfather@berkeley.edu
+Matt Britton (UC Berkeley), matthewnbritton@berkeley.edu
+
+Abstract:
+We installed fifty 20x20 m plots stratified across woodland and forest vegetation at Pepperwood Preserve, Sonoma Co. California. Plot locations were stratified across deciduous vs. evergreen woodland, elevation, slope, aspect and topographic position (high and low on hillslopes). Plots were placed on relatively homogeneous slope and aspect, so ridgetops and drainages were avoided. All saplings > 50 cm tall and all trees > 1 cm dbh were mapped, tagged and measured (height in saplings, dbh in trees). Seedlings (height of 1-10 cm)   and juveniles (height of 11-49 cm) were counted.
+
+Spatial data:
+Plot locations were recorded with GPS set to UTM zone 10. Locations refer to the SW corner of each plot. Plot edges were aligned N-S and E-W, starting from this corner point.
+
+Projection:
+"WGS_1984_UTM_Zone_10N"
+
+Data columns:
+ID - plot ID number
+UTM.E - UTM easting coordinate
+UTM.N - UTM northing coordinate
+Slope - slope (°) measured in field with clinometer
+Aspect - aspect (°) measured in field with compass
+Total.basal.area_cm2 - total basal area of all trees, in cm2
+Basal area (cm2) of twenty species recorded across all plots
+
+Species codes
+code	species	common_name
+ADEFAS	Adenostoma fasciculatum	Chamise
+AESCAL	Aesculus californica	Buckeye
+AMOCAL	Amorpha californica	California false indigo
+ARBMEN	Arbutus menziesii	Madrone
+ARCMAN	Arctostaphylos manzanita	Manzanita
+BACPIL	Baccharis pilularis	Coyote bush
+FRACAL	Frangula californica	Coffeeberry
+HETARB	Heteromeles arbutifolia	Toyon
+NOTDEN	Notholithocarpus densiflora	Tanoak
+PSEMEN	Pseudotsuga menziesii	Doug-fir
+(1) QUEAGKE	Quercus agrifolia/kelloggii	Coast live oak/black oak (1)
+QUEAGR	Quercus agrifolia	Coast live oak
+QUEBER	Quercus berberidifolia	Scrub oak
+(2) QUEDEC	Quercus douglasii/garryana (TBD)	Blue oak/Oregon oak
+QUEDOU	Quercus douglasii	Blue oak
+QUEGAR	Quercus garryana	Oregon oak
+QUEKEL	Quercus kelloggii	Black oak
+QUELOB	Quercus lobata	Valley oak
+QUEWIS	Quercus wislizeni	Interior live oak
+UMBCAL	Umbellularia california	California Bay
+
+(1) There appear to be hybrids of Quercus agrifolia and Q. kelloggii. Most were recorded as Q. agrifolia, but in at least one case this code was used to indicate we are not sure of identity
+(2) Field work for this project started in February, 2013, before the white oaks leafed out. Blue oak and Oregon oak cannot be distinguished without leaves, and are indicated here as QUEDEC pending additional field work to do identification. We also believe there may be hybridization going on in this landscape, and plan morphometric and genetic analysis in the future to investigate this further.
