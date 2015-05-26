@@ -1,0 +1,56 @@
+DBase structure and version control in repository
+
+Tables:
+INPUT - data entry tables, hand editing allowed!
+	use #commentChar to add metadata at top of table
+	
+All dates in 8 number strings: 20130501
+Times in 4 number strings, 24H: 1312
+
+plot - one row per plot
+	pKey: Plot
+	data: GPS, elevation, date first censused, dates procedures completed
+	
+plotEvent - one row per procedure conducted in a plot
+	pkey: Plot, Year, VisitNumber
+	
+tree - one row per tagged tree
+	pKey: Num
+	sKey: Plot
+	data: 
+	
+treeEvent - one row per visit, measurement, census of a tree
+	key: 
+	
+quad - one row per quadrat
+	pKey: quadID (including plotID in name?)
+	sKey: plotID
+	data: seedling counts, ground cover
+	Or are there just quadEvent entries, and scripts that make summary quad tables?
+	
+quadEvent - one row per visit, procedure, census of a quadrat
+	key: plotID, quadID, date?
+	
+dmeter - densiometer measurements, one row per point
+	key: plotID, pointID, date?
+
+hsense - hydrosense measurements, one row per measurement
+	key: plotID, pointID, date?
+	
+DERIVED - values should never be hand edited
+plot13 - one row per plot, summary characteristics in 2013
+	key: plotID
+	data: all data in plot, plus: 
+		basal area by species, mean light, etc.
+		number of trees with uncertain ID
+		etc.
+	
+taxa13 - one row per species, summaries of 2013 abundance, demography, etc.
+
+
+	
+Procedures:
+drawPlot - plot tree locations, etc.
+plotProfile - aggregate information from various tables to print profile of plot
+
+	
