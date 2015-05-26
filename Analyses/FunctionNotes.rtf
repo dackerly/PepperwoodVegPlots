@@ -1,0 +1,137 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1187\cocoasubrtf400
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw15840\paperh12240\margl1440\margr1440\vieww20760\viewh10560\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural
+
+\f0\fs24 \cf0 Notes for the functions created in PWfunctions.R\
+\
+- use MasterScript to see examples of the functions \
+- use wd that ends in Database/ in the box folder under the PepperwoodVegPlots folder\
+\
+# Functions sourced:\
+# get.plot(): creates a list of plot names\
+# get.plot.info(): creates dataframe of plot-specific characteristics & UTM coords\
+# get.envr.data(): creates dataframe of plot-specific environmental variables\
+# get.indv.data(): creates dataframe of all tagged indivuals\
+# get.dead(): creates dataframe of all dead indivudals in a specific year(s)\
+# PW.species(): create list of species found in all plots at the preserve\
+# get.seju.data() : creates dataframe of seedling and juveniles counts in a specific year\
+# plants.by.plot(): creates dataframes of basal area and count data for different types of woody individuals\
+# get.clim.pts(): creates dataframes of values of multiple raster layers for the plots (and all PW points),as well as the raster layers themselves\
+\
+# get.plot()\
+# Creates list of plot names \
+# there are currently no inputs to this function\
+\
+# get.plot.info()\
+# Creates dataframe with plot specific data (eg. coordinates, slope, aspect)\
+# there are currently no inputs to this function\
+\
+# get.envr.data()\
+# Creates dataframe with plot specific environmental variables (eg. % soil, bedrock, herb)\
+# Inputs #\
+# 
+\b rmv.missing
+\b0  = T (default) will remove plot PPW1301 which has missing data; change to F if want PPW1301 too    \
+\
+# get.indv.data()\
+# Creates dataframe with all tagged individuals with \
+# Inputs #\
+# 
+\b year(
+\b0 necessary); can be a year from 2012-2014 currently; mortality surveys are done every fall (~Sept), use the year of the \
+# survey to only have include individuals that were alive at the survey in that year. For example, to include all individuals\
+# tagged when the plots were first established make "year=2012". If you input year="none" you will create a dataframe with \
+# only stumps or already dead individuals (if you also change default to T for those parameters)\
+#
+\b stump
+\b0  (optional): if T, stumps found during establishment are included; default is F\
+# 
+\b orig.dead
+\b0  (optional): if T, dead individuals found during establishment are included;default is F\
+# 
+\b branches
+\b0  (optional): if T, each tagged branches are kept as separate rows; default is F where each row is a single individual\
+# each individual has an aggregated basal area, a max basal area, and a number of associated tagged branches\
+# NOTE: the basal area for trees and saplings are calculated differently due to different methods for size measurements, in addition\
+# the diameter of the branches are taken at different heights (10 cm for SA and stumps and 1.4 m for TR) so the basal area of these \
+# different types of individuals should not be summed.\
+# There will be an error that NA coercion is taking place, this is an issue MFO is working on, but doesn't seem to alter the data\
+\
+# get.dead()\
+# Create dataframe with all tagged individuals that died in a certain year(s) \
+###################################################\
+# Inputs #\
+#
+\b  year
+\b0  (necessary): the year of interest for when individuals died, can be multiple years \
+# 
+\b total 
+\b0 (optional): if T(default) then the number of dead individuals is summed across plot and species at the individual level, \
+# Also includes a column for the number of branches lost for that species; if F, the the specific information for each individual/branch that died is created  \
+
+\b by.plot
+\b0  (optional): if T(default) then the number of dead indviduals/lost basal area/branches are aggregated by species,type and plot\
+# if F then the variable columns are aggregated by species,type onlydead.indvs<-get.dead(year=2013)\
+\
+#PW.species()\
+# Create a vector of all woody species found in plots \
+# Inputs #\
+# 
+\b unknown
+\b0  (optional): default is T, but if F then species with unknown identifications are not included\
+\
+#  get.seju.data()\
+# Create dataframe with counts of seedling or juveniles of all species across the plots \
+#Inputs #\
+#
+\b  year
+\b0  (necessary): the year of the seedling/juveniles survey of interest \
+\
+# plants.by.plot()\
+# Create dataframes with count or size information (for saplings,trees, seedlings/juveniles) aggregated by plot\
+###################################################\
+# Inputs #\
+#### 
+\b year
+\b0  (necessary):  year of alive individuals included (same as for get.indv.data)\
+#### 
+\b type
+\b0  (necessary): types may include "SA" (only saplings), "TR" (only trees), "SA.TR" (both saplings and trees), "SEJU" (seedlings and juveniles)\
+\
+# get.clim.pts \
+# Create dataframe with climate values for all of Pepperwood, only the plots, as well as creates raster for "DEM","March.Rad","MaxJulT","MinJunT","Topo","TPI" \
+# Regardless of your input all rasters for the area surrounding PW, as well as the PW outline("PP") are created as additional return elements\
+#######################################################\
+# Inputs:\
+#### all (optional)\
+#all=F is default, if changed to true then all PW points (not just for the plots) in the preserve are summarized  \
+\
+\
+# Create a matrix of species counts or basal area in each plot with PWordinate\
+# Also creates a dataframe of climate data for plot points for all included plots\
+# Plots with heavy douglas-fir removal are not kept in for analyses\
+# Also produces a NMDS plot of the specified matrix \
+###################################################\
+# Inputs:\
+#### 
+\b year
+\b0  (necessary)\
+# year of alive individuals included (same as for get.indv.data)\
+#### 
+\b type
+\b0  (necessary)\
+# types may include "SA" (only saplings), "TR" (only trees), "SA.TR" (both saplings and trees), "SEJU" (seedlings and juveniles)\
+### 
+\b metric
+\b0  (necessary)\
+# "Count" or "Basal.Area"\
+### 
+\b psemen.rmv
+\b0 \
+# default is T, where the 5 plots with doug-fir removal are removed\
+\
+\
+\
+ }
