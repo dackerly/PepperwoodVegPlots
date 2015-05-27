@@ -126,7 +126,7 @@ indv.data<-indv.data[,-6]
 # get rid of extra rows
 indv.data<-indv.data[!is.na(indv.data$Type),]
 # change SA.Stump.BD_cm into numeric
-indv.data$SA.Stump.BD_cm<-as.numeric(indv.data$SA.Stump.BD_cm)
+indv.data$SA.Stump.BD_cm<-suppressWarnings(as.numeric(indv.data$SA.Stump.BD_cm))
 # make indv.data$TreeNum numeric
 indv.data$Num<-as.numeric(indv.data$Num)
 # cleaning up Types 
@@ -147,7 +147,7 @@ indv.data[which(indv.data$Species=="CEOCUN"), "Species"]<-"CEACUN"
 indv.data[which(indv.data$Species=="UNKN27"), "Species"]<-"CEACUN"
 
 # change coordinates to all be positive
-indv.data$Y_cm<-as.numeric(indv.data$Y_cm)
+indv.data$Y_cm<-suppressWarnings(as.numeric(indv.data$Y_cm))
 
 indv.data[which(indv.data$X_cm<0),"X_cm"]<-indv.data[which(indv.data$X_cm<0),"X_cm"]+500
 indv.data[which(indv.data$Y_cm<0),"Y_cm"]<-indv.data[which(indv.data$Y_cm<0),"Y_cm"]+500
