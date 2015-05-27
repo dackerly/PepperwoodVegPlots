@@ -4,8 +4,6 @@
 # Last edited: 20150526
 ######################################################################
 ### setting up URL prefix for dackerly/PepperwoodVegPlots on Github ###
-install.packages("RCurl")
-library(RCurl)
 prefix<-'https://raw.githubusercontent.com/dackerly/PepperwoodVegPlots/master/'
 ######################################################################
 ### get.plot() ###
