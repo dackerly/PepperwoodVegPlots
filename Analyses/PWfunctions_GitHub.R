@@ -330,6 +330,7 @@ return(seju)
 # this code creates a dataframe with the climate variables for each plot
 get.clim.pts<-function(){
 clim.pts<-read.csv(text=getURL(paste(prefix, "GIS/ClimatePlotPts.csv", sep='')))
+clim.pts<-clim.pts[,-1]  
   return(clim.pts)
 }
 
@@ -426,10 +427,9 @@ if(type=="SA.TR"){
   df$Count<-df$SA.Count+df$TR.Count
   df$Basal.Area<-df$SA.Basal.Area+df$TR.Basal.Area  
 }
-clim.pts<-get.clim.pts()[1]
-clim.pts<-as.data.frame(clim.pts[[1]])
+clim.pts<-as.data.frame(get.clim.pts())
 
-psemen.plots<-c("PPW1320", "PPW1349", "PPW1340", "PPW1341", "PPW1306")
+  psemen.plots<-c("PPW1320", "PPW1349", "PPW1340", "PPW1341", "PPW1306")
 if(psemen.rmv==T){df<-df[!(df$Plot%in%psemen.plots),]
                  clim.pts<-clim.pts[!(clim.pts$Plot%in%psemen.plots),]}
  
