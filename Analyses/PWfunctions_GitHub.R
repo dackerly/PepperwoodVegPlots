@@ -1,10 +1,11 @@
 ### FUNCTIONS TO WORK WITH GITHUB###
 # Author: Meagan F. Oldfather
 # Created: 20150526
-# Last edited: 20150526
+# Last edited: 20150527
 ######################################################################
-### setting up URL prefix for dackerly/PepperwoodVegPlots on Github ###
-prefix<-'https://raw.githubusercontent.com/dackerly/PepperwoodVegPlots/master/'
+# clear workspace
+rm(list=ls())
+
 ######################################################################
 ### get.plot() ###
 ######################################################################
@@ -16,7 +17,7 @@ return(plot.list)
 ######################################################################
 ### get.plot.info() ###
 ######################################################################
-get.plot.info<-function(){
+get.plot.info<-function(prefix='https://raw.githubusercontent.com/dackerly/PepperwoodVegPlots/master/'){
 # forces character strings to not be treated as factors 
 options(stringsAsFactors=FALSE) 
 # list of file names
@@ -52,7 +53,7 @@ return(plot.info)
 ######################################################################
 ### get.envr.data() ### 
 ######################################################################
-get.envr.data<-function(year,rmv.missing=F){
+get.envr.data<-function(year,rmv.missing=F,prefix='https://raw.githubusercontent.com/dackerly/PepperwoodVegPlots/master/'){
 options(stringsAsFactors=FALSE) 
 plot.list<-get.plot()
 url.envrdata <-paste(prefix,year,"/Woody",year,"/Data/OriginalCSV/PlotInfo/PlotSurvey",year,"_", sep='')
@@ -83,7 +84,7 @@ return(envr.data)
 ######################################################################
 ### kill.trees() ### 
 ######################################################################
-kill.trees<-function(year){
+kill.trees<-function(year,prefix='https://raw.githubusercontent.com/dackerly/PepperwoodVegPlots/master/'){
 if(!is.numeric(year)) stop("ERROR! Year must be numeric, try again cowboy")
  file<-paste(prefix, year, "/Mortality", year, "/Dead_Inds.csv" ,sep="")
 
@@ -102,7 +103,7 @@ all.dead
 ######################################################################
 ### get.indv.data() ### 
 ######################################################################
-get.indv.data<-function(year, stump=F,orig.dead=F, branches=F){
+get.indv.data<-function(year, stump=F,orig.dead=F, branches=F,prefix='https://raw.githubusercontent.com/dackerly/PepperwoodVegPlots/master/'){
 options(stringsAsFactors=FALSE)  
 file.list <-(paste(prefix,"2013/Woody2013/Data/OriginalCSV/Woody/WoodySurvey2013_", sep='')) 
 plot.list<-get.plot()
@@ -251,7 +252,7 @@ return(species)
 ####################################################################
 ## get.seju.data() ###
 ####################################################################
-get.seju.data<-function(year){
+get.seju.data<-function(year,prefix='https://raw.githubusercontent.com/dackerly/PepperwoodVegPlots/master/'){
   plot.list<-get.plot()
   file.dir <-paste(prefix,year, "/Woody",year, "/Data/OriginalCSV/Seedling/SeedlingSurvey",year,"_", sep='')
   
@@ -326,7 +327,7 @@ return(seju)
 ## get.clim.pts() ###
 ####################################################################
 # this code creates a dataframe with the climate variables for each plot
-get.clim.pts<-function(){
+get.clim.pts<-function(prefix='https://raw.githubusercontent.com/dackerly/PepperwoodVegPlots/master/'){
 clim.pts<-read.csv(text=getURL(paste(prefix, "GIS/ClimatePlotPts.csv", sep='')))
 clim.pts<-clim.pts[,-1]  
   return(clim.pts)
