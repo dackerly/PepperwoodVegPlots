@@ -27,6 +27,13 @@ SJ15<-plants.by.plot(year = 2015,type = "SEJU")
 SJ15$Plot<-substr(SJ15$Plot,6,8)
 head(SJ15)
 
+# subset by 8 most abundanct species
+s<-aggregate(Total.Number~Species, data=SJ15, FUN=sum)
+s<-subset(s,s$Total.Number>200)
+unique(s$Species)
+
+SJ15<-subset(SJ15, SJ15$Species%in%s$Species)
+
 # make a communtiy matrix
 SJ15.mat<-sample2matrix(SJ15[,c("Plot","Total.Number","Species")])
 
@@ -37,9 +44,9 @@ SJ15.dis<-vegdist(SJ15.mat,method="bray")
 SJ15.dis.sp<-vegdist(t(SJ15.mat),method="bray")
 
 # cluster analyses
-hcS.plot<-hclust(SJ15.dis)
+hcS.plot<-hclust(SJ15.dis, method="ward.D2")
 plot(hcS.plot)
-hcS<-hclust(SJ15.dis.sp)
+hcS<-hclust(SJ15.dis.sp, method="ward.D2")
 plot(hcS)
 
 #### tree/sapling ####
@@ -57,6 +64,8 @@ T15<-subset(T15, T15$Species!="QUEAGKE")
 T15<-subset(T15, T15$Species!="QUEDEC")
 T15<-subset(T15, T15$Species!="QUEWIS")
 
+T15<-subset(T15, T15$Species%in%s$Species)
+
 # make a communtiy matrix
 T15.mat<-sample2matrix(T15[,c("Plot","Basal.Area","Species")])
 
@@ -67,17 +76,17 @@ T15.dis<-vegdist(T15.mat,method="bray")
 T15.dis.sp<-vegdist(t(T15.mat),method="bray")
 
 # cluster analyses
-hc.plot<-hclust(T15.dis)
+hc.plot<-hclust(T15.dis,method="ward.D2")
 plot(hc.plot)
-hc<-hclust(T15.dis.sp)
+hc<-hclust(T15.dis.sp, method="ward.D2")
 plot(hc)
 
 ### Heatmaps ###
-#colors.row<-c(rep("black",20), rep("dodgerblue", 20), rep("slategray2", 10))
-heatmap(as.matrix(SJ15.mat), col = terrain.colors(12), main="Seedling/Juvenile Counts")
-heatmap(as.matrix(T15.mat), col = terrain.colors(12), main="Tree Basal Area")
+funsies<-function (x) hclust(x,method="ward.D2")
+heatmap(as.matrix(SJ15.mat), hclustfun=funsies, col = terrain.colors(12), main="Seedling/Juvenile Counts")
+heatmap(as.matrix(T15.mat), hclustfun=funsies,col = terrain.colors(12), main="Tree Basal Area")
 
-### Colored Dendogram
+### Colored
 source("http://addictedtor.free.fr/packages/A2R/lastVersion/R/code.R",verbose=T)
 # colored dendrogram
 par(bg = 'white')
@@ -85,12 +94,40 @@ par(bg = 'white')
 colors<-c("dodgerblue","mediumorchid2","black","brown3","orange","turquoise","darkgreen","darkolivegreen3","slategray2")
 
 # seedling/juvenile species
-A2Rplot(hcS, k = 9, boxes = FALSE, col.up = "gray50", col.down =colors, main= "Seedling/Juvenile Counts")
+A2Rplot(hcS, k = 4, boxes = FALSE, col.up = "gray50", col.down =colors, main= "Seedling/Juvenile Counts")
+
 A2Rplot(hcS.plot, k = 5, boxes = FALSE, col.up = "gray50", col.down =colors, main= "Seedling/Juvenile Counts")
 
 
 # tree species
-A2Rplot(hc, k = 9, boxes = FALSE, col.up = "gray50", col.down =colors, main="Tree Basal Area")
+A2Rplot(hc, k = 4, boxes = FALSE, col.up = "gray50", col.down =colors, main="Tree Basal Area")
 
 A2Rplot(hc.plot, k =5, boxes = FALSE, col.up = "gray50", col.down =colors, main= "Tree Basal Area")
+
+
+#### Quedec ###
+T15<-plants.by.plot(year = 2014,type = "TR") 
+SJ15<-plants.by.plot(year = 2015,type = "SEJU")
+
+head(T15)
+head(SJ15)
+
+x<-merge(T15,SJ15, by=c("Plot","Species"), all.x=T,all.y=T)
+x<-subset(x, x$Species=="QUEDOU"|x$Species=="QUEGAR")
+x<-x[,c(-3,-6:-9)]
+x[is.na(x)] <- 0
+# get rid of plots that have neither adults species
+x<-x[,x$Plot!="PPW1302"|x$Plot!="PPW1307"|x$Plot!="PPW1309" ]
+
+
+ba<-sample2matrix(x[,c("Plot","Basal.Area","Species")])
+
+ba$Percent<-round(ba$QUEGAR/(ba$QUEDOU+ba$QUEGAR)*100)
+
+c<-sample2matrix(x[,c("Plot","Count","Species")])
+c<-subset(c, (c$QUEDOU+c$QUEGAR) !=0)
+c$Percent<-round(c$QUEGAR/(c$QUEDOU+c$QUEGAR)*100)
+
+cbind(c,ba)
+
 
