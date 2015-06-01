@@ -22,11 +22,11 @@ source_https('https://raw.githubusercontent.com/dackerly/PepperwoodVegPlots/mast
 
 # get plot climate data
 clim<-get.clim.pts()
-clim$Slope<-as.numeric(clim$Slope)
 # get plot info
 info<-get.plot.info()
 # merge climate and info data
 clim<-cbind(clim, info[,4:5])
+clim$Slope<-as.numeric(clim$Slope)
 
 # get aggregated by plot, species seedling/juvenile data 
 SJ15<-plants.by.plot(year = 2015,type = "SEJU")
