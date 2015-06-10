@@ -328,8 +328,7 @@ return(seju)
 ####################################################################
 # this code creates a dataframe with the climate variables for each plot
 get.clim.pts<-function(prefix='https://raw.githubusercontent.com/dackerly/PepperwoodVegPlots/master/'){
-clim.pts<-read.csv(text=getURL(paste(prefix, "GIS/ClimatePlotPts.csv", sep='')))
-clim.pts<-clim.pts[,-1]  
+clim.pts<-read.csv(text=getURL(paste(prefix, "GIS/ClimatePlotPts.csv", sep=''))) 
   return(clim.pts)
 }
 

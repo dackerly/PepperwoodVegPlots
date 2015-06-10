@@ -38,9 +38,9 @@ T15<-plants.by.plot(year = 2014,type = "TR")
 head(T15)
 
 #subset by species of interest, only currently looking at QUEGAR & QUEDOU though
-species.interest<-c("ARBMEN", "FRACAL", "PSEMEN", "QUEAGR", "QUEDOU", "QUEGAR", "QUEKEL", "UMBCAL")
-SJ15<-subset(SJ15, SJ15$Species%in%species.interest)
-T15<-subset(T15, T15$Species%in%species.interest)
+#species.interest<-c("ARBMEN", "FRACAL", "PSEMEN", "QUEAGR", "QUEDOU", "QUEGAR", "QUEKEL", "UMBCAL")
+#SJ15<-subset(SJ15, SJ15$Species%in%species.interest)
+#T15<-subset(T15, T15$Species%in%species.interest)
 
 # turn into matrix where all plot,species combination are represented based on counts for seedling/juveniles and basal area for trees
 SJ15.mat<-sample2matrix(SJ15[,c("Plot","Total.Number","Species")])
