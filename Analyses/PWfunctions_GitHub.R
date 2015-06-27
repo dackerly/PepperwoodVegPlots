@@ -24,7 +24,7 @@ options(stringsAsFactors=FALSE)
 url.plotinfo<- paste(prefix,"2013/Woody2013/Data/OriginalCSV/PlotInfo/PlotSurvey2013_", sep='')
 plot.list<-get.plot()  
 # read in all files for plot info
-plot.data<-lapply(paste(url.plotinfo,plot.list,".csv",sep=''), function(x) read.csv(text=getURL(x), skip=5, nrows=5, header=F))
+plot.data<-lapply(paste(url.plotinfo,plot.list,".csv",sep=''), function(x) read.csv(text=getURL(x, followlocation = TRUE, cainfo = system.file("CurlSSL", "cacert.pem", package = "RCurl")), skip=5, nrows=5, header=F))
 # make dataframe structure 
 plot.info<-data.frame("Plot"=numeric(length(plot.data)),
                       "UTM.E"=numeric(length(plot.data)),
@@ -61,7 +61,7 @@ url.envrdata <-paste(prefix,year,"/Woody",year,"/Data/OriginalCSV/PlotInfo/PlotS
 # This error code is broken   
 #if(exists(getURL(paste(url.envrdata,"PPW1301.csv", sep="")))==F) stop("ERROR! Hold your horses! We don't yet have environmental surveys for this year")
   
-envr.data<-lapply(paste(url.envrdata,plot.list,".csv", sep=''), function(x) read.csv(text=getURL(x), skip=16, header=T))
+envr.data<-lapply(paste(url.envrdata,plot.list,".csv", sep=''), function(x) read.csv(text=getURL(x, followlocation = TRUE, cainfo = system.file("CurlSSL", "cacert.pem", package = "RCurl")), skip=16, header=T))
 names(envr.data) <- plot.list 
  
  for (i in 1:length(envr.data)){
@@ -91,7 +91,7 @@ if(!is.numeric(year)) stop("ERROR! Year must be numeric, try again cowboy")
 # This error code is broken  
 #if(file.exists(files[length(files)])==F) stop("ERROR! We don't yet have mortality surveys for future years, this ol'horse can't time travel")
  
-dead<-lapply(file,function(x) read.csv(text=getURL(x)))
+dead<-lapply(file,function(x) read.csv(text=getURL(x, followlocation = TRUE, cainfo = system.file("CurlSSL", "cacert.pem", package = "RCurl"))))
 names(dead)<-year
  for(i in 1:length(dead)){
    dead[[i]]<-cbind(dead[[i]], Year=year[i])
@@ -108,7 +108,7 @@ options(stringsAsFactors=FALSE)
 file.list <-(paste(prefix,"2013/Woody2013/Data/OriginalCSV/Woody/WoodySurvey2013_", sep='')) 
 plot.list<-get.plot()
 
-mega.data<-lapply(paste(file.list, plot.list, ".csv", sep=''), function(x) read.csv(text=getURL(x), na.strings=c("","NA") , skip=3)) 
+mega.data<-lapply(paste(file.list, plot.list, ".csv", sep=''), function(x) read.csv(text=getURL(x, followlocation = TRUE, cainfo = system.file("CurlSSL", "cacert.pem", package = "RCurl")), na.strings=c("","NA") , skip=3)) 
 names(mega.data) <- plot.list 
 
 for (i in 1:length(mega.data)) 
@@ -138,7 +138,7 @@ indv.data[indv.data$Type=="S","Type"]<-"SA"
 indv.data[indv.data$Type=="AS","Type"]<-"SA"
 
 # Change individuals originally identified as "QUEDEC" to species-level indentification 
-AUG.ID<-read.csv(text=getURL(paste(prefix, "2013/OakID2013/AUG_Species.csv", sep='')))
+AUG.ID<-read.csv(text=getURL(paste(prefix, "2013/OakID2013/AUG_Species.csv", sep=''), followlocation = TRUE, cainfo = system.file("CurlSSL", "cacert.pem", package = "RCurl")))
 for(i in 1:dim(AUG.ID)[1]){
   indv.data[indv.data$Num %in% AUG.ID$Num[i], "Species"] <-AUG.ID$Species[i]
 }
@@ -259,7 +259,7 @@ get.seju.data<-function(year,prefix='https://raw.githubusercontent.com/dackerly/
   # this error code is broken
  # if(file.exists(paste(file.dir,files[1], sep=""))==F) stop("ERROR! Whoah Nelly! We don't yet have seedling/junvenile surveys for this year")
 
-seju<-lapply(paste(file.dir,plot.list,".csv",sep=''), function (x) read.csv(text=getURL(x),na.strings="", skip=3, header=T))
+seju<-lapply(paste(file.dir,plot.list,".csv",sep=''), function (x) read.csv(text=getURL(x, followlocation = TRUE, cainfo = system.file("CurlSSL", "cacert.pem", package = "RCurl")),na.strings="", skip=3, header=T))
   names(seju) <- plot.list  
   for (i in 1:length(seju)){
     Plot<-plot.list[i]
@@ -328,7 +328,7 @@ return(seju)
 ####################################################################
 # this code creates a dataframe with the climate variables for each plot
 get.clim.pts<-function(prefix='https://raw.githubusercontent.com/dackerly/PepperwoodVegPlots/master/'){
-clim.pts<-read.csv(text=getURL(paste(prefix, "GIS/ClimatePlotPts.csv", sep=''))) 
+clim.pts<-read.csv(text=getURL(paste(prefix, "GIS/ClimatePlotPts.csv", sep=''), followlocation = TRUE, cainfo = system.file("CurlSSL", "cacert.pem", package = "RCurl"))) 
   return(clim.pts)
 }
 
