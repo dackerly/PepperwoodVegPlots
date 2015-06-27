@@ -24,6 +24,8 @@ source_https('https://raw.githubusercontent.com/dackerly/PepperwoodVegPlots/mast
 
 # get plot climate data
 clim<-get.clim.pts()
+clim$UTM.E<-as.numeric(clim$UTM.E)
+clim$UTM.N<-as.numeric(clim$UTM.N)
 # get plot info
 info<-get.plot.info()
 # merge climate and info data
@@ -59,6 +61,8 @@ all<-merge(all.mat,clim)
 
 # scale basal area and climate data
 all.s<-all
+all.s[,55]<-as.numeric(all.s[,55])
+all.s[,57]<-as.numeric(all.s[,57])
 # combine with raw seedling data
 all.s<-as.data.frame(cbind(all[,c(1:9)],apply(all.s[,10:ncol(all.s)], 2, scale)))
 

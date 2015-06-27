@@ -81,13 +81,19 @@ write.csv(indv.UTM, "Desktop/IndvUTM.csv")
 
 # visualize a plot
 # colors for main species, black for rest of species
+dom<-c("QUEAGR", "PSEMEN", "QUEGAR", "QUEDOU", "QUEKEL", "ARBMEN", "UMBCAL" ,"ARCMAN", "HETARB","AESCAL")
+sp.col<-c("brown", "red","darkgreen", "dodgerblue", "purple","orange","green","pink","lightgrey","yellow", "black") 
 # size depends on Basal. Area
-# shape for Type
-data=indv.UTM
-plot="PPW1301"
+
 see.plot<-function(data, plot){ 
 # subset by a single plot
- df<-subset(data, data$Plot==plot)  
- plot(df$Indv.UTM.E, df$Indv.UTM.N,xlab="", ylab="", 
-  
+ df<-subset(data, data$Plot==plot) 
+ col<-sp.col[match(df$Species, dom, nomatch = 11)]
+plot(df$Indv.UTM.E, df$Indv.UTM.N,xlab="",xlim=c(df$SW.Easting[1],df$SW.Easting[1]+20), ylim=c(df$SW.Northing[1], df$SW.Northing[1]+20), ylab="",yaxt="n", xaxt="n",col=col,pch=19, cex=(sqrt(df$Basal.Area/pi)/5), asp=1)
+abline(v=df$SW.Easting[1]+c(5,10,15), lty="dashed", col="grey")  
+abline(h=df$SW.Northing[1]+c(5,10,15), lty="dashed", col="grey") 
+axis(side=1, at = df$SW.Easting[1]+c(2.5,7.5,12.5, 17.5), labels=LETTERS[1:4], tick=F)
+  axis(side=2, at = df$SW.Northing[1]+c(2.5,7.5,12.5, 17.5), labels=1:4, tick=F)
   }
+# an example
+see.plot(df,"PPW1302")
