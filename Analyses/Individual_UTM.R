@@ -64,6 +64,7 @@ df$X<-df$X/100
 df$Y<-df$Y/100
 head(df)
 str(df)
+
 # add all measurments up for an individual UTM
 df$Indv.UTM.E<-df$SW.Easting+df$X.add+df$X
 df$Indv.UTM.N<-df$SW.Northing+df$Y.add+df$Y
@@ -77,23 +78,43 @@ indv.UTM<-df[,c(2,1,3,4,5,8,13,14)]
 head(indv.UTM)
 
 # writes csv
-write.csv(indv.UTM, "Desktop/IndvUTM.csv")
+#write.csv(indv.UTM, "Desktop/IndvUTM.csv")
 
 # visualize a plot
 # colors for main species, black for rest of species
 dom<-c("QUEAGR", "PSEMEN", "QUEGAR", "QUEDOU", "QUEKEL", "ARBMEN", "UMBCAL" ,"ARCMAN", "HETARB","AESCAL")
-sp.col<-c("brown", "red","darkgreen", "dodgerblue", "purple","orange","green","pink","lightgrey","yellow", "black") 
+#library(colortools)
+wheel("forestgreen")
+sp.col<-c(wheel("forestgreen")[c(1,3:7,9,10,11)],"grey" ,"black") 
 # size depends on Basal. Area
 
-see.plot<-function(data, plot){ 
+see.plot<-function(data, plot){
+#set margin
+par(oma=c(5,0,0,5))  
 # subset by a single plot
- df<-subset(data, data$Plot==plot) 
+ df<-subset(data, data$Plot==plot)
  col<-sp.col[match(df$Species, dom, nomatch = 11)]
-plot(df$Indv.UTM.E, df$Indv.UTM.N,xlab="",xlim=c(df$SW.Easting[1],df$SW.Easting[1]+20), ylim=c(df$SW.Northing[1], df$SW.Northing[1]+20), ylab="",yaxt="n", xaxt="n",col=col,pch=19, cex=(sqrt(df$Basal.Area/pi)/5), asp=1)
-abline(v=df$SW.Easting[1]+c(5,10,15), lty="dashed", col="grey")  
+plot(df$Indv.UTM.E, df$Indv.UTM.N,xlim=c(df$SW.Easting[1],df$SW.Easting[1]+20), ylim=c(df$SW.Northing[1], df$SW.Northing[1]+20), xlab="", ylab="",yaxt="n", xaxt="n",col=col,pch=19, xaxs="i",cex=.25)
+draw.circle(df$Indv.UTM.E, df$Indv.UTM.N, sqrt(df$Basal.Area / (pi) ) * 2/200, col = col,border=NA) 
+abline(v=df$SW.Easting[1]+c(5,10,15), lty="dashed", col="grey") 
 abline(h=df$SW.Northing[1]+c(5,10,15), lty="dashed", col="grey") 
 axis(side=1, at = df$SW.Easting[1]+c(2.5,7.5,12.5, 17.5), labels=LETTERS[1:4], tick=F)
-  axis(side=2, at = df$SW.Northing[1]+c(2.5,7.5,12.5, 17.5), labels=1:4, tick=F)
+  axis(side=2, at = df$SW.Northing[1]+c(2.5,7.5,12.5, 17.5), labels=1:4, tick=F,las=1)
+  
+  # add legend
+  legend(x=df$SW.Easting[1]+21,y=df$SW.Northing[1]+20,legend=dom, fill=sp.col,cex=.7,pt.cex=.7,xpd=NA)
+  
+  #add title
+  title(plot)
   }
 # an example
-see.plot(df,"PPW1302")
+see.plot(df,"PPW1305")
+
+# make pdf's of all plots that get shot into a folder; I can't yet figure out how to directly send this to the GitHub account, or if that is possible. So I will just make it and then push it up manually
+plot.list<-get.plot()
+pdf("/Users/meaganoldfather/Desktop/Pepperwood/GitDatabase/Outputs/PlotDiagrams.pdf")
+  for (i in 1:length(plot.list)){
+    see.plot(df,plot.list[i])
+  }
+dev.off()
+
