@@ -47,6 +47,11 @@ plot.info$Aspect[29]<-NA # same for 1329 aspect
 plot.info$Aspect<- as.numeric(plot.info$Aspect)
 plot.info$Aspect<-cos(2*pi*(as.numeric(plot.info$Aspect)/360))
 
+super.plots<-c("PPW1301","PPW1307","PPW1325","PPW1349","PPW1310","PPW1309","PPW1344","PPW1312","PPW1321","PPW1322","PPW1338","PPW1339","PPW1324","PPW1335","PPW1315","PPW1332","PPW1340")
+
+plot.info$Super.Plot<-0
+plot.info[plot.info$Plot%in%super.plots, "Super.Plot"]<-1  
+  
 return(plot.info)
 
 }
