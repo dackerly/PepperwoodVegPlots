@@ -133,8 +133,9 @@ text(df$Indv.UTM.E,(df$Indv.UTM.N+.3),labels=df$Num, cex=.7)
 }  
   
 # an example
-see.plot(df,"PPW1301", quad="A2")
-see.plot(df,"PPW1301")
+see.plot(df,"PPW1330")
+see.plot(df,"PPW1330", quad="A2")
+
 
 # make pdf's of all plots that get shot into a folder; I can't yet figure out how to directly send this to the GitHub account, or if that is possible. So I will just make it and then push it up manually
 plot.list<-get.plot()
