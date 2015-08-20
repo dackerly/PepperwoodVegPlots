@@ -25,3 +25,9 @@ source_https('https://raw.githubusercontent.com/dackerly/PepperwoodVegPlots/mast
 clim<-get.clim.pts()
 head(clim)
 
+# read in lichen data
+lichen<- read.csv("Desktop/Pepperwood/GitDatabase/2013/Herb2013/Data/OriginalCSV/LICHENDATA.csv")
+
+lichen<- cbind(clim,lichen[,-1])
+head(lichen)
+write.csv(lichen, "Desktop/TBC3vegplotLichen.csv")
