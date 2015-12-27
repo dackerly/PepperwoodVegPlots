@@ -10,8 +10,8 @@ rm(list=ls())
 library("RCurl")
 library("data.table")
 library("picante")
-library(colortools)
-library(plotrix)
+library("colortools")
+library("plotrix")
 
 # sources in all functions
 source_https <- function(url, ...) { 
@@ -86,7 +86,7 @@ head(indv.UTM)
 # visualize a plot
 # colors for main species, black for rest of species
 dom<-c("QUEAGR", "PSEMEN", "QUEGAR", "QUEDOU", "QUEKEL", "ARBMEN", "UMBCAL" ,"ARCMAN", "HETARB","AESCAL")
-wheel("forestgreen")
+#wheel("forestgreen")
 sp.col<-c(wheel("forestgreen")[c(1,3:7,9,10,11)],"grey" ,"black") 
 # size depends on Basal. Area
 
@@ -98,7 +98,7 @@ df<-subset(data, data$Plot==plot)
 col<-sp.col[match(df$Species, dom, nomatch = 11)]  
 if (quad=="all"){ 
 plot(df$Indv.UTM.E, df$Indv.UTM.N,xlim=c(df$SW.Easting[1],df$SW.Easting[1]+20), ylim=c(df$SW.Northing[1], df$SW.Northing[1]+20), xlab="", ylab="",yaxt="n", xaxt="n",col=col,pch=19, xaxs="i",cex=.25)
-draw.circle(df$Indv.UTM.E, df$Indv.UTM.N, sqrt(df$Basal.Area / (pi) ) * 2/200, col = col,border=NA) 
+draw.circle(df$Indv.UTM.E, df$Indv.UTM.N, sqrt(df$Basal.Area / (pi) ) * 2/100, col = col,border=NA) 
 abline(v=df$SW.Easting[1]+c(5,10,15), lty="dashed", col="grey") 
 abline(h=df$SW.Northing[1]+c(5,10,15), lty="dashed", col="grey") 
 axis(side=1, at = df$SW.Easting[1]+c(2.5,7.5,12.5, 17.5), labels=LETTERS[1:4], tick=F)
@@ -133,8 +133,12 @@ text(df$Indv.UTM.E,(df$Indv.UTM.N+.3),labels=df$Num, cex=.7)
 }  
   
 # an example
-see.plot(df,"PPW1330")
+see.plot(df,"PPW1313")
 see.plot(df,"PPW1330", quad="A2")
+
+# extra parts of AUG 2015
+text("20 m")
+
 
 
 # make pdf's of all plots that get shot into a folder; I can't yet figure out how to directly send this to the GitHub account, or if that is possible. So I will just make it and then push it up manually
