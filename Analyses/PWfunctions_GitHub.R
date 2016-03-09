@@ -1,7 +1,7 @@
 ### FUNCTIONS TO WORK WITH GITHUB###
 # Author: Meagan F. Oldfather
 # Created: 20150526
-# Last edited: 20150527
+# Last edited: 20160202
 ######################################################################
 # clear workspace
 rm(list=ls())
@@ -451,3 +451,50 @@ return(list(mat,clim.pts))
    
  #}
 
+
+########################################
+# get.hobo.data()
+########################################
+# get.hobo.data(){
+#  prefix='https://raw.githubusercontent.com/dackerly/PepperwoodVegPlots/master/HOBO/ HOBO Raw Data 20150820' 
+# <-lapply(paste(url.plotinfo,plot.list,".csv",sep=''), function(x) read.csv(text=getURL(x, followlocation = TRUE, cainfo = system.file("CurlSSL", "cacert.pem", package = "RCurl")), skip=5, nrows=5, header=F))  
+#   
+#   
+# plot.list <- as.character(c(1301:1350))
+# biglist <- vector(mode="list", length=50)
+# 
+# 
+# names(biglist)<-plot.list
+# for (i in 1:50){
+#   direct<-dir()[i]
+#   temp <-list.files(direct,pattern="*.csv")
+#   sublist<-lapply(paste(direct,"/",temp,sep=""), read.csv,skip=1,header=T) 
+#   
+#   sublist<-lapply(sublist, FUN=function(x) {
+#      if (grepl(pattern= "+F", x= colnames(x)[3]))
+#        x[, 3] <- (x[, 3]-32)/(1.8)
+#       colnames(x)<-paste0("V",1:ncol(x))
+#        return(x)
+#     })
+# biglist[[i]]<-sublist 
+# }
+# 
+# sublist<-vector(mode="list", length=50)
+# names(sublist)<-plot.list
+# for (i in 1:50){
+#   sub<-biglist[[i]]
+#   sub<-lapply(sub, function(x) x[,2:3])
+#   sub<-as.data.frame(do.call(rbind, sub))
+#   colnames(sub)<-c("Date.Time","Temp")
+#   #print(colnames(sub))
+#   sublist[[i]]<-sub
+# } 
+# 
+# for (i in 1:50){
+#   sub <- sublist[[i]] 
+#   ts <- as.POSIXct(sub[,1],format = "%m/%d/%Y %H:%M")
+#   sublist[[i]][,1]<- ts
+# return(sublist)
+# }
+# }
+# 

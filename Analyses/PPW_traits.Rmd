@@ -1,0 +1,84 @@
+---
+title: "PPW traits analysis"
+author: "D. Ackerly"
+date: "March 9, 2016"
+output: html_document
+---
+
+This document explores trait values in relation to abundance for the Pepperwood plot data set, and trait correlations to see what the 'syndromes' or strategies are in the woody flora.
+
+First, read in the trait data we have so far, and the number of missing taxa for each trait are printed out:
+
+```{r}
+setwd('/Users/david/Documents/Projects/Pepperwood/VegPlots_traits')
+tmns <- read.csv('taxon-by-trait.csv',row.names=1)
+head(tmns)
+dim(tmns)
+for (i in 2:ncol(tmns)) print(c(names(tmns)[i],'Nmissing =',length(which(is.na(tmns[,i])))))
+```
+Make function for stem plots of abundance vs. trait values, with options to log transform abundance and log(x+1) traits (to keep all values positive). Missing values for traits are shown as negative of the minimum value, so you can see the abundances.
+
+This function makes a 'stemplot', which is the format Annette is using to look at her niche models. I don't have a sense of how widespread this is - it does seem a useful visualization.
+```{r}
+stemplot <- function(a,x,loga=FALSE,log1x=FALSE) {
+    if (loga) {
+        a <- log10(a)
+        mina <- min(a)
+        ylt <- 'Abundance (log)'
+    } else {
+        mina <- 0
+        ylt <- 'abundance'
+    }
+    if (log1x) {
+        x <- log(x+1)
+        xlt <- 'Trait value (log(x+1), neg=NA)'
+    } else {
+        xlt <- 'Trait value (neg=NA)'
+    }
+    x[is.na(x)] <- -min(x,na.rm=T)
+    plot(a~x,type='n',xlab=xlt,ylab=ylt)
+    for (i in 1:length(a)) {
+        if (!is.na(a[i])) if (!is.na(x[i])) lines(c(x[i],x[i]),c(mina,a[i]))
+    }
+    points(a~x,pch=19)
+    points(a[x<0]~x[x<0],col='red',pch=19)
+    axis(1,at=min(a),labels='NA',col='red')
+}
+```
+
+Here are stem plots for each trait. Based on preliminary examination, I've log transformed the seed size and blade area. I've shown abundances for species with missing trait values with a negative on the x-axis and red points. Formatting is a bit awkward for some of the plots. Abundance values are total basal area across the 50 plots.
+```{r}
+logxlist <- c(NA,F,T,F,T,F,F,F,F,F,F,F,F,F)
+for (i in 2:ncol(tmns)) {
+    print(names(tmns)[i])
+    stemplot(tmns[,1],tmns[,i],log1x=logxlist[i])
+}
+```
+
+```{r echo=F}
+# plot(1:21,cumsum(tmns[,1])/sum(tmns[,1]),ylim=c(0,1),type='b')
+# plot(tmns[,1],log='y')
+```
+
+Now let's look at pairwise plots for traits with at least 13 points (leaving out blade width and vessel diameter). Blade area is omitted as it's essentially redundant with blade length, which has more data. Seed size is log transformed. Pairwise correlation matrix follows after the pairs plot.
+```{r}
+tmp <- tmns
+tmp$Seed.mass <- log10(tmp$Seed.mass)
+pairs(tmp[,-c(5,7,11)],pch=19)
+cor(tmp[,-c(5,7,11)],use='pair')
+```
+
+Based on this, there are a few interesting strong correlations.
+
+Leaf size, mean vessel area, and vessel density, with some of these correlated with height as well. Large vessel are correlated with large leaves, and there are no species with large leaves and high vessel density. Small leaves are associated with low and high vessel density.
+
+```{r, echo=FALSE}
+pairs(tmp[,c('Maximum.height','Blade.length','Vessel.density','Mean.vessel.area')],pch=19)
+```
+
+SLA and leaf size are positively correlated, and wood density is negative with SLA. This may reflect higher SLA of deciduous vs. evergreen, and higher drought tolerance of evergreens in general. Seed size is also positive with SLA. The latter is strongly influenced by the deciduous Aesculus with huge seeds and high SLA leaves.
+```{r, echo=FALSE}
+pairs(tmp[,c('Seed.mass','Specific.leaf.area','Blade.length','Wood.density')],pch=19)
+```
+
+What else do we want to examine? I think key next steps are to complete the trait matrix for selected traits, and start calculating community weighted trait means to see how the plots are arrayed in trait space and in relation to topographic gradients.
