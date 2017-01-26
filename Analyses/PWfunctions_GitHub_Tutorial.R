@@ -1,7 +1,9 @@
 # Intent: Tutorial for PW Functions working with GitHub 
 # Author: Meagan F. Oldfather
 # Date Created: 20150527
-# Date Last Edited: 20150528
+# Date Last Edited: 20161026
+
+# add in simple metadata to this code 
 
 # clear workspace
 rm(list=ls())
@@ -86,7 +88,8 @@ dim(envr.data)
 #different types of individuals should not be summed
 # default is only see individuals 
 
-indv.data<-get.indv.data(year=2014, stump=F,orig.dead=F,branches=F)
+indv.data<-get.indv.data(year=2012, stump=F,orig.dead=F,branches=F)
+indv.data<-get.indv.data(year=2012, stump=T,orig.dead=T,branches=T)
 
 #look at the results!
 dim(indv.data)
@@ -145,9 +148,11 @@ sum(seedling.juvenile$Total.Number)
 tree<-plants.by.plot(year=2014, type="TR")
 sapling<-plants.by.plot(year=2014,type="SA")
 all<-plants.by.plot(year=2014,type="SA.TR")
+babies<-plants.by.plot(year = 2015, type = "SEJU")
 
 # look at the results!
 head(tree)
+head(babies)
 dim(tree)
 head(sapling)
 dim(sapling)
@@ -178,6 +183,7 @@ head(clim.pts)
 ### psemen.rmv
 # default is T, where the 5 plots with doug-fir removal are removed
 mat<- PWordinate(2014,"TR","Count")[1]
+
 clim<-PWordinate(2014,"TR","Count")[2]
 head(mat)
 head(clim)
