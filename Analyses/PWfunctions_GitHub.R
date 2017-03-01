@@ -1,7 +1,7 @@
 ### FUNCTIONS TO WORK WITH GITHUB###
 # Author: Meagan F. Oldfather
 # Created: 20150526
-# Last edited: 20160202
+# Last edited: 20170301
 ######################################################################
 # clear workspace
 rm(list=ls())
@@ -147,6 +147,9 @@ AUG.ID<-read.csv(text=getURL(paste(prefix, "2013/OakID2013/AUG_Species.csv", sep
 for(i in 1:dim(AUG.ID)[1]){
   indv.data[indv.data$Num %in% AUG.ID$Num[i], "Species"] <-AUG.ID$Species[i]
 }
+
+# remove PSEMEN trees that were accidently removed by chainsaw crews in winter 2017 in plot PPW1307 
+indv.data<-indv.data[!(indv.data$Plot=="PPW1307" & indv.data$Num==1108 | indv.data$Num==1115 |indv.data$Num==1118 |indv.data$Num==1121 | indv.data$Num==1127 | indv.data$Num==1169 | indv.data$Num==1170 |indv.data$Num==1174),]
 
 # change CEOCUN and UNKN27 individuals to CEACUN
 indv.data[which(indv.data$Species=="CEOCUN"), "Species"]<-"CEACUN"
