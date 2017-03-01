@@ -148,8 +148,6 @@ for(i in 1:dim(AUG.ID)[1]){
   indv.data[indv.data$Num %in% AUG.ID$Num[i], "Species"] <-AUG.ID$Species[i]
 }
 
-# remove PSEMEN trees that were accidently removed by chainsaw crews in winter 2017 in plot PPW1307 
-indv.data<-indv.data[!(indv.data$Plot=="PPW1307" & indv.data$Num==1108 | indv.data$Num==1115 |indv.data$Num==1118 |indv.data$Num==1121 | indv.data$Num==1127 | indv.data$Num==1169 | indv.data$Num==1170 |indv.data$Num==1174),]
 
 # change CEOCUN and UNKN27 individuals to CEACUN
 indv.data[which(indv.data$Species=="CEOCUN"), "Species"]<-"CEACUN"
@@ -160,6 +158,7 @@ indv.data$Y_cm<-suppressWarnings(as.numeric(indv.data$Y_cm))
 
 indv.data[which(indv.data$X_cm<0),"X_cm"]<-indv.data[which(indv.data$X_cm<0),"X_cm"]+500
 indv.data[which(indv.data$Y_cm<0),"Y_cm"]<-indv.data[which(indv.data$Y_cm<0),"Y_cm"]+500
+
 
 if (year=="none"){
   indv.data<-subset(indv.data, subset=(indv.data$Dead.Stump=="D" | indv.data$Dead.Stum=="S"))  
@@ -183,12 +182,6 @@ library(data.table)
 indv.data<-data.table(indv.data)
 indv.data[,Basal.Area:=sum(Basal.Area),by="Num"]
 
-# for(i in 1:length(unique(indv.data$Num)))
-#  {
-#    indv.data[which(indv.data$Num == unique(indv.data$Num)[i]) ,"Basal.Area"]<-
-#     sum(indv.data[which(indv.data$Num == unique(indv.data$Num)[i]) ,"Basal.Area"],na.rm=T)
-#  }
-
 # get rid of replication
 indv.data<-indv.data[!duplicated(indv.data$Num,incomparables=NA),] 
 
@@ -209,10 +202,15 @@ if(stump==F & orig.dead==T) indv.data<-subset(indv.data, subset=(indv.data$Dead.
 if(stump==T & orig.dead==F) indv.data<-subset(indv.data, subset=(indv.data$Dead.Stump=="S" | is.na(indv.data$Dead.Stump)))
 #subset both 
 if(stump==F & orig.dead==F) {indv.data<-subset(indv.data, subset=(is.na(indv.data$Dead.Stump)))
-                             indv.data<-indv.data[,-6]}
+indv.data<-indv.data[,-6]}
 
 
 row.names(indv.data) <- NULL
+
+# remove PSEMEN trees that were accidently removed by chainsaw crews in winter 2017 in plot PPW1307 
+indv.data<-indv.data[!(indv.data$Plot=="PPW1307" & indv.data$Num==1108 | indv.data$Num==1115 |indv.data$Num==1118 |indv.data$Num==1121 | indv.data$Num==1127 | indv.data$Num==1169 | indv.data$Num==1170 |indv.data$Num==1174),]
+
+
 return(indv.data)
 }
 
@@ -425,27 +423,27 @@ clim.pts<-read.csv(text=getURL(paste(prefix, "GIS/ClimatePlotPts.csv", sep=''), 
 ####################################################################
 ## PWordinate() ###
 ####################################################################
-PWordinate<-function(year,type,metric, psemen.rmv=T){
-library(picante)
-require(vegan)
-df<-plants.by.plot(year,type)
-if(type=="SA.TR"){
-  df$Count<-df$SA.Count+df$TR.Count
-  df$Basal.Area<-df$SA.Basal.Area+df$TR.Basal.Area  
-}
-clim.pts<-as.data.frame(get.clim.pts())
+#PWordinate<-function(year,type,metric, psemen.rmv=T){
+#library(picante)
+#require(vegan)
+#df<-plants.by.plot(year,type)
+#if(type=="SA.TR"){
+#  df$Count<-df$SA.Count+df$TR.Count
+#  df$Basal.Area<-df$SA.Basal.Area+df$TR.Basal.Area  
+#}
+#clim.pts<-as.data.frame(get.clim.pts())
 
-  psemen.plots<-c("PPW1320", "PPW1349", "PPW1340", "PPW1341", "PPW1306")
-if(psemen.rmv==T){df<-df[!(df$Plot%in%psemen.plots),]
-                 clim.pts<-clim.pts[!(clim.pts$Plot%in%psemen.plots),]}
+#psemen.plots<-c("PPW1320", "PPW1349", "PPW1340", "PPW1341", "PPW1306")
+#if(psemen.rmv==T){df<-df[!(df$Plot%in%psemen.plots),]
+#                 clim.pts<-clim.pts[!(clim.pts$Plot%in%psemen.plots),]}
  
-clim.pts<-clim.pts[clim.pts$Plot%in%unique(df$Plot),]
+#clim.pts<-clim.pts[clim.pts$Plot%in%unique(df$Plot),]
   
-mat<-sample2matrix(df[,c("Plot", metric,"Species")])
-ord <- metaMDS(mat)
-plot(ord,type='t')
-return(list(mat,clim.pts)) 
-}
+#mat<-sample2matrix(df[,c("Plot", metric,"Species")])
+#ord <- metaMDS(mat)
+#plot(ord,type='t')
+#return(list(mat,clim.pts)) 
+#}
 
 #######################################
 ## get.super.trees()
