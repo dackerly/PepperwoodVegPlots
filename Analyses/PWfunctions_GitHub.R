@@ -208,10 +208,8 @@ indv.data<-indv.data[,-6]}
 row.names(indv.data) <- NULL
 
 # remove PSEMEN trees that were accidently removed by chainsaw crews in winter 2017 in plot PPW1307 
-indv.data<-indv.data[!(indv.data$Plot=="PPW1307" & indv.data$Num==1108 | indv.data$Num==1115 |indv.data$Num==1118 |indv.data$Num==1121 | indv.data$Num==1127 | indv.data$Num==1169 | indv.data$Num==1170 |indv.data$Num==1174),]
+indv.data<-indv.data[which(!(indv.data$Plot=="PPW1307" & indv.data$Num==1108 | indv.data$Num==1115 |indv.data$Num==1118 |indv.data$Num==1121 | indv.data$Num==1127 | indv.data$Num==1169 | indv.data$Num==1170 |indv.data$Num==1174)),]
 
-# get rid of extra rows
-indv.data<-indv.data[!is.na(indv.data$Type),]
 return(indv.data)
 }
 
