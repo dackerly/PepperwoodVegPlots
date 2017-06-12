@@ -1,0 +1,85 @@
+# clear workspace
+rm(list=ls())
+
+#Packages
+library("RCurl")
+library("data.table")
+library("picante")
+library("vegan")
+library("raster")
+library("maptools")
+library("rgdal")
+library("pscl")
+library("arm")
+library("knitr")
+library("AICcmodavg")
+library("FactoMineR")
+library("lmtest")
+library("ggplot2")
+
+# sources in all functions
+source_https <- function(url, ...) { 
+  # parse and evaluate each .R script
+  sapply(c(url, ...), function(u) {
+    eval(parse(text = getURL(u, followlocation = TRUE, cainfo = system.file("CurlSSL", "cacert.pem", package = "RCurl"))), envir = .GlobalEnv)
+  })
+}
+source_https('https://raw.githubusercontent.com/dackerly/PepperwoodVegPlots/master/Analyses/PWfunctions_GitHub.R')
+
+# bring in plot info
+plot.info <- get.plot.info()
+head(plot.info)
+
+# bring in tree data
+trees<- get.indv.data(year=2014, stump=F,orig.dead=F,branches=T)
+head(trees)
+
+# subset to superplots
+tree.super<-merge(trees, plot.info[,c(1,6)], by="Plot")
+tree.super<-subset(tree.super, Super.Plot == 1)
+head(tree.super)
+
+# subset to trees
+tree.super<-subset(tree.super, Type == "TR")
+head(tree.super)
+
+# bring in 2017 survey data (on github)
+growth2017<-read.csv("Pepperwood/GitDatabase/2017/GrowthMortality/Data/TreeGrowthMortality.csv")
+colnames(growth2017)<-c("Date","Plot","Num","Species","Alive","DBH17","Notes")
+head(growth2017)
+
+# subset by alives, measured trees
+growth2017<-subset(growth2017, Alive == 1)
+
+growth13.17<-merge(tree.super, growth2017, by=c("Plot","Num","Species"), all.y=T) 
+head(growth13.17)
+
+growth13.17<-growth13.17[!is.na(growth13.17$DBH17),]
+
+ggplot(growth13.17, aes(DBH_cm, DBH17))+geom_point(pch=".")+theme_classic()+xlab("2013 DBH")+ylab("2017 DBH")+geom_abline(intercept = 0, slope = 1)
+
+fit<-lm(growth13.17$DBH17~growth13.17$DBH_cm)
+summary(fit)
+
+growth13.17$Growth<-growth13.17$DBH17 - growth13.17$DBH_cm 
+
+ggplot(growth13.17, aes(DBH_cm, Growth))+geom_point()+theme_classic()+xlab("2013 DBH")+ylab("2017 DBH  - 2013 DBH")+geom_abline(intercept = 0, slope = 0)
+
+growth13.17[growth13.17$Growth<(-5),]
+
+# remove plots with ridiculous changes in DBH; most likeyly due to previously incorrect measurements
+growth13.17.clean<-subset(growth13.17, Growth >= -5)
+
+
+ggplot(growth13.17.clean, aes(DBH_cm, Growth))+geom_point()+theme_bw()+xlab("2013 DBH")+ylab("2017 DBH  - 2013 DBH")+geom_abline(intercept = 0, slope = 0)
+
+ggplot(growth13.17.clean, aes(DBH_cm, DBH17))+geom_point(pch=19)+theme_bw()+xlab("2013 DBH")+ylab("2017 DBH")+geom_abline(intercept = 0, slope = 1)
+
+mean(growth13.17.clean$Growth)
+sum(growth13.17.clean$Growth == 0)
+length(unique(growth13.17$Num))
+sum(growth13.17.clean$Growth > 0)
+sum(growth13.17.clean$Growth < 0)
+
+
+plot(density(growth13.17.clean[growth13.17.clean$Growth < 0,"Growth"]),main="")
