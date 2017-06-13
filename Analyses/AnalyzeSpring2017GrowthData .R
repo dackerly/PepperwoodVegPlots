@@ -70,16 +70,39 @@ growth13.17[growth13.17$Growth<(-5),]
 # remove plots with ridiculous changes in DBH; most likeyly due to previously incorrect measurements
 growth13.17.clean<-subset(growth13.17, Growth >= -5)
 
+ggplot(growth13.17.clean, aes(DBH_cm, DBH17))+geom_point(pch=19)+theme_bw()+xlab("2013 DBH")+ylab("2017 DBH")+geom_abline(intercept = 0, slope = 1)
 
 ggplot(growth13.17.clean, aes(DBH_cm, Growth))+geom_point()+theme_bw()+xlab("2013 DBH")+ylab("2017 DBH  - 2013 DBH")+geom_abline(intercept = 0, slope = 0)
 
-ggplot(growth13.17.clean, aes(DBH_cm, DBH17))+geom_point(pch=19)+theme_bw()+xlab("2013 DBH")+ylab("2017 DBH")+geom_abline(intercept = 0, slope = 1)
+length(unique(growth13.17$Num))
+length(unique(growth13.17.clean$Num))
 
 mean(growth13.17.clean$Growth)
 sum(growth13.17.clean$Growth == 0)
-length(unique(growth13.17$Num))
 sum(growth13.17.clean$Growth > 0)
 sum(growth13.17.clean$Growth < 0)
-
+growth13.17.clean[growth13.17.clean$Growth >= 5,]
 
 plot(density(growth13.17.clean[growth13.17.clean$Growth < 0,"Growth"]),main="")
+
+# Calculate change in basal area
+library(data.table)
+
+growth13.17.clean$Num.A<- floor(growth13.17.clean$Num)
+growth13.17.clean$Basal.Area # 2013 Basal Area
+growth13.17.clean$Basal.Area.17<- (((growth13.17.clean$DBH17/2)^2)*(pi))
+
+growth13.17.clean$Delta.BA<-growth13.17.clean$Basal.Area.17 - growth13.17.clean$Basal.Area 
+
+ggplot(growth13.17.clean, aes(Basal.Area, Delta.BA, color=Species))+geom_point()+theme_bw()+xlab("2013 Basal Area")+ylab("2017 Basal Area  - 2013 Basal Area")+geom_abline(intercept = 0, slope = 0)
+
+basal.area<-aggregate(Delta.BA~Species, data=growth13.17.clean, FUN=sum)
+basal.area
+sum(basal.area$Delta.BA)
+
+# remove QUEDEC
+basal.area<-subset(basal.area, Species != "QUEDEC")
+
+ggplot(basal.area, aes(Species, Delta.BA))+geom_bar(stat="identity")+theme_bw()+theme(axis.text.x = element_text(angle = 45, hjust = 1, size=8))+xlab("")+ylab("Change in Basal Area (2017 - 2013)")
+
+
