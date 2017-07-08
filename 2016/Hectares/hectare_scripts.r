@@ -12,7 +12,7 @@ applySubplots <- function(treepoints, size, bbox=FALSE, plot_sub=FALSE) {
     crs(treepoints) <- '+proj=utm +zone=10S +datum=WGS84 +units=m +ellps=WGS84 +towgs84=0,0,0'
   }
 
-  coords <- read.csv('Z:/Box/Desktop/Superplots/hectare_corners.csv',header=TRUE,sep=",")
+  coords <- read.csv('hectare_corners.csv',header=TRUE,sep=",")
 
   for(p in 1:nrow(coords)) {
     for(x in 0:(100/size-1)) {
@@ -65,7 +65,7 @@ getHectareTrees <- function(na.omit=TRUE, basal.area = TRUE, agg.trunks=TRUE, fi
   suppressPackageStartupMessages(library(data.table))
 
   # Load the CSV of hectare surveys as a data frame
-  get.trees <- read.csv('Z:/Box/Desktop/Superplots/hectare_trees_all.csv',header=TRUE,sep=",")
+  get.trees <- read.csv('hectare_trees_all.csv',header=TRUE,sep=",")
 
   # Dirty fix to remove data with missing coordinates, species, or DBH
   if(na.omit) get.trees <- get.trees[!(is.na(get.trees$DBH.cm) | is.na(get.trees$UTM.N) | is.na(get.trees$Species)),]
