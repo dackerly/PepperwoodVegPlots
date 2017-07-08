@@ -1,5 +1,6 @@
 # A function to break up and label the plots by any size subplot
-applySubplots <- function(treepoints, size, bbox=FALSE, plot_sub=FALSE) {
+applySubplots <- function(treepoints, size, bbox=FALSE, plot_sub=FALSE) 
+{
   if(!(size %in% c(10,20,25,50,100))) stop("Only subplot sizes 10, 20, 25, 50, and 100m can be calculated.\n  Try again with one of these sizes.")
   
   suppressPackageStartupMessages(library(raster))
