@@ -14,7 +14,7 @@ getHOBOsFromRaw <- function(plots=c(1301:1350), output="list", location="github"
   # Set up downloading data from Github
   if(location=="github") {
     github <- TRUE
-    location <- "https://raw.githubusercontent.com/pdpapper/PepperwoodVegPlots/patch-2/HOBO/Raw%20Data"
+    location <- "https://raw.githubusercontent.com/pdpapper/PepperwoodVegPlots/patch-2/HOBO/Raw_Data"
     files <- read.csv(paste(location, "hobo_csv_index.csv", sep="/"), header=FALSE, stringsAsFactors=FALSE)
   } else github <- FALSE
 
