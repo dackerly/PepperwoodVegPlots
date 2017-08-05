@@ -1,0 +1,4 @@
+logger pulled on 1/20/2015. Disregard data from 1/20/2015 at 4:15pm to 1/24/2015.
+Battery replaced on 7/6/2016, and up to that point look bad.
+
+Sensor replaced July of 2016 - new sensor ID 10589256 has a file name that doesn't match format of original file names - requires edit for R script.
