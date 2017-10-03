@@ -1,0 +1,1 @@
+Bad temperature data from unknown start data until 2/24/2017 - sensor was not in shield was on ground. (last prior check was 5/3/2016)

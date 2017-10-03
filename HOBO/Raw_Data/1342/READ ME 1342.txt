@@ -1,0 +1,3 @@
+Battery changed in 1342 on 7/13/2016 to enable data collection.
+
+Data downloaded on this date appears as if it may not be correct. Ranges of data are reasonable, but RH is near 100% too frequently and temp is not varying believably.
