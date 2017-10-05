@@ -3,9 +3,6 @@
 # Date created: 20151208
 # Last edited: 20170804
 
-#location="Z:/Box/Desktop/Weather/Raw Data/"
-#plots=1308; convertF=TRUE; timesync=TRUE; roll30=TRUE; roll1=TRUE; allPST=TRUE; shuttleclean=TRUE; dirtyfix=TRUE
-#plot="PPW1308"
 getHOBOsFromRaw <- function(plots=c(1301:1350), output="list", location="github", convertF=TRUE, allPST=TRUE, roll30=TRUE, roll1=TRUE, shuttleclean=TRUE, dirtyfix=TRUE, timesync=TRUE) {
 
   # add "PPW" to the plot numbers
@@ -14,7 +11,7 @@ getHOBOsFromRaw <- function(plots=c(1301:1350), output="list", location="github"
   # Set up downloading data from Github
   if(location=="github") {
     github <- TRUE
-    location <- "https://raw.githubusercontent.com/pdpapper/PepperwoodVegPlots/patch-2/HOBO/Raw_Data"
+    location <- "https://raw.githubusercontent.com/dackerly/PepperwoodVegPlots/patch-2/HOBO/Raw_Data"
     files <- read.csv(paste(location, "hobo_csv_index.csv", sep="/"), header=FALSE, stringsAsFactors=FALSE)
   } else github <- FALSE
 
