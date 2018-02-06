@@ -6,4 +6,4 @@ source("https://raw.githubusercontent.com/dackerly/PepperwoodVegPlots/master/Ana
 source("https://raw.githubusercontent.com/dackerly/PepperwoodVegPlots/master/2016/Hectares/hectare_scripts.r")
 
 # scripts for working with HOBO data
-source("https://raw.githubusercontent.com/dackerly/PepperwoodVegPlots/master/HOBO/get_hobos.r")
+source("https://raw.githubusercontent.com/dackerly/PepperwoodVegPlots/master/HOBO/hobo_functions.r")
