@@ -129,6 +129,23 @@ HOBO.sensorToList <- function(dat, newnames=c("Date.Time","x")) {
   lapply(dat, FUN=function(x) { colnames(x$sensor) <- newnames ; x$sensor } )
 }
 
+# De-sensortize a sensor QC object, keeping the flags as columns
+HOBO.exportSensorData <- function(dat, type) {
+  flagColumn <- function(x) {
+    for(f in x$flag) {
+      newnames <- c(colnames(x$sensor),f$expression)
+      x$sensor$newflag <- logical(nrow(x$sensor))
+      x$sensor$newflag[f$flag.i] <- TRUE
+      colnames(x$sensor) <- newnames
+    }
+    x$sensor
+  }
+  dat <- lapply(dat, FUN=flagColumn)
+  dat <- lapply(names(dat), function(x) cbind(dat[[x]], site=x, stringsAsFactors=FALSE))
+  dat <- do.call("rbind", dat)
+  dat <- dat[which(!is.na(dat$x)),]
+}
+
 # Convert character timestamp to POSIXlt for easy plotting, etc.
 HOBO.ChrToPOSIX <- function(dat) {
   for(p in 1:length(dat)) {
