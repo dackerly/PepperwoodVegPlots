@@ -45,7 +45,7 @@ plot.info$Slope[29]<-NA # changes slope for plot 1329 to NA
 plot.info$Aspect[29]<-NA # same for 1329 aspect
 # calculate Aspect from field data 
 plot.info$Aspect<- as.numeric(plot.info$Aspect)
-plot.info$Aspect<-cos(2*pi*(as.numeric(plot.info$Aspect)/360))
+#plot.info$Aspect<-cos(2*pi*(as.numeric(plot.info$Aspect)/360))
 
 super.plots<-c("PPW1301","PPW1307","PPW1325","PPW1349","PPW1310","PPW1309","PPW1344","PPW1312","PPW1321","PPW1322","PPW1338","PPW1339","PPW1324","PPW1335","PPW1315","PPW1332","PPW1340")
 
