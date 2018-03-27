@@ -1,7 +1,7 @@
 ### FUNCTIONS TO WORK WITH GITHUB###
 # Author: Meagan F. Oldfather
 # Created: 20150526
-# Last edited: 20170301
+# Last edited: 20180327
 ######################################################################
 # clear workspace
 rm(list=ls())
@@ -327,7 +327,27 @@ return(seju)
       }
     return(output)
     }   
-   }  
+ }  
+ 
+ 
+ ##################################################
+# pbp.mm()
+ ##################################################
+pbp.mm<-function(min = 1, max = 300){
+  plot.list<- get.plot()
+  indv.data<-suppressWarnings(get.indv.data(year=2014, branches = T))
+  indv.data <- subset(indv.data, Type == "TR")
+  indv.data <- subset(indv.data, DBH_cm >= min & DBH_cm < max)
+     
+  count<-with(indv.data, aggregate(Num~Species+Plot+Type, FUN=function(x)  length(unique(x))))
+  area<-with(indv.data, aggregate(Basal.Area~Species+Plot+Type, FUN=sum))
+  output<-merge(area,count, by=c("Plot","Species","Type"))
+  colnames(output)<-c("Plot", "Species", "Type", "Basal.Area","Count")
+  
+return(output)
+  
+    }   
+
 ####################################################################
 ## get.clim.pts() ###
 ####################################################################

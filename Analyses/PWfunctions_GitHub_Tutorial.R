@@ -188,6 +188,15 @@ clim<-PWordinate(2014,"TR","Count")[2]
 head(mat)
 head(clim)
 
+########################
+# 20180327 Added a function like plant.by.plot for only trees with most updated mortality surveys which allows a specifification of min and max DBH to subset by before aggregating
+# pbp.mm (min, max)
+#### min
+# minimum DBH
+#### max
+# maximum DBH
+
+
 # Have fun!
 
 
