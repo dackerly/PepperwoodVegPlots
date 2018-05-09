@@ -88,7 +88,7 @@ HOBO.syncTimestamps <- function(dat) {
 
 # Function to calculate concordance and return a full matrix
 HOBO.plotConcordance <- function(dat) {
-  concordance <- function(x, y, na.rm=TRUE) (2 * sqrt(summary(lm(y~x,na.action=na.omit))$r.squared) * sd(x,na.rm=na.rm) * sd(y,na.rm=na.rm)) / (var(x,na.rm=na.rm) + var(y,na.rm=na.rm) + ((mean(x,na.rm=na.rm) - mean(y,na.rm=na.rm))^2))
+  concordance <- function(x, y) (2 * cor(x,y,use='pairwise.complete.obs') * sd(x,na.rm=TRUE) * sd(y,na.rm=TRUE)) / (var(x,na.rm=TRUE) + var(y,na.rm=TRUE) + ((mean(x,na.rm=TRUE) - mean(y,na.rm=TRUE))^2))
   concord <- apply(combn(ncol(dat), 2), 2, FUN=function(x) concordance(dat[,x[1]], dat[,x[2]]))
   # Some juggling to turn the vector of concordances into a symmetric matrix
   b <- matrix(1, length(dat), length(dat))
