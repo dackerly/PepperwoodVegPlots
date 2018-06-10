@@ -1,0 +1,9 @@
+sensorModel,sensorType,flags,dataQualityLevel,testType,testStatement,testDescription
+NA,NA,U,NA,NA,NA,no quality testing has been performed
+HOBO_U23_PRO_V2,AirTemp,VB,BAD,threshold,x < -40,recorded temperature value is below the hardware's specification threshold
+HOBO_U23_PRO_V2,AirTemp,VE,BAD,threshold,x > 70,recorded temperature value exceeds the hardware's specification threshold
+HOBO_U23_PRO_V2,AirTemp,P4,SUSPECT,persist,x > 8,recorded temperature value remains unchanged for more than 4 hours
+HOBO_U23_PRO_V2,AirTemp,H,SUSPECT,historic,x > 99.8,recorded temperature value is outside the historical range (99.8% confidence interval)
+HOBO_U23_PRO_V2,AirTemp,S,SUSPECT,slope,x > 15,difference between successive observations is greater than 15 degrees
+HOBO_U23_PRO_V2,AirTemp,VBx,SUSPECT,extend,VB + 48,observation within 24 hours of a recorded temperature below the hardware threshold
+HOBO_U23_PRO_V2,AirTemp,VEx,SUSPECT,extend,VE + 48,observation within 24 hours of a recorded temperature exceeding the hardware threshold

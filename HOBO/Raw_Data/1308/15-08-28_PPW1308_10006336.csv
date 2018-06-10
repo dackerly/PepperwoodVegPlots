@@ -1,5 +1,5 @@
 ﻿"Plot Title: PPW1308_10006336"
-"#1 Day","Date Time, GMT-07:00","Temp, °F (LGR S/N: 10006336, SEN S/N: 10006336)","RH, % (LGR S/N: 10006336, SEN S/N: 10006336)","Coupler Detached (LGR S/N: 10006336)","Coupler Attached (LGR S/N: 10006336)","Stopped (LGR S/N: 10006336)","End Of File (LGR S/N: 10006336)"
+"#","Date Time, GMT-07:00","Temp, °F (LGR S/N: 10006336, SEN S/N: 10006336)","RH, % (LGR S/N: 10006336, SEN S/N: 10006336)","Coupler Detached (LGR S/N: 10006336)","Coupler Attached (LGR S/N: 10006336)","Stopped (LGR S/N: 10006336)","End Of File (LGR S/N: 10006336)"
 1,01/08/15 06:00:00 PM,58.885,71.370,Logged,,,
 2,01/08/15 06:30:00 PM,56.728,76.865,,,,
 3,01/08/15 07:00:00 PM,55.299,78.914,,,,

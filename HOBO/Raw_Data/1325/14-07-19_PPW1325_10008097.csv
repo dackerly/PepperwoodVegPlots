@@ -1,5 +1,5 @@
 ﻿"Plot Title: PPW1325_10008097"
-"#30 Days","Date Time, GMT-07:00","Temp, °C (LGR S/N: 10008097, SEN S/N: 10008097)","RH, % (LGR S/N: 10008097, SEN S/N: 10008097)","Coupler Detached (LGR S/N: 10008097)","Coupler Attached (LGR S/N: 10008097)","Stopped (LGR S/N: 10008097)","End Of File (LGR S/N: 10008097)"
+"#","Date Time, GMT-07:00","Temp, °C (LGR S/N: 10008097, SEN S/N: 10008097)","RH, % (LGR S/N: 10008097, SEN S/N: 10008097)","Coupler Detached (LGR S/N: 10008097)","Coupler Attached (LGR S/N: 10008097)","Stopped (LGR S/N: 10008097)","End Of File (LGR S/N: 10008097)"
 1,01/11/14 02:00:00 PM,13.040,44.997,Logged,,,
 2,01/11/14 02:30:00 PM,13.834,41.947,,,,
 3,01/11/14 03:00:00 PM,13.161,43.256,,,,

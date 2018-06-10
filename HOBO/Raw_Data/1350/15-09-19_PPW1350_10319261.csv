@@ -1,5 +1,5 @@
 ﻿"Plot Title: PPW1350_10319261"
-"#1 Day","Date Time, GMT-07:00","Temp, °C (LGR S/N: 10319261, SEN S/N: 10319261)","RH, % (LGR S/N: 10319261, SEN S/N: 10319261)","Coupler Detached (LGR S/N: 10319261)","Coupler Attached (LGR S/N: 10319261)","Stopped (LGR S/N: 10319261)","End Of File (LGR S/N: 10319261)"
+"#","Date Time, GMT-07:00","Temp, °C (LGR S/N: 10319261, SEN S/N: 10319261)","RH, % (LGR S/N: 10319261, SEN S/N: 10319261)","Coupler Detached (LGR S/N: 10319261)","Coupler Attached (LGR S/N: 10319261)","Stopped (LGR S/N: 10319261)","End Of File (LGR S/N: 10319261)"
 1,01/11/15 01:30:00 PM,14.026,77.900,Logged,,,
 2,01/11/15 02:00:00 PM,14.577,75.189,,,,
 3,01/11/15 02:30:00 PM,15.175,70.124,,,,

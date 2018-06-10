@@ -1,0 +1,19 @@
+sensor_id,deployment_id,site_id,sensorModel,sensorType,flags,dataQualityLevel,start_date,end_date,observer,incidentType,incidentComment
+10006336,8,PPW1308,HOBO_U23_PRO_V2,Clock,NA,REPAIRED,1/8/15 17:00,8/24/15 9:30,Prahlada,roll1,"Timestamp was set back by 24 hours during shuttle download, identified during data analysis"
+10006338,10,PPW1310,HOBO_U23_PRO_V2,Clock,NA,REPAIRED,1/8/15 16:30,8/24/15 9:30,Prahlada,roll1,"Timestamp was set back by 24 hours during shuttle download, identified during data analysis"
+10006340,12,PPW1312,HOBO_U23_PRO_V2,Clock,NA,REPAIRED,1/8/15 17:30,8/26/15 8:00,Prahlada,roll1,"Timestamp was set back by 24 hours during shuttle download, identified during data analysis"
+10008097,25,PPW1325,HOBO_U23_PRO_V2,Clock,NA,REPAIRED,1/11/14 13:00,6/13/14 13:00,Prahlada,roll30,"Timestamp was set forward by 30 days during shuttle download, identified during data analysis"
+10008098,26,PPW1326,HOBO_U23_PRO_V2,Clock,NA,REPAIRED,1/11/14 12:00,6/13/14 9:00,Prahlada,roll30,"Timestamp was set forward by 30 days during shuttle download, identified during data analysis"
+10008100,27,PPW1327,HOBO_U23_PRO_V2,Clock,NA,REPAIRED,1/11/14 17:00,6/16/14 10:00,Prahlada,roll30,"Timestamp was set forward by 30 days during shuttle download, identified during data analysis"
+10008115,33,PPW1333,HOBO_U23_PRO_V2,Clock,NA,REPAIRED,1/11/14 12:00,6/13/14 8:30,Prahlada,roll30,"Timestamp was set forward by 30 days during shuttle download, identified during data analysis"
+10008124,36,PPW1336,HOBO_U23_PRO_V2,Clock,NA,REPAIRED,1/11/14 12:00,6/13/14 16:30,Prahlada,roll30,"Timestamp was set forward by 30 days during shuttle download, identified during data analysis"
+10008125,37,PPW1337,HOBO_U23_PRO_V2,Clock,NA,REPAIRED,1/11/14 11:00,6/13/14 17:30,Prahlada,roll30,"Timestamp was set forward by 30 days during shuttle download, identified during data analysis"
+10008147,44,PPW1344,HOBO_U23_PRO_V2,Clock,NA,REPAIRED,1/8/15 18:00,8/26/15 9:30,Prahlada,roll1,"Timestamp was set back by 24 hours during shuttle download, identified during data analysis"
+10008156,46,PPW1346,HOBO_U23_PRO_V2,Clock,NA,REPAIRED,1/11/14 10:30,6/13/14 7:00,Prahlada,roll30,"Timestamp was set forward by 30 days during shuttle download, identified during data analysis"
+10319259,48,PPW1348,HOBO_U23_PRO_V2,Clock,NA,REPAIRED,1/11/15 12:00,9/16/15 16:00,Prahlada,roll1,"Timestamp was set back by 24 hours during shuttle download, identified during data analysis"
+10319261,50,PPW1350,HOBO_U23_PRO_V2,Clock,NA,REPAIRED,1/11/15 12:30,9/16/15 16:00,Prahlada,roll1,"Timestamp was set back by 24 hours during shuttle download, identified during data analysis"
+10008125,37,PPW1337,HOBO_U23_PRO_V2,AirTemp,IR_3,SUSPECT,5/2/16 12:00,2/27/17 14:00,Prahlada,site visit,"Sensor was not in shield, found on ground 2017-02-24 14:00:00 (Start date unknown, last prior check was 2016-05-03 12:00:00)"
+10008125,37,PPW1337,HOBO_U23_PRO_V2,RH,IR_3,SUSPECT,5/2/16 12:00,2/27/17 14:00,Prahlada,site visit,"Sensor was not in shield, found on ground 2017-02-24 14:00:00 (Start date unknown, last prior check was 2016-05-03 12:00:00)"
+10008101,28,PPW1328,HOBO_U23_PRO_V2,AirTemp,IR_2,BAD,1/20/15 16:15,1/24/15 17:00,Celeste,logger pulled,Logger in for testing on 1/20/2015. Battery replaced and logger returned 1/24/2015. Disregard data from 1/20/2015 at 4:15pm to 1/24/2015.
+10008101,28,PPW1328,HOBO_U23_PRO_V2,RH,IR_2,BAD,1/20/15 16:15,1/24/15 17:00,Celeste,logger pulled,Logger in for testing on 1/20/2015. Battery replaced and logger returned 1/24/2015. Disregard data from 1/20/2015 at 4:15pm to 1/24/2015.
+10008135,41,PPW1341,HOBO_U23_PRO_V2,RH,IR_1,BAD,5/1/14 0:00,10/17/14 0:00,Celeste,malfunction,RH flatlined at 1%. RH component replaced on 10/17/2014.
