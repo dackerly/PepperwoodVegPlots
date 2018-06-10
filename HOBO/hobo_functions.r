@@ -24,7 +24,7 @@ HOBO.getFromRaw <- function(plots=c(1301:1350), sensorType, location="github", c
 # Set up downloading data from Github or else use local files
   if(location=="github") {
     location <- "https://raw.githubusercontent.com/dackerly/PepperwoodVegPlots/master/HOBO"
-    files <- paste(location, apply(read.csv(paste(location, "hobo_csv_index.csv", sep="/"), header=FALSE, stringsAsFactors=FALSE)[,1:2], 1, paste, collapse="/" ), sep="/")
+    files <- paste(location, "Raw_Data", apply(read.csv(paste(location, "hobo_csv_index.csv", sep="/"), header=FALSE, stringsAsFactors=FALSE)[,1:2], 1, paste, collapse="/" ), sep="/")
   } else {
     files <- list.files(paste(location, "Raw_Data", plots, sep="/"), pattern=".csv", full.names=TRUE)
   }
