@@ -1,7 +1,7 @@
 # Intent: Compile and Plot TBC3 Veg Plot HOBO Data 
 # Authors: M.F. Oldfather, P.D. Papper
 # Date created: 20151208
-# Last edited: 20180618
+# Last edited: 20180612
 #
 # This source file has functions for working with Veg Plot HOBO data:
 #
@@ -24,7 +24,8 @@ HOBO.getFromRaw <- function(plots=c(1301:1350), sensorType, location="github", c
 # Set up downloading data from Github or else use local files
   if(location=="github") {
     location <- "https://raw.githubusercontent.com/dackerly/PepperwoodVegPlots/master/HOBO"
-    files <- paste(location, "Raw_Data", apply(read.csv(paste(location, "hobo_csv_index.csv", sep="/"), header=FALSE, stringsAsFactors=FALSE)[,1:2], 1, paste, collapse="/" ), sep="/")
+    index <- read.csv(paste(location, "hobo_csv_index.csv", sep="/"), header=FALSE, stringsAsFactors=FALSE)
+    files <- paste(location, "Raw_Data", apply(index[index[,1]%in%plots,], 1, paste, collapse="/" ), sep="/")
   } else {
     files <- list.files(paste(location, "Raw_Data", plots, sep="/"), pattern=".csv", full.names=TRUE)
   }
