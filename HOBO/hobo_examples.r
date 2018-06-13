@@ -9,15 +9,15 @@ eval(parse(text = getURL(url, followlocation = TRUE, cainfo = system.file("CurlS
 
 
 # The code above will source the current HOBO functions from Github
-# The line below sources them locally for when actively working on them
+# This sources them locally, whihc is useful when actively working on them
 source('C:/GitHub/PepperwoodVegPlots/HOBO/hobo_functions.r')
 
 
 # First, compile the data into a long format dataframe from the raw HOBO files
 hobos.temp <- HOBO.getFromRaw(plots=c(1301:1350), sensorType="AirTemp", location="C:/GitHub/PepperwoodVegPlots/HOBO")
 # For HOBO data, the sensorType can be either "AirTemp" or "RH"
-# Location can be "github", which will access the files remotely,
-# or a local directory with the same file structure as the Github repo
+# Location can be "Github", which will access the files remotely,
+# or a local directory that has the same file structure as the Github repo
 
 # HOBO.getFromRaw() returns a list of dataframes as a relational database
 str(hobos.temp)
@@ -64,7 +64,7 @@ hobos <- HOBO.syncTimestamps(hobos)
 # Running the whole workflow is currently very quickly
 # Adding more incidents and flags will make it take longer, though
 system.time({
-  hobos <- HOBO.getFromRaw(plots=c(1301:1350), sensor="AirTemp", location="github")
+  hobos <- HOBO.getFromRaw(plots=c(1301:1350), sensor="AirTemp", location="C:/GitHub/PepperwoodVegPlots/HOBO")
 
   hobos <- HOBO.repairTimestamps(hobos)
 
