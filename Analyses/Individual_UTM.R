@@ -6,6 +6,7 @@
 # clear workspace
 rm(list=ls())
 
+install.packages("colortools")
 #Packages
 library("RCurl")
 library("data.table")
@@ -83,57 +84,65 @@ head(indv.UTM)
 # writes csv
 #write.csv(indv.UTM, "Desktop/IndvUTM.csv")
 
+
+
+
 # visualize a plot
-# colors for main species, black for rest of species
-dom<-c("QUEAGR", "PSEMEN", "QUEGAR", "QUEDOU", "QUEKEL", "ARBMEN", "UMBCAL" ,"ARCMAN", "HETARB","AESCAL")
-#wheel("forestgreen")
-sp.col<-c(wheel("forestgreen")[c(1,3:7,9,10,11)],"grey" ,"black") 
-# size depends on Basal. Area
-
 see.plot<-function(data, plot, quad="all"){
-#set margin  
-par(oma=c(5,0,0,5))
-# subset by a single plot
-df<-subset(data, data$Plot==plot)
-col<-sp.col[match(df$Species, dom, nomatch = 11)]  
-if (quad=="all"){ 
-plot(df$Indv.UTM.E, df$Indv.UTM.N,xlim=c(df$SW.Easting[1],df$SW.Easting[1]+20), ylim=c(df$SW.Northing[1], df$SW.Northing[1]+20), xlab="", ylab="",yaxt="n", xaxt="n",col=col,pch=19, xaxs="i",cex=.25)
-draw.circle(df$Indv.UTM.E, df$Indv.UTM.N, sqrt(df$Basal.Area / (pi) ) * 2/100, col = col,border=NA) 
-abline(v=df$SW.Easting[1]+c(5,10,15), lty="dashed", col="grey") 
-abline(h=df$SW.Northing[1]+c(5,10,15), lty="dashed", col="grey") 
-axis(side=1, at = df$SW.Easting[1]+c(2.5,7.5,12.5, 17.5), labels=LETTERS[1:4], tick=F)
-  axis(side=2, at = df$SW.Northing[1]+c(2.5,7.5,12.5, 17.5), labels=1:4, tick=F,las=1)
-# add legend
-legend(x=df$SW.Easting[1]+21,y=df$SW.Northing[1]+20,legend=dom, fill=sp.col,cex=.7,pt.cex=.7,xpd=NA)
-#add title
-title(plot)
+  # colors for main species, black for rest of species
+  dom<-c("QUEAGR", "PSEMEN", "QUEGAR", "QUEDOU", "QUEKEL", "ARBMEN", "UMBCAL" ,"ARCMAN", "HETARB","AESCAL")
 
-# add some tree nums
-text(df[df$Basal.Area>250,"Indv.UTM.E"],(df[df$Basal.Area>250,"Indv.UTM.N"]+.5),labels=df[df$Basal.Area>250,"Num"], cex=.7)  
+  #wheel("forestgreen")
+  sp.col<-c(setColors("forestgreen",12)[c(1,3:7,9,10,11)],"grey" ,"black")
   
-} 
+  #set margin  
+  par(oma=c(5,0,0,5))
+
+  # subset by a single plot
+  df<-subset(data, data$Plot==plot)
+
+  if (quad=="all"){ 
+    col<-sp.col[match(df$Species, dom, nomatch = 11)]  
+    plot(df$Indv.UTM.E, df$Indv.UTM.N,xlim=c(df$SW.Easting[1],df$SW.Easting[1]+20), ylim=c(df$SW.Northing[1], df$SW.Northing[1]+20), xlab="", ylab="",yaxt="n", xaxt="n",col=col,pch=19, xaxs="i",cex=.25)
+    draw.circle(df$Indv.UTM.E, df$Indv.UTM.N, sqrt(df$Basal.Area / (pi) ) * 2/100, col = col,border=NA) 
+
+    abline(v=df$SW.Easting[1]+c(5,10,15), lty="dashed", col="grey") 
+    abline(h=df$SW.Northing[1]+c(5,10,15), lty="dashed", col="grey") 
+    axis(side=1, at = df$SW.Easting[1]+c(2.5,7.5,12.5, 17.5), labels=LETTERS[1:4], tick=F)
+    axis(side=2, at = df$SW.Northing[1]+c(2.5,7.5,12.5, 17.5), labels=1:4, tick=F,las=1)
+
+    # add legend
+    legend(x=df$SW.Easting[1]+21,y=df$SW.Northing[1]+20,legend=dom, fill=sp.col,cex=.7,pt.cex=.7,xpd=NA)
+
+    #add title
+    title(plot)
+
+    # add some tree nums
+    text(df[df$Basal.Area>250,"Indv.UTM.E"],(df[df$Basal.Area>250,"Indv.UTM.N"]+.5),labels=df[df$Basal.Area>250,"Num"], cex=.7)  
+  } else {
+    #subset by quad
+    df<-subset(df, df$Quad==quad)
+
+    col<-sp.col[match(df$Species, dom, nomatch = 11)]
+    plot(df$Indv.UTM.E, df$Indv.UTM.N, xlim=c(df$SW.Easting[1]+df$X.add[1], df$SW.Easting[1]+df$X.add[1]+5), ylim=c(df$SW.Northing[1]+df$Y.add[1], df$SW.Northing[1]+df$Y.add[1]+5), xlab="", ylab="",yaxt="n", xaxt="n",col=col,pch=19, xaxs="i",cex=.25)
+    draw.circle(df$Indv.UTM.E, df$Indv.UTM.N, sqrt(df$Basal.Area / (pi) ) * 2/200, col = col,border=NA) 
   
-else {
-  #subset by quad
-  df<-subset(df, df$Quad==quad)
-  col<-sp.col[match(df$Species, dom, nomatch = 11)]
-plot(df$Indv.UTM.E, df$Indv.UTM.N, xlim=c(df$SW.Easting[1]+df$X.add[1], df$SW.Easting[1]+df$X.add[1]+5), ylim=c(df$SW.Northing[1]+df$Y.add[1], df$SW.Northing[1]+df$Y.add[1]+5), xlab="", ylab="",yaxt="n", xaxt="n",col=col,pch=19, xaxs="i",cex=.25)
-draw.circle(df$Indv.UTM.E, df$Indv.UTM.N, sqrt(df$Basal.Area / (pi) ) * 2/200, col = col,border=NA) 
+    # add name of quad  
+    axis(side=1, at = df$SW.Easting[1]+df$X.add[1]+2.5, labels=quad, tick=F)  
+
+    # add legend  
+    legend(x=df$SW.Easting[1]+df$X.add[1]+5.1,y=df$SW.Northing[1]+df$Y.add[1]+5,legend=dom, fill=sp.col,cex=.7,pt.cex=.7,xpd=NA)
+
+    #add title
+    title(plot)
   
-# add name of quad  
-axis(side=1, at = df$SW.Easting[1]+df$X.add[1]+2.5, labels=quad, tick=F)  
-# add legend  
-legend(x=df$SW.Easting[1]+df$X.add[1]+5.1,y=df$SW.Northing[1]+df$Y.add[1]+5,legend=dom, fill=sp.col,cex=.7,pt.cex=.7,xpd=NA)
-#add title
-title(plot)
-  
-# add some tree nums
-text(df$Indv.UTM.E,(df$Indv.UTM.N+.3),labels=df$Num, cex=.7)  
+    # add some tree nums
+    text(df$Indv.UTM.E,(df$Indv.UTM.N+.3),labels=df$Num, cex=.7)  
   }  
 }  
   
 # an example
-see.plot(df,"PPW1313")
+see.plot(df,"PPW1330")
 see.plot(df,"PPW1330", quad="A2")
 
 # extra parts of AUG 2015
@@ -143,7 +152,7 @@ text("20 m")
 
 # make pdf's of all plots that get shot into a folder; I can't yet figure out how to directly send this to the GitHub account, or if that is possible. So I will just make it and then push it up manually
 plot.list<-get.plot()
-pdf("/Users/meaganoldfather/Desktop/Pepperwood/GitDatabase/Outputs/PlotDiagrams.pdf")
+pdf("PlotDiagrams.pdf")
   for (i in 1:length(plot.list)){
     see.plot(df,plot.list[i])
   }
@@ -153,21 +162,19 @@ dev.off()
 # making a pdf of quads-specific figures
 plot.list<-get.plot()
 quad.list<-unique(df$Quad)
-pdf("/Users/meaganoldfather/Desktop/Pepperwood/GitDatabase/Outputs/PlotDiagrams_Quad.pdf")
+pdf("PlotDiagrams_Quad.pdf")
   for (i in 1:length(plot.list)){
     for(j in 1:length(quad.list)){
-    # does not currently work bc some quads have no species 
       df.plot<-subset(df, df$Plot==plot.list[i])
       df.quad<-subset(df.plot, df.plot$Quad==quad.list[j])
       
-      if(nrow(df.quad)==0) {
-   next
-}
-    see.plot(df.quad,plot.list[i], quad.list[j])
+      if(nrow(df.quad)==0) { next }
+        else see.plot(df.quad,plot.list[i], quad.list[j])
     }
   }
 dev.off()
-  
+
+getwd()  
 
 
 
