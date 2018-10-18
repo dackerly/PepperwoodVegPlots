@@ -1,0 +1,39 @@
+Plot ID,PPW1316,,Sampler(s),"MK,MO,AC,KO",,,,,Date ,20180703,,,,,,,,
+Notes,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,Height,BD,,,Height ,Count >50,,
+Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,Notes
+A2,TR,2843,,,QUEAGR,1,1,1,0,1,,,,30.5,80.5,4,NO,
+A2,TS,2843.1,,,QUEAGR,0,1,0,0,0,,,,,,,NO,DEAD & GONE
+A2,TR,2840,,,ARCMAN,0,0,0,0,0,,4.3,,2.1,,,NO,NOW DEAD TREE TAG NOT FOUND 
+B2,TR,2853,,,QUEAGR,1,0,1,1,3,,,,35.5,,,NO,
+B2,TR,2853.1,,,QUEAGR,0,0,0,0,0,,,,2.4,,,NO,DEAD
+D2,,2857,,,QUEAGR,1,0,1,1,2,,,,33.1,,,NO,
+D2,,2857.1,,,QUEAGR,0,0,0,0,0,,,,2.93,,,NO,
+D1,SA,2858,,,UMBCAL,0,1,0,0,1,,2.38,,,67.5,1,NO,
+B1,TR,2845,,,QUEAGR,1,1,1,1,1,,,,21.9,,,NO,
+B1,SA,2803,,,UMBCAL,0,0,0,0,0,,1.89,,,96.5,2,NO,OG DEAD
+B2,SA,2801,,,UMBCAL,0,0,0,0,0,,1.4,,,,,NO,
+B1,SA,2844,,,UMBCAL,0,0,0,0,0,,1.46,,,65.8,1,NO,
+B1,SA,2802,,,UMBCAL,0,0,0,0,0,,,,,,,NO,OG DEAD
+C2,TR,2854,,,QUEAGR,1,0,1,1,3,,,,36.4,,,NO,
+C2,TS,2854.1,,,QUEAGR,0,1,0,0,0,,2.15,,,32.1,,NO,OG DEAD
+B3,TR,2852,,,QUEGAR,1,0,0,0,2,,,,22.7,,,NO,
+A3,,2846,,,QUEAGR,1,1,0,1,2,,,,28.1,126,3,NO,
+A3,SA,2847,,,QUEAGR,0,1,0,0,0,,1.75,,,46.5,,NO,OG DEAD 
+A3,TR,2841,,,QUEAGR,1,0,1,1,1,,,,30.5,,,NO,TRUNK 1/2 BURNED 
+A3,TR,2842,,,QUEKEL,0,0,0,0,0,,,,,,,NO,GONE 
+A4,SA,2848,,,BACPIL,0,1,0,0,0,,,,,36.1,,NO,OG DEAD/BURNED 
+A4,SA,2850,,,UMBCAL,0,0,0,0,0,,,,,,,NO,GONE 
+A4,TS,2849.3,,,QUEAGR,0,0,0,0,0,,,,5.03,,,NO,
+A4,TS,2849.2,,,QUEAGR,0,0,0,0,0,,,,3.67,,,NO,
+A4,TR,2849.1,,,QUEAGR,1,0,1,1,3,,,,59.6,,,NO,
+A4,TR,2849,,,QUEAGR,1,1,1,1,4,,,,51,,,NO,
+C4,SA,5611,88,233,QUEAGR,1,0,0,0,0,59.5,0.39,,,,,NO,OG BURNT TO GROUND 
+D4,TR,2839,,,QUEAGR,1,0,1,1,4,,,,65,,,NO,
+C3,SA,2851,,,UMBCAL,0,0,0,0,0,,1.34,,,,,NO,
+D4,TR,2839.1,,,QUEAGR,1,0,1,1,2,,,,22.7,,,NO,
+D4,TR,2839.2,,,QUEAGR,1,0,1,1,2,,,,24.9,,,NO,
+C3,TR,2856,,,QUEAGR,1,0,0,1,3,,,,68.4,,,NO,
+C3,TR,2856.1,,,QUEAGR,1,0,1,1,2,,,,39.2,,,NO,
+C3,,2855,,,QUEAGR,1,1,1,1,3,,,,29.8,,,NO,
+C3,,2855.1,,,QUEAGR,0,0,0,0,0,,,,2,,,NO,

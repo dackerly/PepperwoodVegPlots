@@ -1,0 +1,94 @@
+﻿Plot ID,1313,,Sampler(s),"M0,MK,KO,DA",,,,,Date ,,,,,,,,,
+Notes,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,Height,BD,,,Height ,Count >50,,
+Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,Notes
+D4,SA,1764,,,ARBMEN,0,0,,,,0,0.78,0,,0,0,NO,
+D4,SA,1763,,,ARBMEN,0,1,,,,0,0.97,0,,13,0,NO,
+D4,SA,5609,340,140,ARBMEN,0,1,,,,0,0.94,0,,28,0,NO,
+D4,TR,1752,,,QUEKEL,0,0,0,0,0,,,,18.7,0,0,NO,Trunk burned at breast height
+C4,TR,1753,,,ARBMEN,1,1,0,1,4,,,,21.4,52,0,NO,
+D4,SA,1771,,,HETARB,0,0,,,,0,2.23,0,,80,4,NO,
+D4,SA,1772,,,ARBMEN,0,0,,,,0,1.04,0,,0,0,NO,
+D4,TS,1767,,,ARBMEN,0,1,,,,0,0.9,0,,31,0,NO,
+D3,TR,1765,,,ARBMEN,1,0,0,1,4,,,,13.8,0,0,NO,
+D3,TR,1765.1,,,ARBMEN,1,0,0,1,3,,,,5.5,0,0,NO,
+D3,SA,1774,,,HETARB,0,1,,,,0,1.73,0,,48,0,NO,
+D3,SA,1750,,,ARBMEN,0,1,,,,0,1.4,0,,21,0,NO,
+D3,SA,1773,,,ARBMEN,0,0,,,,0,0.8,0,,0,0,NO,
+D3,TR,1775,,,ARBMEN,0,1,0,0,0,,,,1.8,68,1,NO,
+D3,TR,1766,,,QUEKEL,1,0,0,1,4,,,,32.7,0,0,NO,
+D2,SA,5610,230,210,HETARB,0,0,,,,0,0.9,0,,0,0,NO,"NewSA, dead"
+D2,SA,1758,,,HETARB,0,0,,,,0,0.8,0,,0,0,NO,
+D1,TR,1768,,,QUEAGR,1,1,1,1,3,,,,15.9,62,1,NO,Powdery mildew
+C1,TR,1757,,,ARBMEN,0,0,0,0,0,,,,0,0,0,NO,"dead,gone"
+C1,TR,1757.1,,,ARBMEN,0,0,0,0,0,,,,0,0,0,NO,"dead, gone"
+C1,TR,1756,,,HETARB,0,1,0,0,0,,,,1.6,92,6,NO,
+C1,TS,1756.1,,,HETARB,0,0,,,,0,1.6,,,0,0,NO,
+C1,TS,1756.2,,,HETARB,0,0,,,,0,2.4,,,0,0,NO,
+C1,TS,1756.3,,,HETARB,0,0,,,,0,1.8,,,0,0,NO,
+C1,TS,1756.4,,,HETARB,0,0,,,,0,1.5,,,0,0,NO,
+C1,TS,1756.5,,,HETARB,0,0,,,,0,0,,,0,0,NO,"dead, not found"
+C1,TS,1756.6,,,HETARB,0,0,,,,0,0,,,0,0,NO,"dead, not found"
+C1,SA,1755,,,HETARB,0,0,,,,0,1.4,0,,0,0,NO,
+D1,SA,1776,,,UMBCAL,0,1,,,,0,1.2,0,,49,0,NO,
+B1,TR,1745,,,QUEKEL,1,1,1,0,2,,,,9.4,111.5,5,NO,
+B1,TR,1754,,,HETARB,0,1,0,0,0,,,,2.1,42,2,NO,ESTIMATED DBH HEIGHT
+A1,TR,1719,,,ARBMEN,0,0,0,0,0,,,,0,0,0,NO,GONE
+A1,TR,1723,,,HETARB,1,0,1,1,2,,,,6.4,0,0,NO,
+A1,TR,1723.1,,,HETARB,0,1,0,0,0,,,,2.6,0,0,NO,
+A1,TR,1723.2,,,HETARB,0,1,0,0,0,,,,3.1,0,0,NO,
+A1,TR,1722,,,PSEMEN,0,0,0,0,0,,,,3.8,0,0,NO,
+A1,SA,1721,,,QUEAGR,0,0,,,,0,2.1,0,,0,0,NO,
+A1,SA,1724,,,HETARB,0,1,,,,0,2.6,0,,50,1,NO,
+A1,TR,1719.1,,,ARBMEN,0,0,0,0,0,,,,0,0,0,YES,GONE
+A1,SA,1720,,,HETARB,0,1,,,,0,0.71,0,,0,0,NO,
+B2,SA,1744,,,HETARB,0,1,,,,0,1.8,0,,87.3,11,NO,
+A2,TR,1729,,,HETARB,0,1,0,0,0,,,,5.5,0,0,NO,
+A2,TR,1729.1,,,HETARB,0,1,0,0,0,,1.3,,1.1,0,0,NO,"Tags melted, ranked by size, 1=largest"
+A2,TS,1729.2,,,HETARB,0,0,,,,0,0.9,,,0,0,NO,
+A2,TS,1729.3,,,HETARB,0,0,,,,0,0.6,,,0,0,NO,
+A2,TR,1726,,,HETARB,0,1,0,0,0,,,,2.8,100.4,2,NO,
+A2,TR,1726.1,,,HETARB,0,0,0,0,0,,,,1.1,0,0,NO,
+A2,TR,1727,,,HETARB,0,1,0,0,0,,3,,2.4,89.9,3,NO,"x,y reversed"
+A2,TS,1727.1,,,HETARB,0,0,,,,0,0,,,0,0,NO,gone
+A2,TS,1727.2,,,HETARB,0,0,,,,0,1.74,,,0,0,NO,
+A2,SA,1728,,,HETARB,0,0,,,,0,0.93,0,,0,0,NO,
+A2,SA,1730,,,UMBCAL,0,1,,,,0,1.5,0,,102.1,3,NO,
+A2,SA,1731,,,HETARB,0,1,,,,0,3.1,0,,106.3,9,NO,
+C2,TR,1751,,,QUEKEL,0,0,0,0,0,,,,20,0,0,NO,"stem burned, dbh compomised"
+C2,TR,1748,,,ARBMEN,1,0,0,1,3,,,,64.1,0,0,NO,
+C2,TR,1748.1,,,ARBMEN,1,0,0,1,4,,,,35.3,0,0,NO,
+C2,TR,1748.2,,,ARBMEN,1,0,0,1,2,,,,10.1,0,0,NO,
+C2,TR,1759,,,UMBCAL,0,1,0,0,0,,,,2.4,97,4,NO,
+C2,SA,1760,,,HETARB,0,0,,,,0,0.8,0,,0,0,NO,
+C3,SA,1761,,,HETARB,0,0,,,,0,1.3,0,,0,0,NO,
+C3,TR,1762,,,HETARB,0,1,0,0,0,,,,1.6,98,9,NO,tag not found
+C3,TS,1762.1,,,HETARB,0,0,,,,0,2,,,0,0,NO,tag not found
+C3,TS,1762.2,,,HETARB,0,0,,,,0,0,,,0,0,NO,"tag not found, gone"
+C3,TR,1769,,,HETARB,0,1,0,0,0,,,,0.7,74,6,NO,
+C3,TS,1769.1,,,HETARB,0,0,,,,0,1,,,0,0,NO,
+C3,TS,1769.2,,,HETARB,0,0,,,,0,0.8,,,0,0,NO,tag not found
+C3,TS,1769.3,,,HETARB,0,0,,,,0,0,,,0,0,NO,tag not found
+C3,TS,1769.4,,,HETARB,0,0,,,,0,0,,,0,0,NO,tag not found
+C3,SA,1770,,,HETARB,0,1,,,,0,1.1,0,,85,8,NO,
+B3,SA,1742,,,HETARB,0,0,,,,0,0.3,0,,0,0,NO,
+C4,TR,1747,,,ARBMEN,0,1,0,1,3,,,,19.3,62,2,NO,
+C4,TR,1747.1,,,ARBMEN,0,0,0,0,0,,,,5.9,0,0,NO,
+C4,TR,1746,,,ARBMEN,0,1,0,0,0,,,,4,73,2,NO,
+C4,TR,1749,,,ARBMEN,1,1,1,1,2,,,,20,80,5,NO,
+A3,TR,1732,,,ARBMEN,1,0,0,1,4,,,,30.7,0,0,NO,
+A3,TR,1732.1,,,ARBMEN,1,0,1,1,2,,,,17.6,0,0,NO,"TS IN DATABASE, SHOULD BE TR"
+A3,TR,1732.4,,,ARBMEN,0,0,0,0,0,,,,9.2,0,0,NO,"TS IN DATABASE, SHOULD BE TR"
+A3,TR,1732.2,,,ARBMEN,1,1,1,1,3,,,,22.3,57.4,2,NO,"TS IN DATABASE, SHOULD BE TR"
+A3,TR,1732.3,,,ARBMEN,1,1,0,1,4,,,,39.6,0,0,NO,"TS IN DATABASE, SHOULD BE TR"
+A3,TR,1732.5,,,ARBMEN,1,1,1,1,3,,,,25,91.2,1,NO,"TS IN DATABASE, SHOULD BE TR"
+A3,SA,1733,,,QUEAGR,0,0,,,,0,0.94,0,,0,0,NO,TAG LOST
+A4,SA,1734,,,HETARB,0,1,,,,0,1.11,0,,34.4,0,NO,
+A4,SA,1735,,,UMBCAL,0,1,,,,0,2.34,0,,69.7,4,NO,
+B3,TR,1741,,,QUEAGR,1,0,0,1,4,,,,73,0,0,NO,
+B3,TR,1740,,,ARBMEN,1,1,1,1,2,,,,8.7,57.9,2,NO,
+B3,SA,1743,,,HETARB,0,0,,,,0,0.81,0,,0,0,NO,
+B3,TR,1739,,,HETARB,0,1,0,0,0,,2.72,,6.73,72.6,5,NO,
+B4,SA,1737,,,HETARB,0,1,,,,0,2.68,0,,66.7,1,NO,
+B4,SA,1738,,,UMBCAL,0,0,,,,0,1.03,0,,0,0,NO,
+B4,SA,1736,,,HETARB,0,1,,,,0,2.17,0,,75.4,5,,
