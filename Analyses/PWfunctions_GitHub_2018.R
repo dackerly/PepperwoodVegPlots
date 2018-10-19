@@ -251,7 +251,7 @@ get.indv.data.2018<-function(year=2018, stump=F,orig.dead=F, branches=F,prefix='
   # get rid of extra rows
   indv.data<-indv.data[!is.na(indv.data$Type),]
   # change SA.Stump.BD_cm into numeric
-  indv.data$SA.Stump.BD_cm<-suppressWarnings(as.numeric(indv.data$SA.Stump.BD_cm))
+  #indv.data$SA.Stump.BD_cm<-suppressWarnings(as.numeric(indv.data$SA.Stump.BD_cm))
   # make indv.data$TreeNum numeric
   indv.data$Num<-as.numeric(indv.data$Num)
   # cleaning up Types 
@@ -327,7 +327,7 @@ get.indv.data.2018<-function(year=2018, stump=F,orig.dead=F, branches=F,prefix='
     
   }
   else {
-    indv.data[indv.data$Type=="SA", "Basal.Area" ]<-(((indv.data[indv.data$Type=="SA", "SA.Stump.BD_cm"]/2)^2)*(pi))*(indv.data[indv.data$Type=="SA","SA.Branch.Num"])
+    indv.data[indv.data$Type=="SA", "Basal.Area" ]<-(((indv.data[indv.data$Type=="SA", "SA.BD_cm"]/2)^2)*(pi))*(indv.data[indv.data$Type=="SA","SA.Stem.Num"])
     indv.data[indv.data$Type=="TR", "Basal.Area"]<- (((indv.data[indv.data$Type=="TR","DBH_cm"]/2)^2)*(pi))
   }
   
