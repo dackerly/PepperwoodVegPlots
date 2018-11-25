@@ -1,0 +1,43 @@
+﻿Plot ID,1319,,Sampler(s),"MO,MK,KO,AC",,,,,Date ,20180703,,,,,,,,
+Notes,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,Height,BD,,,Height ,Count >50,,
+Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,Notes
+A1,TR,2864,,,UMBCAL,1,1,0,1,3,,,,11.7,,,NO,
+A1,TR,2864.1,,,UMBCAL,1,1,0,1,3,,,,10.5,,,NO,
+A1,TR,2864.2,,,UMBCAL,1,1,0,1,3,,,,12.8,,,NO,
+A1,TR,2864.3,,,UMBCAL,1,0,0,1,5,,,,9.9,,,NO,
+A1,TR,2864.4,,,UMBCAL,1,0,0,1,5,,,,7.2,,,NO,
+A1,TR,2864.5,,,UMBCAL,0,0,0,0,0,,,,5.4,,,NO,
+A1,SA,2863,,,QUEAGR,0,1,,,,0,0.71,0,,43.2,0,NO,
+A1,SA,2862,,,QUEAGR,0,1,,,,0,1.06,0,,33.6,0,NO,
+A1,TR,2859,,,PSEMEN,1,0,1,1,4,,,,6.19,,,NO,
+A1,TR,2861,,,PSEMEN,1,0,0,1,3,,,,3.76,,,NO,
+A1,TR,2860,,,PSEMEN,0,0,0,0,0,,,,6.09,,,NO,
+A1,SA,2865,,,QUEAGR,0,1,,,,0,0.99,0,,30,0,NO,
+A1,SA,5600,157,78,QUEAGR,0,1,,,,0,0.57,0,,75.7,1,NO,
+A2,TR,2868,,,PSEMEN,1,0,0,1,3,,,,2.5,,,NO,"WAS SA, NOW TR"
+A2,TR,2869,,,QUEAGR,1,1,0,1,3,,,,21.7,,,NO,
+A2,TR,2866,,,UMBCAL,1,1,0,1,4,,,,76.9,69,2,NO,
+A2,TR,2866.1,,,UMBCAL,1,0,0,1,5,,,,20.6,,,NO,
+A2,TS,2866.2,,,UMBCAL,0,0,,,,0,1.07,0,,,,NO,DEAD/GONE
+A2,TR,2867,,,UMBCAL,1,1,1,0,3,,,,17.9,,,NO,
+A2,TR,2867.1,,,UMBCAL,1,1,1,1,3,,,,14.6,,,NO,
+A2,TR,2870,,,QUEAGR,1,0,1,1,3,,,,24.2,,,NO,
+A3,TR,2871,,,QUEAGR,1,0,1,1,3,,,,35.5,,,NO,
+A3,TS,2872,,,QUEAGR,0,0,,,,0,,0,,,,NO,
+B4,TR,2873,,,UMBCAL,1,1,1,1,4,,,,31.2,58.2,1,NO,
+B4,TR,2873.1,,,UMBCAL,1,1,1,1,3,,,,29.4,59.7,1,NO,
+B4,TR,2874,,,PSEMEN,0,0,0,0,0,,2.78,,1.02,,,NO,"WAS SA, NOW TR"
+B4,TR,2875,,,UMBCAL,1,1,1,1,2,,,,16.1,53.89,1,NO,
+B4,TR,2675.1,,,UMBCAL,1,0,1,0,1,,,,11.6,,,NO,
+B4,TR,2875.2,,,UMBCAL,0,1,0,0,0,,,,4.24,65.4,2,NO,
+B4,TR,2875.3,,,UMBCAL,0,1,0,0,0,,,,3.68,63.4,3,NO,
+D3,TR,2880,,,PSEMEN,0,0,0,0,0,,3.1,,1.1,,,NO,"WAS SA, NOW TR"
+D4,TR,2879,,,UMBCAL,1,1,0,1,4,,,,13.4,,,NO,
+D4,TR,2879.1,,,UMBCAL,1,1,1,1,3,,,,5.4,,,NO,
+C4,TR,2878,,,PSEMEN,0,0,0,0,0,,2.76,,1.12,,,NO,"WAS SA, NOW TR"
+C2,TR,2877,,,PSEMEN,0,0,0,0,0,,5.1,,2.8,,,NO,"WAS SA, NOW TR"
+C2,SA,5621,196,72,PSEMEN,0,0,,,,0,0.9,0,,,,NO,NEW SA
+C2,SA,5620,126,28,PSEMEN,0,0,,,,0,1.16,0,,,,NO,NEW SA
+C1,SA,5622,425,5,QUEGAR,0,1,,,,0,0.57,1,,23.1,,NO,"NEW SA, CONFIRM SP. WHEN OLDER"
+C1,SA,5623,495,8,UMBCAL,0,1,,,,0,0.7,1,,12.4,,NO,NEW SA
