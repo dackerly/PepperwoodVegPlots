@@ -1,0 +1,32 @@
+﻿Plot ID,1306,,Sampler(s),"MK,MO,AC,KO",,,,,Date ,20180718,,,,,,,,
+Notes,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,Height,BD,,,Height ,Count >50,,
+Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,Notes
+A3,TR,1206,,,QUEKEL,1,1,0,1,2,,,,30.5,62,4,0,
+A3,SA,1205,,,QUEKEL,0,0,,,,,2.21,0,,,,0,
+A4,TR,1207,,,QUEKEL,0,0,,,,,2.28,0,8.8,,,0,
+A4,SA,999.1,,,QUEKEL,0,0,,,,,1.76,0,,,,0,
+A4,SA,999.2,,,QUEKEL,0,0,,,,,1.25,0,,,,0,
+A4,SA,999.3,,,UNK,0,0,,,,,0.6,0,,,,0,
+A4,SA,999.4,,,PSEMEN,0,0,,,,,1.54,0,,,,0,
+A2,SA,1202,,,PSEMEN,0,0,,,,,2,0,,,,0,
+A2,TR,1204,,,ARBMEN,1,1,1,1,2,,,,47.5,124.7,36,0,
+A2,TR,2104.1,,,ARBMEN,1,1,1,0,1,,,,30.4,107,29,0,
+A2,TR,1204.2,,,ARBMEN,0,1,0,0,0,,,,17.5,72.5,5,0,
+A2,SA,1203,,,UMBCAL,0,0,,,,,,,,,,0,GONE
+A1,SA,1204,,,PSEMEN,0,0,,,,,2.25,0,,,,0,
+A2,SA,5802,405,30,UMBCAL,0,1,,,,,2.6,0,,36.4,0,0,OG DEAD
+A1,SA,999.5,,,PSEMEN,0,0,,,,,0.68,0,,,,0,
+B1,TR,1214,,,QUEKEL,0,1,0,0,0,,,,17.4,,0,0,
+B1,TR,1215,,,QUEKEL,1,0,1,0,1,,,,48.8,,,0,NAIL NOT AT BH; DBH @ 0.7
+B1,SA,1213,,,UMBCAL,0,0,,,,,,,,,,1,GONE
+B2,SA,999.6,,,UMBCAL,0,0,,,,,1.55,0,,,,0,
+B2,SA,999.7,,,PSEMEN,0,0,,,,,1.65,0,,,,0,
+B2,SA,5803,370,250,UMBCAL,0,1,,,,,0.97,0,,40.1,0,0,OG DEAD
+B2,SA,999.8,,,UMBCAL,0,0,,,,,1.09,1,,,,0,
+B3,TR,1211,,,UMBCAL,0,1,0,0,0,,,,1.8,65,2,0,OG DEAD
+B3,SA,1212,,,UMBCAL,0,1,,,,,2.41,0,0.98,59,5,0,OG DEAD
+B4,SA,1208,,,PSEMEN,0,0,,,,,,,,,,0,GONE
+B4,SA,1210,,,PSEMEN,0,0,,,,,1.27,0,,,,0,
+B4,SA,1209,,,UMBCAL,0,0,,,,,,,,,,0,GONE/TAG NOT FOUND
+C3,TR,1216,,,QUEKEL,0,1,0,0,0,,,,22.4,,,0,
