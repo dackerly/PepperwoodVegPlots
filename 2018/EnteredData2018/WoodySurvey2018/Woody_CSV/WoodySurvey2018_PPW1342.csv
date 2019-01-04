@@ -1,5 +1,5 @@
 ﻿Plot ID,1342,,Sampler(s),"MK,MO,AC,KO",,,,,Date ,20180731,,,,,,,,
-Notes,,,,,,,,,,,,,,,,,,
+Notes,"2328,2338 not found in 2018",,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,Height,BD,,,Height ,Count >50,,
 Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,Notes
 D2,TR,2346,,,QUEAGR,0,1,0,0,0,,,,16.1,75.6,5,0,
@@ -18,10 +18,10 @@ D3,SA,2340,,,PSEMEN,0,0,,,,,,,,,,0,DEAD/GONE
 D2,SA,6102,370,310,UMBCAL,0,1,,,,,,,,45.2,0,0,"BD UNAVAILABLE, OG DEAD"
 D4,TR,2331,,,PSEMEN,0,0,0,0,0,,,,2.4,,,0,
 D4,TR,2336,,,PSEMEN,0,0,0,0,0,,,,2.27,,,0,
-D4,TR,2333,,,PSEMEN,0,0,0,0,0,,,,1.17,,,0,
-D4,TR,2335,,,PSEMEN,0,0,0,0,0,,,,3.17,,,0,
+D4,TR,2333,,,PSEMEN,0,0,0,0,0,,,,1.17,,,0,confirm 2333 and not 2338 in 2019
+D4,TR,2325,,,PSEMEN,0,0,0,0,0,,,,3.17,,,0,
 D4,SA,2323,,,PSEMEN,0,0,,,,,,,,,,1,DEAD/GONE 
-D4,SA,2229,,,PSEMEN,0,0,,,,,,,,,,0,DEAD/GONE 
+D4,SA,2329,,,PSEMEN,0,0,,,,,,,,,,0,DEAD/GONE 
 D4,SA,2330,,,PSEMEN,0,0,,,,,,,,,,0,DEAD/GONE 
 D4,SA,2334,,,PSEMEN,0,0,,,,,,,,,,0,DEAD/GONE 
 D4,SA,2335,,,PSEMEN,0,0,,,,,,,,,,0,DEAD/GONE 
@@ -40,15 +40,15 @@ C2,SA,6108,291,45,BACPIL,1,0,,,,55.1,0.53,5,,,,0,NEW SA
 C2,SA,6109,215,98,BACPIL,1,0,,,,87.5,0.68,5,,,,0,NEW SA
 C2,SA,6110,123,106,BACPIL,1,0,,,,51.2,0.42,8,,,,0,NEW SA
 C3,TR,2317,,,NOTDEN,0,1,,,,,,,7.5,126.8,21,0,OG DEAD
-C3,TS,2317.1,,,NOTDEN,0,0,,,,,,,,,,1,DEAD/GONE 
+C3,TS,2317.1,,,NOTDEN,0,0,,,,,,,,,,0,DEAD/GONE 
 C3,TR,2316,,,PSEMEN,0,0,0,0,0,,,,58.2,,,0,
-C3,TR,2315,,,PSEMEN,0,0,0,0,0,,,,31.4,,,0,DEAD/GONE 
-C4,TR,2319,,,PSEMEN,0,0,0,0,0,,,,,,,0,DEAD/GONE 
-C4,TR,2318,,,PSEMEN,0,0,0,0,0,,,,2.41,,,0,DEAD/GONE 
-C4,SA,2326,,,PSEMEN,0,0,,,,,,,,,,0,NEW SA
-C4,TR,2321,,,PSEMEN,0,0,0,0,0,,,,,,,0,
-C4,SA,2322,,,PSEMEN,0,0,,,,,,,,,,0,
-D4,SA,6121,150,425,BACPIL,1,0,,,,52.6,0.51,0,,,,0,
+C3,TR,2315,,,PSEMEN,0,0,0,0,0,,,,31.4,,,0,
+C4,TR,2319,,,PSEMEN,0,0,0,0,0,,,,,,,1,DEAD/GONE 
+C4,TR,2318,,,PSEMEN,0,0,0,0,0,,,,2.41,,,0,
+C4,SA,2320,,,TORCAL,0,0,,,,,,,,,,0,DEAD/GONE- confirm if torcal or psemen in 2019 if possible  
+C4,TR,2321,,,PSEMEN,0,0,0,0,0,,,,,,,0,DEAD/GONE 
+C4,SA,2322,,,PSEMEN,0,0,,,,,,,,,,0,DEAD/GONE 
+D4,SA,6121,150,425,BACPIL,1,0,,,,52.6,0.51,0,,,,0,new sa
 B4,TR,2307,,,PSEMEN,0,0,0,0,0,,,,41.8,,,0,
 B4,TR,2308,,,PSEMEN,0,0,0,0,0,,,,22.6,,,0,
 B3,TR,2309,,,PSEMEN,0,0,0,0,0,,,,58.4,,,0,
@@ -83,3 +83,5 @@ A2,TR,2302,,,UMBCAL,0,1,0,0,0,,,,,108.7,29,0,OG DEAD/GONE
 A1,TR,1996,,,PSEMEN,0,0,0,0,0,,,,86.3,,,0,
 A1,SA,1997,,,UMBCAL,0,0,,,,,,,,,,0,DEAD/GONE
 A1,SA,1998,,,UMBCAL,0,0,,,,,,,,,,0,DEAD/GONE
+,SA,2328,,,PSEMEN,0,0,,,,,,,,,,,NOT FOUND
+D4,SA,2338,,,PSEMEN,0,0,,,,,,,,,,,NOT FOUND

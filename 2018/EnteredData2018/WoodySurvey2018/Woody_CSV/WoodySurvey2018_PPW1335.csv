@@ -26,7 +26,7 @@ C4,TR,2583,,,QUEGAR,1,1,1,1,4,,,,35.3,,,,
 A4,SA,5741,5,335,UMBCAL,0,1,,,,,1.13,1,,30.8,0,,og dead/new sa
 C4,TR,2582,,,QUEGAR,1,0,0,1,4,,,,31.6,,,,
 D3,SA,2586,,,UMBCAL,0,1,,,,,0.87,1,,51.3,1,,og dead
-D3,TR,2581,,,QUEGAR,1,0,1,1,4,,,,42.5,,,,
+D3,TR,2587,,,QUEGAR,1,0,1,1,4,,,,42.5,,,,
 A4,SA,5742,240,500,UMBCAL,0,1,,,,,1.2,2,,41.6,0,,og dead/new sa
 C1,SA,2580,,,UMBCAL,0,0,,,,,,0,,,,1,dead/gone
 C2,SA,2581,,,UMBCAL,0,0,,,,,,0,,,,1,dead/gone
@@ -58,7 +58,7 @@ D3,SA,5749,60,432,UMBCAL,0,1,,,,,0.69,0,,39.1,0,,og dead/new sa
 D3,SA,5750,55,15,UMBCAL,0,1,,,,,0.74,0,,39.6,0,,og dead/new sa
 B3,SA,5730,130,40,UMBCAL,0,1,,,,,1.01,0,,41.2,0,,og dead/new sa
 B3,SA,5731,20,73,UMBCAL,0,1,,,,,1.17,1,,47.7,0,,og dead/new sa
-C3,SA,5791,255,235,UMBCAL,0,1,,,,,0.85,3,,66.6,1,,og dead/new sa
+C3,SA,5751,255,235,UMBCAL,0,1,,,,,0.85,3,,66.6,1,,og dead/new sa
 B2,SA,999.2,,,UMBCAL,0,0,,,,,1.18,0,,,,,
 B2,SA,5732,118,420,UMBCAL,0,1,,,,,0.98,0,,54.6,1,,og dead/new sa
 C3,SA,5752,40,300,UMBCAL,0,1,,,,,0.6,0,,34.5,0,,og dead/new sa
@@ -77,7 +77,7 @@ C2,SA,5757,-125,5,UMBCAL,0,1,,,,,0.85,2,,48.2,0,,og dead/new sa
 B1,SA,999.6,,,UMBCAL,0,0,,,,,0.6,0,,,,,
 C2,SA,5758,-120,160,UMBCAL,0,1,,,,,0.87,0,,42.2,0,,og dead/new sa
 B1,SA,5738,200,490,UMBCAL,0,1,,,,,1.01,1,,39.6,0,,og dead/new sa
-C2,SA,5739,265,55,UMBCAL,0,1,,,,,1.04,0,,45.5,0,,og dead/new sa
+C2,SA,5759,265,55,UMBCAL,0,1,,,,,1.04,0,,45.5,0,,og dead/new sa
 B1,SA,5761,135,4,UMBCAL,0,1,,,,,0.65,0,,33.4,0,,og dead/new sa
 C2,SA,5760,90,35,UMBCAL,0,1,,,,,0.67,2,,38.3,0,,og dead/new sa
 C2,SA,5762,20,90,UMBCAL,0,1,,,,,0.84,1,,54.8,1,,og dead/new sa
