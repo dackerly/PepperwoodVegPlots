@@ -169,7 +169,7 @@ B2,TR,3090.4,,,QUEGAR,1,0,1,1,2,,,,17,,,0,
 B2,SA,3141,,,AMOCAL,0,1,,,,,,,,61.8,3,0,OG DEAD
 D2,SA,3247,,,UMBCAL,1,0,,,,88.6,0.9,0,,,,0,
 D2,SA,3208,,,PSEMEN,0,0,,,,,,,,,,0,
-D2,TR,3252,,,HETARB,1,0,0,0,0,,,,5.2,,,0,
+D2,TR,3252,,,HETARB,0,0,0,0,0,,,,5.2,,,0,"in 2019; confirm .0 actually died in fire, (no apical, no basal)"
 D2,TR,3252.1,,,HETARB,1,1,0,0,0,,,,1.57,91.8,3,0,
 D2,TR,3252.2,,,HETARB,0,0,0,0,0,,,,,,,1,DEAD/GONE
 D2,TR,3252.3,,,HETARB,0,0,0,0,0,,,,,,,1,DEAD/GONE

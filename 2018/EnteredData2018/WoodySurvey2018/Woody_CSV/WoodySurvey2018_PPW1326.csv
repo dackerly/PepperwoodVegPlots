@@ -4,7 +4,7 @@ Notes,,,,,,,,,,,,,,,,,,
 Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,Notes
 A1,TR,3397,,,PSEMEN,1,0,0,1,3,,,,17.1,,,0,
 A1,TR,3400,,,PSEMEN,1,0,0,1,3,,,,13.2,,,0,
-A1,TR,3543,,,UMBCAL,1,1,0,0,0,,,,1.06,31.5,0,0,
+A1,TR,3543,,,UMBCAL,0,1,0,0,0,,,,1.06,31.5,0,0,
 A1,SA,3511,,,UMBCAL,0,0,,,,,1.84,0,,,,0,
 A1,TR,3505,,,PSEMEN,0,0,0,0,0,,,,2.8,,,0,
 A1,SA,3506,,,UMBCAL,0,0,,,,,,,,,,1,dead/gone
@@ -97,7 +97,7 @@ B1,SA,3595,,,UMBCAL,1,1,,,,,0.96,0,,65.6,1,0,og dead
 B1,SA,3583,,,UMBCAL,0,0,,,,,,,,,,1,dead/gone
 B1,SA,3584,,,UMBCAL,0,0,,,,,,,,,,1,dead/gone
 C1,SA,3660,,,UMBCAL,0,0,,,,,1.44,0,,,,0,
-C1,TR,3596,,,UMBCAL,1,1,0,0,0,,,,1.92,105,1,0,og dead
+C1,TR,3596,,,UMBCAL,0,1,0,0,0,,,,1.92,105,1,0,og dead
 C1,SA,3603,,,UMBCAL,0,0,,,,,,,,,,1,dead/gone
 C1,TR,3601,,,PSEMEN,1,0,0,1,3,,,,19.8,,,0,
 C1,SA,3597,,,UMBCAL,0,0,,,,,,,,,,1,dead/gone
@@ -144,7 +144,7 @@ C1,SA,3631,,,UMBCAL,0,0,,,,,0.52,1,,,,0,
 C1,SA,3630,,,UMBCAL,1,1,,,,,0.88,0,,50,1,0,og dead
 C1,SA,3629,,,UMBCAL,1,1,,,,,1.8,0,,62.7,1,0,
 C1,SA,5662,460,255,UMBCAL,1,1,,,,,0.59,0,,61.4,1,0,og dead
-C1,TR,3604,,,UMBCAL,1,1,0,0,0,,,,1.38,,,0,
+C1,TR,3604,,,UMBCAL,0,1,0,0,0,,,,1.38,,0,0,
 C1,TR,3600,,,PSEMEN,0,0,0,0,0,,,,5.3,,,0,
 C1,TR,3599,,,QUEAGR,0,1,,,,,,,6.7,,,0,"dead/gone, basal dead, no tag"
 C1,SA,3602,,,UMBCAL,0,0,,,,,,,,,,1,dead/gone
@@ -160,7 +160,7 @@ B3,SA,3560,,,UMBCAL,0,0,,,,,,,,,,1,dead/gone
 A3,SA,3531,,,UMBCAL,0,0,,,,,,,,,,1,dead/gone
 A3,TR,3523,,,QUEGAR,1,0,0,1,2,,,,20.7,,,0,
 A3,SA,3527,,,UMBCAL,1,1,,,,,1.15,0,,63.5,4,0,og dead
-A3,TR,3526,,,UMBCAL,1,1,0,0,0,,1.4,0,,105.2,6,0,
+A3,TR,3526,,,UMBCAL,0,1,0,0,0,,,0,1.4,105.2,6,0,
 A3,SA,3524,,,UMBCAL,1,0,,,,88.5,0.74,1,,,,0,SOD
 A3,SA,3525,,,UMBCAL,0,0,,,,,,,,,,1,dead/gone
 B4,SA,3548,,,UMBCAL,1,1,,,,,0.93,1,,32.8,0,0,og dead
