@@ -65,6 +65,7 @@ hobos <- HOBO.syncTimestamps(hobos)
 # Adding more incidents and flags will make it take longer, though
 system.time({
   hobos <- HOBO.getFromRaw(plots=c(1301:1350), sensor="AirTemp", location="github")
+  hobos <- HOBO.getFromRaw(plots=1301, sensor="RH", location="github")
 
   hobos <- HOBO.repairTimestamps(hobos)
 
@@ -76,3 +77,6 @@ system.time({
 
   hobos <- HOBO.syncTimestamps(hobos)
 })
+
+ls()
+
