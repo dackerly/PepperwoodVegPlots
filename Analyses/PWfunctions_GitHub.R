@@ -1,7 +1,7 @@
 ### FUNCTIONS TO WORK WITH GITHUB###
 # Author: Meagan F. Oldfather
 # Created: 20150526
-# Last edited: 20180327
+# Last edited: 20190531
 ######################################################################
 # clear workspace
 rm(list=ls())
@@ -9,11 +9,13 @@ rm(list=ls())
 ######################################################################
 ### get.plot() ###
 ######################################################################
-get.plot<-function(){ 
+get.plot<-function(year=2013){ 
 # list of file names
-plot.list<- paste("PPW",1301:1350, sep="")
+if(year>=2018) plot.list<- paste("PPW",c(1301:1350,1851:1854), sep="")
+  else plot.list<- paste("PPW",1301:1350, sep="")
 return(plot.list)
 }
+
 ######################################################################
 ### get.plot.info() ###
 ######################################################################
@@ -53,8 +55,8 @@ plot.info$Super.Plot<-0
 plot.info[plot.info$Plot%in%super.plots, "Super.Plot"]<-1  
   
 return(plot.info)
-
 }
+
 ######################################################################
 ### get.envr.data() ### 
 ######################################################################
@@ -91,27 +93,30 @@ return(envr.data)
 ######################################################################
 kill.trees<-function(year,prefix='https://raw.githubusercontent.com/dackerly/PepperwoodVegPlots/master/'){
 if(!is.numeric(year)) stop("ERROR! Year must be numeric, try again cowboy")
- file<-paste(prefix, year, "/Mortality", year, "/Dead_Inds.csv" ,sep="")
+
+file<-paste(prefix, year, "/Mortality", year, "/Dead_Inds.csv" ,sep="")
 
 # This error code is broken  
-#if(file.exists(files[length(files)])==F) stop("ERROR! We don't yet have mortality surveys for future years, this ol'horse can't time travel")
+if(file.exists(file[length(file)])==F) stop("ERROR! We don't yet have mortality surveys for future years, this ol'horse can't time travel")
  
 dead<-lapply(file,function(x) read.csv(text=getURL(x, followlocation = TRUE, cainfo = system.file("CurlSSL", "cacert.pem", package = "RCurl"))))
 names(dead)<-year
- for(i in 1:length(dead)){
-   dead[[i]]<-cbind(dead[[i]], Year=year[i])
+  for(i in 1:length(dead)){
+    dead[[i]]<-cbind(dead[[i]], Year=year[i])
   }
 
 all.dead<-do.call(rbind,dead)
 all.dead
 }
+
 ######################################################################
 ### get.indv.data() ### 
 ######################################################################
-get.indv.data<-function(year, stump=F,orig.dead=F, branches=F,prefix='https://raw.githubusercontent.com/dackerly/PepperwoodVegPlots/master/'){
+get.indv.data<-function(year, stump=F, orig.dead=F, survival=F, bsprout=F, epicormic=F, apical=F, canopy=F, bsprout.height=F, bsprout.count=F, tag.pulled=F, keep.999=F, branches=F, prefix='https://raw.githubusercontent.com/dackerly/PepperwoodVegPlots/master/'){
+
 options(stringsAsFactors=FALSE)  
-file.list <-(paste(prefix,"2013/Woody2013/Data/OriginalCSV/Woody/WoodySurvey2013_", sep='')) 
-plot.list<-get.plot()
+file.list <-(paste(prefix,year,"/Woody",year,"/Data/OriginalCSV/Woody/WoodySurvey",year,"_", sep='')) 
+plot.list<-get.plot(year=year)
 
 mega.data<-lapply(paste(file.list, plot.list, ".csv", sep=''), function(x) read.csv(text=getURL(x, followlocation = TRUE, cainfo = system.file("CurlSSL", "cacert.pem", package = "RCurl")), na.strings=c("","NA") , skip=3)) 
 names(mega.data) <- plot.list 
@@ -120,19 +125,44 @@ for (i in 1:length(mega.data))
 {
   Plot<-plot.list[i]
   mega.data[[i]]<-cbind(Plot=Plot, mega.data[[i]]) 
-  colnames(mega.data[[i]])<-c("Plot", "Quad", "Type", "Num", "Species",                             
-                              "Confidence", "Dead.Stump", "SA.Stump.Height_cm",
-                              "SA.Stump.BD_cm", "SA.Branch.Num", "DBH_cm", "X_cm", "Y_cm", "Notes") 
-  mega.data[[i]]<-mega.data[[i]][,1:14] 
+
+  if(year>=2018) {
+    mega.data[[i]] <- mega.data[[i]][,c(1:4,7,13:16,5:6,20,8:12,17:19)]
+    colnames(mega.data[[i]])<-c("Plot", "Quad", "Type", "Num", "Species",  
+                              "SA.Stump.Height_cm","SA.Stump.BD_cm", "SA.Branch.Num",
+                              "DBH_cm", "X_cm", "Y_cm", "Notes", 
+                              "Survival", "Basal.Resprout", "Epicormic.Resprout", 
+                              "Apical.Growth", "Canopy.Percent", "Basal.Resprout.Height_cm", 
+                              "Basal.Resprout.Count", "Tag.Pulled")
+    if(tag.pulled==F) mega.data[[i]] <- mega.data[[i]][,-20]
+    if(bsprout.count==F) mega.data[[i]] <- mega.data[[i]][,-19]
+    if(bsprout.height==F) mega.data[[i]] <- mega.data[[i]][,-18]
+    if(canopy==F) mega.data[[i]] <- mega.data[[i]][,-17]
+    if(apical==F) mega.data[[i]] <- mega.data[[i]][,-16]
+    if(epicormic==F) mega.data[[i]] <- mega.data[[i]][,-15]
+    if(bsprout==F) mega.data[[i]] <- mega.data[[i]][,-14]
+    if(survival==F) mega.data[[i]] <- mega.data[[i]][,-13]    
+    if(keep.999==F) mega.data[[i]] <- mega.data[[i]][mega.data[[i]]$Num>=1000,]
+  } else {
+    mega.data[[i]]<-mega.data[[i]][,1:5,7:14] 
+    colnames(mega.data[[i]])<-c("Plot", "Quad", "Type", "Num", "Species", "Dead.Stump", 
+                              "SA.Stump.Height_cm", "SA.Stump.BD_cm", "SA.Branch.Num", "DBH_cm", "X_cm", "Y_cm", "Notes") 
+    # subset stumps and original dead
+    if(stump==F & orig.dead==T) indv.data<-subset(indv.data, subset=(indv.data$Dead.Stump=="D" | is.na(indv.data$Dead.Stump))) 
+    # subset original dead individuals
+    if(stump==T & orig.dead==F) indv.data<-subset(indv.data, subset=(indv.data$Dead.Stump=="S" | is.na(indv.data$Dead.Stump)))
+    #subset both 
+    if(stump==F & orig.dead==F) {indv.data<-subset(indv.data, subset=(is.na(indv.data$Dead.Stump)))
+    indv.data<-indv.data[,-6]}
+  }
 }
+
 # turn list of dataframes into a single large dataframe called indv.data for easier manipulations
 indv.data<-do.call(rbind, mega.data)
-# get rid of confidence column
-indv.data<-indv.data[,-6]
 # get rid of extra rows
 indv.data<-indv.data[!is.na(indv.data$Type),]
 # change SA.Stump.BD_cm into numeric
-indv.data$SA.Stump.BD_cm<-suppressWarnings(as.numeric(indv.data$SA.Stump.BD_cm))
+indv.data$SA.Stump.BD_cm <- suppressWarnings(as.numeric(indv.data$SA.Stump.BD_cm))
 # make indv.data$TreeNum numeric
 indv.data$Num<-as.numeric(indv.data$Num)
 # cleaning up Types 
@@ -142,69 +172,83 @@ indv.data[indv.data$Type=="SA  ","Type"]<-"SA"
 indv.data[indv.data$Type=="S","Type"]<-"SA"
 indv.data[indv.data$Type=="AS","Type"]<-"SA"
 
-# Change individuals originally identified as "QUEDEC" to species-level indentification 
-AUG.ID<-read.csv(text=getURL(paste(prefix, "2013/OakID2013/AUG_Species.csv", sep=''), followlocation = TRUE, cainfo = system.file("CurlSSL", "cacert.pem", package = "RCurl")))
-for(i in 1:dim(AUG.ID)[1]){
-  indv.data[indv.data$Num %in% AUG.ID$Num[i], "Species"] <-AUG.ID$Species[i]
-}
-
-
-# change CEOCUN and UNKN27 individuals to CEACUN
+# fix up Species names for bad data entry, etc.
 indv.data[which(indv.data$Species=="CEOCUN"), "Species"]<-"CEACUN"
 indv.data[which(indv.data$Species=="UNKN27"), "Species"]<-"CEACUN"
+indv.data[which(indv.data$Species=="ARBMEN "), "Species"]<-"ARBMEN"
+indv.data[which(indv.data$Species=="ARCMAN "), "Species"]<-"ARCMAN"
+indv.data[which(indv.data$Species=="CERBET "), "Species"]<-"CERBET"
+indv.data[which(indv.data$Species=="QUEAGR "), "Species"]<-"QUEAGR"
+indv.data[which(indv.data$Species=="QUEAGRI"), "Species"]<-"QUEAGR"
+indv.data[which(indv.data$Species=="QUEARG"), "Species"]<-"QUEAGR"
+indv.data[which(indv.data$Species=="QUEGAR "), "Species"]<-"QUEGAR"
+indv.data[which(indv.data$Species=="PIEMEN"), "Species"]<-"PSEMEN"
+indv.data[which(indv.data$Species=="PSMEN"), "Species"]<-"PSEMEN"
+indv.data[which(indv.data$Species=="UMBCAL "), "Species"]<-"UMBCAL"
+indv.data[which(indv.data$Species=="UMCAL"), "Species"]<-"UMBCAL"
+indv.data[which(indv.data$Species=="UNKN30"), "Species"]<-"UNK"
+indv.data[which(indv.data$Species=="QUEDEC"), "Species"]<-"QUEdec"
+
+# Change individuals originally identified as "QUEDEC" to species-level indentification 
+if(year==2013) {
+  AUG.ID<-read.csv(text=getURL(paste(prefix, "2013/OakID2013/AUG_Species.csv", sep=''), followlocation = TRUE, cainfo = system.file("CurlSSL", "cacert.pem", package = "RCurl")))
+  for(i in 1:dim(AUG.ID)[1]){
+    indv.data[indv.data$Num %in% AUG.ID$Num[i], "Species"] <-AUG.ID$Species[i]
+  }
+}
 
 # change coordinates to all be positive
 indv.data$Y_cm<-suppressWarnings(as.numeric(indv.data$Y_cm))
-
 indv.data[which(indv.data$X_cm<0),"X_cm"]<-indv.data[which(indv.data$X_cm<0),"X_cm"]+500
 indv.data[which(indv.data$Y_cm<0),"Y_cm"]<-indv.data[which(indv.data$Y_cm<0),"Y_cm"]+500
 
-
-if (year=="none"){
-  indv.data<-subset(indv.data, subset=(indv.data$Dead.Stump=="D" | indv.data$Dead.Stum=="S"))  
-} 
-else {
-  if(year!=2012){
-  indv.data$Year<-year
-  year<-2013:year
-  dead<-kill.trees(year=year)
-  indv.data<-indv.data[!(indv.data$Num %in% dead$Num),]}  
-  }
-
 # condense each individual into a single row 
 if (branches==F){
-indv.data$Num<-floor(indv.data$Num)
-indv.data[indv.data$Type=="SA", "Basal.Area" ]<-(((indv.data[indv.data$Type=="SA", "SA.Stump.BD_cm"]/2)^2)*(pi))*(indv.data[indv.data$Type=="SA","SA.Branch.Num"])
-indv.data[indv.data$Type=="TR", "Basal.Area"]<- (((indv.data[indv.data$Type=="TR","DBH_cm"]/2)^2)*(pi))
+  indv.data$Num<-floor(indv.data$Num)
+  if(year==2018) {
+    indv.data[indv.data$Type=="SA" & is.na(indv.data$SA.Stem.Num), "SA.Stem.Num" ] <- 0
+    indv.data[indv.data$Type=="SA", "SA.Stem.Num" ]<- indv.data[indv.data$Type=="SA", "SA.Stem.Num" ] + 1
+  }
+  indv.data[indv.data$Type=="SA", "Basal.Area" ]<-(((indv.data[indv.data$Type=="SA", "SA.Stump.BD_cm"]/2)^2)*(pi))*(indv.data[indv.data$Type=="SA","SA.Branch.Num"])
+  indv.data[indv.data$Type=="TR", "Basal.Area"]<- (((indv.data[indv.data$Type=="TR","DBH_cm"]/2)^2)*(pi))
 # get rid of TS rows
-indv.data<-indv.data[indv.data$Type!="TS",]
-library(data.table)
-indv.data<-data.table(indv.data)
-indv.data[,Basal.Area:=sum(Basal.Area),by="Num"]
+  indv.data<-indv.data[indv.data$Type!="TS",]
+  library(data.table)
+  indv.data<-data.table(indv.data)
+  indv.data[,Basal.Area:=sum(Basal.Area),by="Num"]
+  if(year==2018) {
+    if(survival==TRUE) indv.data[,Survival:=max(Survival),by="Num"]
+    if(bsprout==TRUE) indv.data[,Basal.Resprout:=max(Basal.Resprout),by="Num"]
+    if(epicormic==TRUE) indv.data[,Epicormic.Resprout:=max(Epicormic.Resprout),by="Num"]
+    if(apical==TRUE) indv.data[,Apical.Growth:=max(Apical.Growth),by="Num"]
+    if(canopy==TRUE) indv.data[,Canopy.Percent:=max(Canopy.Percent),by="Num"] #### BIT OF A FUDGE
+  }
+# get rid of duplicated tag numbers (?)
+  indv.data<-indv.data[!duplicated(indv.data$Num,incomparables=NA),] 
 
-# get rid of replication
-indv.data<-indv.data[!duplicated(indv.data$Num,incomparables=NA),] 
-
-# Get rid of the columns "Basal.Area",... 
-indv.data<-as.data.frame(indv.data)
-indv.data<-indv.data[,c("Plot","Quad","Type","Num","Species","Dead.Stump","X_cm","Y_cm","Basal.Area")]
-
-}
-else{
+# Get rid of the extra columns "DBH_cm", ... 
+  indv.data<-as.data.frame(indv.data)
+  indv.data<-indv.data[,c("Plot","Quad","Type","Num","Species","Dead.Stump","X_cm","Y_cm","Basal.Area")]
+} else {
   indv.data[indv.data$Type=="SA", "Basal.Area" ]<-(((indv.data[indv.data$Type=="SA", "SA.Stump.BD_cm"]/2)^2)*(pi))*(indv.data[indv.data$Type=="SA","SA.Branch.Num"])
   indv.data[indv.data$Type=="TR", "Basal.Area"]<- (((indv.data[indv.data$Type=="TR","DBH_cm"]/2)^2)*(pi))
 }
 
-
-# subset stumps and original dead
-if(stump==F & orig.dead==T) indv.data<-subset(indv.data, subset=(indv.data$Dead.Stump=="D" | is.na(indv.data$Dead.Stump))) 
-# subset original dead individuals
-if(stump==T & orig.dead==F) indv.data<-subset(indv.data, subset=(indv.data$Dead.Stump=="S" | is.na(indv.data$Dead.Stump)))
-#subset both 
-if(stump==F & orig.dead==F) {indv.data<-subset(indv.data, subset=(is.na(indv.data$Dead.Stump)))
-indv.data<-indv.data[,-6]}
-
-
+if (year=="none"){
+  indv.data<-subset(indv.data, subset=(indv.data$Dead.Stump=="D" | indv.data$Dead.Stum=="S"))  
+} else {
+  if(year!=2012){
+    indv.data$Year<-year
+#########
+# MORTALITY FUNCTIONS SHOULD NOT EVEN BE HERE SHOULD THEY?
+# MAKE A NEW FUNCTION get.indv.mortality.data()
+#    year<-2013:year
+#    dead<-kill.trees(year=year)
+#    indv.data<-indv.data[!(indv.data$Num %in% dead$Num),]
+#########
+  }
+}
+  
 row.names(indv.data) <- NULL
 
 # remove PSEMEN trees that were accidently removed by chainsaw crews in winter 2017 in plot PPW1307 
