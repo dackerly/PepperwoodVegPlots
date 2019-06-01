@@ -113,7 +113,6 @@ all.dead
 ### get.indv.data() ### 
 ######################################################################
 get.indv.data<-function(year, stump=F, orig.dead=F, survival=F, bsprout=F, epicormic=F, apical=F, canopy=F, bsprout.height=F, bsprout.count=F, tag.pulled=F, keep.999=F, branches=F, prefix='https://raw.githubusercontent.com/dackerly/PepperwoodVegPlots/master/'){
-
 options(stringsAsFactors=FALSE)  
 file.list <-(paste(prefix,year,"/Woody",year,"/Data/OriginalCSV/Woody/WoodySurvey",year,"_", sep='')) 
 plot.list<-get.plot(year=year)
@@ -144,7 +143,7 @@ for (i in 1:length(mega.data))
     if(survival==F) mega.data[[i]] <- mega.data[[i]][,-13]    
     if(keep.999==F) mega.data[[i]] <- mega.data[[i]][mega.data[[i]]$Num>=1000,]
   } else {
-    mega.data[[i]]<-mega.data[[i]][,1:5,7:14] 
+    mega.data[[i]]<-mega.data[[i]][,c(1:5,7:14)] 
     colnames(mega.data[[i]])<-c("Plot", "Quad", "Type", "Num", "Species", "Dead.Stump", 
                               "SA.Stump.Height_cm", "SA.Stump.BD_cm", "SA.Branch.Num", "DBH_cm", "X_cm", "Y_cm", "Notes") 
     # subset stumps and original dead
