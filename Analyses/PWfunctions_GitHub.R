@@ -147,12 +147,12 @@ for (i in 1:length(mega.data))
     colnames(mega.data[[i]])<-c("Plot", "Quad", "Type", "Num", "Species", "Dead.Stump", 
                               "SA.Stump.Height_cm", "SA.Stump.BD_cm", "SA.Branch.Num", "DBH_cm", "X_cm", "Y_cm", "Notes") 
     # subset stumps and original dead
-    if(stump==F & orig.dead==T) indv.data<-subset(indv.data, subset=(indv.data$Dead.Stump=="D" | is.na(indv.data$Dead.Stump))) 
+    if(stump==F & orig.dead==T) mega.data[[i]]<-subset(mega.data[[i]], subset=(mega.data[[i]]$Dead.Stump=="D" | is.na(mega.data[[i]]$Dead.Stump))) 
     # subset original dead individuals
-    if(stump==T & orig.dead==F) indv.data<-subset(indv.data, subset=(indv.data$Dead.Stump=="S" | is.na(indv.data$Dead.Stump)))
+    if(stump==T & orig.dead==F) mega.data[[i]]<-subset(mega.data[[i]], subset=(mega.data[[i]]$Dead.Stump=="S" | is.na(mega.data[[i]]$Dead.Stump)))
     #subset both 
-    if(stump==F & orig.dead==F) {indv.data<-subset(indv.data, subset=(is.na(indv.data$Dead.Stump)))
-    indv.data<-indv.data[,-6]}
+    if(stump==F & orig.dead==F) {mega.data[[i]]<-subset(mega.data[[i]], subset=(is.na(mega.data[[i]]$Dead.Stump)))
+    mega.data[[i]]<-mega.data[[i]][,-6]}
   }
 }
 
