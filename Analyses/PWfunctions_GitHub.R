@@ -152,7 +152,8 @@ for (i in 1:length(mega.data))
     if(stump==T & orig.dead==F) mega.data[[i]]<-subset(mega.data[[i]], subset=(mega.data[[i]]$Dead.Stump=="S" | is.na(mega.data[[i]]$Dead.Stump)))
     #subset both 
     if(stump==F & orig.dead==F) {mega.data[[i]]<-subset(mega.data[[i]], subset=(is.na(mega.data[[i]]$Dead.Stump)))
-    mega.data[[i]]<-mega.data[[i]][,-6]}
+    #mega.data[[i]]<-mega.data[[i]][,-6]}
+    }
   }
 }
 
