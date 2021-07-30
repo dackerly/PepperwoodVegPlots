@@ -1,0 +1,57 @@
+﻿Plot ID,1339,,Sampler(s),"CM, MK, MF",,,,,Date ,20210120,,,,,,,,,
+Notes,2534 (POSSIBLE QUEAGRI) BURNED IN A3,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,Height,BD,,,Height ,Count >50,,,
+Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,SOD on Bay ,Notes
+A1,TR,2528,,,QUEAGRI,1,0,1,1,2,,,,,,,,,
+A1,SA,2524,,,UMBCAL,0,1,0,0,0,75.3,0.5,13,,,,,,
+A1,SA,2529,,,UMBCAL,0,0,,,,,,,,,,,,BLUE FLAGGED
+A1,SA,2525,,,UMBCAL,0,1,,,,37.2,0.26,7,,,,,,
+A2,TR,2527,,,QUEAGRI,1,0,1,1,3,,,,,,0,,,
+A2,SA,2526,,,UMBCAL,0,1,,,,19.5,0.18,0,,,,,,
+A2,SA,5889,,,UMBCAL,0,1,,,,44.8,0.45,4,,,,,,
+A2,SA,5888,,,UMBCAL,0,1,,,,33.9,0.28,5,,,,,,
+A2,SA,2531,,,UMBCAL,0,1,,,,32.9,0.39,10,,,,,,
+A2,SA,2533,,,UMBCAL,0,1,,,,47,0.52,2,,,,,,
+A3,TR,2534,,,QUEAGRI,0,0,0,0,0,,,,,,,,,BURNED TAG ON GROUND BELOW TREE; NOT ON LIST
+A3,SA,5887,,,UMBCAL,0,1,,,,26,0.32,2,,,,,,
+A4,SA,2535,,,UMBCAL,0,1,,,,38.9,0.45,4,,,,,,
+A4,SA,2536,,,UMBCAL,0,1,,,,52,0.56,13,,,,,,
+A4,SA,2537,,,UMBCAL,0,1,,,,22.4,0.22,3,,,,,,
+B4,TR,2543,,,QUEAGRI,1,1,1,1,3,,,,,,0,,,
+B4,TR,2543.1,,,QUEAGRI,0,0,0,0,0,,,,,,,,,
+B4,TR,2543.2,,,QUEAGRI,1,0,1,1,2,,,,,,,,,
+B4,TR,2539,,,UMBCAL,0,1,0,0,0,,0.88,,,66.8,2,,,
+B4,SA,2540,,,UMBCAL,0,1,,,,39.7,0.48,6,,,,,,
+B4,TR,2541,,,UMBCAL,0,1,0,0,0,173.6,1.94,10,,,,,,
+B4,SA,5886,,,UMBCAL,0,1,,,,19,0.21,0,,,,,,
+B2,SA,2546,,,UMBCAL,0,1,,,,37,0.45,4,,,,,,BROWSED
+B4,SA,2538,,,UMBCAL,0,0,,,,,,,,,,1,,
+B2,SA,2530,,,UMBCAL,0,1,,,,63.8,0.61,7,,,,,,BROWSED
+B1,TR,2547,,,UMBCAL,0,1,0,0,0,128.8,1.55,6,,,,,,
+C1,TR,2550,,,QUEAGRI,1,0,1,1,4,,,,,,,,,
+C1,SA,2549,,,UMBCAL,0,1,,,,35,0.55,5,,,,,,
+C1,SA,6483,,,UMBCAL,0,1,,,,36.4,0.31,2,,,,,,
+B1,SA,5890,,,UMBCAL,0,1,,,,35.1,0.34,3,,,,,,
+C1,TR,2551,,,QUEDOU,1,0,1,1,99,,,,,,,,,
+C1,TR,2551.1,,,QUEDOU,1,0,0,1,99,,,,,,,,,
+D1,SA,5891,,,UMBCAL,0,1,,,,32.1,0.44,1,,,,,,BROWSED
+D1,TR,2562,,,QUEDOU,1,0,1,1,99,,,,,,,,,NO SPECIES NOTED ON '20 DATASHEET
+C2,SA,2553,,,UMBCAL,0,1,,,,38.4,0.31,2,,,,,,
+D2,TR,2561,,,QUEDOU,1,0,1,1,99,,,,,,,,,
+D2,SA,2560,,,UMBCAL,0,1,,,,79.6,0.37,8,,,,,,
+D2,SA,2559,,,QUEAGRI,0,1,,,,29.4,0.26,3,,,,,,BROWSED
+D2,SA,5892,,,UMBCAL,0,1,,,,45.8,0.43,3,,,,,,
+C3,TR,2556,,,QUEAGRI,1,0,1,0,0,,,,,,,,,
+C3,TR,2556.1,,,QUEAGRI,0,0,,,,,,,,,,,,
+C3,SA,2555,,,UMBCAL,0,0,,,,,,,,,,1,,
+C3,TR,2554,,,QUEAGRI,1,1,1,1,4,,,,,,0,,,
+C3,TR,2554.1,,,QUEAGRI,0,0,0,0,0,,,,,,,,,
+C3,TR,2554.3,,,QUEAGRI,0,0,0,0,0,,,,,,,1,,
+C3,TR,2557,,,QUEAGRI,1,0,1,1,4,,,,,,,,,
+C3,TR,2557.1,,,QUEAGRI,1,1,1,1,3,,,,,69,1,,,
+C3,TR,2557.2,,,QUEAGRI,1,0,1,0,1,,,,,,,,,SNAG
+C3,TR,2557.3,,,QUEAGRI,1,1,1,1,2,,,,,,0,,,
+D3,TR,2558,,,QUEDOU,0,0,0,1,99,,,,,,,,,TYPO: QUAD D2 IN '19 ACTUALLY D3
+C4,SA,5894,,,ARBMEN,0,1,,,,42.4,0.48,7,,,,,,
+C4,SA,5893,,,ARBMEN,0,1,,,,125.9,1.84,4,,,,,,
+D2,SA,6484,550,450,UMBCAL,0,1,,,,38.4,0.45,4,,,,,,VERY OUT OF PLOT!

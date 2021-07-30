@@ -1,0 +1,29 @@
+﻿Plot ID,1314,,Sampler(s),MK MF RF CM,,,,,Date ,20201105,,,,,,,,,
+Notes,1911 IS QUEGAR - CHANGE IN DB,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,Height,BD,,,Height ,Count >50,,,
+Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,SOD on Bay ,Notes
+A1,TR,1912,,,QUEDOU,1,0,1,1,99,,,,,,,,,
+A1,SA,6418,,,BACPIL,0,1,,,,47,0.41,4,,,,,,
+A1,SA,6319,,,BACPIL,0,0,,,,,,,,,,,,"DEAD, BLUE FLAGGED"
+D4,TR,1913,,,QUEDOU,1,0,1,1,99,,,,,,,,,
+A2,SA,6417,,,BACPIL,0,0,,,,,,,,,,,,"DEAD, BLUE FLAGGED"
+D4,SA,1910,,,ARCMAN,0,0,,,,,,,,,,,,
+B3,TR,1903,,,ARCMAN,0,0,0,0,0,,,,,,,,,LEFT TAGGS MARKED IN PLACE
+B3,TR,1903.1,,,ARCMAN,0,0,0,0,0,,,,,,,,,LEFT TAGGS MARKED IN PLACE
+B3,TR,1903.2,,,ARCMAN,0,0,0,0,0,,,,,,,,,LEFT TAGGS MARKED IN PLACE
+D4,SA,1905,,,ARBMEN,0,1,,,,14.9,0.22,1,,,,,,DEAD IN 19-BSPROUTS
+B3,TR,1921,,,QUEDOU,1,1,1,1,99,,,,,,0,,,
+B2,SA,1959,,,ARCMAN,0,0,,,,,,,,,,,,TAG NOT FOUND
+B2,SA,1959.1,,,ARCMAN,0,0,,,,,,,,,,1,,
+B2,SA,1959.2,,,ARCMAN,0,0,,,,,,,,,,1,,
+B2,SA,1958,,,ARBMEN,0,0,,,,,,,,,,1,,
+B1,SA,6420,,,QUEDOU,0,1,,,,21.4,0.18,4,,,,,,
+D3,TR,1961,,,QUEAGRI,1,0,1,1,4,,,,,,,,,
+D3,TR,1961.1,,,QUEAGRI,1,0,1,1,4,,,,,,,,,
+D3,TS,1961.2,,,QUEAGRI,0,0,0,0,0,,,,,,,1,,
+C3,TR,1911,,,QUEGAR,1,0,0,1,99,,,,,,,,,"MISTLETOE, Q.GAR !"
+C4,TR,1960,,,QUEAGRI,1,0,1,1,4,,,,,,,,,
+C4,TR,1960.1,,,QUEAGRI,1,0,1,1,4,,,,,,,,,
+D1,TR,1902,,,QUEDOU,1,0,1,1,99,,,,,,,,,
+D1,TR,1904,,,QUEDOU,1,0,1,1,4,,,,,,,,,
+D2,TR,1962,,,QUEDOU,1,0,0,1,99,,,,,,,,,

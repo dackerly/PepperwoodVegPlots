@@ -1,6 +1,6 @@
-﻿Plot ID,   PPW1308,Date,20201104,,Samplers,"MO, CM, MF, RF",,
+﻿Plot ID,   PPW1348,Date,20210112,,Samplers,MK MF MO CM,,
 Notes,,,,,,,,
-Hobos downloaded? Y/N,,Y,,New Battery? Y/N,Y,Tennis Balls,,Photo
+Hobos downloaded? Y/N,,Y,,New Battery? Y/N,NA; CHANGED IN '19,Tennis Balls,,Photo
 GPS Coordinates - Plot Corners,,,,,,,,
 Southwest Reference,,Northwest Reference,,Northeast Reference,,,  Southeast Reference,
 UTM-E:,,UTM-E:,,UTM-E:,,,UTM-E:,
@@ -8,9 +8,9 @@ UTM-N:,,UTM-N:,,UTM-N:,,,UTM-N:,
 Pictures? (check if complete),,,Slope,,,Aspect ,,
 Quads Completed: ,,,,,,,,
 ,Start Tag: ,,End Tag:,,,,,
-Counts OPEN/CLOSED:,,CLOSED,,,,,,
-B2SW-,"N63, E84, S73, W49",B4SW-,"N66, E59, S88, W89",D2SW-,"N52, E61, S79, W84",,D4SW-,"N38, E60, S75, W59"
-C3SW(center)- ,"N48, E67, S76, W84",,,,,,,
+Counts OPEN/CLOSED:,,OPEN,,,,,,
+B2SW-,W32 N35 S27 E13,B4SW-,S25 W43 N38 E11,D2SW-,W30 N47 S25 E18,,D4SW-,S22 W21 N26 E23
+C3SW(center)- ,S22 W25 N23 E25,,,,,,,
 Enviromental Notes: ,,,,,,,,
 ,,,,,,,,
 ,,,,,,,,

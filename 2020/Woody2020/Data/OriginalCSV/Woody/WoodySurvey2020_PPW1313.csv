@@ -1,0 +1,79 @@
+﻿Plot ID,1313,,Sampler(s),"MK, RF, CM, TT",,,,,Date ,20201106,,,,,,,,,
+Notes,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,Height,BD,,,Height ,Count >50,,,
+Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,SOD on Bay ,Notes
+D3,SA,1750,,,ARBMEN,0,0,0,0,0,,,,,,,1,,FLOATING TAG
+D4,SA,1771,,,HETARB,0,1,,,,46.3,0.35,11,,,,,,
+D4,TS,1767,,,ARBMEN,0,0,,,,,,,,,,,,TS ON DEAD TREE (NO TAG)
+D4,SA,1763,,,ARBMEN,0,0,,,,,,,,,,1,,"FLOATER, NO STUMP"
+D4,SA,1772,,,ARBMEN,0,0,,,,,,,,,,1,,
+D4,TR,1752,,,QUEKEL,0,0,0,0,0,,,,,,,,,"ON GROUND, LOST TAG"
+D4,SA,1776,,,ARBMEN,0,0,,,,,,,,,,,,"DEAD IN '18, LOST TAG"
+D4,SA,5609,,,ARBMEN,0,0,,,,,,,,,,,,
+D3,TR,1765,,,ARBMEN,1,1,1,1,2,,,,,68.9,2,,,
+D3,TR,1765.1,,,ARBMEN,1,0,1,1,1,,,,,,,,,
+D3,SA,1774,,,HETARB,0,1,,,,54,0.34,3,,,,,,
+D3,TR,1766,,,QUEKEL,1,0,0,1,99,,,,,,,,,
+D3,SA,6416,,,ARBMEN,0,1,,,,17.5,0.21,1,,,,,,
+D3,SA,1775,,,ARBMEN,0,1,,,,26.5,0.35,3,,,,,,TAG REPLACED
+D1,TR,1768,,,QUEAGRI,1,0,1,1,3,,,,,,,,,
+D1,SA,1776,,,UMBCAL,0,1,,,,65.6,0.47,6,,,,,,
+C1,TR,1756,,,HETARB,0,1,0,0,0,,,,,121.3,17,,,
+C1,TS,1756.1,,,HETARB,0,0,,,,,,,,,,1,,
+C1,TS,1756.2,,,HETARB,0,0,,,,,,,,,,1,,
+C1,TS,1756.3,,,HETARB,0,0,,,,,,,,,,1,,
+C1,TS,1756.4,,,HETARB,0,0,,,,,,,,,,1,,
+C1,TS,1756.5,,,HETARB,0,0,,,,,,,,,,1,,
+C1,TS,1756.6,,,HETARB,0,0,,,,,,,,,,1,,
+C2,TR,1748,,,ARBMEN,1,0,0,1,3,,,,,,,,,
+C2,TR,1748.1,,,ARBMEN,1,0,0,1,2,,,,,,,,,
+C2,TR,1748.2,,,ARBMEN,0,0,0,0,0,,,,,,,,,
+C2,TR,1751,,,QUEKEL,0,0,0,0,0,,,,,,,,,"SNAG, NO TAG"
+C2,TR,1759,,,UMBCAL,0,1,0,0,0,,,,,52,1,,,
+,SA,1758,,,HETARB,0,0,,,,,,,,,,,,"FOUND, PULLED IN '18?- no, dead in 18 tho"
+C3,SA,1770,,,HETARB,0,1,,,,71.9,0.47,12,,,,,,
+C3,SA,1761,,,HETARB,0,0,,,,,,,,,,1,,
+C3,TR,1762,,,HETARB,0,1,0,0,0,,,,,54.1,5,,,BROWSED
+C3,TR,1769,,,HETARB,0,1,0,0,0,,,,,,,,,BROWSED
+A3,TR,1732,,,ARBMEN,1,1,1,1,3,,,,,,,,,
+A3,TR,1732.1,,,ARBMEN,1,0,0,1,3,,,,,,,,,
+A3,TR,1732.2,,,ARBMEN,0,1,0,1,3,,,,,137.5,1,,,TAG REPLACED
+A3,TR,1732.3,,,ARBMEN,1,1,0,1,4,,,,,99.5,4,,,TAG REPLACED
+A3,TR,1732.4,,,ARBMEN,0,1,0,0,0,,,,,173,3,,,"MISSING TAG, REPLACED"
+A3,TR,1732.5,,,ARBMEN,0,1,0,0,0,,,,,86,1,,,TAG REPLACED
+A3,,0.2,,,,0,0,,,,,,,,,,,,"NO DATA, N0 DBH, WHAT IS IT?"
+A4,SA,1735,,,UMBCAL,0,1,,,,54,0.48,6,,,,,,
+A4,SA,1734,,,HETARB,0,1,,,,37.5,0.25,2,,,,,,
+A2,SA,1730,,,UMBCAL,0,1,,,,142,1.32,3,,,,,,
+A2,SA,1731,,,HETARB,0,1,,,,162,1.04,14,,,,,,TAG REPLACED
+A2,TR,1727,,,HETARB,0,1,0,0,0,,,,,141,5,,,
+A2,TR,1726,,,HETARB,0,1,0,0,0,,,,,209.5,9,,,
+A2,TR,1726.1,,,HETARB,0,0,0,0,0,,,,,,,1,,
+A2,TR,1725,,,HETARB,0,1,0,0,,,,,,152,5,,,
+A2,TS,1727.2,,,HETARB,0,0,,,,,,,,,,1,,
+A2,SA,6415,,,QUEAGRI,1,0,0,0,,126,0.98,0,,,,,,OG BASAL SPROUT SURVIVED
+A2,SA,1728,,,HETARB,0,1,,,,45,0.41,1,,,,,,
+A2,TR,1729,,,HETARB,0,1,0,0,0,,,,,0,,,,
+A2,TR,1729.1,,,HETARB,0,0,0,0,0,,,,,,,1,,
+A1,TR,1723,,,HETARB,0,1,0,0,0,,,,,121.5,5,,,
+A1,TR,1723.1,,,HETARB,0,0,0,0,0,,,,,,,1,,
+A1,TR,1723.2,,,HETARB,0,0,0,0,0,,,,,,,1,,
+A1,SA,1724,,,HETARB,0,1,,,,110.5,0.92,3,,,,,,
+A1,SA,1720,,,HETARB,0,0,,,,,,,,,,,,
+C4,TR,1753,,,ARBMEN,0,1,0,0,,,,,,62.7,2,,,FIRE KILLED
+C4,TR,1749,,,ARBMEN,0,1,0,0,,,,,,95.1,6,,,TAG MOVED TO BSPROUT
+C4,TR,1746,,,ARBMEN,0,1,0,0,,,,,,,0,,,
+C4,TR,1747,,,ARBMEN,0,1,0,1,2,,,,,,0,,,OG BSPROUTS DEAD
+C4,TR,1747.1,,,ARBMEN,0,0,0,0,0,,,,,,,,,
+B4,SA,1738,,,UMBCAL,0,0,,,,,,,,,,1,,
+B4,SA,1737,,,HETARB,0,1,,,,65.1,0.49,3,,,,,,
+B4,SA,1736,,,HETARB,0,1,,,,54.4,0.45,12,,,,,,
+B3,TR,1739,,,HETARB,0,1,0,0,,,,,,71.7,1,,,
+B3,TR,1740,,,ARBMEN,1,1,1,1,2,,,,,110.5,1,,,
+B3,TR,1741,,,QUEAGRI,1,1,1,1,4,,,,,,0,,,
+B3,SA,1742,,,HETARB,0,1,,,,38.1,,3,,,,,,
+B3,SA,1743,,,HETARB,0,0,,,,,,,,,,1,,DEAD IN '19
+B1,TR,1745,,,QUEKEL,1,1,0,1,99,,,,,62.1,2,,,
+B1,TR,1754,,,HETARB,0,0,0,0,0,,,,,,,,,NOT FOUND
+B2,SA,1744,380,230,HETARB,0,1,,,,63.5,0.47,7,,,,,,FOUND TAG; PUT ON BIG HETARB SA; CHECK XY AGAINST OLD 1744
+B2,TR,1719,,,ARBMEN,0,0,0,0,0,,,,,,,1,,FOUND FLOATER

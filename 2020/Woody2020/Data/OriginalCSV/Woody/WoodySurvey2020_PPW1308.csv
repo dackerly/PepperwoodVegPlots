@@ -1,0 +1,18 @@
+﻿Plot ID,1308,,Sampler(s),"MO, CM, MF, RF",,,,,Date ,20201104,,,,,,,,,
+Notes,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,Height,BD,,,Height ,Count >50,,,
+Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,SOD on Bay ,Notes
+B1,TR,1253,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+B1,TR,0.1,,,QUEGAR,0,0,0,0,0,,,,,,,,,
+B1,TR,0.2,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+C1,TR,1254,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+C1,TR,0.1,,,QUEGAR,0,1,0,0,0,,,,,,0,,,
+D1,TR,1257,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+C2,TR,1255,,,QUEGAR,1,1,1,1,99,,,,,,0,,,
+B3,TR,1250,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+B3,TR,1251,,,QUEGAR,0,0,0,0,0,,,,,,,,,
+B4,TR,1248,,,QUEGAR,1,0,1,1,4,,,,,,,,,
+D4,TR,1256,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+D4,SA,5557,,,ARCMAN,0,0,,,,,,,,,,1,,
+B4,TR,1249,,,QUEGAR,0,0,0,0,0,,,,,,,,,FALLEN. NO TAG.
+A1,TR,1252,,,QUEGAR,0,0,0,0,0,,,,,,,,,GONE

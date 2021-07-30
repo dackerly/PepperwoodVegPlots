@@ -1,0 +1,53 @@
+﻿Plot ID,1317,,Sampler(s),MK MF CM,,,,,Date ,20201112,,,,,,,,,
+Notes,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,Height,BD,,,Height ,Count >50,,,
+Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,SOD on Bay ,Notes
+A1,TR,2744,,,QUEGAR,0,0,0,0,0,,,,,,,,,ON GROUND
+A1,TR,2745,,,QUEGAR,0,0,0,0,0,,,,,,,,,
+B2,TR,2770,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+B1,TR,2771,,,QUEGAR,1,0,0,1,99,,,,,,,,,
+C1,TR,2772,,,QUEGAR,1,0,0,1,0,,,,,,,,,MIGHT BE DEAD
+C1,TR,2773,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+C1,TR,2773.1,,,QUEGAR,0,0,0,0,0,,,,,,,1,,TAG GONE
+C1,TR,2776,,,QUEGAR,1,0,1,0,99,,,,,,,,,
+C1,TR,2775,,,QUEGAR,1,0,0,1,99,,,,,,,,,
+C1,TR,2774,,,QUEGAR,1,1,1,1,99,,,,,,0,,,
+D1,TR,2796,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+D1,TR,2791,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+D1,TR,2790,,,QUEGAR,0,1,0,0,0,,0.54,,,,0,,,PROBABLY DEAD
+D2,TR,2787,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+D2,TR,2789,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+D2,TR,2788,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+D3,TR,2785,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+D3,TR,2786,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+D3,SA,2784,,,UMBCAL,0,1,,,,65,0.62,7,,,,,,NOT QUEAGRI IN 19 DB
+D4,TR,2782,,,QUEGAR,1,1,1,1,99,,,,,59.5,1,,,
+D4,TR,2781,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+C4,TR,2798,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+C4,TR,2798.1,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+B4,TR,2760,,,QUEKEL,0,0,0,0,0,,,,,,,,,
+B3,TR,2763,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+B3,TR,2764,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+B3,TR,2765,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+B3,TR,2766,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+A3,TR,2748,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+A3,TR,2749,,,QUEGAR,0,0,0,0,0,,,,,,,,,
+A3,TR,2750,,,QUEGAR,1,0,0,1,99,,,,,,,,,
+A3,TR,2751,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+A3,TR,2752,,,QUEGAR,1,0,0,1,99,,,,,,,,,
+A3,TR,2753,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+A4,TR,2754,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+A4,TR,2755,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+A4,TR,2756,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+A4,TR,2758,,,QUEGAR,0,0,0,0,0,,,,,,,,,
+A4,TR,2757,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+A4,SA,2759,,,UMBCAL,0,1,,,,49.3,0.3,5,,,,,,NO SOD
+B2,TR,2768,,,QUEGAR,0,0,0,0,0,,,,,,,,,
+B2,TR,2769,,,QUEDEC,0,0,0,0,0,,,,,,,,,Q DEO IN 19 DB
+B3,TR,2761,,,QUEKEL,0,0,0,0,0,,,,,,,,,ON GROUND
+B3,TR,2762,,,QUEKELL,0,0,0,0,0,,,,,,,,,NOT FOUND
+C2,TR,2780,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+C2,TR,2780.1,,,QUEGAR,1,0,1,0,1,,,,,,,,,NEARLY DEAD
+C2,TR,2777,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+C2,TR,2778,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+A3,TR,2747,,,QUEGAR,0,0,0,0,0,,,,,,,,,GREEN LUS STILL BUT ON GROUND

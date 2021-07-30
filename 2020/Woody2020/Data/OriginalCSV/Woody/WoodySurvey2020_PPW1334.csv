@@ -1,0 +1,43 @@
+﻿Plot ID,1334,,Sampler(s),"MK,CM, RF",,,,,Date ,20201202,,,,,,,,,
+Notes,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,Height,BD,,,Height ,Count >50,,,
+Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,SOD on Bay ,Notes
+A2,TR,2632,,,QUEGAR,0,0,0,0,0,,,,,,,,,SNAG
+A2,TR,2631,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+A2,SA,2633,,,UMBCAL,0,1,,,,59.4,0.44,5,,,,,,
+A2,TR,2634,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+A2,TR,2634.1,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+A4,TR,2635,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+A4,TR,2636,,,QUEGAR,0,0,0,0,0,,,,,,,,,
+B4,TR,2637,,,QUEGAR,1,0,0,1,99,,,,,,,,,
+B4,TR,2638,,,QUEGAR,1,0,0,1,99,,,,,,,,,
+B4,TR,2638.1,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+B4,TR,2638.2,,,QUEGAR,1,0,0,1,99,,,,,,,,,
+B3,TR,2639,,,AESCAL,1,1,1,1,99,,,,,143.6,15,,,
+B3,TR,2640,,,AESCAL,1,0,1,1,99,,,,,,,,,
+B3,TR,2640.1,,,AESCAL,1,0,1,1,99,,,,,,,,,
+B3,TR,2640.2,,,AESCAL,1,1,1,1,99,,,,,,0,,,
+B1,SA,5698,,,QUEGAR,0,1,,,,21,0.2,3,,,,,,
+C2,TR,2641,,,QUEGAR,1,0,0,1,99,,,,,,,,,HARDLY ALIVE
+C2,TR,2642,,,QUEGAR,0,0,0,0,0,,,,,,,,,ON GROUND
+C3,TR,2643,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+D3,TR,2648,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+C4,TR,2644,,,QUEGAR,1,1,1,1,99,,,,,,,,,
+C4,TR,2645,,,QUEGAR,1,0,0,1,99,,,,,,,,,
+D4,TR,2647,,,QUEGAR,1,0,0,1,99,,,,,,,,,
+D4,TR,2646,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+D3,TR,2649,,,QUEGAR,1,1,1,1,99,,,,,,0,,,
+D3,TR,2650,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+D3,SA,5695,,,QUEGAR,0,1,,,,30,0.37,3,,,,,,
+D3,SA,5696,,,QUEGAR,0,1,,,,20.4,0.17,12,,,,,,
+D3,SA,5697,,,QUEGAR,0,1,,,,21,0.23,19,,,,,,
+D2,TR,2651,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+D2,TR,2652,,,QUEGAR,1,1,1,1,99,,,,,,0,,,
+D2,TR,2653,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+D1,TR,2654,,,QUEGAR,1,,1,1,99,,,,,,,,,
+D1,TR,2655,,,AESCAL,1,1,0,1,99,,1.29,,,145.8,28,,,
+D1,TR,2655.1,,,AESCAL,0,0,0,0,0,,,,,,,,,GONE
+D1,TR,2656,,,QUEGAR,0,0,0,0,0,,,,,,,,,ON GROUND
+D1,TR,2657,,,QUEGAR,1,0,1,1,99,,,,,,,,,
+D1,TR,2658,,,QUEGAR,0,0,0,0,0,,,,,,,,,
+D1,TR,2659,,,QUEGAR,1,0,1,1,99,,,,,,,,,"BIG TREE NEXT TO 59, I GUESS OUT?"
