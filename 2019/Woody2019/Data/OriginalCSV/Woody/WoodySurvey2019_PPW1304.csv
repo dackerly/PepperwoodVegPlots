@@ -1,0 +1,18 @@
+﻿Plot ID,1304,,Sampler(s),"MO, TT, MK",,,,,Date ,20190725,,,,,,,,,
+Notes,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,Height,BD,,,Height ,Count >50,,,
+Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,SOD on Bay ,Notes
+B4,TR,1102,,,QUEGAR,1,0,1,1,4,,,,56.6,,,0,,
+A4,SA,6525,,,QUEGAR,1,0,,,,54.6,0.8,0,,,,0,,NEW SA
+A1,TR,1101,,,QUEGAR,1,0,1,1,4,,,,78.1,,,0,,
+A1,TR,1101.1,,,QUEGAR,1,0,1,1,4,,,,50.3,,,0,,
+C1,SA,5829,,,QUEAGR,1,0,,,,62.6,0.68,1,,,,0,,
+D1,SA,5865,,,QUEAGR,1,0,,,,38.6,0.81,2,,,,0,,"BROWSED, WOULD BE ABOVE 50CM"
+C2,TR,1104,,,AESCAL,1,1,1,0,3,,,,16.2,68.6,8,0,,BASAL BROWSED
+C2,TR,1104.1,,,AESCAL,0,1,0,0,0,,,,,208,5,0,,
+D3,TR,1107,,,QUEAGR,1,1,1,0,1,,,,30.6,138.6,2,0,,DBH TREE BURNED
+D3,TR,1106,,,AESCAL,1,1,0,1,4,,,,16.4,58.4,2,0,,
+D3,TR,1106.1,,,AESCAL,1,0,0,1,4,,,,16.2,,,0,,
+B3,SA,1103,,,QUEAGR,1,0,,,,90.5,0.95,5,,,,0,,
+B3,SA,5830,161,384,QUEDOU,1,0,,,,62.5,0.43,1,,,,0,,
+C3,SA,1105,,,QUEAGR,0,0,,,,,,,,,,0,,DEAD GONE NOT FOUND
