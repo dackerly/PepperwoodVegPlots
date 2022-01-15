@@ -8,18 +8,18 @@ library(raster)
 
 getwd()
 x <- read.csv('2021/2021_updated_shapefiles_and_coordinates/adjusted_four_corners.updated_2021-06-01.csv')
-head(x)
 
-x$Plot
-x$type <- 'veg20'
-x$type[55:72] <- 'hectare'
-x$nquad <- 16
-x$nquad[55:72] <- 25
+# 72 rows - 54 veg20 plots and 18 ha plots
+dim(x)
+head(x)
+tail(x)
 
 names(x)
 rownames(x) <- x$Plot
 
+## CHOOSE WHICH LINE TO RUN!
 plot_type <- 'hectare' #'veg20' #
+plot_type <- 'veg20' #
 
 pcrds <- matrix(nrow = 5,ncol=2,data = NA)
 xxs <- list()
@@ -28,11 +28,11 @@ i=rowsel[1]
 j <- 0
 for (i in rowsel) {
   j <- j+1
-  pcrds[1,] <- as.numeric(x[i,2:3])
-  pcrds[2,] <- as.numeric(x[i,4:5])
-  pcrds[3,] <- as.numeric(x[i,6:7])
-  pcrds[4,] <- as.numeric(x[i,8:9])
-  pcrds[5,] <- as.numeric(x[i,2:3])
+  pcrds[1,] <- as.numeric(x[i,c('SW.UTM.E','SW.UTM.N')])
+  pcrds[2,] <- as.numeric(x[i,c('NW.UTM.E','NW.UTM.N')])
+  pcrds[3,] <- as.numeric(x[i,c('NE.UTM.E','NE.UTM.N')])
+  pcrds[4,] <- as.numeric(x[i,c('SE.UTM.E','SE.UTM.N')])
+  pcrds[5,] <- as.numeric(x[i,c('SW.UTM.E','SW.UTM.N')])
   
   xx <- Polygon(coords = pcrds)
   xxs[[j]] <- Polygons(list(xx),ID = x$Plot[i])
@@ -49,9 +49,9 @@ pg <- spTransform(pu,CRS('+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towg
 
 if (plot_type=='veg20') filename <- 'vegplots-54-20m' else filename <- 'hectares-18-100m'
 
-rgdal::writeOGR(pu,paste('plot.info/2021 updated shapefiles and coordinates/shapefiles/',filename,'-utm/',sep=''),driver='ESRI Shapefile',layer=filename)
-rgdal::writeOGR(pa,paste('plot.info/2021 updated shapefiles and coordinates/shapefiles/',filename,'-aea/',sep=''),driver='ESRI Shapefile',layer=filename)
-rgdal::writeOGR(pg,paste('plot.info/2021 updated shapefiles and coordinates/shapefiles/',filename,'-geo/',sep=''),driver='ESRI Shapefile',layer=filename)
+rgdal::writeOGR(pu,paste('2021/2021_updated_shapefiles_and_coordinates/shapefiles/',filename,'-utm/',sep=''),driver='ESRI Shapefile',layer=filename,check_exists=T,overwrite_layer=T)
+rgdal::writeOGR(pa,paste('2021/2021_updated_shapefiles_and_coordinates/shapefiles/',filename,'-aea/',sep=''),driver='ESRI Shapefile',layer=filename,check_exists=T,overwrite_layer=T)
+rgdal::writeOGR(pg,paste('2021/2021_updated_shapefiles_and_coordinates/shapefiles/',filename,'-geo/',sep=''),driver='ESRI Shapefile',layer=filename,check_exists=T,overwrite_layer=T)
 
 
 # now make quad level shapefiles
@@ -66,7 +66,10 @@ interpoints <- function(x1,y1,x2,y2,nintval) {
 }
 #interpoints(0,2,8,8,4)
 
+## CHOOSE WHICH LINE TO RUN!
 plot_type <- 'hectare' #'veg20' #'hectare'
+plot_type <- 'veg20' #'hectare'
+
 if (plot_type == 'veg20') {
   np <- 54
   nq <- 16 
@@ -98,6 +101,7 @@ for (i in rs) {
   vr <- ((j-1)*(nq)+1):((j)*(nq))
   
   #### THIS ONLY WORKS FOR 16QUAD VEGPLOTS; ROWS ARE HARDWIRED IN ALL THESE SC STATEMENTS######
+  ## SEEMS TO BE FIXED? With the if(type==hectare) commands? output looks right!
   sc[r1,c('SWE','SWN')] <- 
     interpoints(x$SW.UTM.E[i],x$SW.UTM.N[i],
                 x$NW.UTM.E[i],x$NW.UTM.N[i],z)[-(z+1),]
@@ -231,6 +235,6 @@ xxspa <- spTransform(xxspd,CRS('+proj=aea +datum=NAD83 +lat_1=34 +lat_2=40.5 +la
 
 if (plot_type=='veg20') filename <- 'vegplots-54-5m' else filename <- 'hectares-18-20m'
 
-rgdal::writeOGR(xxspd,paste('plot.info/2021 updated shapefiles and coordinates/shapefiles/',filename,'-utm/',sep=''),driver='ESRI Shapefile',layer=filename)
-rgdal::writeOGR(xxspa,paste('plot.info/2021 updated shapefiles and coordinates/shapefiles/',filename,'-aea/',sep=''),driver='ESRI Shapefile',layer=filename)
-rgdal::writeOGR(xxspg,paste('plot.info/2021 updated shapefiles and coordinates/shapefiles/',filename,'-geo/',sep=''),driver='ESRI Shapefile',layer=filename)
+rgdal::writeOGR(xxspd,paste('2021/2021_updated_shapefiles_and_coordinates/shapefiles/',filename,'-utm/',sep=''),driver='ESRI Shapefile',layer=filename,check_exists=T,overwrite_layer=T)
+rgdal::writeOGR(xxspa,paste('2021/2021_updated_shapefiles_and_coordinates/shapefiles/',filename,'-aea/',sep=''),driver='ESRI Shapefile',layer=filename,check_exists=T,overwrite_layer=T)
+rgdal::writeOGR(xxspg,paste('2021/2021_updated_shapefiles_and_coordinates/shapefiles/',filename,'-geo/',sep=''),driver='ESRI Shapefile',layer=filename,check_exists=T,overwrite_layer=T)
