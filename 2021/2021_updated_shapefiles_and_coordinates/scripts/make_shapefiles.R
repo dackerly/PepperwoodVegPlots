@@ -7,7 +7,7 @@ library(maptools)
 library(raster)
 
 getwd()
-x <- read.csv('plot.info/adjusted_four_corners.updated.csv')
+x <- read.csv('2021/2021_updated_shapefiles_and_coordinates/adjusted_four_corners.updated_2021-06-01.csv')
 head(x)
 
 x$Plot

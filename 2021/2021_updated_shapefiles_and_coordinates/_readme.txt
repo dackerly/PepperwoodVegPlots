@@ -14,3 +14,5 @@ David Ackerly
 # Prahlad then took these adjusted values for the SW corners of all 54 plots and calculated the locations of NW, NE, and SE incorporating slope (steep slopes occupy less than 20x20 when looking straight down). The hectares are aligned with UTM so are just based on adding 100 m in each dimension, with no slope adjustment as these corners were located using GIS.
 
 # Someday we should go in with high resolution Trimble and get better corners!
+
+# Anytime that the file 'adjusted_four_corners.updated_2021-06-01.csv' is updated, the make_shapefiles script can be run to make new shapefiles, and generate corners and centerpoints for quads and subquads for 20 m and hectare plots
