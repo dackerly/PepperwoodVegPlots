@@ -188,7 +188,7 @@ B2,TR,1908.9,,,HETARB,0,1,0,0,0,,,,2.3,98,4,0,
 B2,SA,2289,,,QUEAGR,0,1,,,,,0.89,0,,44.7,0,0,og dead
 B2,TR,2294,,,HETARB,0,1,0,0,0,,,,1.93,71.8,2,0,
 B2,TR,2294.1,,,HETARB,0,1,0,0,0,,,,1.73,77.2,1,0,
-B2,TR,1908.11,,,HETARB,0,0,0,0,0,,,,2.7,,,0,might be 1909.1 b/c no 1909.0 exists
+B2,TR,1908.11,,,HETARB,0,0,0,0,0,,,,2.7,,,0,might be 1909.1 b/c no 1909.0 exists- yep its part of 1908 cluster 
 B2,TR,2292,,,HETARB,0,1,0,0,0,,,,1.16,73,3,0,now a TR
 B2,TR,2291,,,HETARB,0,1,0,0,0,,,,2.5,120,6,0,
 B2,TR,2291.1,,,HETARB,0,1,0,0,0,,,,2.6,140.2,10,0,
@@ -239,4 +239,3 @@ B2,SA,2288,,,QUEAGR,0,1,,,,,,,,23.6,0,0,"og dead and gone, no BD"
 B2,TR,2300,,,HETARB,0,0,0,0,0,,,,,,,0,"dead and gone, tag not found"
 B2,TR,2300.1,,,HETARB,0,0,0,0,0,,,,,,,0,"dead and gone, tag not found"
 B2,TR,2300.2,,,HETARB,0,0,0,0,0,,,,,,,0,"dead and gone, tag not found"
-B2,TR,1909.1,,,HETARB,0,0,0,0,0,,,,,,,0,tag not found

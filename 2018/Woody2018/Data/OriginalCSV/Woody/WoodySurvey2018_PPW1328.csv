@@ -1,5 +1,4 @@
-﻿Plot ID,1328,,Sampler(s),"MO, KO, MK, AC",,,,,Date ,20180724,,,,,,,,
-Notes,,,,,,,,,,,,,,,,,,
+﻿Notes,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,Height,BD,,,Height ,Count >50,,
 Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,Notes
 C1,TR,4877,,,QUEAGR,0,0,0,0,0,,,,4.02,,,0,
@@ -82,7 +81,7 @@ C4,SA,4944,,,PSEMEN,0,0,,,,,1.11,0,,,,0,
 C4,SA,4928,,,PSEMEN,0,0,,,,,1.2,0,,,,0,
 C4,SA,4923,,,PSEMEN,0,0,,,,,1.4,0,,,,0,
 C4,SA,4929,,,PSEMEN,0,0,,,,,0.89,0,,,,0,
-C4,SA,4927,,,PSEMEN,0,0,,,,,0.7,0,,,,0,4827 in DB
+C4,SA,4927,,,PSEMEN,0,0,,,,,0.7,0,,,,0,4827 in DB- changed it mk 2022
 C4,SA,4921,,,PSEMEN,0,0,,,,,1.99,0,0.88,,,0,
 A1,SA,4682,,,PSEMEN,0,0,,,,,0.57,0,,,,1,Dead
 A1,TR,4671,,,QUEAGR,1,1,1,1,1,,,,12.7,,,0,
@@ -478,3 +477,4 @@ B1,SA,4861,,,PSEMEN,0,0,,,,,,,,,,0,Dead/gone
 B1,SA,4876,,,PSEMEN,0,0,,,,,0.62,0,,,,0,
 B1,SA,4875,,,PSEMEN,0,0,,,,,0.42,0,,,,1,approximate BD
 B1,SA,4864,,,UMBCAL,0,0,,,,,,,,,,1,dead/gone
+Plot ID,1328,,Sampler(s),"MO, KO, MK, AC",,,,,Date ,20180724,,,,,,,,
