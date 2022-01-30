@@ -196,7 +196,7 @@ B2,TR,2291.2,,,HETARB,0,0,0,0,0,,,,1.3,,,0,
 B2,TR,2291.3,,,HETARB,0,0,0,0,0,,,,1.4,,,0,
 B2,SA,5590,,,HETARB,0,1,,,,,1.5,0,,76.1,2,0,new SA
 B2,SA,5589,,,HETARB,0,1,,,,,1.9,0,,69.7,3,0,new SA
-C1,TR,5594,,,QUEDOU,1,0,0,1,2,,,,15.8,,,0,"new TR, might be -999"
+C1,TR,5594,,,QUEDOU,1,0,0,1,2,,,,15.8,,,0,"new TR, might be -999, added tag number to 2013 csv qc2022mk"
 B2,TR,2293,,,QUEGAR,1,0,0,1,4,,,,18.7,,,0,"new TR, TAGGED AS 5593- REPLACE WITH A NEW 2293 TAG IN 2019"
 B1,TS,2241.4,,,HETARB,0,0,0,0,0,,,,1.16,,,0,
 B1,TR,2257,,,QUEGAR,1,0,0,1,5,,,,42.2,,,0,
