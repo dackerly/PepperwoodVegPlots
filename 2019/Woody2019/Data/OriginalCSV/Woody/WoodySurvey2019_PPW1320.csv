@@ -2,7 +2,7 @@
 Notes,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,Height,BD,,,Height ,Count >50,,,
 Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,SOD on Bay ,Notes
-B4,TR,4561,,,UMBCAL,0,0,0,0,0,,,,NA,,,1,,
+A1,SA,4516,,,FRACAL,0,0,,,,,,,,,,1,,WAS TYPO 4561 AND A TR- CHANGED MKQC2022
 D1,SA,4733,,,FRACAL,1,0,,,,156.4,1.75,19,,,,,,BD OF BSPRT
 D1,TR,4737,,,UMBCAL,0,1,0,0,0,,,,NA,206,5,,,
 D1,TR,4738,,,FRACAL,0,1,0,0,0,,,,NA,191.5,10,,,
@@ -75,7 +75,7 @@ B1,SA,4744,,,HETARB,0,0,,,,NA,NA,NA,,,,1,,
 B1,SA,4631,,,UMBCAL,0,0,,,,NA,NA,NA,,,,1,,SAME AS 5982
 B1,SA,5982,,,UMBCAL,1,0,,,,84.7,1.13,9,,,,,,BD OF BSPRT
 B1,TR,4664,,,FRACAL,0,1,0,0,0,,,,NA,122,15,,,
-B1,SA,4665,54,50,UMBCAL,1,0,,,,77.3,0.75,3,,,,,,BD OF BSPRT
+B1,SA,4663,54,50,UMBCAL,1,0,,,,77.3,0.75,3,,,,,,BD OF BSPRT/ WAS TYPO 4665- AND SAID TAG PULLED IN 18- FIXED THERE TOO- MKQC2022
 B1,TR,5983,,,FRACAL,1,0,0,1,5,,2.08,,1,,,,,NEW TREE
 B1,TS,5983.1,,,FRACAL,1,0,,,,248.1,1.93,0,,,,,,
 B1,TS,5983.2,,,FRACAL,1,0,,,,238,1.59,0,,,,,,
