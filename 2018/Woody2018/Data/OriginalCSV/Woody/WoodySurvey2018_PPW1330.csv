@@ -1,5 +1,5 @@
 ﻿Plot ID,1330,,Sampler(s),"MO, MK, AC, KO",,,,,Date ,20180711,,,,,,,,
-Notes,,,,,,,,,,,,,,,,,,
+Notes,the individuals without species names are not liated in the 2013 data but there was a pysicall tag in the field around a dead and gone individual and we removed the tag…who were they?!?,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,Height,BD,,,Height ,Count >50,,
 Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,Notes
 A1,SA,3447,,,UMBCAL,0,1,,,,,1.64,0,,84.5,3,0,OG DEAD
@@ -199,7 +199,7 @@ A3,TR,3802,,,AMOCAL,0,1,0,0,0,,,,1.9,125.3,3,0,
 A3,TR,3802.1,,,AMOCAL,0,0,0,0,0,,,,,,,1,GONE
 A3,TS,3802.2,,,AMOCAL,0,0,,,,,,,,,,0,
 C3,SA,3976,,,UMBCAL,0,1,,,,,0.7,2,,63.7,1,0,OG DEAD
-C3,SA,                                                                                                                                                                                                                         ,195,65,UMBCAL,1,0,,,,28,0.41,1,,,,0,"EPICORMIC, OG DEAD"
+C3,SA,5688,195,65,UMBCAL,1,0,,,,28,0.41,1,,,,0,"EPICORMIC, OG DEAD"
 C3,SA,3975,,,UMBCAL,0,0,,,,,1.3,0,,,,0,
 C3,TR,3872,,,PSEMEN,1,0,0,1,2,,,,5.4,,,0,
 C3,TR,3959,,,UMBCAL,0,1,0,0,0,,1.4,0,1.1,55.7,1,0,OG DEAD BUT NOW TR
@@ -316,10 +316,9 @@ B4,TS,3788.9,,,HETARB,0,1,,,,,1.12,0,0.81,99.2,4,0,
 B4,TR,3788.3,,,HETARB,0,0,0,0,0,,,,1.23,,,0,
 B4,TR,3788.6,,,HETARB,0,0,0,0,0,,,,2.34,,,0,
 B4,TR,3788.1,,,HETARB,0,0,0,0,0,,,,,,,1,GONE
-B4,TR,3788.5,,,UMBCAL,NA,NA,NA,NA,NA,,,,,,,0,"NOT HETARB, NEW TAG 5706"
 B4,TR,3788.4,,,HETARB,0,0,0,0,0,,,,1.86,,,0,
 B4,TR,3788.2,,,HETARB,0,0,0,0,0,,,,1.27,,,0,
-B4,TR,5706,40,460,UMBCAL,0,1,0,0,0,,,,1.87,114.5,6,0,"USED TO BE hetarb 3788.5, but its an unbcal- gave it a new tag- changed it in 2013 DB to match , OG DEAD"
+B4,TR,5706,40,460,UMBCAL,0,1,0,0,0,,,,1.87,114.5,6,0,"USED TO BE hetarb 3788.5, but its an unbcal- gave it a new tag- changed it in 2013 DB to match , OG DEAD- deleted hetarb 3788.5 bc its an umbcal and had no data and deosnt exsist"
 B4,TR,3791,,,HETARB,0,1,0,0,0,,,,2.05,81,4,0,
 B4,TS,3791.1,,,HETARB,0,0,,,,,,,,,,1,GONE
 B4,TR,3772,,,PSEMEN,1,0,0,1,1,,,,7.5,,,0,
