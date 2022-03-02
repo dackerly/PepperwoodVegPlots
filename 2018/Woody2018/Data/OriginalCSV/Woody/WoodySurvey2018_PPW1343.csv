@@ -1,5 +1,5 @@
 ﻿Plot ID,1343,,Sampler(s),,,,,,Date ,,,,,,,,,
-Notes,,,,,,,,,,,,,,,,,,
+Notes,deleted 2173 bc it had no data- note that said dead and done BUT not in 2013 database sooo we made it up- mkqc2022,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,Height,BD,,,Height ,Count >50,,
 Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,Notes
 C1,SA,5585,46,48,UMBCAL,1,0,,,,59.5,0.39,0,,,,0,NEW SA
@@ -295,7 +295,6 @@ D1,TR,2186,,,QUEKEL,1,0,0,1,3,,,,32.9,,,0,
 D1,TR,2183,,,PSEMEN,0,0,,,,,,,5.6,,,0,DEAD
 D2,TR,2176,,-440,PSEMEN,0,0,,,,,,,6.6,,,0,DEAD
 D2,TR,2174,,-435,PSEMEN,0,0,,,,,,,5.1,,,0,DEAD
-D2,,2173,,,,,,,,,,,,,,,0,DEAD/GONE
 D2,TR,2180,,,PSEMEN,0,0,,,,,,,4.5,,,0,
 D2,SA,2175,,,UMBCAL,0,0,,,,,,,,,,0,DEAD/GONE
 D1,TR,2221,,,PSEMEN,1,0,0,1,3,,,,7.7,,,0,
