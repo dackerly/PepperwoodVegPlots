@@ -193,7 +193,7 @@ D4,SA,5030,,,PSEMEN,0,0,,,,,0.77,0,,,,0,
 D4,TR,5032,,,PSEMEN,0,0,0,0,0,,,,2.55,,,0,
 D4,TR,5027,,,PSEMEN,0,0,0,0,0,,1.52,0,1.04,,,0,
 D4,TR,5029,,,PSEMEN,0,0,0,0,0,,,,1.98,,,0,
-D4,SA,5028,,,UNK,0,0,,,,,1.27,1,,,,0,"Species recorded as ""UNK28"". Confirm species."
+D4,SA,5028,,,HOLDIS,0,0,,,,,1.27,1,,,,0,"Species recorded as ""UNK28"". Confirm species.- confirmed as holdis in 2019- mkqc2022"
 A2,TS,4678.4,,,QUEAGR,0,1,,,,,0.52,0,,11.5,0,0,
 A2,TS,4678.5,,,QUEAGR,0,1,,,,,0.56,0,,17.4,0,0,
 A2,SA,4747,,,PSEMEN,0,0,,,,,0.55,0,,,,0,
