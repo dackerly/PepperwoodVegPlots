@@ -1,5 +1,5 @@
 ﻿Plot ID,1307,,Sampler(s),"MF, CM,MK, ",,,,,Date ,12/4/20,,,,,,,,,
-Notes,1140 WAS PULLED IN '19 BUT XY WAS 120/160 NOT 110/80,,,,,,,,,,,,,,,,,,
+Notes,1140 WAS PULLED IN '19 BUT XY WAS 120/160 NOT 110/80 also…3265 TAG FOUND W/ LOOP IN A1 WTF? PULLED? FROM ANOTHER PLOT? Not in DB in any other year ,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,Height,BD,,,Height ,Count >50,,,
 Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,SOD on Bay ,Notes
 D4,SA,5808,,,UMBCAL,0,1,,,,27,0.34,0,,,,,,
@@ -67,7 +67,6 @@ B2,TR,1132,,,QUEAGRI,0,0,0,0,0,,,,,,,,,TAGS BURIED UNDER DEBRIS PILE
 B2,TR,1132.1,,,QUEAGRI,0,0,0,0,0,,,,,,,,,TAGS BURIED UNDER DEBRIS PILE
 B1,SA,1144,,,QUEAGRI,0,0,,,,,,,,,,,,BLUE FLAGGED
 B1,TR,1143,,,ARBMEN,0,0,0,0,0,,,,,,,,,NOT FOUND
-A1,,3265,,,,,,,,,,,,,,,,,TAG FOUND W/ LOOP IN A1 WTF? PULLED? FROM ANOTHER PLOT?
 A1,SA,6441,,,BACPIL,0,0,,,,,,,,,,1,,TAG PULLED
 A1,SA,5820,,,QUEAGRI,0,0,,,,,,,,,,1,,TAG PULLED
 A2,TR,1110,,,ARBMEN,1,1,1,1,2,,,,,116.4,5,,,
