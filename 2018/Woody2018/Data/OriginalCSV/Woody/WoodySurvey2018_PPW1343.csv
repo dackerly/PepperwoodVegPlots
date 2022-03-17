@@ -1,5 +1,5 @@
 ﻿Plot ID,1343,,Sampler(s),,,,,,Date ,,,,,,,,,
-Notes,deleted 2173 bc it had no data- note that said dead and done BUT not in 2013 database sooo we made it up- mkqc2022,,,,,,,,,,,,,,,,,
+Notes,deleted 2173 bc it had no data- note that said dead and gone BUT not in 2013 database sooo we made it up- mkqc2022,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,Height,BD,,,Height ,Count >50,,
 Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,Notes
 C1,SA,5585,46,48,UMBCAL,1,0,,,,59.5,0.39,0,,,,0,NEW SA
@@ -69,7 +69,6 @@ A1,SA,1895,,,UMBCAL,0,0,,,,,,,,,,0,GONE
 A1,SA,1798,,,PSEMEN,0,0,,,,,,,,,,0,GONE
 A1,SA,1791,,,PSEMEN,0,0,,,,,,,,,,0,GONE
 A1,TR,1810,,,PSEMEN,0,0,0,0,0,,,,1.57,,,0,
-A1,TR,1811,,,PSEMEN,0,0,0,0,0,,,,,,,0,
 A1,TR,1816,,,PSEMEN,1,0,0,1,2,,,,6,,,0,
 A1,TR,1809,,,PSEMEN,1,0,0,1,2,,,,4.19,,,0,
 A1,TR,1808,,,PSEMEN,1,0,0,1,2,,,,4.14,,,0,
@@ -118,7 +117,7 @@ A2,TR,1897,,,PSEMEN,0,0,0,0,0,,,,3.73,,,0,
 A2,TR,1896,,,PSEMEN,0,0,0,0,0,,,,3.93,,,0,
 A2,TR,1832,,,PSEMEN,1,0,0,1,2,,,,13.8,,,0,
 A2,TR,1834,,,PSEMEN,0,0,0,0,0,,,,4.43,,,0,
-A2,TR,1825,,,PSEMEN,1,0,0,1,3,,,,33.7,,,0,
+A2,TR,1825,,,PSEMEN,1,0,0,1,3,,,,13.7,,,0,was dbh typo 33.7- mkqc2022/ deleted a dup with dbh 20.3- noone is missing but its bonkers wrong dbh and led to a dup in 2019 and 2020. only difference was it was in B2 and canopy was a 2. lines up numners side by side- no one missing. Had to go…if there is an untagged psemen with 20+ dbh in B2 it couls be this one - mkqc2022
 A2,TR,1836,,,PSEMEN,1,0,0,1,1,,,,5.46,,,0,
 A2,TR,1835,,,PSEMEN,0,0,0,0,0,,,,3.19,,,0,
 A2,SA,1886,,,UMBCAL,0,1,,,,,0.13,0,,20.4,0,0,OG DEAD
@@ -196,7 +195,7 @@ A4,SA,1874,,,PSEMEN,0,0,,,,1.62,,,,,,0,
 A4,SA,1875,,,PSEMEN,0,0,,,,0.75,,,,,,0,
 A4,SA,1876,,,PSEMEN,0,0,,,,1.23,,,,,,0,
 A4,TR,1877,,,PSEMEN,0,0,0,0,0,,,,1.12,,,0,
-A4,SA,1879,,,UMBCAL,0,0,,,,,,,,,,0,DEAD/GONE
+A4,SA,1879,,,UMBCAL,0,0,,,,,,,,,,0,DEAD/GONE- DELETED A DUP WITH NO DATA/ SAME QUAD MKQC2022
 A4,TR,1881,,,PSEMEN,0,0,0,0,0,,,,3.85,,,0,
 A4,TR,1887,,,PSEMEN,0,0,0,0,0,,,,2.29,,,0,
 A4,TR,1885,,,PSEMEN,0,0,0,0,0,,,,2.12,,,0,
@@ -213,13 +212,12 @@ A4,SA,1873,,,ARBMEN,0,0,,,,,0.79,0,,,,0,
 A4,SA,1863,,,UMBCAL,0,0,,,,,,,,,,0,GONE
 A4,SA,2049,,,QUEAGR,0,0,,,,,,,,,,0,GONE
 A4,SA,1878,,,UMBCAL,0,0,,,,,,,,,,0,GONE
-A4,SA,1879,,,UMBCAL,0,0,,,,,,,,,,0,GONE
 A4,SA,1889,,,QUEAGR,0,1,,,,,0.7,0,,21.6,0,0,OG DEAD 
 A4,SA,1888,,,UMBCAL,0,0,,,,,,,0.57,,,0,
 A4,SA,1871,,,UMBCAL,0,1,,,,,1.05,0,,40.5,0,0,OG DEAD
 A4,SA,1868,,,UMBCAL,0,0,,,,,,,,,,0,
 B4,TR,2009,,,PSEMEN,0,0,0,0,0,,,,2.13,,,0,
-B3,SA,2025,,,PSEMEN,0,0,,,,,0.96,0,,,,0,
+B3,SA,2015,,,PSEMEN,0,0,,,,,0.96,0,,,,0,
 B4,TR,2017,,,PSEMEN,1,0,0,1,1,,,,3.08,,,0,
 B4,TR,2020,,,PSEMEN,0,0,0,0,0,,,,,,,0,GONE
 B4,TR,2021,,,PSEMEN,0,0,0,0,0,,,,3.45,,,0,
@@ -309,19 +307,16 @@ D1,TR,2198,,,PSEMEN,0,0,,,,,,,6.1,,,0,
 D1,SA,2197,,,ARBMEN,0,0,,,,,1.61,0,,,,0,
 D1,SA,2196,,,ARBMEN,0,0,,,,,0.98,0,,,,0,
 D1,SA,2215,,,PSEMEN,0,0,,,,,,,,,,0,DEAD/GONE
-B2,TR,2065,,,PSEMEN,0,0,,,,,,,1.89,,,0,DOUBLE RECORDED
-B2,TR,2056,,,PSEMEN,0,0,,,,,,,3.63,,,0,DOUBLE RECORDED 
 B2,SA,2053,,,UMBCAL,0,1,,,,,0.58,0,,21.1,0,0,OG DEAD
 B2,TR,2054,,,PSEMEN,1,0,0,1,3,,,,18.2,,,0,
 B2,TR,2045,,,PSEMEN,0,0,,,,,,,3.32,,,0,
-B2,TR,2046,,,PSEMEN,1,0,0,1,2,,,,10.5,,,0,
+B2,TR,2046,,,PSEMEN,1,0,0,1,2,,,,10.6,,,0,avereaged an identical dup- one was 10.5 one was 10.7 dbh- mkqc2022
 B2,TR,2050,,,PSEMEN,0,0,,,,,,,3.25,,,0,
 B2,TR,2047,,,PSEMEN,0,0,,,,,,,3.7,,,0,
 B2,TR,2043,,,PSEMEN,0,0,,,,,,,5.32,,,0,
 B2,TR,2042,,,PSEMEN,1,0,0,1,3,,,,10.1,,,0,
 B2,TR,2044,,,PSEMEN,0,0,,,,,,,3.8,,,0,
 B2,SA,2048,,,UMBCAL,0,0,,,,,,,,,,0,GONE
-B2,TR,2046,,,PSEMEN,1,0,0,1,2,,,,10.7,,,0,
 B2,TR,1825,,,PSEMEN,1,0,0,1,2,,,,20.3,,,0,
 B2,SA,2052,,,UMBCAL,0,0,,,,,,,,,,0,GONE
 B2,SA,2039,,,UMBCAL,0,0,,,,,,,,,,0,GONE
@@ -353,7 +348,7 @@ D1,SA,2210,,,PSEMEN,0,0,,,,,1.64,0,0.78,,,0,
 D1,SA,2208,,,PSEMEN,0,0,,,,,0.74,0,,,,0,DEAD
 D1,SA,2190,,,PSEMEN,0,0,,,,,0.47,0,,,,0,DEAD
 D1,SA,2195,,,PSEMEN,0,0,,,,,,,,,,0,DEAD/GONE
-D1,TR,2200,,,PSEMEN,1,0,0,1,3,,,,0.77,,,0,
+D1,TR,2200,,,PSEMEN,1,0,0,1,3,,,,7.7,,,0,
 D1,SA,2192,,,UMBCAL,0,0,,,,,1.01,0,,,,0,DEAD
 D1,TR,2199,,,PSEMEN,1,0,0,1,2,,,,8.3,,,0,
 D1,TR,2206,,,PSEMEN,1,0,0,1,2,,,,4.7,,,0,
