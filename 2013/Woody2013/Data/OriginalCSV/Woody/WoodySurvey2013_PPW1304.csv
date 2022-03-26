@@ -1,1 +1,14 @@
-Plot ID,   PPW1304,,Sampler(s),"MMJ, JEC, MNB, MFO",,,,,Date ,20130207,,Notes,,,,,,,,,,,,Quad,SA  TR  TS  ,Tree Tag No.,Species,Confidence ,Dead/ Stump,SA or Stump Height (cm),SA or Stump BD (cm),SA  Branch #,DBH (cm), X (cm),Y (cm),NotesA1,TR,1101,QUEDEC,0,,,,,68,234,390,A1,TR,1101.1,QUEDEC,0,,,,,51.1,234,390,B4,TR,1102,QUEDEC,0,,,,,55.2,249,197,DBH at 100cmB3,SA,1103,QUEAGR,1,,156,1.38,1,,101,314,C3,SA,1105,QUEAGR,1,,63,0.88,6,,123,322,C2,TR,1104,AESCAL,1,,,,,16.9,446,92,C2,TS,1104.1,AESCAL,1,,,,,15,446,92,D3,TR,1107,QUEAGR,1,,,,,30.6,71,227,D3,TR,1106,AESCAL,1,,,,,16.2,490,171,D3,TR,1106.1,AESCAL,1,,,,,16.1,490,171,
+Plot ID,   PPW1304,,Sampler(s),"MMJ, JEC, MNB, MFO",,,,,Date ,20130207,,
+Notes,,,,,,,,,,,,
+,,,,,,,,,,,,
+Quad,SA  TR  TS  ,Tree Tag No.,Species,Confidence ,Dead/ Stump,SA or Stump Height (cm),SA or Stump BD (cm),SA  Branch #,DBH (cm), X (cm),Y (cm),Notes
+A1,TR,1101,QUEGAR,0,,,,,68,234,390,was quedec aug_sp
+A1,TR,1101.1,QUEGAR,0,,,,,51.1,234,390,was quedec aug_sp
+B4,TR,1102,QUEGAR,0,,,,,55.2,249,197,DBH at 100cm/ was quedec aug_sp
+B3,SA,1103,QUEAGR,1,,156,1.38,1,,101,314,
+C3,SA,1105,QUEAGR,1,,63,0.88,6,,123,322,
+C2,TR,1104,AESCAL,1,,,,,16.9,446,92,
+C2,TS,1104.1,AESCAL,1,,,,,15,446,92,
+D3,TR,1107,QUEAGR,1,,,,,30.6,71,227,
+D3,TR,1106,AESCAL,1,,,,,16.2,490,171,
+D3,TR,1106.1,AESCAL,1,,,,,16.1,490,171,
