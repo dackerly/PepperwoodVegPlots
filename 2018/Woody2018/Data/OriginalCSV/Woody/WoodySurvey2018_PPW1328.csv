@@ -167,7 +167,7 @@ A2,TR,4752,,,PSEMEN,0,0,0,0,0,,,,3.8,,,0,
 A2,SA,4760,,,PSEMEN,0,0,,,,,,,,,,1,Dead/gone
 A2,TS,4678.2,,,QUEAGR,0,1,,,,,0.85,0,,13,0,0,
 A2,TS,4678.3,,,QUEAGR,0,1,,,,,0.45,0,,16.5,0,0,
-C4,TR,4823,,,PSEMEN,1,0,0,1,3,,,,5.79,,,0,
+C4,TR,4823,,,PSEMEN,1,0,0,1,3,,,,5.8,,,0,deleted a dup in B4 with same dbh (5.8) canopy was a 4 but im leaving it a 3- mkqc2022
 C4,SA,4933,,,PSEMEN,0,0,,,,,0.8,0,,,,0,BD at 7 cm
 C4,SA,4942,,,PSEMEN,0,0,,,,,0.7,0,,,,0,
 C4,SA,4911,,,PSEMEN,0,0,,,,,,,,,,1,dead/gone
@@ -333,7 +333,6 @@ B4,SA,4813,,,QUEAGR,0,1,,,,,0.7,0,,,,0,"OG dead, approximate BD"
 B4,SA,4816,,,FRACAL,0,1,,,,,0.69,1,,49.5,0,0,
 B4,SA,4825,,,PSEMEN,0,0,,,,,0.71,0,,,,0,
 B4,TR,4824,,,QUEAGR,1,1,1,1,3,,,,18.6,,,0,
-B4,TR,4823,,,PSEMEN,1,0,0,1,4,,,,5.8,,,0,
 D3,TR,5009.3,,,UMBCAL,0,1,0,0,0,,,,2.77,105.5,8,0,OG dead
 D3,TR,5009,,,UMBCAL,0,1,0,0,0,,,,1.8,71.3,5,0,OG dead
 D3,TS,5009.4,,,UMBCAL,0,1,,,,,0.69,0,,84,5,0,OG dead
