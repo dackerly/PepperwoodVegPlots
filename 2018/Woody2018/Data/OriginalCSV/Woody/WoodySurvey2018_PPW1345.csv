@@ -66,7 +66,7 @@ A2,TR,2256,,,HETARB,0,0,0,0,0,,,,1.26,,,0,
 A2,TR,2275,,,HETARB,0,1,0,0,0,,,,2.39,93,6,0,og dead
 A2,SA,2269,,,UMBCAL,0,1,,,,,0.95,0,,59.7,2,0,og dead
 A2,SA,2235,,,UMBCAL,0,1,,,,,1.31,0,,67.5,3,0,og dead
-A2,SA,2766,,,HETARB,0,1,,,,,1.14,0,,52.6,1,0,og dead
+A2,SA,2260,,,HETARB,0,1,,,,,1.14,0,,52.6,1,0,og dead/ was typo 2766  from another plot!- mkqc2022
 A2,SA,2261,,,HETARB,0,1,,,,,0.91,0,,63.2,6,0,og dead/ changed from 2761 qc2022mk
 A2,SA,2271,,,QUEAGR,0,0,,,,,0.87,0,,,,0,
 A3,TR,2259,,,ARCMAN,0,0,0,0,0,,,,9.13,,,0,

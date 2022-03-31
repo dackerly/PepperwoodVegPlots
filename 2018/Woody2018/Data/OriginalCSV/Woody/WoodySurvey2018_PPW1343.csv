@@ -1,5 +1,5 @@
-﻿Plot ID,1343,,Sampler(s),,,,,,Date ,,,,,,,,,
-Notes,deleted 2173 bc it had no data- note that said dead and gone BUT not in 2013 database sooo we made it up- mkqc2022,,,,,,,,,,,,,,,,,
+﻿Plot ID,1343,,Sampler(s),"deleted an untagged umbcal SA in C1 - note needs tag in 2019- ht 14 bd .62, 1 stem. Og dead so new SA to survey before fire- will add one JUV to C1 count- mkqc2022",,,,,Date ,,,,,,,,,
+Notes,"deleted 2173 bc it had no data- note that said dead and gone BUT not in 2013 database sooo we made it up- mkqc2022… also deleted an untagged umbcal SA in C1 - note needs tag in 2019- ht 14 bd .62, 1 stem. Og dead so new SA to survey before fire- will add one JUV to C1 count",,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,Height,BD,,,Height ,Count >50,,
 Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,Notes
 C1,SA,5585,46,48,UMBCAL,1,0,,,,59.5,0.39,0,,,,0,NEW SA
@@ -22,7 +22,6 @@ C1,TR,999.1,,,PSEMEN,0,0,0,0,0,,,,4.8,,,0,"DEAD NEXT TO 2082, WAS IT DEAD IN 201
 C1,TR,2061,,,PSEMEN,1,0,0,1,3,,,,16.2,,,0,
 B2,SA,2062,,,PSEMEN,0,0,,,,200,1.54,0,0.96,,,0,DEAD
 C1,SA,999.2,,,UMBCAL,0,0,,,,72,0.58,1,,,,0,
-C1,SA,888,,,UMBCAL,0,1,,,,,0.62,1,,14,0,0,OG DEAD; NEEDS A TAG IN 2019
 C1,SA,2090,,,UMBCAL,0,0,,,,,,,,,,0,GONE
 C1,SA,2081,,,PSEMEN,0,0,,,,,0.89,0,,,,0,DEAD
 C1,SA,2075,,,PSEMEN,0,0,,,,,1.08,0,,,,0,DEAD
@@ -317,7 +316,6 @@ B2,TR,2043,,,PSEMEN,0,0,,,,,,,5.32,,,0,
 B2,TR,2042,,,PSEMEN,1,0,0,1,3,,,,10.1,,,0,
 B2,TR,2044,,,PSEMEN,0,0,,,,,,,3.8,,,0,
 B2,SA,2048,,,UMBCAL,0,0,,,,,,,,,,0,GONE
-B2,TR,1825,,,PSEMEN,1,0,0,1,2,,,,20.3,,,0,
 B2,SA,2052,,,UMBCAL,0,0,,,,,,,,,,0,GONE
 B2,SA,2039,,,UMBCAL,0,0,,,,,,,,,,0,GONE
 B1,TR,2058,,,QUEKEL,0,0,0,0,0,,,,,,,0,ABOUT TO FALL OVER
