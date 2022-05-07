@@ -17,7 +17,7 @@ DATE,PLOT,INITALS,SPECIES,A2_cover,A2_pheno,A3_cover,A3_pheno,A4_cover,A4_pheno,
 20180428,1321,"MFO, RLO",TOXFRE,,,,,,,,,,,,,,,,,,,,,,,,,
 20180428,1321,"MFO, RLO",MEDPOL,,,,,1,VEG,,,,,,,,,,,,,,,,,,,
 20180428,1321,"MFO, RLO",PROHOO,,,,,2,VEG,,,,,,,,,,,,,,,,,3,VEG,
-20180428,1321,"MFO, RLO",UNKDIC,,,,,1,VEG,,,,,,,,,,,,,2,VEG,2,VEG,,,
+20180428,1321,"MFO, RLO",DIC_SP,,,,,1,VEG,,,,,,,,,,,,,2,VEG,2,VEG,,,WAS UNKDIC_MKQC2022- CHANGED TO DIC_SP
 20180428,1321,"MFO, RLO",MELGEY,,,,,5,VEG,1,VEG,,,,,,,,,1,VEG,,,,,1,VEG,
 20180428,1321,"MFO, RLO",HYPGLA,,,,,,,,,,,,,,,,,,,,,,,,,
 20180428,1321,"MFO, RLO",ROSGYM,,,,,,,,,1,FRT,,,,,,,,,,,1,VEG,,,

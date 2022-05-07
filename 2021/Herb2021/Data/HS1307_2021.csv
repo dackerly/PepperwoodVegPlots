@@ -13,14 +13,14 @@
 20210419,1307,"MK,MF,RLO,ALN",TORARV,2,V,2,V,,,2,V,1,V,1,V,1,V,2,V,2,V,2,V,2,V,2,V,
 20210419,1307,"MK,MF,RLO,ALN",VICAME,,,,,,,,,,,,,,,,,,,,,,,,,
 20210419,1307,"MK,MF,RLO,ALN",PRIHEN,,,,,,,,,,,,,,,,,,,,,,,,,
-20210419,1307,"MK,MF,RLO,ALN",LAT_SP,,,3,V,3,V,5,V,,,,,1,V,,,1,V,1,V,,,,,
+20210419,1307,"MK,MF,RLO,ALN",LAT_SP,,,3,V,3,V,5,V,,,,,1,V,,,1,V,1,V,,,,,"deleted unk_lat from plot wide list- with note, looks like giant LATANG- determined in 2022 to be LATANG/LATSPH just big"
 20210419,1307,"MK,MF,RLO,ALN",MELGEY,,,,,3,FL,,,5,FL,,,,,,,,,,,8,V,,,
 20210419,1307,"MK,MF,RLO,ALN",CYNECH,30,V,8,V,,,2,V,,,,,,,1,V,4,V,4,V,4,V,6,V,
 20210419,1307,"MK,MF,RLO,ALN",BRODIA,10,FL,,,2,FL,1,FL,2,FL,2,FL,1,FL,,,1,FL,,,,,,,
 20210419,1307,"MK,MF,RLO,ALN",TRIBIF,,,,,1,FL,1,FL,,,1,FL,,,1,FL,,,1,FL,,,,,
 20210419,1307,"MK,MF,RLO,ALN",GALCAL,,,,,2,V,,,,,,,,,,,,,,,,,,,
 20210419,1307,"MK,MF,RLO,ALN",PTEAQU,,,,,,,,,,,,,,,,,,,37,V,,,,,
-20210419,1307,"MK,MF,RLO,ALN",CARPIC,,,,,,,,,1,V,1,V,,,1,V,2,V,1,V,8,V,2,V,
+20210419,1307,"MK,MF,RLO,ALN",CARPYC,,,,,,,,,1,V,1,V,,,1,V,2,V,1,V,8,V,2,V,WAS TYPO CARPIC- MKQC 2022
 20210419,1307,"MK,MF,RLO,ALN",NEMHET,2,FL,,,,,,,2,FR,,,,,2,FL,,,3,FR,6,FL,5,FL,
 20210419,1307,"MK,MF,RLO,ALN",MELTOR,,,,,,,,,,,,,1,FL,,,3,FL,8,FL,,,,,
 20210419,1307,"MK,MF,RLO,ALN",HYPRAD,,,,,,,1,FL,,,,,,,,,,,,,,,,,
@@ -35,7 +35,7 @@
 20210419,1307,"MK,MF,RLO,ALN",GALPOR,,,,,,,,,,,,,,,,,,,,,,,,,
 20210419,1307,"MK,MF,RLO,ALN",CARCAL,,,,,1,V,1,V,,,2,FR,,,,,,,,,,,,,
 20210419,1307,"MK,MF,RLO,ALN",SISBEL,,,,,,,,,,,,,,,,,,,,,,,,,
-20210419,1307,"MK,MF,RLO,ALN",TRI_SP,,,,,1,V,2,V,,,,,,,,,,,,,,,,,TRITILEA 
+20210419,1307,"MK,MF,RLO,ALN",TRILAX,,,,,1,V,2,V,,,,,,,,,,,,,,,,,TRITILEA LAXA
 20210419,1307,"MK,MF,RLO,ALN",BROCAR,,,,,,,,,,,,,,,,,,,,,,,,,
 20210419,1307,"MK,MF,RLO,ALN",TONTEN,,,,,,,,,,,,,,,,,,,,,,,,,
 20210419,1307,"MK,MF,RLO,ALN",CLAPER,,,,,,,,,,,,,,,,,,,,,,,8,FR,
@@ -54,6 +54,5 @@
 20210419,1307,"MK,MF,RLO,ALN",YABMIC,,,,,,,1,FL,,,,,,,,,,,,,,,,,
 20210419,1307,"MK,MF,RLO,ALN",ROSGYM,,,,,,,1,V,,,,,,,,,,,,,,,,,
 20210419,1307,"MK,MF,RLO,ALN",CAROLI,,,,,,,,,,,,,,,,,1,FR,,,,,,,
-20210419,1307,"MK,MF,RLO,ALN",UNK_LAT,,,,,,,,,,,,,,,,,,,,,,,,,
-20210419,1307,"MK,MF,RLO,ALN",AGOGRACIL,,,,,,,,,,,,,,,,,,,,,,,,,"GIANT LATHYRUS, LEAVES LOOK LIKE LATANG/SPH BUT MUCH BIGGER"
+20210419,1307,"MK,MF,RLO,ALN",AGOGRACIL,,,,,,,,,,,,,,,,,,,,,,,,,
 20210419,1307,"MK,MF,RLO,ALN",LATANG,,,,,,,,,,,,,,,,,,,,,,,,,

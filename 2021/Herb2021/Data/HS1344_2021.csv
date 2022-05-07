@@ -1,5 +1,5 @@
 ﻿DATE,PLOT,INITALS,SPECIES,A2_cover,A2_pheno,A3_cover,A3_pheno,A4_cover,A4_pheno,B4_cover,B4_pheno,C4_cover,C4_pheno,D4_cover,D4_pheno,D3_cover,D3_pheno,D2_cover,D2_pheno,D1_cover,D1_pheno,C1_cover,C1_pheno,B1_cover,B1_pheno,A1_cover,A1_pheno,NOTES
-20210417,1344,"MK,MO,MF,TT,ROY,RBF",PETDRY,,,,,,,,,,,,,,,,,,,,,,,,,
+20210417,1344,"MK,MO,MF,TT,ROY,RBF",PTEDRY,,,,,,,,,,,,,,,,,,,,,,,,,WAS TYPO PETDRY- MKQC2022
 20210417,1344,"MK,MO,MF,TT,ROY,RBF",AVEBAR,12,FL,5,FL,4,FL,5,FL,1,5L,4,FL,6,FL,2,FL,1,FL,1,FL,4,FL,2,FL,
 20210417,1344,"MK,MO,MF,TT,ROY,RBF",BRODIA,8,FL,30,FL,6,FL,1,FL,1,FL,5,FL,,,7,FL,,,1,FL,,,2,FL,
 20210417,1344,"MK,MO,MF,TT,ROY,RBF",BRIMAX,6,FL,,,3,FL,,,,,,,,,,,,,1,FL,1,FL,,,
@@ -26,9 +26,8 @@
 20210417,1344,"MK,MO,MF,TT,ROY,RBF",STI_SP,,,,,,,,,,,,,,,,,,,,,,,,,
 20210417,1344,"MK,MO,MF,TT,ROY,RBF",DICCON,,,,,,,1,FL,2,FL,,,,,,,,,,,,,,,
 20210417,1344,"MK,MO,MF,TT,ROY,RBF",DICCAP,,,,,,,,,,,1,FR,2,FR,,,,,,,,,,,
-20210417,1344,"MK,MO,MF,TT,ROY,RBF",CENMEL,1,V,,,,,2,V,,,2,V,2,V,,,,,,,,,3,V,NEED TO CONFIRM
 20210417,1344,"MK,MO,MF,TT,ROY,RBF",CAREX_SP,,,,,,,,,,,,,,,,,,,,,,,,,
-20210417,1344,"MK,MO,MF,TT,ROY,RBF",SILGAL,,,,,,,,,,,,,,,,,,,,,,,,,
+20210417,1344,"MK,MO,MF,TT,ROY,RBF",SILGAL,1,V,,,,,2,V,,,2,V,2,V,,,,,,,,,3,V,NEED TO CONFIRM/ in 2022 confirmed SILGAL not CENMEL
 20210417,1344,"MK,MO,MF,TT,ROY,RBF",LUPBIC,,,,,,,,,,,,,,,,,,,,,,,,,
 20210417,1344,"MK,MO,MF,TT,ROY,RBF",MAD_SP,1,V,,,,,,,2,V,,,2,FL,,,,,,,,,,,RIGLEP? NOT MADGRA
 20210417,1344,"MK,MO,MF,TT,ROY,RBF",LACSER,,,,,1,V,1,V,,,,,,,,,,,,,,,,,
