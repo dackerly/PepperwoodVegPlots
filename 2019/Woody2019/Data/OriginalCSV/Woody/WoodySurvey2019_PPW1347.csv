@@ -183,9 +183,9 @@ D1,TR,3048,,,UMBCAL,1,0,0,1,4,,,,3.9,,,,1,
 D1,TR,3049,,,UMBCAL,1,0,0,1,5,,,,2.1,,,,1,
 D1,TS,3048.1,,,UMBCAL,1,0,,,,106.1,1.31,1,,,,,1,
 D1,TR,3027,,,QUEAGR,1,0,0,1,4,,,,3.2,,,,,3027.1 IS BASAL-- changed form quegar typo- mkqc2022
-D1,SA,3027.1,,,QUEAGR,1,0,,,,84.3,0.76,1,,,,,1,BASAL OF 3027- changed form quegar typo- mkqc2022
+D1,TS,3027.1,,,QUEAGR,1,0,,,,84.3,0.76,1,,,,,1,BASAL OF 3027- changed form quegar typo- mkqc2022
 D1,TR,3026,,,UMBCAL,1,0,1,1,4,,,,1.24,,,,1,3026.1 BASAL
-D1,SA,3026.1,,,UMBCAL,1,0,,,,146.5,1.1,2,,,,,1,
+D1,TS,3026.1,,,UMBCAL,1,0,,,,146.5,1.1,2,,,,,1,
 D1,SA,6833,145,131,FRACAL,1,0,,,,89.9,0.42,2,,,,,,
 D1,TR,3038,,,AMOCAL,1,1,0,1,4,,,,1.4,253.4,8,,,
 D1,TR,3025,,,QUEAGR,1,0,1,1,4,,,,3.4,NA,0,,,changed form quegar typo- mkqc2022

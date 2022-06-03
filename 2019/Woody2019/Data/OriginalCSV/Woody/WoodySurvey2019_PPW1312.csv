@@ -85,7 +85,7 @@ A2,SA,1334,,,QUEAGRI,0,1,,,,NA,0.62,NA,,73.9,,,,OG DEAD
 A2,SA,1335,,,QUEAGRI,0,1,,,,NA,0.9,NA,,66,,,,OG DEAD
 A2,SA,1336,,,QUEAGRI,1,0,,,,73.2,0.87,1,,,,,,"averaged two dups one with ht 72.4 and bd .68, the other with ht 73.9 and bd 1.05"
 A2,TR,1330,,,ARBMEN,1,0,1,1,4,,,,2.8,,,,,
-A2,SA,1330.1,,,ARBMEN,1,1,,,,,,,NA,NA,0,,,TOP KILLED
+A2,TS,1330.1,,,ARBMEN,1,1,,,,,,,NA,NA,0,,,TOP KILLED
 A2,TS,1296.1,,,UMBCAL,1,0,,,,195.6,1.6,,,,,,,*
 D2,SA,1565,495,89,QUEAGRI,1,0,,,,38.9,0.39,0,,,,,,
 D1,SA,1589,,,QUEAGRI,1,0,,,,113.4,0.68,0,,,,,,
