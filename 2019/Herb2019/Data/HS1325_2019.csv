@@ -15,7 +15,6 @@
 20190425,1325,"MO,TT, MK",ELYGLA,,,,,,,,,,,,,,,,,,,,,,,,,
 20190425,1325,"MO,TT, MK",FESBRO,,,,,20,FL,12,FL,8,FL,13,FL,2,FL,,,4,FR,,,1,FL,2,FR,
 20190425,1325,"MO,TT, MK",FESMIC,20,FL,3,FL,15,FL,4,FL,8,FL,4,FL,5,FL,20,FL,6,FL,5,V,3,FL,22,FL,SMALL VULPIA 
-20190425,1325,"MO,TT, MK",FRILAT,,,,,,,,,,,,,,,,,,,,,,,,,
 20190425,1325,"MO,TT, MK",GALAPA,,,,,,,,,,,,,,,,,,,,,,,,,
 20190425,1325,"MO,TT, MK",GALCAL,,,1,V,,,,,,,,,,,,,,,,,,,,,
 20190425,1325,"MO,TT, MK",GALPAR,4,FR,6,FR,,,1,FR,4,FR,1,FR,,,4,FR,3,FR,,,2,FR,,,
@@ -44,10 +43,11 @@
 20190425,1325,"MO,TT, MK",TOXDIV,,,,,,,4,V,,,,,,,,,,,,,,,,,
 20190425,1325,"MO,TT, MK",TRIBIF,,,,,,,,,,,,,,,,,,,,,,,,,
 20190425,1325,"MO,TT, MK",TRICIL,,,,,,,2,V,3,FL,,,5,FL,,,,,,,4,FL,2,FL,
-20190425,1325,"MO,TT, MK",TRIHEN,,,,,,,,,,,,,,,,,,,,,,,,,NO BC NOT HAIRRY
 20190425,1325,"MO,TT, MK",TRIMICDON,,,,,,,,,,,,,,,,,,,,,,,,,
 20190425,1325,"MO,TT, MK",TRIWIL,,,,,1,FL,,,2,FL,,,,,,,,,,,,,,,
 20190425,1325,"MO,TT, MK",UNK POA 1,20,V,,,,,,,,,,,,,,,,,,,,,,,"ALL VEG, CLOSED SHEATH, SMOOTH"
 20190425,1325,"MO,TT, MK",UNK POA 2,,,,,,,,,,,,,,,,,,,,,,,,,"BUNCH GRASS, OPEN SHEATH, SMOOTH (NO HAIRS)"
 20190425,1325,"MO,TT, MK",VICSAT,3,V,3,V,,,3,V,1,V,,,3,FR,2,FR,3,V,1,V,1,V,1,V,TEETH
-20190425,1325,"MO,TT, MK",YABMIC,,,,,,,,,,,,,,,,,,,,,,,,,
+20190425,1325,"MO,TT, MK",YABMIC,,,,,,,,,,,,,,,,,,,,,,,,,trihur like but not hairy
+20190425,1325,"MO,TT, MK",TRIF_SP,,,,,,,,,,,,,,,,,,,,,,,,,"UNK FESTUCA, NEVADA BLUE?"
+20190425,1325,"MO,TT, MK",FES_SP,,,,,,,,,,,,,,,,,,,,,,,,,
