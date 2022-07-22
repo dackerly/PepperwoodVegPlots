@@ -13,11 +13,11 @@ A4,TR,2911,,,QUEAGRI,1,0,1,1,4,,,,,,,,,
 A4,TR,2910,,,QUEAGRI,1,0,1,1,4,,,,,,,,,
 A4,TR,2910.1,,,QUEAGRI,1,0,1,0,0,,,,,,,,,EPICORMIC FROM BASE?
 A4,TR,2909,,,QUEGAR,1,0,0,1,99,,,,,,,,,
-A4,TR,2908,,,QUEGAR,0,0,0,0,0,,,,,,,,,
+A4,TR,2908,,,QUEGAR,0,0,0,0,0,,,,,,,,,was misrecoreded as queagri- mkqc2022
 B4,TR,2912,,,QUEGAR,1,0,0,1,99,,,,,,,,,
 B1,TR,2915,,,QUEAGRI,1,1,1,1,2,,,,,,0,,,
 B1,TR,2915.1,,,QUEAGRI,1,0,1,1,2,,,,,,,,,
-B1,TR,2916,,,QUEAGRI,0,0,0,0,0,,,,,,,,,
+B1,TR,2916,,,QUEGAR,0,0,0,0,0,,,,,,,,,misenetered as agri- mkqc22
 B1,TR,2917,,,QUEAGRI,0,1,0,0,0,,0.48,,,,,,,"NO BASAL COUNT, JUST AN SA BD WHY?"
 B1,TR,2917.1,,,QUEAGRI,0,0,0,0,0,,,,,,,,,DEAD ON GROUND
 B1,SA,5699,,,UMBCAL,0,1,,,,23,0.18,3,,,,,,

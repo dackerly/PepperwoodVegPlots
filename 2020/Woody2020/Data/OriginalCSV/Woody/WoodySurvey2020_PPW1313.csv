@@ -32,7 +32,7 @@ C2,TR,1751,,,QUEKEL,0,0,0,0,0,,,,,,,,,"SNAG, NO TAG"
 C2,TR,1759,,,UMBCAL,0,1,0,0,0,,,,,52,1,,,
 ,SA,1758,,,HETARB,0,0,,,,,,,,,,,,"FOUND, PULLED IN '18?- no, dead in 18 tho"
 C3,SA,1770,,,HETARB,0,1,,,,71.9,0.47,12,,,,,,
-C3,SA,1761,,,HETARB,0,0,,,,,,,,,,1,,
+C3,SA,1761,,,ARBMEN,0,0,,,,,,,,,,1,,was hetarb but was also dead- so changing to match sp in 2013 when it was alive- mkqc2022
 C3,TR,1762,,,HETARB,0,1,0,0,0,,,,,54.1,5,,,BROWSED
 C3,TR,1769,,,HETARB,0,1,0,0,0,,,,,,,,,BROWSED
 A3,TR,1732,,,ARBMEN,1,1,1,1,3,,,,,,,,,

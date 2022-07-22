@@ -55,7 +55,7 @@ B1,SA,3300,,,ARBMEN,0,0,,,,,,,,,,0,DEAD/GONE TAG NOT FOUND
 B3,TR,3298,,,ARBMEN,0,1,0,0,0,,,,5.14,140.5,3,0,
 B3,TR,3298.1,,,ARBMEN,0,0,0,0,0,,,,2.23,,,0,
 B3,TR,3298.2,,,ARBMEN,0,0,0,0,0,,,,,,,0,DEAD/GONE TAG NOT FOUND
-B3,SA,3297,,,UMBCAL,0,1,,,,,1.21,0,,57.1,1,0,OG DEAD/ conf species is umbcal and nor arbmen in 2019 
+B3,SA,3297,,,UMBCAL,0,1,,,,,1.21,0,,57.1,1,0,"OG DEAD/ conf species is umbcal and nor arbmen in 2019 - done, and cheanges to umbcal in 2013-mkqc2022"
 B3,SA,3296,,,QUEAGR,0,1,,,,,1.43,1,,65.2,3,0,OG DEAD
 B3,TR,3295,,,ARBMEN,0,0,0,0,0,,,,2.27,,,0,WAS 3293 IN DB
 B3,TS,3295.1,,,ARBMEN,0,0,,,,,,,,,,0,WAS 3293 IN DB

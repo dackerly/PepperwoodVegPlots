@@ -51,8 +51,8 @@ D2,TR,2790.1,,,QUEGAR,0,0,0,0,0,,,,2.45,,,0,
 D2,TR,2788,,,QUEGAR,1,1,0,1,2,,,,14.9,,,0,
 D2,TR,2789,,,QUEGAR,1,1,0,1,2,,,,24.6,,,0,MISSING TAG 
 D3,TR,2785,,,QUEGAR,1,0,0,1,4,,,,15.7,,,0,
-D3,TR,2786,,,UMBCAL,1,0,1,1,3,,,,17.7,,,0,
-D3,SA,2784,,,QUEAGR,0,0,,,,,,,,,,0,GONE 
+D3,TR,2786,,,QUEGAR,1,0,1,1,3,,,,17.7,,,0,was misenetred as umbcal-mkqc2022
+D3,SA,2784,,,UMBCAL,0,0,,,,,,,,,,0,GONE - was misentered as queagri-mkqc2022
 D4,TR,2783,,,QUEAGR,0,0,0,0,0,,,,,,,0,GONE 
 D4,TR,2781,,,QUEGAR,1,0,0,1,3,,,,22.2,,,0,
 D4,TR,2782,,,QUEGAR,1,0,0,1,3,,,,24.5,,,0,

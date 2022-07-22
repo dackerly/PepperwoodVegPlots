@@ -206,13 +206,14 @@ A4,TR,3128,,,UMBCAL,0,1,0,0,0,,0.85,,,144.8,21,,,
 A4,SA,3081,,,AMOCAL,0,1,,,,154.1,1.07,14,,,,,,
 A4,SA,3083,,,AMOCAL,0,1,,,,131,0.88,10,,,,,,
 A4,SA,3126,,,AMOCAL,0,1,,,,108.6,0.74,7,,,,,,
+A4,SA,3126.1,,,AMOCAL,0,0,,,,,,,,,,1,,"dummy created in 2019 to deal with amocal/ umbcal wrong tag used to collect data problem- was typo amocal 3125 but that is a bay that died in 2018 -  now adding ""tag pulled"" to remove it mkqc2022"
 A4,SA,6865,,,AMOCAL,0,1,,,,175.5,1.35,12,,,,,,
 A4,SA,6882,,,AMOCAL,0,1,,,,135,0.85,21,,,,,,
 A4,TR,3124,,,AMOCAL,0,1,0,0,0,,1.53,,,184.5,18,,,
 A4,SA,3079,,,AMOCAL,0,1,,,,95,0.74,7,,,,,,
 A4,SA,3082,,,AMOCAL,0,1,,,,139.5,0.9,2,,,,,,
 A4,SA,6880,,,AMOCAL,0,1,,,,95.5,0.64,3,,,,,,
-A4,SA,3125,,,AMOCAL,0,0,,,,,,,,,,1,,UMBCAL(2018) OR AMOCAL(2020)?
+A4,SA,3125,,,UMBCAL,0,0,,,,,,,,,,1,,UMBCAL(2018) OR AMOCAL(2020)?-( fixed it. Mkqc2022)
 A4,SA,3127,,,AMOCAL,0,1,,,,111.9,0.87,5,,,,,,
 B4,SA,6181,,,AMOCAL,0,1,,,,127.4,0.78,3,,,,,,
 B4,SA,3130,,,AMOCAL,0,1,,,,106.4,0.79,18,,,,,,

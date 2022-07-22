@@ -167,7 +167,7 @@ C2,SA,2412,,,UMBCAL,0,0,,,,,,,,,,,,NOT FOUND
 C2,SA,2413,,,UMBCAL,0,0,,,,,,,,,,,,NOT FOUND
 C2,SA,2417,,,UMBCAL,0,0,,,,,,,,,,,,NOT FOUND 
 C2,SA,2414,,,UMBCAL,0,0,,,,,,,,,,,,NOT FOUND 
-C3,SA,2395,,,AMOCAL,0,0,,,,,,,,,,,,NOT FOUND IN 19 0R 21
+C3,SA,2395,,,UMBCAL,0,0,,,,,,,,,,,,NOT FOUND IN 19 0R 21- was amocoal-changed to match prev years data- mkqc2022
 C3,SA,2423,,,UMBCAL,0,0,,,,,,,,,,,,NOT FOUND
 C3,SA,2424,,,UMBCAL,0,0,,,,,,,,,,,,NOT FOUND 
 C3,SA,2426,,,UMBCAL,0,0,,,,,,,,,,1,,DK

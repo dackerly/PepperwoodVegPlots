@@ -98,9 +98,9 @@ A4,TR,2279.17,,,HETARB,0,0,0,0,0,,,,1.89,,,0,
 A4,TR,2279.9,,,HETARB,0,0,0,0,0,,,,2.99,,,0,
 A4,TR,2279.11,,,HETARB,0,0,0,0,0,,,,1.11,,,0,
 A4,TR,2279.15,,,HETARB,0,0,0,0,0,,,,1.73,,,0,
-B4,TR,2248,,,QUEDOU,1,0,0,1,3,,,,23.7,,,0,
+B4,TR,2248,,,QUEGAR,1,0,0,1,3,,,,23.7,,,0,"misidentified as quedou, corrected in 2020 field notes- mkqc2022"
 B4,TR,2247,,,HETARB,0,1,0,0,0,,,,1.47,122,5,0,
-B4,TR,2246,,,QUEDOU,1,0,0,1,2,,,,37.4,,,0,
+B4,TR,2246,,,QUEGAR,1,0,0,1,2,,,,37.4,,,0,"misidentified as quedou, corrected in 2019 field notes- mkqc2022"
 B4,TR,2242,,,HETARB,0,1,0,0,0,,,,1.12,108.8,11,0,
 B4,TR,2242.1,,,HETARB,0,0,0,0,0,,,,1.31,,,0,
 B4,TR,2242.2,,,HETARB,0,1,0,0,0,,,,,,,0,og dead and gone
@@ -164,7 +164,7 @@ B3,TR,2236,,,HETARB,0,1,0,0,0,,,,2.09,118,4,0,
 B3,TR,2236.1,,,HETARB,0,0,0,0,0,,,,,,,0,dead and gone
 B3,TR,2255,,,HETARB,0,1,0,0,0,,,,2.21,92.7,2,0,
 B3,TR,2255.1,,,HETARB,0,1,0,0,0,,,,1.49,85.3,2,0,
-B3,TR,2237,,,ARCMAN,0,0,0,0,0,,,,,,,0,dead and gone
+B3,TR,2237,,,HETARB,0,0,0,0,0,,,,,,,0,dead and gone/ was misentered as arcman-mkqc2022
 B1,TR,2241.2,,,HETARB,0,0,0,0,0,,,,1.53,,,0,
 B1,TR,2241,,,HETARB,0,1,0,0,0,,,,3.31,86,7,0,
 B1,TR,2241.1,,,HETARB,0,1,0,0,0,,,,1.35,,0,0,

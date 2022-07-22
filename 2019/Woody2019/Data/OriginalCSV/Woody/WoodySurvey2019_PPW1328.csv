@@ -40,7 +40,7 @@ B1,SA,4859,,,PSEMEN,0,0,,,,NA,NA,NA,,,,1,,
 B1,SA,4860,,,PSEMEN,0,0,,,,NA,NA,NA,,,,1,,
 B1,SA,4861,,,PSEMEN,0,0,,,,NA,NA,NA,,,,1,,
 B1,SA,4862,,,PSEMEN,0,0,,,,NA,NA,NA,,,,1,,
-B1,SA,4863,,,PSEMEN,0,0,,,,NA,NA,NA,,,,1,,
+B1,SA,4863,,,QUEAGRI,0,0,,,,NA,NA,NA,,,,1,,was psemen- changed to match 2013 db- mkqc2022
 B1,SA,4876,,,PSEMEN,0,0,,,,NA,NA,NA,,,,1,,
 C1,TR,4878,,,PSEMEN,0,0,0,0,0,,,,NA,,,1,,
 C1,TR,4879,,,PSEMEN,0,0,0,0,0,,,,NA,,,1,,
@@ -207,7 +207,7 @@ B4,SA,4817,,,PSEMEN,0,0,,,,NA,NA,NA,,,,1,,
 B4,SA,4818,,,PSEMEN,0,0,,,,NA,NA,NA,,,,1,,
 B4,SA,4819,,,PSEMEN,0,0,,,,NA,NA,NA,,,,1,,
 B4,SA,4820,,,PSEMEN,0,0,,,,NA,NA,NA,,,,1,,
-B4,SA,4825,,,PSEMEN,0,0,,,,NA,NA,NA,,,,1,,
+B4,SA,4825,,,FRACAL,0,0,,,,NA,NA,NA,,,,1,,was psemen but changing to fracal to match 2013- mkqc2022
 B4,SA,4826,,,PSEMEN,0,0,,,,NA,NA,NA,,,,1,,
 B3,TR,4838,,,QUEAGRI,1,0,0,1,5,,,,30.8,,,,,
 B3,SA,5051,,,AMOCAL,0,1,,,,NA,0.25,NA,37.8,,,,,BD OF BSPRT

@@ -2,7 +2,7 @@
 Notes,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,Height,BD,,,Height ,Count >50,,,
 Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,SOD on Bay ,Notes
-A1,SA,4516,,,FRACAL,0,0,,,,,,,,,,1,,WAS TYPO 4561 AND A TR- CHANGED MKQC2022
+A4,SA,4561,,,FRACAL,0,0,,,,,,,,,,1,,"was misrecorded as umbcal TR B4 and created a dup-  another fracal, not found in a4, changed this to fracal sa in b4- mkqc2022"
 D1,SA,4733,,,FRACAL,1,0,,,,156.4,1.75,19,,,,,,BD OF BSPRT
 D1,TR,4737,,,UMBCAL,0,1,0,0,0,,,,NA,206,5,,,
 D1,TR,4738,,,FRACAL,0,1,0,0,0,,,,NA,191.5,10,,,
@@ -84,7 +84,7 @@ B1,TR,4632.1,,,HETARB,0,1,0,0,0,,,,NA,214,8,,,
 B1,TR,4632.2,,,HETARB,0,1,0,0,0,,,,NA,182,8,,,
 B1,TR,4632.3,,,HETARB,0,0,0,0,0,,,,NA,,,1,,
 B1,TR,4632.4,,,HETARB,0,0,0,0,0,NA,NA,,,,,1,,
-B1,TR,4656,,,HETARB,0,0,0,0,0,,,,NA,,,,,
+B1,TR,4656,,,ARBMEN,0,0,0,0,0,,,,NA,,,,,was misentered as hetarb-mkqc2022
 B1,SA,4660,,,FRACAL,0,0,,,,NA,NA,NA,,,,,,GONE
 B1,SA,4743,,,ARBMEN,0,0,,,,NA,NA,NA,,,,,,GONE
 B1,TR,4661,,,HETARB,0,1,0,0,0,,,,NA,129.3,5,,,ONLY RESPROUT LEFT
@@ -143,7 +143,6 @@ A4,TS,4571.1,,,HETARB,0,0,,,,NA,NA,NA,,,,1,,
 A4,SA,4574,,,HETARB,0,0,,,,NA,NA,NA,,,,1,,
 A4,SA,5984,,,HETARB,1,0,,,,76.9,0.46,1,,,,,,BD OF BSPRT
 A4,SA,4582,,,UMBCAL,0,0,,,,NA,NA,NA,,,,1,,
-A4,SA,4561,,,UMBCAL,0,0,,,,NA,NA,NA,,,,,,NOT FOUND
 A3,TR,4545,,,QUEAGRI,0,1,0,0,0,,,,26.8,87.3,7,,,
 A3,SA,5985,,,HETARB,1,0,,,,50.7,0.46,12,,,,,,BD OF BSPRT
 A3,TR,4547,,,UMBCAL,0,0,0,0,0,,,,NA,,,1,,
@@ -205,7 +204,7 @@ A1,SA,4518,,,FRACAL,0,0,,,,NA,NA,NA,,,,,,TAG NOT FOUND
 A1,SA,4519,,,HETARB,0,0,,,,NA,NA,NA,,,,,,TAG NOT FOUND
 A1,SA,4510,,,UMBCAL,1,0,,,,102.2,0.84,3,,,,,,BD OF BSPRT
 A1,SA,4528,,,FRACAL,0,0,,,,NA,,NA,,,,,,TAG NOT FOUND
-A1,SA,4622,,,FRACAL,0,0,,,,NA,NA,NA,,,,,,TAG NOT FOUND
+A1,SA,4622,,,AMOCAL,0,0,,,,NA,NA,NA,,,,,,TAG NOT FOUND- was fracal- changed to match prev.yrs-mkqc2022
 A1,SA,4508,,,UMBCAL,0,0,,,,NA,NA,NA,,,,1,,
 A1,TR,4527,,,AMOCAL,0,1,0,0,0,,,,NA,185.6,3,,,
 A1,TR,4527.2,,,AMOCAL,0,0,0,0,0,,,,NA,,,,,TAG NOT FOUND

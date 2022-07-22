@@ -163,7 +163,7 @@ C4,TR,2231,,,PSEMEN,0,0,0,0,0,,,,,,,0,DEAD/GONE
 C4,SA,2136,,,UMBCAL,0,0,,,,,,,,,,0,DEAD/GONE
 C4,SA,2134,,,QUEAGR,0,0,,,,,,,,,,0,DEAD/GONE
 C4,TR,2130,,,PSEMEN,0,0,0,0,0,,,,4.9,,,0,
-C4,TR,2131,,,QUEKEL,1,0,0,1,4,,,,34,,,0,TAG IS GONE 
+C4,TR,2131,,,QUEGAR,1,0,0,1,4,,,,34,,,0,TAG IS GONE - was misID'd quekel- changed after 202o field conf- mkqc2022
 D4,TR,2154,,,PSEMEN,1,0,0,1,3,,,,8.6,,,0,
 D4,TR,2155,,,PSEMEN,0,0,0,0,0,,,,5.1,,,0,DEAD
 D4,SA,2144,,,UMBCAL,0,0,,,,,0.66,0,,,,0,DEAD

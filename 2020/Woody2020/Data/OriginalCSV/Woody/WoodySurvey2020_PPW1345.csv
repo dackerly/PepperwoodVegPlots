@@ -2,7 +2,7 @@
 Notes,13 forty fucker,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,Height,BD,,,Height ,Count >50,,,
 Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (CM),Basal resrpout (height),Basal Resprout count ,Tag pulled,SOD on Bay ,Notes
-B4,TR ,2248,,,QUEGAR,1,0,0,1,99,,,,,,,,,DEFO A QUEGAR TREE
+B4,TR ,2248,,,QUEGAR,1,0,0,1,99,,,,,,,,,DEFO A QUEGAR TREE- fixed in prev yrs-mkqc2022
 B4,TR ,2246,,,QUEGAR,1,0,0,1,99,,,,,,,,,NEEDS TAG
 B4,SA,2247,,,HETARB,0,1,,,,165,1.4,6,,,,,,
 B3,TR ,2283,,,HETARB,0,0,0,0,0,,0.57,,,73,7,,,
@@ -52,8 +52,8 @@ D4,SA,1918,,,HETARB,0,0,,,,,,,,,,,,NOT FOUND IN '19 OR '20
 D3,TR ,1955,,,QUEGAR,1,0,1,1,99,,,,,,,,,
 D3,SA,1956,,,BACPIL,0,0,,,,,,,,,,1,,"DEAD AS FUCK, TAG PULLED"
 D4,SA,1920,,,QUEAGRI,0,0,,,,,,,,,,,,NOT FOUND/OG DEAD '19
-D2,TR ,1952,,,QUEAGRI,1,0,1,1,99,,,,,,,,,
-D2,SA,1949,,,QUEGAR,0,0,0,0,0,,,,,,,1,,TAG PULLED
+D2,TR ,1952,,,QUEGAR,1,0,1,1,99,,,,,,,,,misrecorded as queagri-mkqc2022
+D2,SA,1949,,,QUEAGRI,0,0,0,0,0,,,,,,,1,,TAG PULLED (was entered as gar- mkqc22
 D1,SA,1948,,,HETARB,0,1,,,,16.8,0.1,2,,,,,,
 D1,TR,1951,,,HETARB,0,0,0,0,0,,,,,,,,,TREE DISINEGRATED NOT FOUND
 D1,TR,1951.1,,,HETARB,0,0,0,0,0,,,,,,,,,TREE DISINEGRATED NOT FOUND
@@ -61,7 +61,7 @@ D1,TR,1951.2,,,HETARB,0,0,0,0,0,,,,,,,,,TREE DISINEGRATED NOT FOUND
 D1,TR,1951.3,,,HETARB,0,0,0,0,0,,,,,,,,,TREE DISINEGRATED NOT FOUND
 D1,TR,1951.4,,,HETARB,0,0,0,0,0,,,,,,,1,,TREE DISINEGRATED/ONLY TAG FOUND AND REMOVED
 D1,TR,1947,,,QUEAGRI,0,0,1,0,0,,,,,,,,,
-D1,TR,1945,,,QUEAGRI,1,0,1,1,99,,,,,,,,,
+D1,TR,1945,,,QUEGAR,1,0,1,1,99,,,,,,,,,misentered as agri-mkqc2022
 D1,TR,1946,,,QUEAGRI,0,0,0,0,0,,,,,,,,,BURNED VERY HOT/NOT FOUND
 D1,TR,1950,,,HETARB,0,0,0,0,0,,,,,,,,,BURNED VERY HOT/NOT FOUND
 D1,SA,1953,,,QUEAGRI,0,0,,,,,,,,,,,,BURNED VERY HOT/NOT FOUND
@@ -80,7 +80,7 @@ C1,SA,1915,,,HETARB,0,1,,,,17.2,0.14,0,,,,,,
 C1,SA,1933,,,HETARB,0,0,,,,,,,,,,1,,TAG PULLED
 C2,SA,1916,,,HETARB,0,1,,,,19.3,0.14,0,,,,,,
 C3,TR,1936,,,QUEDOU,1,0,0,1,99,,,,,,,,,
-C3,SA,1937,,,QUEGAR,0,1,,,,64.9,0.43,7,,,,,,
+C3,SA,1937,,,QUEAGRI,0,1,,,,64.9,0.43,7,,,,,,misentered in 2019- typo carried over was Qgar-mkqc22
 C3,TR,1938,,,QUEDOU,1,0,1,1,99,,,,,,,,,
 C3,TR,1940,,,QUEGAR,1,0,1,1,99,,,,,,,,,
 C3,TR,1939,,,QUEDOU,0,0,,,,,,,,,,1,,TAG PULLED
@@ -126,14 +126,14 @@ A2,TR,2264.2,,,HETARB,0,1,0,0,0,,0.87,,,210.2,3,,,
 A2,TR,2264.3,,,HETARB,0,1,0,0,0,,0.28,,,,0,,,
 A2,SA,2268,,,UMBCAL,0,1,,,,149.8,1.15,5,,,,,,
 A2,SA,2269,,,UMBCAL,0,1,,,,69.7,0.41,4,,,,,,
-A2,TR,2263,,,UMBCAL,1,1,1,1,2,,0.16,,,,0,,,
-A2,TR,2263.1,,,UMBCAL,0,1,1,0,0,,0.1,,,,0,,,
-A2,TR,2263.2,,,UMBCAL,0,1,0,0,0,,0.51,,,63.3,2,,,
-A2,TR,2263.3,,,UMBCAL,0,1,0,0,0,,0.31,,,65.1,1,,,
-A2,TR,2263.4,,,UMBCAL,0,1,1,0,0,,0.26,,,50.2,1,,,
-A2,TR,2263.5,,,UMBCAL,0,1,0,0,0,,0.32,,,,0,,,
-A2,TR,2263.6,,,UMBCAL,0,1,0,0,0,,0.38,,,65.5,1,,,
-A2,TR,2263.7,,,UMBCAL,0,1,0,0,0,,0.43,,,62,1,,,
+A2,TR,2263,,,HETARB,1,1,1,1,2,,0.16,,,,0,,,misrecorded as umbcal -mkqc2022
+A2,TR,2263.1,,,HETARB,0,1,1,0,0,,0.1,,,,0,,,misrecorded as umbcal -mkqc2022
+A2,TR,2263.2,,,HETARB,0,1,0,0,0,,0.51,,,63.3,2,,,misrecorded as umbcal -mkqc2022
+A2,TR,2263.3,,,HETARB,0,1,0,0,0,,0.31,,,65.1,1,,,misrecorded as umbcal -mkqc2022
+A2,TR,2263.4,,,HETARB,0,1,1,0,0,,0.26,,,50.2,1,,,misrecorded as umbcal -mkqc2022
+A2,TR,2263.5,,,HETARB,0,1,0,0,0,,0.32,,,,0,,,misrecorded as umbcal -mkqc2022
+A2,TR,2263.6,,,HETARB,0,1,0,0,0,,0.38,,,65.5,1,,,misrecorded as umbcal -mkqc2022
+A2,TR,2263.7,,,HETARB,0,1,0,0,0,,0.43,,,62,1,,,misrecorded as umbcal -mkqc2022
 A2,SA,2270,,,QUEAGRI,0,1,,,,82,0.57,2,,,,,,
 A2,TR,2262,,,UMBCAL,0,1,1,0,0,,0.39,,,62.2,1,,,
 A2,TR,2275,,,HETARB,0,1,0,0,,,0.53,,,100.2,6,,,
@@ -193,9 +193,9 @@ B1,TR,5595,,,UMBCAL,0,1,0,0,0,,0.43,,,86.5,3,,,
 B1,TR,2239,,,HETARB,0,1,0,0,0,,0.54,,,79,3,,,
 B1,TR,2239.1,,,HETARB,0,0,0,0,0,,,,,,,1,,TAG PULLED
 B1,TS,2239.2,,,HETARB,0,1,,,,53.3,0.29,10,,,,,,
-B1,TR,2257,,,QUEAGRI,1,0,1,1,4,,,,,,,,,QUELOB?
-B1,TR,2257.1,,,QUEAGRI,1,0,1,1,4,,,,,,,,,QUELOB?
-B1,TR,2257.2,,,QUEAGRI,1,0,1,1,4,,,,,,,,,QUELOB?
+B1,TR,2257,,,QUEGAR,1,0,1,1,4,,,,,,,,,QUELOB? (misenetered ad agri-mkqc22
+B1,TR,2257.1,,,QUEGAR,1,0,1,1,4,,,,,,,,,QUELOB? (misenetered ad agri-mkqc23
+B1,TR,2257.2,,,QUEGAR,1,0,1,1,4,,,,,,,,,QUELOB? (misenetered ad agri-mkqc24
 B1,TR,2240,,,HETARB,0,1,0,0,0,,0.6,,,67.5,1,,,
 B1,TR,2240.1,,,HETARB,0,0,0,0,0,,,,,,,1,,TAG PULLED
 B1,TR,2240.2,,,HETARB,0,1,0,0,0,,0.58,,,89.5,5,,,
