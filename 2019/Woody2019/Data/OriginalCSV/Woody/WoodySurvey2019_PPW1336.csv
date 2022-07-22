@@ -14,11 +14,11 @@ A4,TR,2910,,,QUEAGRI,1,1,1,1,4,,,,14.4,NA,0,,,
 A4,TR,2910.1,,,QUEAGRI,1,0,1,0,1,,,,1.47,,,,,CHANGE SP. IN '18 DB
 B4,TR,2913,,,QUEGAR,0,0,0,0,0,,,,,,,,,DEAD ON GROUND
 A4,TR,2909,,,QUEGAR,1,0,1,1,4,,,,24,,,,,
-A4,TR,2908,,,QUEAGRI,0,0,0,0,0,,,,,,,,,was misrecoreded as queagri- mkqc2022
-A4,TR,2908.1,,,QUEAGRI,0,0,0,0,0,,,,,,,1,,was misrecoreded as queagri- mkqc2023
-A4,TR,2908.2,,,QUEAGRI,0,0,0,0,0,,,,,,,1,,was misrecoreded as queagri- mkqc2024
-A4,TR,2908.3,,,QUEAGRI,0,0,0,0,0,,,,,,,1,,was misrecoreded as queagri- mkqc2025
-A4,TR,2907,,,UMBCAL,0,0,0,0,0,,,,,,,1,,CHANGE SP. IN '18 DB
+A4,TR,2908,,,QUEAGRI,0,0,0,0,0,,,,,,,,,was misrecoreded as quegar- mkqc2022
+A4,TR,2908.1,,,QUEAGRI,0,0,0,0,0,,,,,,,1,,was misrecoreded as quegar- mkqc2022
+A4,TR,2908.2,,,QUEAGRI,0,0,0,0,0,,,,,,,1,,was misrecoreded as quegar- mkqc2022
+A4,TR,2908.3,,,QUEAGRI,0,0,0,0,0,,,,,,,1,,was misrecoreded as quegar- mkqc2022
+A4,TR,2907,,,UMBCAL,0,0,0,0,0,,,,,,,1,,CHANGE SP. IN '18 DB- (fixedmkqc22)
 B4,TR,2912,,,QUEGAR,1,0,1,1,4,,,,38.5,,,,,
 B3,SA,2914,,,PSEMEN,0,0,,,,,,NA,,,,1,,
 B1,TR,2917,,,QUEAGRI,0,1,0,0,0,,,,,63.4,1,,,
