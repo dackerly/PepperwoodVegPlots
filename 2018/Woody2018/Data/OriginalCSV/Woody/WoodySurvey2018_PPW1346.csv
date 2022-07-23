@@ -29,7 +29,7 @@ C3,TS,5109.2,,,AMOCAL,0,0,,,,,,,,,,1,TAG RECOVRED
 C3,SA,5089,,,HETARB,0,1,,,,,1.69,0,,55.8,2,0,
 C3,SA,5597,,,AMOCAL,1,0,,,,57.8,0.59,0,,,,0,NEW SA
 C3,SA,5090,,,AMOCAL,0,1,,,,,0.62,0,,77.1,1,0,
-C3,SA,5645,66,295,QUEKEL,1,0,,,,69.9,0.51,0,,,,0,NEW SA- changing from quegar based on 2019 conf- mkqc2022
+C3,SA,5645,66,295,QUEGAR,1,0,,,,69.9,0.51,0,,,,0,NEW SA- changing from quekel based on 2019 conf- mkqc2022
 C3,TR,5093,,,AMOCAL,0,1,0,0,0,,2.2,0,1.22,109.5,11,0,OG DEAD 
 C3,SA,5091,,,AMOCAL,0,1,,,,,0.88,0,,91.5,4,0,OG DEAD 
 C3,SA,5092,,,AMOCAL,0,1,,,,,0.5,0,,96.5,3,0,
