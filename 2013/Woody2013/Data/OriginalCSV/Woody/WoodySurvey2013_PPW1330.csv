@@ -256,7 +256,7 @@ B3,SA,3736,HETARB,1,,200,1.2,1,,200,-54,TYPE CHANGED TO SA; 20130603 MFO
 B3,TR,3735,HETARB,1,,,,,2.02,195,-60,
 B3,SA,3703,UMBCAL,1,,127,0.69,3,,56,-104,
 B3,SA,3807,UMBCAL,1,,100,0.76,2,,71,-138,
-B2,TR,3742,PSEMEN,1,,,,,2.54,90,-22,
+B2,TR,5712,PSEMEN,1,,,,,2.54,90,-22,"was dup 3742, but that's a hetarb in future years too - determined in 2018 this was not tagged in 2013, but recorded as 3742- that tag went onto a hetarb, tagged in 2018- mkqc2022"
 B2,TR,3760,ARBMEN,1,,,,,8.1,136,-33,
 B2,TR,3760.1,ARBMEN,1,,,,,3.5,136,-33,
 B2,SA,3809,AMOCAL,1,,200,1.44,8,,220,-120,
@@ -266,7 +266,7 @@ B2,TR,,QUEDEC,0,D,,,,12.9,277,-130,
 B2,TR,3758,QUEGAR,0,,,,,16.95,-104,-127,
 B2,TR,3756,FRACAL,1,,,,,1.07,-23,-170,
 B2,TR,3755,PSEMEN,1,,,,,1.47,-34,-127,
-B2,TR,3810,UMBCAL,1,,,,,1.18,-82,-20,
+B2,TR,3810,FRACAL,1,,,,,1.18,-82,-20,was umbcal- changing to fracal to match future yrs- mkqc22
 B2,TR,3811,HETARB,1,,,,,6.35,-160,-57,
 B2,TR,3811.1,HETARB,1,,,,,4.1,-160,-57,
 B2,TR,3811.2,HETARB,1,,,,,3.85,-160,-57,

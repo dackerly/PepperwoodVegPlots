@@ -20,7 +20,7 @@ A1,SA,5700,333,413,UMBCAL,0,1,,,,,0.52,0,,23.1,0,0,OG DEAD
 A1,SA,3727,,,QUEAGR,0,1,,,,,,,,14.8,0,0,"OG DEAD, BD UNAVAILABLE"
 A1,SA,3469,,,UMBCAL,0,1,,,,,1.91,0,,38.5,0,0,OG DEAD
 A1,SA,3458,,,UMBCAL,0,0,,,,,1.95,0,,,,0,
-A1,SA,3484,,,HETARB,0,0,,,,,,,,,,1,GONE
+A1,SA,3464,,,HETARB,0,0,,,,,,,,,,1,GONE (was misentered as 3484-mkqc2022)
 A1,SA,3461,,,UMBCAL,0,1,,,,,1.33,0,,37.6,0,0,OG DEAD
 A1,SA,3462,,,UMBCAL,0,1,,,,,0.84,0,,62,1,0,OG DEAD
 A1,SA,3413,,,QUEAGR,0,1,,,,,0.92,0,,30.6,0,0,OG DEAD
@@ -194,7 +194,7 @@ A3,SA,3709,,,UMBCAL,0,1,,,,,0.89,0,,73.5,3,0,OG DEAD
 A3,SA,3720,,,FRACAL,0,0,,,,,1.75,0,,,,0,
 A3,SA,3714,,,UMBCAL,0,0,,,,,0.65,0,,,,0,
 A3,SA,5704,60,350,UMBCAL,1,0,,,,65.2,0.75,0,,,,0,
-A3,SA,3744,,,UMBCAL,0,0,,,,,0.91,0,,,,0,
+A3,SA,3444,,,PSEMEN,0,0,,,,,0.91,0,,,,0,"was misentered as 3744, created a dup umbcal in 2019 that was not found (has been deleted)- real 3744 was dead fracal in 2018 w/ tag pulled. Changing this from umbcal 3744 to psemen 3444 which exsisits in 13 but wasn't found in 18 and then was dead in 19 and had tag pulled,( deleded dup 3444 with no data at like 462) - mkqc2022"
 A3,TR,3802,,,AMOCAL,0,1,0,0,0,,,,1.9,125.3,3,0,
 A3,TR,3802.1,,,AMOCAL,0,0,0,0,0,,,,,,,1,GONE
 A3,TS,3802.2,,,AMOCAL,0,0,,,,,,,,,,0,
@@ -218,7 +218,7 @@ C3,TR,3926,,,HETARB,0,0,0,0,0,,,,1,,,0,
 C3,TR,3926.1,,,HETARB,0,0,0,0,0,,,,1.2,,,0,"NEW .1 , NOT TAGGED"
 C3,TR,3759,,,UMBCAL,0,1,0,0,0,,,,2,90.8,4,0,
 C3,SA,4106,,,UMBCAL,0,0,,,,,,,,,,1,GONE
-C3,SA,3865,,,AMOCAL,0,1,,,,,,,,54.1,1,0,OG DEAD
+C3,SA,3863,,,AMOCAL,0,1,,,,,,,,54.1,1,0,OG DEAD ( was typo and dup 3865-mkqc22)
 C3,SA,4112,,,FRACAL,0,0,,,,,,,,,,1,OG DEAD/GONE
 C3,TR,3753,,,HETARB,0,0,0,0,0,,,,2.2,,,0,
 C3,TR,3753.1,,,HETARB,0,0,0,0,0,,,,1.2,,,0,
@@ -307,7 +307,7 @@ C3,TR,3752.1,,,HETARB,0,0,0,0,0,,,,1.35,,,1,GONE
 C3,SA,3751,,,UMBCAL,0,0,,,,,,,,,,1,GONE
 C3,SA,3750,,,PSEMEN,0,0,,,,,,,,,,1,GONE
 C3,SA,3980,,,FRACAL,0,0,,,,,,,,,,1,GONE
-C3,TR,3957,,,PSEMEN,0,0,0,0,0,,,,,,,1,GONE
+C3,TR,9999.99,,,PSEMEN,0,0,0,0,0,,,,,,,1,GONE -typo 3957- don't know who it is- plave holer 9999.99 till I figure it out- mkqc22
 C3,SA,3960,,,QUEAGR,0,0,,,,,0.81,1,,,,1,GONE
 C3,SA,3929,,,UMBCAL,0,0,,,,,1.1,0,,,,0,
 B4,TR,3788.8,,,HETARB,0,0,0,0,0,,,,1.34,,,0,
@@ -411,7 +411,7 @@ B3,SA,3736,,,HETARB,0,1,,,,,1.23,0,,17.5,0,0,
 B3,SA,3738,,,AMOCAL,0,1,,,,,1.56,0,0.92,139,7,0,
 B3,TR,5709,349,299,AMOCAL,0,1,0,0,0,,,,1.01,204,3,0,
 B3,SA,3796,,,UMBCAL,0,1,,,,,0.8,0,,36.5,0,0,
-B3,TR,3797,,,UMBCAL,0,0,0,0,0,,,,,,,1,GONE
+B3,TR,3797,,,PSEMEN,0,0,0,0,0,,,,,,,1,GONE- changed from umbcal to match 2013 DB- mkqc2022
 B3,TR,3798,,,UMBCAL,1,1,1,1,3,,,,3.33,108.6,5,0,
 B3,SA,3745,,,UMBCAL,0,1,,,,,1.97,0,0.91,97.2,1,0,
 B3,SA,3470,,,UMBCAL,0,1,,,,,,,,23,0,0,OG DEAD
@@ -459,7 +459,6 @@ B2,TR,3811.2,,,HETARB,1,0,1,1,2,,,,4.51,,,0,
 B2,TS,3811.4,,,HETARB,0,0,,,,,,,,,,1,GONE
 B2,TR,3811.3,,,HETARB,0,0,0,0,0,,,,1.33,,,0,
 B3,SA,3744,,,FRACAL,0,0,,,,,,,,,,1,GONE
-B3,TR,3444,,,PSEMEN,0,0,0,0,0,,,,,,,0,"GONE, NO TAG"
 B3,SA,3800,,,UMBCAL,0,0,,,,,,,,,,1,GONE
 B3,TR,3754,,,HETARB,0,1,0,0,0,,,,1.23,84,2,0,
 B3,TS,3754.1,,,HETARB,0,0,,,,,1.33,0,,,,0,
@@ -482,11 +481,11 @@ B2,TR,3816,,,PSEMEN,0,0,0,0,0,,,,20.8,,,0,
 B2,SA,3757,,,AMOCAL,0,1,,,,,1.7,0,,138.5,5,0,OG DEAD
 B2,TR,3876,,,QUEGAR,1,1,1,1,2,,,,15.1,,,0,
 B2,TR,3825,,,QUEGAR,1,1,0,1,3,,,,16.3,62.8,1,0,
-B2,TR,3873,,,ARBMEN,1,1,0,1,1,,,,13.7,53,2,0,
+B2,TR,3875,,,ARBMEN,1,1,0,1,1,,,,13.7,53,2,0,was typo 3873-mkqc22
 B2,SA,3874,,,UMBCAL,0,0,,,,,0.83,0,,,,0,
 B2,SA,999.2,,,UMBCAL,0,0,,,,,0.69,0,,,,0,
 B2,SA,3877,,,UMBCAL,0,1,,,,,1.23,0,,58,1,0,OG DEAD
-B2,TR,3821,,,UMBCAL,0,0,0,0,0,,,,3.6,,,0,
+B2,TR,3821,,,PSEMEN,0,0,0,0,0,,,,3.6,,,0,was misentered as umbcal-mkqc22
 B2,SA,3824,,,UMBCAL,0,1,,,,,0.8,0,,56.2,1,0,OG DEAD
 B2,SA,3823,,,UMBCAL,0,1,,,,,1.86,0,,133.3,4,0,OG DEAD
 B2,TR,3826,,,HETARB,0,1,0,0,0,,,,2.46,119.8,6,0,OG DEAD
@@ -536,8 +535,7 @@ D2,TR,4069.3,,,HETARB,0,1,0,0,0,,,,2.7,74.7,11,0,OG DEAD
 B2,SA,5711,140,310,AMOCAL,1,0,,,,95.9,0.53,3,,,,0,
 B2,SA,3809,,,AMOCAL,0,1,,,,,1.39,0,,116,11,0,OG DEAD
 B2,TR,3760.1,,,ARBMEN,0,0,0,0,0,,,,3.4,,,0,
-B2,TR,3742,,,PSEMEN,0,0,0,0,0,,,,,,,0,OG DEAD
-B2,TR,5712,90,478,PSEMEN,1,0,0,1,3,,,,3.59,,,0,
+B2,TR,5712,90,478,PSEMEN,1,0,0,1,3,,,,3.59,,,0,"was dup 3742 (also in 13 DB) but other 3742 is a hetarb in all yrs with data- determined it was not tagged in 2013, but recorded as 3742- that tag went onto a hetarb, this got tag 5712- changed in 2013- mkqc2022"
 B2,SA,3817,,,UMBCAL,0,0,,,,,0.86,0,,,,0,
 B2,TR,3742,,,HETARB,0,1,0,0,0,,,,3.66,126.5,9,0,OG DEAD
 B2,TR,3742.1,,,HETARB,0,0,0,0,0,,,,1.52,,,0,
