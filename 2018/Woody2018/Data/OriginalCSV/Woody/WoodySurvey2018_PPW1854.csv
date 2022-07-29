@@ -1,5 +1,5 @@
 ﻿Plot ID,1854,,Sampler(s),"MK,M,DK,AC",,,,,Date ,20180810,,,,,,,,
-Notes,,,,,,,,,,,,,,,,,,
+Notes,deleting a 999 (dead at time of plot install) queagri TS  in c4 with a bsprout height of 7.1- mkqc2022,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,Height,BD,,,Height ,Count >50,,
 Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,Notes
 A1,TR,6034,170,245,ARBMEN,0,1,0,0,0,,,,18.2,86.6,3,,OG DEAD
@@ -42,7 +42,6 @@ B4,TR,6068,245,-480,QUEAGR,0,1,0,0,0,,,,20.7,74,16,,
 B4,SA,6069,120,-460,QUEAGR,0,1,,,,,,,,40.7,0,,
 B4,TR,6070,255,-450,QUEAGR,0,1,0,0,0,,,,10.9,115.4,5,,
 B4,TR,6070.1,255,-450,QUEAGR,0,0,0,0,0,,,,15.3,,,,
-C4,SA,99137,,,QUEAGR,0,0,,,,,7.1,,,,,,"was 999.2- new number is proxy, no tag, was aslo TS with height in resprout column- changed to sa with height data- bs TS makes no sense-mkcq2022"
 C4,TR,6071,195,-300,UMBCAL,0,1,0,0,0,,,,8,181.5,15,,
 D3,SA,6072,405,-85,UMBCAL,0,1,,,,,1.51,0,,69.2,1,,
 D3,TR,6073,310,-90,UMBCAL,0,1,0,0,0,,,,18.6,234.9,56,,
