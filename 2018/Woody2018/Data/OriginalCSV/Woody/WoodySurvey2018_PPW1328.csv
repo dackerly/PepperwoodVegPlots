@@ -91,7 +91,7 @@ A1,TR,4668,,,QUEAGR,1,0,1,0,1,,,,10.2,,,0,Barely alive
 A1,SA,4680,,,QUEAGR,0,0,,,,,,,,,,0,
 A1,TR,4667,,,QUEAGR,1,0,1,1,3,,,,12.9,,,0,
 A1,TR,4666,,,QUEAGR,0,1,0,0,0,,,,7.6,,,0,
-A1,SA,4618,,,UNK,0,0,,,,,,,,,,1,Dead/gone. Check 2013 DB.
+A1,SA,4618,,,UNK,0,0,,,,,,,,,,1,Dead/gone. Check 2013 DB.- NOT THERE MKQC2022
 A1,TR,4629,,,QUEAGR,1,1,0,1,3,,,,19.2,,,0,
 A1,SA,4616,,,PSEMEN,0,0,,,,,,,,,,1,Dead/gone
 A1,SA,4615,,,PSEMEN,0,0,,,,,,,,,,1,Dead/gone
@@ -475,3 +475,4 @@ B1,SA,4861,,,PSEMEN,0,0,,,,,,,,,,0,Dead/gone
 B1,SA,4876,,,PSEMEN,0,0,,,,,0.62,0,,,,0,
 B1,SA,4875,,,PSEMEN,0,0,,,,,0.42,0,,,,1,approximate BD
 B1,SA,4864,,,UMBCAL,0,0,,,,,,,,,,1,dead/gone
+A1,TR,4669,,,QUEAGRI,0,0,0,0,0,,,,,,,,"DATA FROM 2019- NOT SURVEYED IN 2018, PRESUMED DEAD- MKQC2022"
