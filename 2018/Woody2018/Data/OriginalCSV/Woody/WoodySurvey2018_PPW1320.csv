@@ -209,14 +209,14 @@ A1,TR,4515,,,HETARB,0,1,0,0,0,,,,1.57,52.4,1,0,
 A1,TS,4515.1,,,HETARB,0,0,,,,,0.62,0,,,,1,
 A1,TR,4517,,,HETARB,0,1,0,0,0,,,,2.1,96,29,0,
 A1,TS,4517.1,,,HETARB,0,0,,,,,,,,,,0,TAG NOT FOUND
-A1,SA,4510,,,UMBCAL,0,1,,,,,1.47,0,,66.7,2,0,
+A1,SA,4510,,,UMBCAL,0,1,,,,,1.47,0,,66.7,2,0,og dead
 A1,SA,4508,,,UMBCAL,0,1,,,,,0.75,1,,60.2,1,0,
-A1,SA,4520,,,UMBCAL,0,1,,,,,2.17,0,,74.1,1,0,
+A1,SA,4520,,,UMBCAL,0,1,,,,,2.17,0,,74.1,1,0,og dead
 A1,SA,4516,,,FRACAL,0,0,,,,,,,,,,1,GONE
-A1,SA,5959,66,59,FRACAL,1,0,,,,74.6,0.8,2,,,,0,
-A1,SA,4521,,,ARBMEN,0,0,,,,,,,,,,1,GONE
-A1,TR,4524,,,FRACAL,0,0,0,0,0,,2.38,0,1.28,,,1,GONE
-A1,SA,4525,,,AMOCAL,0,1,,,,,,,,179.5,14,0,
+A1,SA,5959,66,59,FRACAL,1,0,,,,74.6,0.8,2,,,,0,new sa
+A1,SA,4521,,,ARBMEN,0,0,,,,,,,,,,1,dead/gone
+A1,TR,4524,,,FRACAL,0,0,0,0,0,,2.38,0,1.28,,,1,
+A1,SA,4525,,,AMOCAL,0,1,,,,,,,,179.5,14,0,og dead
 A1,SA,4522,,,AMOCAL,0,0,,,,,,,,,,1,GONE- was fracal on list for 2018 survey bc aug names cahnges species but that didn't happen for list generating- mkqc2022
 A1,SA,4523,,,FRACAL,0,0,,,,,,,,,,1,GONE
 A1,TR,4527,,,AMOCAL,0,1,0,0,0,,,,,145.9,17,0,GONE

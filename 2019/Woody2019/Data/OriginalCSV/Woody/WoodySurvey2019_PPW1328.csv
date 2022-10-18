@@ -195,8 +195,8 @@ B4,SA,4813,,,QUEAGRI,0,1,,,,NA,0.41,NA,,45.6,0,,,BD OF BSPRT
 B4,TR,4824,,,QUEAGRI,1,1,1,1,3,,,,18.5,NA,0,,,
 B4,TR,4823,,,PSEMEN,0,0,0,0,0,,,,5.5,,,,,
 B4,SA,4816,,,FRACAL,1,0,,,,66,0.43,3,,,,,,BD OF BSPRT
-B3,SA,4828,,,FRACAL,1,0,,,,50.3,0.28,2,,,,,,BD OF BSPRT
-B3,SA,4956,,,FRACAL,1,0,,,,67.1,0.4,2,,,,,,BD OF BSPRT
+B3,SA,4828,482,499,FRACAL,1,0,,,,50.3,0.28,2,,,,,,BD OF BSPRT
+B3,SA,4956,499,499,FRACAL,1,0,,,,67.1,0.4,2,,,,,,BD OF BSPRT
 B4,SA,4805,,,PSEMEN,0,0,,,,NA,NA,NA,,,,1,,
 B4,SA,4809,,,PSEMEN,0,0,,,,NA,NA,NA,,,,1,,
 B4,SA,4810,,,PSEMEN,0,0,,,,NA,NA,NA,,,,1,,
@@ -210,7 +210,7 @@ B4,SA,4820,,,PSEMEN,0,0,,,,NA,NA,NA,,,,1,,
 B4,SA,4825,,,FRACAL,0,0,,,,NA,NA,NA,,,,1,,was psemen but changing to fracal to match 2013- mkqc2022
 B4,SA,4826,,,PSEMEN,0,0,,,,NA,NA,NA,,,,1,,
 B3,TR,4838,,,QUEAGRI,1,0,0,1,5,,,,30.8,,,,,
-B3,SA,5051,,,AMOCAL,0,1,,,,NA,0.25,NA,37.8,,,,,BD OF BSPRT
+B3,SA,5051,,,AMOCAL,0,1,,,,NA,0.25,NA,,37.8,0,,,BD OF BSPRT- moving 37.8 to height of resprout from dbh- bc that is impossible big for amocal- mkqc2022
 B3,SA,4837,,,AMOCAL,1,0,,,,71.5,0.54,1,,,,,,BD OF BSPRT
 B3,SA,5843,,,AMOCAL,1,0,,,,164.9,0.94,3,,,,,,BD OF BSPRT
 B3,TR,4836,,,PSEMEN,1,0,0,1,4,,,,3.73,,,,,

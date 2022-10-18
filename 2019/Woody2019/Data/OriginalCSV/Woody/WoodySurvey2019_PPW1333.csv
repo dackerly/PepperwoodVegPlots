@@ -20,7 +20,7 @@ B1,SA,3365,,,UMBCAL,0,0,,,,,,,,,,,1,
 B2,TR,3363,,,QUEKEL,1,0,0,1,4,,,,56.2,,,,,
 A2,SA,5677,,,UMBCAL,0,1,,,,,0.34,0,,31.5,,,,BDBSPRT
 A2,SA,5680,,,UMBCAL,1,0,,,,52.9,0.53,5,,,,,,BDBSPRT
-A2,SA,5679,,,UMBCAL,0,1,,,,,0.47,0,36.2,,,,,BDBSPRT
+A2,SA,5679,,,UMBCAL,0,1,,,,36.2,0.47,0,,,,,,BDBSPRT- moved 36.2 to ht from dbh bc SA with that dbh impossible- mkqc2022
 A2,SA,5678,,,UMBCAL,0,1,,,,,0.52,0,,44.9,,,,BDBSPRT
 A2,SA,5676,,,UMBCAL,0,1,,,,,0.35,0,,24.7,,,,BDBSPRT
 A2,SA,5675,,,UMBCAL,0,1,,,,,0.19,0,,19.2,,,,BDBSPRT
