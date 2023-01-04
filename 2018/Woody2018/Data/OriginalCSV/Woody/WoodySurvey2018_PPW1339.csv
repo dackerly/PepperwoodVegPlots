@@ -3,7 +3,7 @@ Notes,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,Height,BD,,,Height ,Count >50,,
 Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,Notes
 B4,SA,2542,,,UMBCAL,0,0,,,,,,,,,,1,DEAD AND GONE TAG REC
-A4,SA,999.1,,,ARCMAN,0,0,,,,,1.2,0,,,,0,
+A4,SA,99428,,,ARCMAN,0,0,,,,,1.2,0,,,,0,
 B4,TR,2543,,,QUEAGR,1,1,0,1,4,,,,26.7,65,1,0,
 B4,TR,2543.1,,,QUEAGR,1,0,1,0,1,,,,8.24,,,0,
 B4,TR,2543.2,,,QUEAGR,1,0,1,1,2,,,,27.1,,,0,
@@ -32,24 +32,24 @@ B2,SA,2530,,,UMBCAL,0,1,,,,,2.34,0,,104.5,4,0,
 B2,SA,2546,,,UMBCAL,0,1,,,,,1.79,0,,72.5,1,0,OG DEAD
 B1,TR,2547,,,UMBCAL,0,1,0,0,0,,5.02,0,1.38,167.3,10,0,OG DEAD NOW A TR
 B1,SA,2548,,,PSEMEN,0,0,,,,,,,,,,1,DEAD/GONE
-B2,SA,999.2,,,UNK,0,0,,,,,0.58,0,,,,0,
-B1,SA,999.3,,,UNK,0,0,,,,,0.73,0,,,,0,
+B2,SA,99429,,,UNK,0,0,,,,,0.58,0,,,,0,
+B1,SA,99430,,,UNK,0,0,,,,,0.73,0,,,,0,
 B1,SA,5890,275,178,UMBCAL,0,1,,,,,1.14,0,,34,0,0,"BD @4CM OG DEAD, NEW SA"
 C1,SA,2549,,,UMBCAL,0,1,,,,,0.93,1,,66.5,2,0,
 C1,TR,2550,,,QUEAGR,1,0,0,1,2,,,,12.1,,,0,changing from QUEGAR to match other yrs-mkqc2022
 C1,TR,2551,,,QUEDOU,1,0,0,1,2,,,,29.5,,,0,
 C1,TR,2551.1,,,QUEDOU,1,0,0,1,2,,,,24.2,,,0,
 D1,TR,2562,,,QUEDOU,1,0,0,1,3,,,,23.1,,,0,
-D1,SA,999.4,,,QUEAGR,0,0,,,,,0.68,0,,,,0,
+D1,SA,99431,,,QUEAGR,0,0,,,,,0.68,0,,,,0,
 D1,SA,5891,225,380,UMBCAL,0,1,,,,,1.23,0,,52.1,1,0,OG DEAD NEW SA
 D2,TR,2561,,,QUEDOU,1,0,0,1,2,,,,34,,,0,
 D2,SA,2559,,,QUEAGR,0,0,,,,,0.69,0,,,,0,
-D2,SA,999.5,,,UNK,0,0,,,,,0.63,0,,,,0,
+D2,SA,99432,,,UNK,0,0,,,,,0.63,0,,,,0,
 D2,SA,2560,,,UMBCAL,0,1,,,,,1.57,0,,108,3,0,OG DEAD
 C2,SA,2553,,,UMBCAL,0,1,,,,,1.05,0,,60.3,1,0,OG DEAD
-D2,SA,999.6,,,UMBCAL,0,0,,,,,0.9,0,,,,0,
+D2,SA,99433,,,UMBCAL,0,0,,,,,0.9,0,,,,0,
 D2,SA,5892,245,460,UMBCAL,0,1,,,,,1.23,0,,65.3,1,0,OG DEAD NEW SA
-D2,SA,999.7,,,UMBCAL,0,0,,,,,0.95,0,,,,0,
+D2,SA,99434,,,UMBCAL,0,0,,,,,0.95,0,,,,0,
 C3,TR,2557,,,QUEAGR,1,1,1,1,4,,,,38.6,,,0,
 C3,TR,2557.1,,,QUEAGR,1,0,1,1,2,,,,27.8,,,0,
 C3,TR,2557.2,,,QUEAGR,1,0,1,1,3,,,,38,,,0,
@@ -57,7 +57,7 @@ C3,TR,2557.3,,,QUEAGR,1,0,1,1,2,,,,33.9,,,0,
 D3,TR,2558,,,QUEDOU,1,0,0,1,2,,,,23.5,,,0,
 C4,SA,5893,350,158,ARBMEN,0,1,,,,,2.03,0,,73.4,1,0,OG DEAD NEW SA
 C4,SA,5894,350,76,ARBMEN,0,1,,,,,1.79,0,,54,1,0,OG DEAD NEW SA
-C3,SA,999.8,,,PSEMEN,0,0,,,,,1.28,0,,,,0,
+C3,SA,99435,,,PSEMEN,0,0,,,,,1.28,0,,,,0,
 C3,TR,2554,,,QUEAGR,1,1,0,1,3,,,,66.8,,0,,
 C3,TR,2554.1,,,QUEAGR,1,0,1,0,1,,,,3.25,,,,
 C3,TR,2554.2,,,QUEAGR,0,0,0,0,0,,,,1.46,,,,
