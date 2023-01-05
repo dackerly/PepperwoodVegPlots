@@ -18,7 +18,7 @@ B2,TR,1082,,,PSEMEN,0,0,0,0,0,,,,5.23,,,0,
 B2,SA,5988,407,442,UMBCAL,0,1,,,,,0.8,2,,45.1,0,0,OG DEAD
 B2,SA,1051,,,UMBCAL,0,0,,,,,,,,,,1,
 B2,TR,1094,,,PSEMEN,0,0,0,0,0,,,,6.2,,,0,
-B2,SA,1067,,,BACPIL,0,1,,,,,2.7,2,,35,0,0,OG DEAD/ CONFIRM TAG NUMBER IN 2019- DUP in DB
+B2,SA,9998.99,,,BACPIL,0,1,,,,,2.7,2,,35,0,0,OG DEAD/ CONFIRM TAG NUMBER IN 2019- DUP in DB-  Using 9998 as placeholder until incorrect handmade tag 1067 is removed (this is a bay in 1305)-mkqc2022
 B1,SA,1013,,,UMBCAL,0,1,,,,,1.63,0,,72.5,1,0,OG DEAD
 B1,SA,1016,,,UMBCAL,0,1,,,,,1.98,1,,49.6,0,0,OG DEAD
 C1,SA,99268,,,UMBCAL,0,0,,,,,1.21,2,,,,0,
