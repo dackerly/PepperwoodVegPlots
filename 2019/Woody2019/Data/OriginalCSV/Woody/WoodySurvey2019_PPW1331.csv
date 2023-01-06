@@ -1,5 +1,5 @@
 ﻿Plot ID,1331,,Sampler(s),"MO, GH, MF",,,,,Date ,20190624,,,,,,,,,
-Notes,,,,,,,,,,,,,,,,,,,
+Notes,deleting dead umbcal sa in b2- was 5607- but that's in 1330. I think tag was never put out and it was a new dead sa in 2018- should have been a 999 anyway,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,Height,BD,,,Height ,Count >50,,,
 Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,SOD on Bay ,Notes
 A1,TR,2661,,,PSEMEN,0,0,0,0,0,,,,,,,1,,
@@ -13,17 +13,16 @@ B1,TR,2705,,,PSEMEN,0,0,0,0,0,,,,,,,1,,
 B1,SA,5603,,,ARBMEN,0,0,,,,,,,,,,1,,
 B1,SA,2681,,,PSEMEN,0,0,,,,,,,,,,1,,
 B1,TR,2682,,,QUEAGRI,0,1,0,0,0,,,,9.3,42.7,0,,,
-B1,TR,2682.1,,,QUEAGRI,0,0,0,0,0,,,,,,,,,"DEAD AND GONE, TAG GONE"
+B1,TR,2682.1,,,QUEAGRI,0,0,0,0,0,,,,,,,1,,"DEAD AND GONE, TAG GONE"
 B1,SA,2683,,,UMBCAL,0,0,,,,,,,,,,1,,
-B1,SA,2663,,,QUEAGRI,0,0,,,,,,,,,,,,"DEAD AND GONE, TAG {MISSING?}"
+B1,SA,2663,,,QUEAGRI,0,0,,,,,,,,,,1,,"DEAD AND GONE, TAG {MISSING?}"
 B1,TR,2680,,,QUEAGRI,1,1,1,1,4,,,,31.2,26.6,0,,,
 B1,TR,2679,,,QUEAGRI,1,0,1,1,4,,,,25.3,,,,,
 B1,TR,2685,,,QUEAGRI,1,1,1,1,3,,,,25.3,37,0,,,
 B1,TR,2684,,,PSEMEN,1,0,0,1,3,,,,16.2,,,,,
 B1,SA,5605,,,UMBCAL,0,0,,,,,,,,,,1,,
-B1,SA,5604,,,UMBCAL,0,0,,,,,,,,,,,,"SHOULD HAVE BEEN 999, {ILLEGIBLE DATA?}"
+B1,SA,5604,,,UMBCAL,0,0,,,,,,,,,,,,"SHOULD HAVE BEEN 999, dead and gone- is tag still there?"
 B2,TR,2673,,,PSEMEN,1,0,0,1,4,,,,18,,,,,
-B2,SA,5607,,,UMBCAL,0,0,,,,,,,,,,1,,
 B2,TR,2678,,,QUEGAR,0,1,0,0,0,,,,,89.2,2,,,
 B2,SA,2674,,,PSEMEN,0,0,,,,,,,,,,1,,
 B2,SA,2672,,,UMBCAL,0,0,,,,,,,,,,1,,
