@@ -1,17 +1,17 @@
-﻿Plot ID,1323,,Sampler(s),AC MO MK KO,,,,,Date ,20180627,,,,,,,,
-Notes,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,Height,BD,,,Height ,Count >50,,
-Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,Notes
-D1,TR,1965,,,QUEDOU,1,0,0,1,4,,,,31,,,0,changing from quegar to match other years- mkqc2022
-C2,TR,1964,,,QUEAGR,1,0,0,1,4,,,,41.7,,,0,
-C2,TR,1964.1,,,QUEAGR,1,0,0,1,4,,,,33.7,,,0,
-C2,TR,1964.2,,,QUEAGR,1,0,0,1,3,,,,24.7,,,0,
-B2,TR,1925,,,QUEDOU,1,0,0,1,4,,,,25.8,,,0,
-B2,TR,1924,,,QUEDOU,1,0,0,1,2,,,,19.6,,,0,
-A2,TR,1909,,,QUEAGR,1,0,0,1,4,,,,30.2,,,0,
-A2,TR,1909.1,,,QUEAGR,1,0,0,1,4,,,,23.7,,,0,
-A2,TR,1907,,,QUEAGR,1,0,0,1,3,,,,19.2,,,0,
-B2,TR,1931,,,QUEAGR,1,0,0,1,4,,,,37.9,,,0,
-C3,TR,1923,,,QUEAGR,1,0,0,1,3,,,,43.1,,,0,
-C3,TR,1922,,,QUEDOU,1,0,0,1,3,,,,39.4,,,0,
-C1,TR,1963,,,QUEDEC,0,0,0,0,0,,,,,,,0,DEAD AND GONE
+﻿Plot ID,1323,,Sampler(s),AC MO MK KO,,,,,Date ,20180627,,,,,,,,,
+Notes,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,Height,BD,,,Height ,Count >50,,,
+Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,SOD on Bay ,Notes
+D1,TR,1965,,,QUEDOU,1,0,0,1,4,,,,31,,,0,,changing from quegar to match other years- mkqc2022
+C2,TR,1964,,,QUEAGR,1,0,0,1,4,,,,41.7,,,0,,
+C2,TR,1964.1,,,QUEAGR,1,0,0,1,4,,,,33.7,,,0,,
+C2,TR,1964.2,,,QUEAGR,1,0,0,1,3,,,,24.7,,,0,,
+B2,TR,1925,,,QUEDOU,1,0,0,1,4,,,,25.8,,,0,,
+B2,TR,1924,,,QUEDOU,1,0,0,1,2,,,,19.6,,,0,,
+A2,TR,1909,,,QUEAGR,1,0,0,1,4,,,,30.2,,,0,,
+A2,TR,1909.1,,,QUEAGR,1,0,0,1,4,,,,23.7,,,0,,
+A2,TR,1907,,,QUEAGR,1,0,0,1,3,,,,19.2,,,0,,
+B2,TR,1931,,,QUEAGR,1,0,0,1,4,,,,37.9,,,0,,
+C3,TR,1923,,,QUEAGR,1,0,0,1,3,,,,43.1,,,0,,
+C3,TR,1922,,,QUEDOU,1,0,0,1,3,,,,39.4,,,0,,
+C1,TR,1963,,,QUEDEC,0,0,0,0,0,,,,,,,0,,DEAD AND GONE

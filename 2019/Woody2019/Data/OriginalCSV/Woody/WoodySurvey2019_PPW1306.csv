@@ -3,7 +3,7 @@ Notes,"ROB TAGS 1217=135, 1218=134, 1219=132, 1220=124/  NO LIST FOR D",,,,,,,,,
 ,,,,,,,,,,,Height,BD,,,Height ,Count >50,,,
 Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,SOD on Bay ,Notes
 A1,SA,1201,,,PSEMEN,0,0,,,,,,,,,,1,,
-A2,SA,5802,,,UMBCAL,0,1,,,,,0.84,0,,35,,,,"RESPROUT BD, {NBBLED}?"
+A2,SA,5802,,,UMBCAL,1,0,,,,35,0.84,0,,,,,,"RESPROUT BD, {NBBLED}?"
 A2,TR,1204,,,ARBMEN,1,1,1,1,2,,,,46.8,270,18,,,
 A2,TR,1204.1,,,ARBMEN,1,1,1,1,2,,,,28.4,250,19,,,2104.1 IN 18
 A2,TR,1204.2,,,ARBMEN,0,1,0,0,0,,,,,149.8,5,,,

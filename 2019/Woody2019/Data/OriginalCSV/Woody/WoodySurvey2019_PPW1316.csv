@@ -2,16 +2,16 @@
 Notes,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,Height,BD,,,Height ,Count >50,,,
 Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,SOD on Bay ,Notes
-A3,TR,2846,,,QUEAGRI,1,1,1,1,4,,,,27.7,85,11,,,TRUNK 1/2 BURNED
-A3,TR,2841,,,QUEAGRI,1,1,1,1,5,,,,30.3,NA,0,,,BD OF REPROUT
-A3,SA,2847,,,QUEAGRI,0,1,,,,NA,0.34,0,,33.8,,,,
+A3,TR,2846,,,QUEAGRI,1,1,1,1,4,,,,27.7,85,11,,,
+A3,TR,2841,,,QUEAGRI,1,1,1,1,5,,,,30.3,NA,0,,,TRUNK 1/2 BURNED
+A3,SA,2847,,,QUEAGRI,1,0,,,,33.8,0.34,0,,,,,,BD OF REPROUT
 A4,TR,2849,,,QUEAGRI,1,1,1,1,4,,,,48.9,65.1,2,,,
 A4,TR,2849.1,,,QUEAGRI,1,0,1,1,4,,,,60.2,,,1,,
 A4,TS,2849.2,,,QUEAGRI,0,0,0,0,0,NA,,,NA,,,1,,
-A4,TS,2849.3,,,QUEAGRI,0,0,,,,NA,,,NA,,,,,NO SOD
-A4,SA,6452,187,250,UMBCAL,1,0,,,,37.3,0.5,3,,,,,,
-A4,SA,2848,,,BACPIL,1,0,,,,63.8,0.52,38,,,,,,GONE
-A4,SA,2850,,,UMBCAL,0,0,,,,NA,NA,NA,,,,,,
+A4,TS,2849.3,,,QUEAGRI,0,0,,,,NA,,,NA,,,,,
+A4,SA,6452,187,250,UMBCAL,1,0,,,,37.3,0.5,3,,,,,,NO SOD
+A4,SA,2848,,,BACPIL,1,0,,,,63.8,0.52,38,,,,,,
+A4,SA,2850,,,UMBCAL,0,0,,,,NA,NA,NA,,,,,,GONE
 C3,SA,5611,,,QUEAGRI,1,0,,,,75.1,0.56,0,,,,,,
 D4,TR,2839,,,QUEAGRI,1,0,1,1,4,,,,66.7,,,,,
 D4,TR,2839.1,,,QUEAGRI,1,0,1,1,2,,,,23,,,,,
@@ -30,7 +30,7 @@ B2,TR,2853,,,QUEAGRI,1,0,1,1,2,,,,36.1,,,,,
 B2,TR,2853.1,,,QUEAGRI,0,0,0,0,0,,,,NA,,,1,,
 B1,SA,2844,,,UMBCAL,1,0,,,,90.5,0.66,2,,,,,,
 C2,TR,2854,,,QUEAGRI,1,0,1,1,4,,,,34.8,,,,,
-C2,TS,2854.1,,,QUEAGRI,0,1,,,,NA,0.68,0,,37.9,,,,BD OF RESPROUT
+C2,TS,2854.1,,,QUEAGRI,1,0,,,,37.9,0.68,0,,,,,,BD OF RESPROUT
 D2,TR,2857,,,QUEAGRI,1,0,1,1,3,,,,31.9,,,,,
 D2,TR,2857.1,,,QUEAGRI,0,0,0,0,0,,,,NA,,,1,,
 D1,SA,2858,,,UMBCAL,1,0,,,,89.7,0.76,5,,,,,,BD OF RESPROUT

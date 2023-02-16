@@ -1,39 +1,39 @@
-﻿Plot ID,PPW1338,,Sampler(s),"MK,MO,KO,AC",,,,,Date ,20180725,,,,,,,,
-Notes,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,Height,BD,,,Height ,Count >50,,
-Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,Notes
-A1,SA,5790,402,9,UMBCAL,1,0,,,,61.9,1.56,0,,,,0,NEW SA
-A1,SA,2501,,,PSEMEN,1,0,,,,202.5,3.56,0,0.89,,,0,
-A1,SA,5791,126,415,PSEMEN,1,0,,,,54,1.01,0,,,,0,NEW SA
-A2,TR,2509,,,QUEAGR,1,0,0,1,4,,,,51.3,,,0,
-A2,TR,2509.1,,,QUEAGR,1,0,1,0,1,,,,25.9,,,0,
-A2,TR,2509.2,,,QUEAGR,1,0,0,1,3,,,,40.2,,,0,
-A2,TR,2509.3,,,QUEAGR,1,0,0,1,3,,,,41.3,,,0,
-A2,SA,99428,,,PSEMEN,0,0,,,,,0.85,0,,,,0,
-A2,SA,2508,,,PSEMEN,0,0,,,,,1.7,0,,,,0,
-A2,SA,2510,,,PSEMEN,0,0,,,,,1.15,0,,,,0,
-A3,SA,2511,,,PSEMEN,0,0,,,,,2.15,0,,,,0,
-A4,TR,2512,,,QUEAGR,1,0,1,1,3,,,,42.8,,,0,
-A4,TR,2512.1,,,QUEAGR,1,0,1,1,2,,,,23.7,,,0,
-A4,TR,2513,,,PSEMEN,1,0,1,1,4,,,,10.6,,,0,
-A4,SA,5792,410,305,UMBCAL,0,1,,,,,0.41,1,,47.5,0,0,NEW SA OG DEAD 
-A4,SA,5793,309,104,UMBCAL,0,1,,,,,0.79,0,,37.5,0,0,NEW SA OG DEAD 
-B3,SA,2514,,,PSEMEN,0,0,,,,,1.29,0,,,,0,
-B2,SA,2516,,,PSEMEN,1,0,,,,130,2.99,0,,,,0,
-B2,SA,2515,,,PSEMEN,1,0,,,,102.1,2.03,0,,,,0,
-B1,TR,2517,,,QUEAGR,1,0,0,1,4,,,,41.3,,,0,
-B1,TR,2517.1,,,QUEAGR,0,0,0,0,0,,,,,,,0,DEAD/GONE/ TAG NOT FOUND 
-B1,TR,2517.2,,,QUEAGR,1,0,1,1,2,,,,24.5,,,0,
-C2,TR,2518,,,QUEAGR,1,0,0,1,3,,,,32.2,,,0,
-C2,TR,2518.1,,,QUEAGR,1,0,1,0,1,,,,22.3,,,0,
-D4,TR,2520,,,QUEAGR,1,0,0,1,3,,,,59.4,,,0,
-D4,SA,2519,,,UMBCAL,1,0,,,,89.5,1.35,1,,,,0,
-D2,SA,2521,,,UMBCAL,0,1,,,,,1.45,1,,67.7,2,0,
-D2,SA,5794,235,321,UMBCAL,0,1,,,,,0.73,0,,28.5,0,0,NEW SA OG DEAD
-C2,SA,5795,384,257,PSEMEN,1,0,,,,45,0.71,0,,,,0,
-D1,SA,2522,,,UMBCAL,0,1,,,,,1.08,0,,30,0,0,
-D1,TR,2523,,,QUEAGR,1,0,1,1,4,,,,31.4,,,0,
-D1,TR,2523.1,,,QUEAGR,1,0,1,1,2,,,,30.1,,,0,
-D1,SA,5796,236,184,UMBCAL,0,1,,,,,0.61,0,,40.3,0,0,NEW SA OG DEAD 
-D1,SA,5884,432,186,UMBCAL,0,1,,,,,6.65,0,,39.9,0,0,NEW SA OG DEAD 
-D1,SA,5885,445,462,UMBCAL,0,1,,,,,1.01,0,,36,0,0,NEW SA OG DEAD 
+﻿Plot ID,PPW1338,,Sampler(s),"MK,MO,KO,AC",,,,,Date ,20180725,,,,,,,,,
+Notes,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,Height,BD,,,Height ,Count >50,,,
+Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,SOD on Bay ,Notes
+A1,SA,5790,402,9,UMBCAL,1,0,,,,61.9,1.56,0,,,,0,,NEW SA
+A1,SA,2501,,,PSEMEN,1,0,,,,202.5,3.56,0,0.89,,,0,,
+A1,SA,5791,126,415,PSEMEN,1,0,,,,54,1.01,0,,,,0,,NEW SA
+A2,TR,2509,,,QUEAGR,1,0,0,1,4,,,,51.3,,,0,,
+A2,TR,2509.1,,,QUEAGR,1,0,1,0,1,,,,25.9,,,0,,
+A2,TR,2509.2,,,QUEAGR,1,0,0,1,3,,,,40.2,,,0,,
+A2,TR,2509.3,,,QUEAGR,1,0,0,1,3,,,,41.3,,,0,,
+A2,SA,99428,,,PSEMEN,0,0,,,,,0.85,0,,,,0,,
+A2,SA,2508,,,PSEMEN,0,0,,,,,1.7,0,,,,0,,
+A2,SA,2510,,,PSEMEN,0,0,,,,,1.15,0,,,,0,,
+A3,SA,2511,,,PSEMEN,0,0,,,,,2.15,0,,,,0,,
+A4,TR,2512,,,QUEAGR,1,0,1,1,3,,,,42.8,,,0,,
+A4,TR,2512.1,,,QUEAGR,1,0,1,1,2,,,,23.7,,,0,,
+A4,TR,2513,,,PSEMEN,1,0,1,1,4,,,,10.6,,,0,,
+A4,SA,5792,410,305,UMBCAL,0,1,,,,,0.41,1,,47.5,0,0,,NEW SA OG DEAD 
+A4,SA,5793,309,104,UMBCAL,0,1,,,,,0.79,0,,37.5,0,0,,NEW SA OG DEAD 
+B3,SA,2514,,,PSEMEN,0,0,,,,,1.29,0,,,,0,,
+B2,SA,2516,,,PSEMEN,1,0,,,,130,2.99,0,,,,0,,
+B2,SA,2515,,,PSEMEN,1,0,,,,102.1,2.03,0,,,,0,,
+B1,TR,2517,,,QUEAGR,1,0,0,1,4,,,,41.3,,,0,,
+B1,TR,2517.1,,,QUEAGR,0,0,0,0,0,,,,,,,0,,DEAD/GONE/ TAG NOT FOUND 
+B1,TR,2517.2,,,QUEAGR,1,0,1,1,2,,,,24.5,,,0,,
+C2,TR,2518,,,QUEAGR,1,0,0,1,3,,,,32.2,,,0,,
+C2,TR,2518.1,,,QUEAGR,1,0,1,0,1,,,,22.3,,,0,,
+D4,TR,2520,,,QUEAGR,1,0,0,1,3,,,,59.4,,,0,,
+D4,SA,2519,,,UMBCAL,1,0,,,,89.5,1.35,1,,,,0,,
+D2,SA,2521,,,UMBCAL,0,1,,,,,1.45,1,,67.7,2,0,,
+D2,SA,5794,235,321,UMBCAL,0,1,,,,,0.73,0,,28.5,0,0,,NEW SA OG DEAD
+C2,SA,5795,384,257,PSEMEN,1,0,,,,45,0.71,0,,,,0,,
+D1,SA,2522,,,UMBCAL,0,1,,,,,1.08,0,,30,0,0,,
+D1,TR,2523,,,QUEAGR,1,0,1,1,4,,,,31.4,,,0,,
+D1,TR,2523.1,,,QUEAGR,1,0,1,1,2,,,,30.1,,,0,,
+D1,SA,5796,236,184,UMBCAL,0,1,,,,,0.61,0,,40.3,0,0,,NEW SA OG DEAD 
+D1,SA,5884,432,186,UMBCAL,0,1,,,,,6.65,0,,39.9,0,0,,NEW SA OG DEAD 
+D1,SA,5885,445,462,UMBCAL,0,1,,,,,1.01,0,,36,0,0,,NEW SA OG DEAD 

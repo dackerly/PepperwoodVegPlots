@@ -2,12 +2,12 @@
 Notes,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,Height,BD,,,Height ,Count >50,,,
 Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,SOD on Bay ,Notes
-C1,SA,5622,,,QUEGAR,0,1,,,,NA,0.27,0,,25.4,,,,BD OF RESPROUT
-C1,SA,5623,,,UMBCAL,0,1,,,,NA,0.24,0,,24.2,,,,BD OF RESPROUT
+C1,SA,5622,,,QUEGAR,1,0,,,,25.4,0.27,0,,,,,,BD OF RESPROUT
+C1,SA,5623,,,UMBCAL,1,0,,,,24.2,0.24,0,,,,,,BD OF RESPROUT
 A1,SA,2862,,,QUEAGRI,1,0,,,,51.2,0.4,3,,,,,,BD OF RESPROUT
-A1,SA,2863,,,QUEAGRI,0,1,,,,NA,0.33,0,,43.4,,,,BD OF RESPROUT
-A1,SA,2865,,,QUEAGRI,0,1,,,,NA,0.38,0,,40,,,,BD OF RESPROUT
-A1,SA,5600,,,QUEAGRI,0,1,,,,NA,0.35,0,,24.6,,,,BD OF RESPROUT
+A1,SA,2863,,,QUEAGRI,1,0,,,,43.4,0.33,0,,,,,,BD OF RESPROUT
+A1,SA,2865,,,QUEAGRI,1,0,,,,40,0.38,0,,,,,,BD OF RESPROUT
+A1,SA,5600,,,QUEAGRI,1,0,,,,24.6,0.35,0,,,,,,BD OF RESPROUT
 C2,SA,5620,,,PSEMEN,0,0,,,,,,,,,,1,,
 C2,SA,5621,,,PSEMEN,0,0,,,,,,,,,,1,,
 A1,TR,2860,,,PSEMEN,0,0,0,0,0,,,,NA,,,1,,

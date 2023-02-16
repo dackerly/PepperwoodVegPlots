@@ -14,19 +14,19 @@ D3,TR,1237,,,QUEDOU,1,0,1,1,3,,,,9,,,,,
 D2,TR,1240,,,QUEDOU,1,0,1,1,3,,,,19.8,,,,,
 D3,TR,1239,,,QUEDOU,1,1,1,1,3,,,,14.2,,0,,,
 C2,SA,1241,,,CERBET,0,1,,,,NA,1.28,7,,48.9,,,,OG DEAD
-C2,SA,6367,260,285,CERBET,0,1,,,,NA,0.41,3,,48,,,,
-C2,SA,6366,250,285,CERBET,0,1,,,,NA,0.56,1,,34.2,,,,
-C2,SA,6365,255,280,CERBET,0,1,,,,NA,0.38,0,,40.8,,,,
-C2,SA,6364,180,380,CERBET,0,1,,,,NA,0.65,2,,47.5,,,,
-C2,SA,6363,205,220,CERBET,0,1,,,,NA,0.76,3,,42.2,,,,
+C2,SA,6367,260,285,CERBET,0,1,,,,NA,0.41,3,,48,,,,OG DEAD
+C2,SA,6366,250,285,CERBET,0,1,,,,NA,0.56,1,,34.2,,,,OG DEAD
+C2,SA,6365,255,280,CERBET,0,1,,,,NA,0.38,0,,40.8,,,,OG DEAD
+C2,SA,6364,180,380,CERBET,0,1,,,,NA,0.65,2,,47.5,,,,OG DEAD
+C2,SA,6363,205,220,CERBET,0,1,,,,NA,0.76,3,,42.2,,,,OG DEAD
 B2,TR,1233,,,QUEGAR,1,0,1,1,4,,,,24.1,,,,,
-B2,SA,1235,,,CERBET,0,1,,,,NA,1.42,2,,42,,,,
+B2,SA,1235,,,CERBET,0,1,,,,,1.42,2,,42,,,,
 B2,SA,1234,,,CERBET,1,0,,,,84.2,0.6,2,,,,,,OG DEAD
-B2,SA,1229,,,CERBET,0,0,,,,NA,1.38,0,,,,,,DEAD
+B2,SA,1229,,,CERBET,0,0,,,,NA,1.38,0,,,,,,DEAD (also in 18)
 B2,SA,6362,480,25,CERBET,0,1,,,,NA,0.52,3,,41.2,,,,OG DEAD
-B1,TR,1230,,,QUEGAR,1,1,1,1,5,,,,33.7,,,,,"basal data not measured,none over 50cm?"
+B1,TR,1230,,,QUEGAR,1,1,1,1,5,,,,33.7,,0,,,"basal data not measured,none over 50cm?"
 C1,TR,1232,,,QUEGAR,1,0,1,1,4,,,,24.9,,,,,
 C1,TR,1232.1,,,QUEGAR,1,0,1,1,4,,,,21.4,,,,,
-C1,SA,1231,,,CERBET,0,0,,,,,,,,,,,,DEAD
+C1,SA,1231,,,CERBET,0,0,,,,,,,,,,,,DEAD (also in 18)
 D1,TR,1242,,,QUEDOU,1,0,1,1,3,,,,11,,,,,
-D1,TR,1243,,,QUEDOU,0,1,0,0,0,,,,6.2,,,,,"basal data not measured, none over 50cm?"
+D1,TR,1243,,,QUEDOU,0,1,0,0,0,,,,6.2,,0,,,"basal data not measured, none over 50cm?"

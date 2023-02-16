@@ -1,367 +1,367 @@
-﻿Plot ID,1343,,Sampler(s),"deleted an untagged umbcal SA in C1 - note needs tag in 2019- ht 14 bd .62, 1 stem. Og dead so new SA to survey before fire- will add one JUV to C1 count- mkqc2022",,,,,Date ,,,,,,,,,
-Notes,"deleted 2173 bc it had no data- note that said dead and gone BUT not in 2013 database sooo we made it up- mkqc2022… also deleted an untagged umbcal SA in C1 - note needs tag in 2019- ht 14 bd .62, 1 stem. Og dead so new SA to survey before fire- will add one JUV to C1 count",,,,,,,,,,,,,,,,,
-,,,,,,,,,,,Height,BD,,,Height ,Count >50,,
-Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,Notes
-C1,SA,5585,46,48,UMBCAL,1,0,,,,59.5,0.39,0,,,,0,NEW SA
-B1,SA,5588,462,485,UMBCAL,1,0,,,,50.5,0.48,1,,,,0,NEW SA
-C1,TR,2077,,,ARBMEN,1,1,0,1,2,,,,1.3,,,0,
-C1,SA,2078,,,ARBMEN,0,1,,,,,0.94,0,,11.5,0,0,
-C1,SA,2079,,,PSEMEN,0,0,,,,,1.43,0,,,,0,DEAD/GONE
-C1,TR,2172,,,PSEMEN,1,0,0,1,2,,,,11.2,,,0,
-C1,SA,2080,,,PSEMEN,0,0,,,,,,,,,,0,GONE
-C1,SA,2085,,,PSEMEN,0,0,,,,,,,,,,0,GONE
-C1,TR,2088,,,PSEMEN,1,0,0,1,3,,,,10.7,,,0,
-C1,SA,2087,,,ARBMEN,0,1,,,,,1.32,0,,18,0,0,
-C1,SA,2086,,,PSEMEN,0,0,,,,,,,,,,0,GONE
-C1,TR,2089,,,UMBCAL,1,1,0,1,4,,,,23.4,113.5,6,0,
-C1,TS,2089.1,,,UMBCAL,1,0,,,,83.4,0.7,4,,,,0,
-C1,TR,2084,,,QUEKEL,1,0,0,1,3,,,,25.7,,,0,
-C1,SA,2083,,,UMBCAL,0,1,,,,,0.75,0,,38.4,0,0,
-C1,TR,2082,,,PSEMEN,0,0,0,0,0,,,,2.6,,,0,DEAD
-C1,TR,99455,,,PSEMEN,0,0,0,0,0,,,,4.8,,,0,"DEAD NEXT TO 2082, WAS IT DEAD IN 2013? NO TAG - GAVE IT A 999"
-C1,TR,2061,,,PSEMEN,1,0,0,1,3,,,,16.2,,,0,
-B2,SA,2062,,,PSEMEN,0,0,,,,200,1.54,0,0.96,,,0,DEAD
-C1,SA,99456,,,UMBCAL,0,0,,,,72,0.58,1,,,,0,
-C1,SA,2090,,,UMBCAL,0,0,,,,,,,,,,0,GONE
-C1,SA,2081,,,PSEMEN,0,0,,,,,0.89,0,,,,0,DEAD
-C1,SA,2075,,,PSEMEN,0,0,,,,,1.08,0,,,,0,DEAD
-C2,TR,2091,,,PSEMEN,0,0,0,0,0,,,,4.3,,,0,GONE
-C2,TR,2096,,,PSEMEN,0,0,0,0,0,,,,4.2,,,0,GONE
-C2,TR,2095,,,PSEMEN,0,0,0,0,0,,,,2,,,0,GONE
-C2,TR,2097,,,PSEMEN,0,0,0,0,0,,,,2.1,,,0,GONE
-A1,SA,1777,,,ARBMEN,0,0,,,,,,,,,,0,
-A1,TR,1778,,,PSEMEN,0,0,0,0,0,,,,1.42,,,0,GONE
-A1,SA,1779,,,PSEMEN,0,0,,,,,,,,,,0,
-A1,TR,1780,,,PSEMEN,1,0,0,1,3,,,,2.85,,,0,G
-A1,TR,1794,,,QUEKEL,1,0,0,1,4,,,,30.2,,,0,
-A1,TR,1805,,,PSEMEN,1,0,0,1,2,,,,4.5,,,0,
-A1,SA,1790,,,PSEMEN,0,0,,,,,,,,,,0,
-A1,TR,1801,,,PSEMEN,1,0,0,1,2,,,,5.1,,,0,
-A1,TR,1792,,,PSEMEN,0,0,0,0,0,,,,1.93,,,0,
-A1,SA,1782,,,ARBMEN,0,0,,,,,0.57,0,,,,0,
-A1,SA,1781,,,ARBMEN,0,1,,,,,0.23,0,,24.8,0,0,OG DEAD
-A1,TR,1783,,,PSEMEN,0,0,0,0,0,,,,1.16,,,0,
-A1,TR,1793,,,PSEMEN,1,0,0,1,3,,,,2.06,,,0,
-A1,TR,1800,,,PSEMEN,1,0,0,1,1,,,,1.77,,,0,
-A1,SA,1789,,,CEACUN,0,0,,,,,0.52,0,,,,0,
-A1,SA,1787,,,PSEMEN,0,0,,,,,1.4,0,,,,0,
-A1,TR,1788,,,PSEMEN,1,0,0,1,3,,,,6.4,,,0,
-A1,SA,1786,,,PSEMEN,0,0,,,,,,,,,,0,GONE
-A1,SA,1830,,,PSEMEN,0,0,,,,,,,,,,0,GONE
-A1,SA,1828,,,PSEMEN,0,0,,,,,,,,,,0,GONE
-A1,TR,1795,,,PSEMEN,1,0,0,1,2,,,,4.51,,,0,
-A1,TR,1814,,,PSEMEN,1,0,0,1,3,,,,5.7,,,0,
-A1,SA,1893,,,UMBCAL,0,0,,,,,0.52,0,,,,0,
-A1,TR,1815,,,QUEKEL,1,0,1,1,3,,,,30.5,,,0,
-A1,TR,1806,,,PSEMEN,0,0,0,0,0,,,,3.6,,,0,
-A1,TR,1807,,,PSEMEN,0,0,0,0,0,,,,4.41,,,0,
-A1,SA,1803,,,ARBMEN,0,0,,,,,,,,,,0,GONE
-A1,SA,1785,,,PSEMEN,0,0,,,,,,,,,,0,GONE
-A1,SA,1784,,,ARBMEN,0,0,,,,,,,,,,0,GONE
-A1,SA,1796,,,PSEMEN,0,0,,,,,,,,,,0,GONE
-A1,SA,1802,,,PSEMEN,0,0,,,,,,,,,,0,GONE
-A1,SA,1797,,,PSEMEN,0,0,,,,1.12,,,,,,0,
-A1,SA,1804,,,PSEMEN,0,0,,,,,,,,,,0,GONE
-A1,TR,1811,,,PSEMEN,0,0,0,0,0,,,,1.9,,,0,
-A1,TR,1817,,,PSEMEN,1,0,0,1,2,,,,12.7,,,0,
-A1,SA,1895,,,UMBCAL,0,0,,,,,,,,,,0,GONE
-A1,SA,1798,,,PSEMEN,0,0,,,,,,,,,,0,GONE
-A1,SA,1791,,,PSEMEN,0,0,,,,,,,,,,0,GONE
-A1,TR,1810,,,PSEMEN,0,0,0,0,0,,,,1.57,,,0,
-A1,TR,1816,,,PSEMEN,1,0,0,1,2,,,,6,,,0,
-A1,TR,1809,,,PSEMEN,1,0,0,1,2,,,,4.19,,,0,
-A1,TR,1808,,,PSEMEN,1,0,0,1,2,,,,4.14,,,0,
-A1,TR,1837,,,PSEMEN,1,0,0,1,2,,,,4.71,,,0,
-A1,SA,1799,,,ARBMEN,0,0,,,,,,,,,,0,GONE
-A2,TR,1823,,,PSEMEN,1,0,0,1,2,,,,6.2,,,0,changed from typo 1523Qc2022MK
-A2,TR,1900,,,PSEMEN,0,0,0,0,0,,,,1.69,,,0,
-A2,TR,1826,,,PSEMEN,0,0,0,0,0,,,,2.53,,,0,
-A2,TR,1827,,,PSEMEN,1,0,0,1,2,,,,4.86,,,0,
-A2,TR,1894,,,PSEMEN,1,0,0,1,1,,,,3.78,,,0,
-A2,TR,1898,,,PSEMEN,0,0,0,0,0,,,,4.05,,,0,
-A2,TR,1820,,,PSEMEN,1,0,0,1,1,,,,4.91,,,0,
-A2,TR,1822,,,PSEMEN,1,0,0,1,2,,,,7.3,,,0,
-A2,TR,1819,,,PSEMEN,1,0,0,1,1,,,,8,,,0,
-A2,TR,1818,,,PSEMEN,1,0,0,1,1,,,,4.97,,,0,
-A2,TR,1821,,,PSEMEN,0,0,0,0,0,,,,2.49,,,0,
-C2,SA,2101,,,UMBCAL,0,0,,,,,,,,,,0,GONE
-C2,TR,2055,,,PSEMEN,0,0,0,0,0,,,,2,,,0,DEAD
-C2,TR,2098,,,PSEMEN,0,0,0,0,0,,,,2.3,,,0,DEAD
-C2,TR,2056,,,PSEMEN,0,0,0,0,0,,,,3.8,,,0,DEAD
-C2,TR,2099,,,PSEMEN,0,0,0,0,0,,,,6.5,,,0,DEAD
-C2,SA,2102,,,UMBCAL,0,1,,,,,0.69,0,,40.4,0,0,OG DEAD
-C2,TR,2106,,,PSEMEN,0,0,0,0,0,,,,3.9,,,0,DEAD
-C2,TR,2092,,,PSEMEN,0,0,0,0,0,,,,5.4,,,0,DEAD
-C2,TR,2108,,,PSEMEN,0,0,0,0,0,,,,1.7,,,0,DEAD
-C2,TR,2103,,,PSEMEN,0,0,0,0,0,,,,2.2,,,0,DEAD
-C2,TR,2216,,,PSEMEN,0,0,0,0,0,,,,2.1,,,0,DEAD
-C2,TR,2105,,,PSEMEN,1,0,0,1,3,,,,22.2,,,0,
-C2,TR,2104,,,PSEMEN,0,0,0,0,0,,,,3,,,0,DEAD
-C3,TR,2109,,,PSEMEN,0,0,0,0,0,,,,2.9,,,0,DEAD
-C2,TR,2107,,,PSEMEN,0,0,0,0,0,,,,7.2,,,0,DEAD
-C2,TR,2213,,,PSEMEN,0,0,0,0,0,,,,,,,0,GONE/ TAG NOT FOUND
-C2,SA,2094,,,UMBCAL,0,0,,,,,,,,,,0,GONE/ TAG BURNED
-C2,SA,2093,,,HETARB,0,0,,,,,,,,,,0,DEAD/GONE BUT TAG FOUND
-C3,TR,2110,,,PSEMEN,0,0,0,0,0,,,,3.3,,,0,DEAD
-C3,TR,2111,,,PSEMEN,0,0,0,0,0,,,,2.6,,,0,DEAD
-C3,TR,2112,,,PSEMEN,0,0,0,0,0,,,,3,,,0,DEAD
-C3,TR,2113,,,PSEMEN,0,0,0,0,0,,,,5.7,,,0,DEAD
-C3,TR,2114,,,PSEMEN,0,0,0,0,0,,,,2.9,,,0,DEAD
-C3,TR,2115,,,PSEMEN,1,0,0,1,2,,,,7.3,,,0,
-C3,TR,2116,,,PSEMEN,0,0,0,0,0,,,,3.6,,,0,DEAD
-C3,TR,2122,,,PSEMEN,0,0,0,0,0,,,,2,,,0,DEAD
-C3,SA,2119,,,UMBCAL,0,1,,,,,0.26,0,,38.4,0,0,OG GONE BD OF BASAL RESPROUT 
-C3,TR,2121,,,PSEMEN,1,0,0,1,2,,,,4.7,,,0,
-A2,TR,1897,,,PSEMEN,0,0,0,0,0,,,,3.73,,,0,
-A2,TR,1896,,,PSEMEN,0,0,0,0,0,,,,3.93,,,0,
-A2,TR,1832,,,PSEMEN,1,0,0,1,2,,,,13.8,,,0,
-A2,TR,1834,,,PSEMEN,0,0,0,0,0,,,,4.43,,,0,
-A2,TR,1825,,,PSEMEN,1,0,0,1,3,,,,13.7,,,0,was dbh typo 33.7- mkqc2022/ deleted a dup with dbh 20.3- noone is missing but its bonkers wrong dbh and led to a dup in 2019 and 2020. only difference was it was in B2 and canopy was a 2. lines up numners side by side- no one missing. Had to go…if there is an untagged psemen with 20+ dbh in B2 it couls be this one - mkqc2022
-A2,TR,1836,,,PSEMEN,1,0,0,1,1,,,,5.46,,,0,
-A2,TR,1835,,,PSEMEN,0,0,0,0,0,,,,3.19,,,0,
-A2,SA,1886,,,UMBCAL,0,1,,,,,0.13,0,,20.4,0,0,OG DEAD
-A2,TR,1838,,,PSEMEN,0,0,0,0,0,,,,13.3,,,0,
-A2,TR,1833,,,PSEMEN,1,0,0,1,1,,,,10.7,,,0,
-A2,TR,1831,,,PSEMEN,0,0,0,0,0,,,,2.41,,,0,
-A2,TR,1840,,,PSEMEN,0,0,0,0,0,,,,1.9,,,0,
-A2,TR,1843,,,PSEMEN,1,0,0,1,1,,,,4.43,,,0,
-A2,TR,1842,,,PSEMEN,1,0,0,1,1,,,,11.7,,,0,
-A2,TR,1841,,,PSEMEN,0,0,0,0,0,,,,2.3,,,0,
-A2,TR,1899,,,UMBCAL,0,0,0,0,0,,,,,,,0,DEAD AND GONE
-A2,TR,1839,,,PSEMEN,0,0,0,0,0,,,,1.98,,,0,DEAD
-A2,TR,1813,,,PSEMEN,0,0,0,0,0,,,,2.55,,,0,
-A2,TR,1824,,,QUEDEC,0,0,0,0,0,,,,,,,0,DEAD AND GONE
-A2,TR,1824.1,,,QUEDEC,0,0,0,0,0,,,,,,,0,DEAD AND GONE
-A2,SA,1829,,,UMBCAL,0,0,,,,,,,,,,0,DEAD AND GONE
-A3,TR,1850,,,PSEMEN,1,0,0,1,1,,,,4.93,,,0,
-A3,TR,1848,,,PSEMEN,0,0,0,0,0,,,,3.02,,,0,
-A3,TR,1847,,,PSEMEN,0,0,0,0,0,,,,11.94,,,0,
-A3,TR,1844,,,PSEMEN,0,0,0,0,0,,,,2.8,,,0,
-A3,TR,2013,,,PSEMEN,0,0,0,0,0,,,,2.14,,,0,
-A3,TR,1862,,,PSEMEN,0,0,0,0,0,,,,4.29,,,0,
-A3,TR,1861,,,PSEMEN,0,0,0,0,0,,,,3.78,,,0,
-C3,TR,2120,,,PSEMEN,0,0,0,0,0,,,,3.2,,,0,DEAD
-C3,SA,2118,,,UMBCAL,0,0,,,,,0.73,0,,,,0,DEAD
-C3,TR,2226,,,PSEMEN,0,0,0,0,0,,,,3.1,,,0,DEAD
-C3,SA,2117,,,UMBCAL,0,0,,,,,,,,,,0,DEAD/GONE
-C3,TR,2228,,,PSEMEN,0,0,0,0,0,,,,1.1,,,0,DEAD
-C3,TR,2227,,,PSEMEN,0,0,0,0,0,,,,2.2,,,0,DEAD
-C3,SA,2123,,,UMBCAL,0,0,,,,,0.82,0,,,,0,DEAD
-C3,SA,2229,,,UMBCAL,0,0,,,,,0.47,0,,,,0,DEAD
-C4,SA,2132,,,UMBCAL,0,1,,,,,0.53,0,,22.4,0,0,OG DEAD
-C4,SA,2133,,,UMBCAL,0,1,,,,,0.79,0,,39.2,0,0,
-C4,TR,2135,,,PSEMEN,1,0,0,1,3,,,,22,,,0,BADLY BURNED
-C4,SA,2124,,,UMBCAL,0,0,,,,,,,,,,0,DEAD/GONE
-C4,SA,2125,,,PSEMEN,0,0,,,,,0.96,0,,,,0,
-C4,SA,2129,,,UMBCAL,0,0,,,,,,,,,,0,DEAD/GONE
-C4,SA,2128,,,PSEMEN,0,0,,,,,,,,,,0,DEAD/GONE
-C4,SA,2138,,,PSEMEN,0,0,,,,,0.94,0,,,,0,DEAD
-C4,SA,2127,,,PSEMEN,0,0,,,,,1.33,,,,,0,DEAD
-C4,SA,2126,,,UMBCAL,0,0,,,,,,,,,,0,DEAD/GONE
-C4,SA,2137,,,PSEMEN,0,0,,,,,1.55,0,,,,0,
-C4,TR,2231,,,PSEMEN,0,0,0,0,0,,,,,,,0,DEAD/GONE
-C4,SA,2136,,,UMBCAL,0,0,,,,,,,,,,0,DEAD/GONE
-C4,SA,2134,,,QUEAGR,0,0,,,,,,,,,,0,DEAD/GONE
-C4,TR,2130,,,PSEMEN,0,0,0,0,0,,,,4.9,,,0,
-C4,TR,2131,,,QUEGAR,1,0,0,1,4,,,,34,,,0,TAG IS GONE - was misID'd quekel- changed after 202o field conf- mkqc2022
-D4,TR,2154,,,PSEMEN,1,0,0,1,3,,,,8.6,,,0,
-D4,TR,2155,,,PSEMEN,0,0,0,0,0,,,,5.1,,,0,DEAD
-D4,SA,2144,,,UMBCAL,0,0,,,,,0.66,0,,,,0,DEAD
-D4,SA,2147,,,PSEMEN,0,0,,,,,1.92,0,,,,0,DEAD
-A3,TR,1846,,,PSEMEN,0,0,0,0,0,,,,3.04,,,0,
-A3,SA,1860,,,PSEMEN,0,0,,,,,,,,,,0,DEAD/GONE
-A3,SA,2003,,,PSEMEN,0,0,,,,,,,,,,0,DEAD/GONE
-A3,TR,1859,,,PSEMEN,0,0,0,0,0,,,,1.32,,,0,
-A3,SA,1858,,,PSEMEN,0,0,,,,,1.3,0,,,,0,
-A3,SA,1857,,,UMBCAL,0,0,,,,,0.59,0,,,,0,
-A3,SA,2002,,,PSEMEN,0,0,,,,,,,,,,0,DEAD/GONE
-A3,TR,1854,,,PSEMEN,0,0,0,0,0,,,,,,,0,DEAD/GONE
-A3,SA,1856,,,PSEMEN,0,0,,,,,,,,,,0,
-A3,TR,1851,,,PSEMEN,0,0,0,0,0,,,,2.61,,,0,
-A3,SA,1849,,,UMBCAL,0,1,,,,,0.37,0,,32.2,0,0,OG DEAD
-A3,TR,2019,,,PSEMEN,0,0,0,0,0,,,,1.43,,,0,
-A3,TR,1855,,,PSEMEN,0,0,0,0,0,,,,,,,0,DEAD/GONE
-A3,TR,1852,,,PSEMEN,0,0,0,0,0,,,,1.22,,,0,
-A3,TR,1853,,,PSEMEN,0,0,0,0,0,,,,,,,0,DEAD/GONE
-A3,TR,1845,,,PSEMEN,0,0,0,0,0,,,,2.62,,,0,
-A4,TR,1866,,,UMBCAL,1,1,0,1,3,,,,10.3,159.8,7,0,
-A4,TR,1866.1,,,UMBCAL,1,0,0,1,4,,,,12.1,,,0,
-A4,TR,1869,,,PSEMEN,0,0,0,0,0,,,,,,,0,DEAD/GONE
-A4,TR,1867,,,PSEMEN,1,0,0,1,3,,,,16,,,0,
-A4,TR,1865,,,PSEMEN,1,0,0,1,3,,,,22.2,,,0,
-A4,TR,1864,,,PSEMEN,1,0,0,1,4,,,,7.5,,,0,
-A4,SA,1874,,,PSEMEN,0,0,,,,1.62,,,,,,0,
-A4,SA,1875,,,PSEMEN,0,0,,,,0.75,,,,,,0,
-A4,SA,1876,,,PSEMEN,0,0,,,,1.23,,,,,,0,
-A4,TR,1877,,,PSEMEN,0,0,0,0,0,,,,1.12,,,0,
-A4,SA,1879,,,UMBCAL,0,0,,,,,,,,,,0,DEAD/GONE- DELETED A DUP WITH NO DATA/ SAME QUAD MKQC2022
-A4,TR,1881,,,PSEMEN,0,0,0,0,0,,,,3.85,,,0,
-A4,TR,1887,,,PSEMEN,0,0,0,0,0,,,,2.29,,,0,
-A4,TR,1885,,,PSEMEN,0,0,0,0,0,,,,2.12,,,0,
-A4,TR,1880,,,PSEMEN,0,0,0,0,0,,,,1.03,,,0,
-A4,TR,1883,,,PSEMEN,0,0,0,0,0,,,,1.84,,,0,
-A4,TR,1884,,,PSEMEN,0,0,0,0,0,,,,3.31,,,0,
-A4,TR,1882,,,PSEMEN,0,0,0,0,0,,,,3.54,,,0,
-A4,TR,1890,,,PSEMEN,0,0,0,0,0,,,,2.2,,,0,
-A4,TR,1892,,,PSEMEN,0,0,0,0,0,,,,1,,,0,
-A4,TR,1891,,,PSEMEN,0,0,0,0,0,,,,2.8,,,0,
-A4,TR,1872,,,PSEMEN,0,0,0,0,0,,,,1.94,,,0,
-A4,SA,1870,,,PSEMEN,0,0,,,,,,,,,,0,GONE
-A4,SA,1873,,,ARBMEN,0,0,,,,,0.79,0,,,,0,
-A4,SA,1863,,,UMBCAL,0,0,,,,,,,,,,0,GONE
-A4,SA,2049,,,QUEAGR,0,0,,,,,,,,,,0,GONE
-A4,SA,1878,,,UMBCAL,0,0,,,,,,,,,,0,GONE
-A4,SA,1889,,,QUEAGR,0,1,,,,,0.7,0,,21.6,0,0,OG DEAD 
-A4,SA,1888,,,UMBCAL,0,0,,,,,,,0.57,,,0,
-A4,SA,1871,,,UMBCAL,0,1,,,,,1.05,0,,40.5,0,0,OG DEAD
-A4,SA,1868,,,UMBCAL,0,0,,,,,,,,,,0,
-B4,TR,2009,,,PSEMEN,0,0,0,0,0,,,,2.13,,,0,
-B3,SA,2015,,,PSEMEN,0,0,,,,,0.96,0,,,,0,
-B4,TR,2017,,,PSEMEN,1,0,0,1,1,,,,3.08,,,0,
-B4,TR,2020,,,PSEMEN,0,0,0,0,0,,,,,,,0,GONE
-B4,TR,2021,,,PSEMEN,0,0,0,0,0,,,,3.45,,,0,
-B3,TR,2036,,,PSEMEN,0,0,0,0,0,,,,4.15,,,0,
-B4,SA,2006,,,PSEMEN,0,0,,,,,,,,,,0,GONE
-B4,TR,2010,,,PSEMEN,0,0,0,0,0,,,,1.46,,,0,
-D4,TR,2148,,,PSEMEN,0,0,0,0,0,,,,2.3,,,0,
-D4,SA,2153,,,UMBCAL,0,0,,,,,,,,,,0,DEAD/GONE
-D4,SA,2150,,,PSEMEN,0,0,,,,,1.12,0,,,,0,
-D3,TR,2160,,,PSEMEN,0,0,0,0,0,,,,,,,0,DEAD/GONE
-D3,TR,2162,,,PSEMEN,0,0,0,0,0,,,,,,,0,DEAD/GONE
-D3,TR,2157,,,PSEMEN,1,0,0,1,4,,,,14.8,,,0,
-D4,SA,2152,,,PSEMEN,0,0,,,,,0.86,0,,,,0,DEAD
-D4,SA,2151,,,PSEMEN,0,0,,,,,0.95,0,,,,0,DEAD
-D4,SA,2141,,,UMBCAL,0,1,,,,,0.32,0,,43.3,0,0,OG DEAD
-D4,SA,2140,,,PSEMEN,0,0,,,,,0.9,0,,,,0,DEAD
-D4,TR,2149,,,PSEMEN,0,0,0,0,0,,,,2.1,,,0,DEAD
-D4,SA,99457,,,UMBCAL,0,0,,,,,0.55,0,,,,0,"DEAD, NO TAG, WOULD HAVE BEEN A NEW SA"
-D4,SA,2234,,,UMBCAL,0,0,,,,,0.83,0,,,,0,
-D4,SA,2142,,,UMBCAL,0,0,,,,,0.53,0,,,,0,
-D4,SA,2143,,,UMBCAL,0,1,,,,,0.57,0,,35.4,0,0,OG DEAD
-D4,SA,2145,,,UMBCAL,0,1,,,,,0.79,0,,42.6,0,0,OG DEAD
-D4,SA,2146,,,UMBCAL,0,0,,,,,,,,,,0,DEAD/GONE
-D4,SA,2232,,,PSEMEN,0,0,,,,,0.46,0,,,,0,DEAD
-D4,SA,2233,,,UMBCAL,0,0,,,,,0.58,0,,,,0,
-D4,SA,2139,,,UMBCAL,0,0,,,,,,,,,,0,DEAD/GONE
-D3,TR,2163,,,PSEMEN,0,0,0,0,0,,,,2.2,,,0,DEAD
-D3,TR,2164,,,PSEMEN,1,0,0,1,2,,,,5.2,,,0,
-D3,TR,2156,,,PSEMEN,0,0,0,0,0,,,,3.5,,,0,DEAD
-D3,TR,2161,,,PSEMEN,0,0,0,0,0,,,,2.6,,,0,DEAD
-D3,SA,2158,,,ARBMEN,0,0,,,,,,,,,,0,DEAD/GONE
-D3,SA,2159,,,UMBCAL,0,1,,,,,0.31,0,,35.1,0,0,OG GONE- BD OF BASAL RESPROUT
-D3,TR,2166,,,PSEMEN,0,0,,,,,,,6.7,,,0,
-D3,TR,2165,,,PSEMEN,0,0,,,,,,,5.7,,,0,
-B4,TR,2011,,,PSEMEN,1,0,0,1,3,,,,24.7,,,0,
-B4,SA,2008,,,UMBCAL,0,0,,,,,0.54,0,,,,0,
-B4,TR,2014,,,PSEMEN,1,0,0,1,2,,,,16.2,,,0,
-B4,SA,2012,,,ARBMEN,0,1,,,,,0.42,0,,24,0,0,OG DEAD
-B4,SA,2016,,,UMBCAL,0,1,,,,,0.49,0,,33.8,0,0,OG DEAD
-B4,SA,2018,,,UMBCAL,0,0,,,,,,,,,,0,GONE
-B4,SA,2004,,,PSEMEN,0,0,,,,,,,,,,0,GONE
-B3,SA,2005,,,PSEMEN,0,0,,,,,,,,,,0,GONE
-B3,TR,2022,,,PSEMEN,0,0,0,0,0,,,,2.59,,,0,
-B3,TR,2033,,,PSEMEN,0,0,0,0,0,,,,3.27,,,0,
-B3,TR,2035,,,PSEMEN,0,0,0,0,0,,,,1.78,,,0,
-B3,TR,2032,,,PSEMEN,1,0,0,1,2,,,,4.3,,,0,
-B3,TR,2029,,,QUEKEL,1,0,1,1,,,,,24.5,,,0,
-B3,TR,2030,,,PSEMEN,0,0,,,,,,,,,,0,GONE
-B3,TR,2031,,,PSEMEN,0,0,,,,,,,2.25,,,0,
-B2,TR,2040,,,PSEMEN,0,0,,,,,,,2.97,,,0,
-B2,TR,2038,,,PSEMEN,0,0,,,,,,,1.72,,,0,
-B2,TR,2038.1,,,PSEMEN,0,0,,,,,,,1.05,,,0,
-B3,TR,2037,,,QUEKEL,1,0,0,1,2,,,,33,,,0,
-B3,TR,2041,,,PSEMEN,1,0,0,1,3,,,,10.9,,,0,
-B3,TR,2025,,,PSEMEN,0,0,,,,,,,6.17,,,0,
-B3,SA,2023,,,UMBCAL,0,0,,,,,0.63,0,,,,0,
-B3,TR,2024,,,PSEMEN,0,0,,,,,2.7,0,,,,0,
-B3,SA,2026,,,UMBCAL,0,1,,,,,0.96,0,,42,0,0,OG DEAD
-B3,SA,2027,,,PSEMEN,0,0,,,,,1.17,0,,,,0,
-B3,SA,2028,,,UMBCAL,0,0,,,,,,,,,,0,GONE
-B3,SA,2034,,,UMBCAL,0,1,,,,,0.7,0,,32,0,0,OG DEAD
-B2,TR,2051,,,PSEMEN,0,0,,,,,,,,,,0,
-D2,TR,2168,,,PSEMEN,0,0,,,,,,,3,,,0,
-D2,TR,2169,,,PSEMEN,1,0,0,1,3,,,,7.8,,,0,
-D2,SA,2167,,,UMBCAL,0,1,,,,,0.97,0,,42,0,0,DEAD OG
-D2,TR,2177,,,PSEMEN,0,0,,,,,,,5.1,,,0,DEAD
-D2,TR,2178,,,PSEMEN,0,0,,,,,,,3.7,,,0,DEAD
-D2,TR,2170,,,PSEMEN,1,0,0,1,3,,,,12.4,,,0,
-D2,TR,2182,,,PSEMEN,0,0,,,,,,,2.9,,,0,DEAD
-D2,TR,2181,,,PSEMEN,1,0,0,1,4,,,,21.9,,,0,
-D2,TR,2179,,,PSEMEN,0,0,,,,,,,1.6,,,0,DEAD
-D1,TR,2186,,,QUEKEL,1,0,0,1,3,,,,32.9,,,0,
-D1,TR,2183,,,PSEMEN,0,0,,,,,,,5.6,,,0,DEAD
-D2,TR,2176,,-440,PSEMEN,0,0,,,,,,,6.6,,,0,DEAD
-D2,TR,2174,,-435,PSEMEN,0,0,,,,,,,5.1,,,0,DEAD
-D2,TR,2180,,,PSEMEN,0,0,,,,,,,4.5,,,0,
-D2,SA,2175,,,UMBCAL,0,0,,,,,,,,,,0,DEAD/GONE
-D1,TR,2221,,,PSEMEN,1,0,0,1,3,,,,7.7,,,0,
-D1,TR,2220,,,QUEKEL,0,0,,,,,,,30.9,,,0,DEAD
-D1,TR,2222,,,PSEMEN,1,0,0,1,3,,,,7,,,0,
-D1,TR,2219,,,PSEMEN,1,0,0,1,3,,,,3.2,,,0,
-D1,TR,2218,,,PSEMEN,0,0,,,,,,,1.9,,,0,
-D1,TR,2212,,,PSEMEN,0,0,,,,,,,1.2,,,0,
-D1,TR,2223,,,PSEMEN,0,0,,,,,,,1.2,,,0,
-D1,SA,2224,,,PSEMEN,0,0,,,,,0.93,0,,,,0,
-D1,TR,2198,,,PSEMEN,0,0,,,,,,,6.1,,,0,
-D1,SA,2197,,,ARBMEN,0,0,,,,,1.61,0,,,,0,
-D1,SA,2196,,,ARBMEN,0,0,,,,,0.98,0,,,,0,
-D1,SA,2215,,,PSEMEN,0,0,,,,,,,,,,0,DEAD/GONE
-B2,SA,2053,,,UMBCAL,0,1,,,,,0.58,0,,21.1,0,0,OG DEAD
-B2,TR,2054,,,PSEMEN,1,0,0,1,3,,,,18.2,,,0,
-B2,TR,2045,,,PSEMEN,0,0,,,,,,,3.32,,,0,
-B2,TR,2046,,,PSEMEN,1,0,0,1,2,,,,10.6,,,0,avereaged an identical dup- one was 10.5 one was 10.7 dbh- mkqc2022
-B2,TR,2050,,,PSEMEN,0,0,,,,,,,3.25,,,0,
-B2,TR,2047,,,PSEMEN,0,0,,,,,,,3.7,,,0,
-B2,TR,2043,,,PSEMEN,0,0,,,,,,,5.32,,,0,
-B2,TR,2042,,,PSEMEN,1,0,0,1,3,,,,10.1,,,0,
-B2,TR,2044,,,PSEMEN,0,0,,,,,,,3.8,,,0,
-B2,SA,2048,,,UMBCAL,0,0,,,,,,,,,,0,GONE
-B2,SA,2052,,,UMBCAL,0,0,,,,,,,,,,0,GONE
-B2,SA,2039,,,UMBCAL,0,0,,,,,,,,,,0,GONE
-B1,TR,2058,,,QUEKEL,0,0,0,0,0,,,,,,,0,ABOUT TO FALL OVER
-B1,SA,2057,,,PSEMEN,0,0,,,,,,,,,,0,GONE
-B1,TR,2059,,,PSEMEN,0,0,0,0,0,,,,4.55,,,0,
-B1,TR,2064,,,PSEMEN,1,0,0,1,2,,,,6.65,,,0,
-B1,TR,2065,,,PSEMEN,1,0,0,1,2,,,,8.19,,,0,
-B1,TR,2066,,,PSEMEN,1,0,0,1,3,,,,14.9,,,0,
-B1,TR,2069,,,PSEMEN,0,0,0,0,0,,,,1.04,,,0,
-B1,SA,2071,,,PSEMEN,0,0,,,,,,,0.9,,,0,
-B1,SA,2072,,,UMBCAL,0,1,,,,,2.83,0,,36.2,0,0,OG DEAD
-B1,TR,2070,,,PSEMEN,1,0,0,1,2,,,,2.08,,,0,
-B1,TR,2073,,,PSEMEN,1,0,0,1,2,,,,4.6,,,0,
-B1,TR,2074,,,PSEMEN,0,0,0,0,0,,,,1.62,,,0,
-B1,SA,2067,,,PSEMEN,0,0,,,,,1.5,0,,,,0,
-B1,SA,2063,,,ARBMEN,0,0,,,,,1.7,0,,,,0,
-B1,TR,2076,,,PSEMEN,1,0,,1,3,,,,11.9,,,0,was typo 2676- mkqc2022
-B1,TR,2060,,,PSEMEN,1,0,,1,3,,,,14.8,,,0,
-B1,SA,2068,,,PSEMEN,0,0,,,,,,,,,,0,GONE
-D1,SA,2214,,,PSEMEN,0,0,,,,,,,,,,0,DEAD/GONE
-D1,SA,2217,,,ARBMEN,0,0,,,,,,,,,,0,DEAD/GONE
-D1,SA,2230,,,PSEMEN,0,0,,,,,,,,,,0,DEAD/GONE
-D1,SA,2194,,,UMBCAL,0,1,,,,,1.06,0,,62.2,1,0,OG DEAD
-D1,SA,2211,,,PSEMEN,0,0,,,,,1.82,0,0.77,,,0,
-D1,SA,2209,,,PSEMEN,0,0,,,,,,,,,,0,DEAD/GONE
-D1,SA,2191,,,ARBMEN,0,0,,,,,,,,,,0,DEAD/GONE
-D1,SA,2210,,,PSEMEN,0,0,,,,,1.64,0,0.78,,,0,
-D1,SA,2208,,,PSEMEN,0,0,,,,,0.74,0,,,,0,DEAD
-D1,SA,2190,,,PSEMEN,0,0,,,,,0.47,0,,,,0,DEAD
-D1,SA,2195,,,PSEMEN,0,0,,,,,,,,,,0,DEAD/GONE
-D1,TR,2200,,,PSEMEN,1,0,0,1,3,,,,7.7,,,0,
-D1,SA,2192,,,UMBCAL,0,0,,,,,1.01,0,,,,0,DEAD
-D1,TR,2199,,,PSEMEN,1,0,0,1,2,,,,8.3,,,0,
-D1,TR,2206,,,PSEMEN,1,0,0,1,2,,,,4.7,,,0,
-D1,TR,2202,,,PSEMEN,0,0,0,0,0,,,,2.5,,,0,DEAD
-D1,TR,2205,,,PSEMEN,0,0,0,0,0,,,,2.2,,,0,DEAD
-D1,TR,2204,,,PSEMEN,1,0,0,1,3,,,,7.8,,,0,
-D1,SA,2193,,,UMBCAL,0,1,,,,,1.08,0,,27.5,0,0,OG DEAD
-D1,SA,2188,,,ARBMEN,0,0,,,,,,,,,,0,DEAD/GONE
-D1,SA,2187,,,PSEMEN,0,0,,,,,0.88,0,,,,0,
-D1,TR,2201,,,PSEMEN,1,0,0,1,3,,,,6,,,0,
-D1,TR,2207,,,PSEMEN,0,0,0,0,0,,,,,,,0,DEAD/GONE
-D1,TR,2203,,,PSEMEN,0,0,0,0,0,,,,,,,0,DEAD/GONE
-D1,SA,2225,,,ARBMEN,0,0,,,,,0.57,0,,,,0,DEAD
-D1,TR,2100,,,PSEMEN,0,0,0,0,0,,,,3.5,,,0,DEAD
-D1,SA,2185,,,UMBCAL,0,1,,,,,0.64,0,,29,1,0,OG DEAD
-D1,SA,2189,,,UMBCAL,0,0,,,,,,,,,,0,DEAD/GONE
-B1,SA,2171,,,PSEMEN,0,0,,,,,,,,,,,"data from 2019- not found in 2018, assumend dead- mkqc2022"
-C1,SA,2184,,,UMBCAL,0,1,,,,,,,,,,,"data from 2019- not found in 2018, assumend dead- mkqc2023"
+﻿Plot ID,1343,,Sampler(s),"deleted an untagged umbcal SA in C1 - note needs tag in 2019- ht 14 bd .62, 1 stem. Og dead so new SA to survey before fire- will add one JUV to C1 count- mkqc2022",,,,,Date ,,,,,,,,,,
+Notes,"deleted 2173 bc it had no data- note that said dead and gone BUT not in 2013 database sooo we made it up- mkqc2022… also deleted an untagged umbcal SA in C1 - note needs tag in 2019- ht 14 bd .62, 1 stem. Og dead so new SA to survey before fire- will add one JUV to C1 count",,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,Height,BD,,,Height ,Count >50,,,
+Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,SOD on Bay ,Notes
+C1,SA,5585,46,48,UMBCAL,1,0,,,,59.5,0.39,0,,,,0,,NEW SA
+B1,SA,5588,462,485,UMBCAL,1,0,,,,50.5,0.48,1,,,,0,,NEW SA
+C1,TR,2077,,,ARBMEN,1,1,0,1,2,,,,1.3,,,0,,
+C1,SA,2078,,,ARBMEN,0,1,,,,,0.94,0,,11.5,0,0,,
+C1,SA,2079,,,PSEMEN,0,0,,,,,1.43,0,,,,0,,DEAD/GONE
+C1,TR,2172,,,PSEMEN,1,0,0,1,2,,,,11.2,,,0,,
+C1,SA,2080,,,PSEMEN,0,0,,,,,,,,,,0,,GONE
+C1,SA,2085,,,PSEMEN,0,0,,,,,,,,,,0,,GONE
+C1,TR,2088,,,PSEMEN,1,0,0,1,3,,,,10.7,,,0,,
+C1,SA,2087,,,ARBMEN,0,1,,,,,1.32,0,,18,0,0,,
+C1,SA,2086,,,PSEMEN,0,0,,,,,,,,,,0,,GONE
+C1,TR,2089,,,UMBCAL,1,1,0,1,4,,,,23.4,113.5,6,0,,
+C1,TS,2089.1,,,UMBCAL,1,0,,,,83.4,0.7,4,,,,0,,
+C1,TR,2084,,,QUEKEL,1,0,0,1,3,,,,25.7,,,0,,
+C1,SA,2083,,,UMBCAL,0,1,,,,,0.75,0,,38.4,0,0,,
+C1,TR,2082,,,PSEMEN,0,0,0,0,0,,,,2.6,,,0,,DEAD
+C1,TR,99455,,,PSEMEN,0,0,0,0,0,,,,4.8,,,0,,"DEAD NEXT TO 2082, WAS IT DEAD IN 2013? NO TAG - GAVE IT A 999"
+C1,TR,2061,,,PSEMEN,1,0,0,1,3,,,,16.2,,,0,,
+B2,SA,2062,,,PSEMEN,0,0,,,,200,1.54,0,0.96,,,0,,DEAD
+C1,SA,99456,,,UMBCAL,0,0,,,,72,0.58,1,,,,0,,
+C1,SA,2090,,,UMBCAL,0,0,,,,,,,,,,0,,GONE
+C1,SA,2081,,,PSEMEN,0,0,,,,,0.89,0,,,,0,,DEAD
+C1,SA,2075,,,PSEMEN,0,0,,,,,1.08,0,,,,0,,DEAD
+C2,TR,2091,,,PSEMEN,0,0,0,0,0,,,,4.3,,,0,,GONE
+C2,TR,2096,,,PSEMEN,0,0,0,0,0,,,,4.2,,,0,,GONE
+C2,TR,2095,,,PSEMEN,0,0,0,0,0,,,,2,,,0,,GONE
+C2,TR,2097,,,PSEMEN,0,0,0,0,0,,,,2.1,,,0,,GONE
+A1,SA,1777,,,ARBMEN,0,0,,,,,,,,,,0,,
+A1,TR,1778,,,PSEMEN,0,0,0,0,0,,,,1.42,,,0,,GONE
+A1,SA,1779,,,PSEMEN,0,0,,,,,,,,,,0,,
+A1,TR,1780,,,PSEMEN,1,0,0,1,3,,,,2.85,,,0,,G
+A1,TR,1794,,,QUEKEL,1,0,0,1,4,,,,30.2,,,0,,
+A1,TR,1805,,,PSEMEN,1,0,0,1,2,,,,4.5,,,0,,
+A1,SA,1790,,,PSEMEN,0,0,,,,,,,,,,0,,
+A1,TR,1801,,,PSEMEN,1,0,0,1,2,,,,5.1,,,0,,
+A1,TR,1792,,,PSEMEN,0,0,0,0,0,,,,1.93,,,0,,
+A1,SA,1782,,,ARBMEN,0,0,,,,,0.57,0,,,,0,,
+A1,SA,1781,,,ARBMEN,0,1,,,,,0.23,0,,24.8,0,0,,OG DEAD
+A1,TR,1783,,,PSEMEN,0,0,0,0,0,,,,1.16,,,0,,
+A1,TR,1793,,,PSEMEN,1,0,0,1,3,,,,2.06,,,0,,
+A1,TR,1800,,,PSEMEN,1,0,0,1,1,,,,1.77,,,0,,
+A1,SA,1789,,,CEACUN,0,0,,,,,0.52,0,,,,0,,
+A1,SA,1787,,,PSEMEN,0,0,,,,,1.4,0,,,,0,,
+A1,TR,1788,,,PSEMEN,1,0,0,1,3,,,,6.4,,,0,,
+A1,SA,1786,,,PSEMEN,0,0,,,,,,,,,,0,,GONE
+A1,SA,1830,,,PSEMEN,0,0,,,,,,,,,,0,,GONE
+A1,SA,1828,,,PSEMEN,0,0,,,,,,,,,,0,,GONE
+A1,TR,1795,,,PSEMEN,1,0,0,1,2,,,,4.51,,,0,,
+A1,TR,1814,,,PSEMEN,1,0,0,1,3,,,,5.7,,,0,,
+A1,SA,1893,,,UMBCAL,0,0,,,,,0.52,0,,,,0,,
+A1,TR,1815,,,QUEKEL,1,0,1,1,3,,,,30.5,,,0,,
+A1,TR,1806,,,PSEMEN,0,0,0,0,0,,,,3.6,,,0,,
+A1,TR,1807,,,PSEMEN,0,0,0,0,0,,,,4.41,,,0,,
+A1,SA,1803,,,ARBMEN,0,0,,,,,,,,,,0,,GONE
+A1,SA,1785,,,PSEMEN,0,0,,,,,,,,,,0,,GONE
+A1,SA,1784,,,ARBMEN,0,0,,,,,,,,,,0,,GONE
+A1,SA,1796,,,PSEMEN,0,0,,,,,,,,,,0,,GONE
+A1,SA,1802,,,PSEMEN,0,0,,,,,,,,,,0,,GONE
+A1,SA,1797,,,PSEMEN,0,0,,,,1.12,,,,,,0,,
+A1,SA,1804,,,PSEMEN,0,0,,,,,,,,,,0,,GONE
+A1,TR,1811,,,PSEMEN,0,0,0,0,0,,,,1.9,,,0,,
+A1,TR,1817,,,PSEMEN,1,0,0,1,2,,,,12.7,,,0,,
+A1,SA,1895,,,UMBCAL,0,0,,,,,,,,,,0,,GONE
+A1,SA,1798,,,PSEMEN,0,0,,,,,,,,,,0,,GONE
+A1,SA,1791,,,PSEMEN,0,0,,,,,,,,,,0,,GONE
+A1,TR,1810,,,PSEMEN,0,0,0,0,0,,,,1.57,,,0,,
+A1,TR,1816,,,PSEMEN,1,0,0,1,2,,,,6,,,0,,
+A1,TR,1809,,,PSEMEN,1,0,0,1,2,,,,4.19,,,0,,
+A1,TR,1808,,,PSEMEN,1,0,0,1,2,,,,4.14,,,0,,
+A1,TR,1837,,,PSEMEN,1,0,0,1,2,,,,4.71,,,0,,
+A1,SA,1799,,,ARBMEN,0,0,,,,,,,,,,0,,GONE
+A2,TR,1823,,,PSEMEN,1,0,0,1,2,,,,6.2,,,0,,changed from typo 1523Qc2022MK
+A2,TR,1900,,,PSEMEN,0,0,0,0,0,,,,1.69,,,0,,
+A2,TR,1826,,,PSEMEN,0,0,0,0,0,,,,2.53,,,0,,
+A2,TR,1827,,,PSEMEN,1,0,0,1,2,,,,4.86,,,0,,
+A2,TR,1894,,,PSEMEN,1,0,0,1,1,,,,3.78,,,0,,
+A2,TR,1898,,,PSEMEN,0,0,0,0,0,,,,4.05,,,0,,
+A2,TR,1820,,,PSEMEN,1,0,0,1,1,,,,4.91,,,0,,
+A2,TR,1822,,,PSEMEN,1,0,0,1,2,,,,7.3,,,0,,
+A2,TR,1819,,,PSEMEN,1,0,0,1,1,,,,8,,,0,,
+A2,TR,1818,,,PSEMEN,1,0,0,1,1,,,,4.97,,,0,,
+A2,TR,1821,,,PSEMEN,0,0,0,0,0,,,,2.49,,,0,,
+C2,SA,2101,,,UMBCAL,0,0,,,,,,,,,,0,,GONE
+C2,TR,2055,,,PSEMEN,0,0,0,0,0,,,,2,,,0,,DEAD
+C2,TR,2098,,,PSEMEN,0,0,0,0,0,,,,2.3,,,0,,DEAD
+C2,TR,2056,,,PSEMEN,0,0,0,0,0,,,,3.8,,,0,,DEAD
+C2,TR,2099,,,PSEMEN,0,0,0,0,0,,,,6.5,,,0,,DEAD
+C2,SA,2102,,,UMBCAL,0,1,,,,,0.69,0,,40.4,0,0,,OG DEAD
+C2,TR,2106,,,PSEMEN,0,0,0,0,0,,,,3.9,,,0,,DEAD
+C2,TR,2092,,,PSEMEN,0,0,0,0,0,,,,5.4,,,0,,DEAD
+C2,TR,2108,,,PSEMEN,0,0,0,0,0,,,,1.7,,,0,,DEAD
+C2,TR,2103,,,PSEMEN,0,0,0,0,0,,,,2.2,,,0,,DEAD
+C2,TR,2216,,,PSEMEN,0,0,0,0,0,,,,2.1,,,0,,DEAD
+C2,TR,2105,,,PSEMEN,1,0,0,1,3,,,,22.2,,,0,,
+C2,TR,2104,,,PSEMEN,0,0,0,0,0,,,,3,,,0,,DEAD
+C3,TR,2109,,,PSEMEN,0,0,0,0,0,,,,2.9,,,0,,DEAD
+C2,TR,2107,,,PSEMEN,0,0,0,0,0,,,,7.2,,,0,,DEAD
+C2,TR,2213,,,PSEMEN,0,0,0,0,0,,,,,,,0,,GONE/ TAG NOT FOUND
+C2,SA,2094,,,UMBCAL,0,0,,,,,,,,,,0,,GONE/ TAG BURNED
+C2,SA,2093,,,HETARB,0,0,,,,,,,,,,0,,DEAD/GONE BUT TAG FOUND
+C3,TR,2110,,,PSEMEN,0,0,0,0,0,,,,3.3,,,0,,DEAD
+C3,TR,2111,,,PSEMEN,0,0,0,0,0,,,,2.6,,,0,,DEAD
+C3,TR,2112,,,PSEMEN,0,0,0,0,0,,,,3,,,0,,DEAD
+C3,TR,2113,,,PSEMEN,0,0,0,0,0,,,,5.7,,,0,,DEAD
+C3,TR,2114,,,PSEMEN,0,0,0,0,0,,,,2.9,,,0,,DEAD
+C3,TR,2115,,,PSEMEN,1,0,0,1,2,,,,7.3,,,0,,
+C3,TR,2116,,,PSEMEN,0,0,0,0,0,,,,3.6,,,0,,DEAD
+C3,TR,2122,,,PSEMEN,0,0,0,0,0,,,,2,,,0,,DEAD
+C3,SA,2119,,,UMBCAL,0,1,,,,,0.26,0,,38.4,0,0,,OG GONE BD OF BASAL RESPROUT 
+C3,TR,2121,,,PSEMEN,1,0,0,1,2,,,,4.7,,,0,,
+A2,TR,1897,,,PSEMEN,0,0,0,0,0,,,,3.73,,,0,,
+A2,TR,1896,,,PSEMEN,0,0,0,0,0,,,,3.93,,,0,,
+A2,TR,1832,,,PSEMEN,1,0,0,1,2,,,,13.8,,,0,,
+A2,TR,1834,,,PSEMEN,0,0,0,0,0,,,,4.43,,,0,,
+A2,TR,1825,,,PSEMEN,1,0,0,1,3,,,,13.7,,,0,,was dbh typo 33.7- mkqc2022/ deleted a dup with dbh 20.3- noone is missing but its bonkers wrong dbh and led to a dup in 2019 and 2020. only difference was it was in B2 and canopy was a 2. lines up numners side by side- no one missing. Had to go…if there is an untagged psemen with 20+ dbh in B2 it couls be this one - mkqc2022
+A2,TR,1836,,,PSEMEN,1,0,0,1,1,,,,5.46,,,0,,
+A2,TR,1835,,,PSEMEN,0,0,0,0,0,,,,3.19,,,0,,
+A2,SA,1886,,,UMBCAL,0,1,,,,,0.13,0,,20.4,0,0,,OG DEAD
+A2,TR,1838,,,PSEMEN,0,0,0,0,0,,,,13.3,,,0,,
+A2,TR,1833,,,PSEMEN,1,0,0,1,1,,,,10.7,,,0,,
+A2,TR,1831,,,PSEMEN,0,0,0,0,0,,,,2.41,,,0,,
+A2,TR,1840,,,PSEMEN,0,0,0,0,0,,,,1.9,,,0,,
+A2,TR,1843,,,PSEMEN,1,0,0,1,1,,,,4.43,,,0,,
+A2,TR,1842,,,PSEMEN,1,0,0,1,1,,,,11.7,,,0,,
+A2,TR,1841,,,PSEMEN,0,0,0,0,0,,,,2.3,,,0,,
+A2,TR,1899,,,UMBCAL,0,0,0,0,0,,,,,,,0,,DEAD AND GONE
+A2,TR,1839,,,PSEMEN,0,0,0,0,0,,,,1.98,,,0,,DEAD
+A2,TR,1813,,,PSEMEN,0,0,0,0,0,,,,2.55,,,0,,
+A2,TR,1824,,,QUEDEC,0,0,0,0,0,,,,,,,0,,DEAD AND GONE
+A2,TR,1824.1,,,QUEDEC,0,0,0,0,0,,,,,,,0,,DEAD AND GONE
+A2,SA,1829,,,UMBCAL,0,0,,,,,,,,,,0,,DEAD AND GONE
+A3,TR,1850,,,PSEMEN,1,0,0,1,1,,,,4.93,,,0,,
+A3,TR,1848,,,PSEMEN,0,0,0,0,0,,,,3.02,,,0,,
+A3,TR,1847,,,PSEMEN,0,0,0,0,0,,,,11.94,,,0,,
+A3,TR,1844,,,PSEMEN,0,0,0,0,0,,,,2.8,,,0,,
+A3,TR,2013,,,PSEMEN,0,0,0,0,0,,,,2.14,,,0,,
+A3,TR,1862,,,PSEMEN,0,0,0,0,0,,,,4.29,,,0,,
+A3,TR,1861,,,PSEMEN,0,0,0,0,0,,,,3.78,,,0,,
+C3,TR,2120,,,PSEMEN,0,0,0,0,0,,,,3.2,,,0,,DEAD
+C3,SA,2118,,,UMBCAL,0,0,,,,,0.73,0,,,,0,,DEAD
+C3,TR,2226,,,PSEMEN,0,0,0,0,0,,,,3.1,,,0,,DEAD
+C3,SA,2117,,,UMBCAL,0,0,,,,,,,,,,0,,DEAD/GONE
+C3,TR,2228,,,PSEMEN,0,0,0,0,0,,,,1.1,,,0,,DEAD
+C3,TR,2227,,,PSEMEN,0,0,0,0,0,,,,2.2,,,0,,DEAD
+C3,SA,2123,,,UMBCAL,0,0,,,,,0.82,0,,,,0,,DEAD
+C3,SA,2229,,,UMBCAL,0,0,,,,,0.47,0,,,,0,,DEAD
+C4,SA,2132,,,UMBCAL,0,1,,,,,0.53,0,,22.4,0,0,,OG DEAD
+C4,SA,2133,,,UMBCAL,0,1,,,,,0.79,0,,39.2,0,0,,
+C4,TR,2135,,,PSEMEN,1,0,0,1,3,,,,22,,,0,,BADLY BURNED
+C4,SA,2124,,,UMBCAL,0,0,,,,,,,,,,0,,DEAD/GONE
+C4,SA,2125,,,PSEMEN,0,0,,,,,0.96,0,,,,0,,
+C4,SA,2129,,,UMBCAL,0,0,,,,,,,,,,0,,DEAD/GONE
+C4,SA,2128,,,PSEMEN,0,0,,,,,,,,,,0,,DEAD/GONE
+C4,SA,2138,,,PSEMEN,0,0,,,,,0.94,0,,,,0,,DEAD
+C4,SA,2127,,,PSEMEN,0,0,,,,,1.33,,,,,0,,DEAD
+C4,SA,2126,,,UMBCAL,0,0,,,,,,,,,,0,,DEAD/GONE
+C4,SA,2137,,,PSEMEN,0,0,,,,,1.55,0,,,,0,,
+C4,TR,2231,,,PSEMEN,0,0,0,0,0,,,,,,,0,,DEAD/GONE
+C4,SA,2136,,,UMBCAL,0,0,,,,,,,,,,0,,DEAD/GONE
+C4,SA,2134,,,QUEAGR,0,0,,,,,,,,,,0,,DEAD/GONE
+C4,TR,2130,,,PSEMEN,0,0,0,0,0,,,,4.9,,,0,,
+C4,TR,2131,,,QUEGAR,1,0,0,1,4,,,,34,,,0,,TAG IS GONE - was misID'd quekel- changed after 202o field conf- mkqc2022
+D4,TR,2154,,,PSEMEN,1,0,0,1,3,,,,8.6,,,0,,
+D4,TR,2155,,,PSEMEN,0,0,0,0,0,,,,5.1,,,0,,DEAD
+D4,SA,2144,,,UMBCAL,0,0,,,,,0.66,0,,,,0,,DEAD
+D4,SA,2147,,,PSEMEN,0,0,,,,,1.92,0,,,,0,,DEAD
+A3,TR,1846,,,PSEMEN,0,0,0,0,0,,,,3.04,,,0,,
+A3,SA,1860,,,PSEMEN,0,0,,,,,,,,,,0,,DEAD/GONE
+A3,SA,2003,,,PSEMEN,0,0,,,,,,,,,,0,,DEAD/GONE
+A3,TR,1859,,,PSEMEN,0,0,0,0,0,,,,1.32,,,0,,
+A3,SA,1858,,,PSEMEN,0,0,,,,,1.3,0,,,,0,,
+A3,SA,1857,,,UMBCAL,0,0,,,,,0.59,0,,,,0,,
+A3,SA,2002,,,PSEMEN,0,0,,,,,,,,,,0,,DEAD/GONE
+A3,TR,1854,,,PSEMEN,0,0,0,0,0,,,,,,,0,,DEAD/GONE
+A3,SA,1856,,,PSEMEN,0,0,,,,,,,,,,0,,
+A3,TR,1851,,,PSEMEN,0,0,0,0,0,,,,2.61,,,0,,
+A3,SA,1849,,,UMBCAL,0,1,,,,,0.37,0,,32.2,0,0,,OG DEAD
+A3,TR,2019,,,PSEMEN,0,0,0,0,0,,,,1.43,,,0,,
+A3,TR,1855,,,PSEMEN,0,0,0,0,0,,,,,,,0,,DEAD/GONE
+A3,TR,1852,,,PSEMEN,0,0,0,0,0,,,,1.22,,,0,,
+A3,TR,1853,,,PSEMEN,0,0,0,0,0,,,,,,,0,,DEAD/GONE
+A3,TR,1845,,,PSEMEN,0,0,0,0,0,,,,2.62,,,0,,
+A4,TR,1866,,,UMBCAL,1,1,0,1,3,,,,10.3,159.8,7,0,,
+A4,TR,1866.1,,,UMBCAL,1,0,0,1,4,,,,12.1,,,0,,
+A4,TR,1869,,,PSEMEN,0,0,0,0,0,,,,,,,0,,DEAD/GONE
+A4,TR,1867,,,PSEMEN,1,0,0,1,3,,,,16,,,0,,
+A4,TR,1865,,,PSEMEN,1,0,0,1,3,,,,22.2,,,0,,
+A4,TR,1864,,,PSEMEN,1,0,0,1,4,,,,7.5,,,0,,
+A4,SA,1874,,,PSEMEN,0,0,,,,1.62,,,,,,0,,
+A4,SA,1875,,,PSEMEN,0,0,,,,0.75,,,,,,0,,
+A4,SA,1876,,,PSEMEN,0,0,,,,1.23,,,,,,0,,
+A4,TR,1877,,,PSEMEN,0,0,0,0,0,,,,1.12,,,0,,
+A4,SA,1879,,,UMBCAL,0,0,,,,,,,,,,0,,DEAD/GONE- DELETED A DUP WITH NO DATA/ SAME QUAD MKQC2022
+A4,TR,1881,,,PSEMEN,0,0,0,0,0,,,,3.85,,,0,,
+A4,TR,1887,,,PSEMEN,0,0,0,0,0,,,,2.29,,,0,,
+A4,TR,1885,,,PSEMEN,0,0,0,0,0,,,,2.12,,,0,,
+A4,TR,1880,,,PSEMEN,0,0,0,0,0,,,,1.03,,,0,,
+A4,TR,1883,,,PSEMEN,0,0,0,0,0,,,,1.84,,,0,,
+A4,TR,1884,,,PSEMEN,0,0,0,0,0,,,,3.31,,,0,,
+A4,TR,1882,,,PSEMEN,0,0,0,0,0,,,,3.54,,,0,,
+A4,TR,1890,,,PSEMEN,0,0,0,0,0,,,,2.2,,,0,,
+A4,TR,1892,,,PSEMEN,0,0,0,0,0,,,,1,,,0,,
+A4,TR,1891,,,PSEMEN,0,0,0,0,0,,,,2.8,,,0,,
+A4,TR,1872,,,PSEMEN,0,0,0,0,0,,,,1.94,,,0,,
+A4,SA,1870,,,PSEMEN,0,0,,,,,,,,,,0,,GONE
+A4,SA,1873,,,ARBMEN,0,0,,,,,0.79,0,,,,0,,
+A4,SA,1863,,,UMBCAL,0,0,,,,,,,,,,0,,GONE
+A4,SA,2049,,,QUEAGR,0,0,,,,,,,,,,0,,GONE
+A4,SA,1878,,,UMBCAL,0,0,,,,,,,,,,0,,GONE
+A4,SA,1889,,,QUEAGR,0,1,,,,,0.7,0,,21.6,0,0,,OG DEAD 
+A4,SA,1888,,,UMBCAL,0,0,,,,,,,0.57,,,0,,
+A4,SA,1871,,,UMBCAL,0,1,,,,,1.05,0,,40.5,0,0,,OG DEAD
+A4,SA,1868,,,UMBCAL,0,0,,,,,,,,,,0,,
+B4,TR,2009,,,PSEMEN,0,0,0,0,0,,,,2.13,,,0,,
+B3,SA,2015,,,PSEMEN,0,0,,,,,0.96,0,,,,0,,
+B4,TR,2017,,,PSEMEN,1,0,0,1,1,,,,3.08,,,0,,
+B4,TR,2020,,,PSEMEN,0,0,0,0,0,,,,,,,0,,GONE
+B4,TR,2021,,,PSEMEN,0,0,0,0,0,,,,3.45,,,0,,
+B3,TR,2036,,,PSEMEN,0,0,0,0,0,,,,4.15,,,0,,
+B4,SA,2006,,,PSEMEN,0,0,,,,,,,,,,0,,GONE
+B4,TR,2010,,,PSEMEN,0,0,0,0,0,,,,1.46,,,0,,
+D4,TR,2148,,,PSEMEN,0,0,0,0,0,,,,2.3,,,0,,
+D4,SA,2153,,,UMBCAL,0,0,,,,,,,,,,0,,DEAD/GONE
+D4,SA,2150,,,PSEMEN,0,0,,,,,1.12,0,,,,0,,
+D3,TR,2160,,,PSEMEN,0,0,0,0,0,,,,,,,0,,DEAD/GONE
+D3,TR,2162,,,PSEMEN,0,0,0,0,0,,,,,,,0,,DEAD/GONE
+D3,TR,2157,,,PSEMEN,1,0,0,1,4,,,,14.8,,,0,,
+D4,SA,2152,,,PSEMEN,0,0,,,,,0.86,0,,,,0,,DEAD
+D4,SA,2151,,,PSEMEN,0,0,,,,,0.95,0,,,,0,,DEAD
+D4,SA,2141,,,UMBCAL,0,1,,,,,0.32,0,,43.3,0,0,,OG DEAD
+D4,SA,2140,,,PSEMEN,0,0,,,,,0.9,0,,,,0,,DEAD
+D4,TR,2149,,,PSEMEN,0,0,0,0,0,,,,2.1,,,0,,DEAD
+D4,SA,99457,,,UMBCAL,0,0,,,,,0.55,0,,,,0,,"DEAD, NO TAG, WOULD HAVE BEEN A NEW SA"
+D4,SA,2234,,,UMBCAL,0,0,,,,,0.83,0,,,,0,,
+D4,SA,2142,,,UMBCAL,0,0,,,,,0.53,0,,,,0,,
+D4,SA,2143,,,UMBCAL,0,1,,,,,0.57,0,,35.4,0,0,,OG DEAD
+D4,SA,2145,,,UMBCAL,0,1,,,,,0.79,0,,42.6,0,0,,OG DEAD
+D4,SA,2146,,,UMBCAL,0,0,,,,,,,,,,0,,DEAD/GONE
+D4,SA,2232,,,PSEMEN,0,0,,,,,0.46,0,,,,0,,DEAD
+D4,SA,2233,,,UMBCAL,0,0,,,,,0.58,0,,,,0,,
+D4,SA,2139,,,UMBCAL,0,0,,,,,,,,,,0,,DEAD/GONE
+D3,TR,2163,,,PSEMEN,0,0,0,0,0,,,,2.2,,,0,,DEAD
+D3,TR,2164,,,PSEMEN,1,0,0,1,2,,,,5.2,,,0,,
+D3,TR,2156,,,PSEMEN,0,0,0,0,0,,,,3.5,,,0,,DEAD
+D3,TR,2161,,,PSEMEN,0,0,0,0,0,,,,2.6,,,0,,DEAD
+D3,SA,2158,,,ARBMEN,0,0,,,,,,,,,,0,,DEAD/GONE
+D3,SA,2159,,,UMBCAL,0,1,,,,,0.31,0,,35.1,0,0,,OG GONE- BD OF BASAL RESPROUT
+D3,TR,2166,,,PSEMEN,0,0,,,,,,,6.7,,,0,,
+D3,TR,2165,,,PSEMEN,0,0,,,,,,,5.7,,,0,,
+B4,TR,2011,,,PSEMEN,1,0,0,1,3,,,,24.7,,,0,,
+B4,SA,2008,,,UMBCAL,0,0,,,,,0.54,0,,,,0,,
+B4,TR,2014,,,PSEMEN,1,0,0,1,2,,,,16.2,,,0,,
+B4,SA,2012,,,ARBMEN,0,1,,,,,0.42,0,,24,0,0,,OG DEAD
+B4,SA,2016,,,UMBCAL,0,1,,,,,0.49,0,,33.8,0,0,,OG DEAD
+B4,SA,2018,,,UMBCAL,0,0,,,,,,,,,,0,,GONE
+B4,SA,2004,,,PSEMEN,0,0,,,,,,,,,,0,,GONE
+B3,SA,2005,,,PSEMEN,0,0,,,,,,,,,,0,,GONE
+B3,TR,2022,,,PSEMEN,0,0,0,0,0,,,,2.59,,,0,,
+B3,TR,2033,,,PSEMEN,0,0,0,0,0,,,,3.27,,,0,,
+B3,TR,2035,,,PSEMEN,0,0,0,0,0,,,,1.78,,,0,,
+B3,TR,2032,,,PSEMEN,1,0,0,1,2,,,,4.3,,,0,,
+B3,TR,2029,,,QUEKEL,1,0,1,1,,,,,24.5,,,0,,
+B3,TR,2030,,,PSEMEN,0,0,,,,,,,,,,0,,GONE
+B3,TR,2031,,,PSEMEN,0,0,,,,,,,2.25,,,0,,
+B2,TR,2040,,,PSEMEN,0,0,,,,,,,2.97,,,0,,
+B2,TR,2038,,,PSEMEN,0,0,,,,,,,1.72,,,0,,
+B2,TR,2038.1,,,PSEMEN,0,0,,,,,,,1.05,,,0,,
+B3,TR,2037,,,QUEKEL,1,0,0,1,2,,,,33,,,0,,
+B3,TR,2041,,,PSEMEN,1,0,0,1,3,,,,10.9,,,0,,
+B3,TR,2025,,,PSEMEN,0,0,,,,,,,6.17,,,0,,
+B3,SA,2023,,,UMBCAL,0,0,,,,,0.63,0,,,,0,,
+B3,TR,2024,,,PSEMEN,0,0,,,,,2.7,0,,,,0,,
+B3,SA,2026,,,UMBCAL,0,1,,,,,0.96,0,,42,0,0,,OG DEAD
+B3,SA,2027,,,PSEMEN,0,0,,,,,1.17,0,,,,0,,
+B3,SA,2028,,,UMBCAL,0,0,,,,,,,,,,0,,GONE
+B3,SA,2034,,,UMBCAL,0,1,,,,,0.7,0,,32,0,0,,OG DEAD
+B2,TR,2051,,,PSEMEN,0,0,,,,,,,,,,0,,
+D2,TR,2168,,,PSEMEN,0,0,,,,,,,3,,,0,,
+D2,TR,2169,,,PSEMEN,1,0,0,1,3,,,,7.8,,,0,,
+D2,SA,2167,,,UMBCAL,0,1,,,,,0.97,0,,42,0,0,,DEAD OG
+D2,TR,2177,,,PSEMEN,0,0,,,,,,,5.1,,,0,,DEAD
+D2,TR,2178,,,PSEMEN,0,0,,,,,,,3.7,,,0,,DEAD
+D2,TR,2170,,,PSEMEN,1,0,0,1,3,,,,12.4,,,0,,
+D2,TR,2182,,,PSEMEN,0,0,,,,,,,2.9,,,0,,DEAD
+D2,TR,2181,,,PSEMEN,1,0,0,1,4,,,,21.9,,,0,,
+D2,TR,2179,,,PSEMEN,0,0,,,,,,,1.6,,,0,,DEAD
+D1,TR,2186,,,QUEKEL,1,0,0,1,3,,,,32.9,,,0,,
+D1,TR,2183,,,PSEMEN,0,0,,,,,,,5.6,,,0,,DEAD
+D2,TR,2176,,-440,PSEMEN,0,0,,,,,,,6.6,,,0,,DEAD
+D2,TR,2174,,-435,PSEMEN,0,0,,,,,,,5.1,,,0,,DEAD
+D2,TR,2180,,,PSEMEN,0,0,,,,,,,4.5,,,0,,
+D2,SA,2175,,,UMBCAL,0,0,,,,,,,,,,0,,DEAD/GONE
+D1,TR,2221,,,PSEMEN,1,0,0,1,3,,,,7.7,,,0,,
+D1,TR,2220,,,QUEKEL,0,0,,,,,,,30.9,,,0,,DEAD
+D1,TR,2222,,,PSEMEN,1,0,0,1,3,,,,7,,,0,,
+D1,TR,2219,,,PSEMEN,1,0,0,1,3,,,,3.2,,,0,,
+D1,TR,2218,,,PSEMEN,0,0,,,,,,,1.9,,,0,,
+D1,TR,2212,,,PSEMEN,0,0,,,,,,,1.2,,,0,,
+D1,TR,2223,,,PSEMEN,0,0,,,,,,,1.2,,,0,,
+D1,SA,2224,,,PSEMEN,0,0,,,,,0.93,0,,,,0,,
+D1,TR,2198,,,PSEMEN,0,0,,,,,,,6.1,,,0,,
+D1,SA,2197,,,ARBMEN,0,0,,,,,1.61,0,,,,0,,
+D1,SA,2196,,,ARBMEN,0,0,,,,,0.98,0,,,,0,,
+D1,SA,2215,,,PSEMEN,0,0,,,,,,,,,,0,,DEAD/GONE
+B2,SA,2053,,,UMBCAL,0,1,,,,,0.58,0,,21.1,0,0,,OG DEAD
+B2,TR,2054,,,PSEMEN,1,0,0,1,3,,,,18.2,,,0,,
+B2,TR,2045,,,PSEMEN,0,0,,,,,,,3.32,,,0,,
+B2,TR,2046,,,PSEMEN,1,0,0,1,2,,,,10.6,,,0,,avereaged an identical dup- one was 10.5 one was 10.7 dbh- mkqc2022
+B2,TR,2050,,,PSEMEN,0,0,,,,,,,3.25,,,0,,
+B2,TR,2047,,,PSEMEN,0,0,,,,,,,3.7,,,0,,
+B2,TR,2043,,,PSEMEN,0,0,,,,,,,5.32,,,0,,
+B2,TR,2042,,,PSEMEN,1,0,0,1,3,,,,10.1,,,0,,
+B2,TR,2044,,,PSEMEN,0,0,,,,,,,3.8,,,0,,
+B2,SA,2048,,,UMBCAL,0,0,,,,,,,,,,0,,GONE
+B2,SA,2052,,,UMBCAL,0,0,,,,,,,,,,0,,GONE
+B2,SA,2039,,,UMBCAL,0,0,,,,,,,,,,0,,GONE
+B1,TR,2058,,,QUEKEL,0,0,0,0,0,,,,,,,0,,ABOUT TO FALL OVER
+B1,SA,2057,,,PSEMEN,0,0,,,,,,,,,,0,,GONE
+B1,TR,2059,,,PSEMEN,0,0,0,0,0,,,,4.55,,,0,,
+B1,TR,2064,,,PSEMEN,1,0,0,1,2,,,,6.65,,,0,,
+B1,TR,2065,,,PSEMEN,1,0,0,1,2,,,,8.19,,,0,,
+B1,TR,2066,,,PSEMEN,1,0,0,1,3,,,,14.9,,,0,,
+B1,TR,2069,,,PSEMEN,0,0,0,0,0,,,,1.04,,,0,,
+B1,SA,2071,,,PSEMEN,0,0,,,,,,,0.9,,,0,,
+B1,SA,2072,,,UMBCAL,0,1,,,,,2.83,0,,36.2,0,0,,OG DEAD
+B1,TR,2070,,,PSEMEN,1,0,0,1,2,,,,2.08,,,0,,
+B1,TR,2073,,,PSEMEN,1,0,0,1,2,,,,4.6,,,0,,
+B1,TR,2074,,,PSEMEN,0,0,0,0,0,,,,1.62,,,0,,
+B1,SA,2067,,,PSEMEN,0,0,,,,,1.5,0,,,,0,,
+B1,SA,2063,,,ARBMEN,0,0,,,,,1.7,0,,,,0,,
+B1,TR,2076,,,PSEMEN,1,0,,1,3,,,,11.9,,,0,,was typo 2676- mkqc2022
+B1,TR,2060,,,PSEMEN,1,0,,1,3,,,,14.8,,,0,,
+B1,SA,2068,,,PSEMEN,0,0,,,,,,,,,,0,,GONE
+D1,SA,2214,,,PSEMEN,0,0,,,,,,,,,,0,,DEAD/GONE
+D1,SA,2217,,,ARBMEN,0,0,,,,,,,,,,0,,DEAD/GONE
+D1,SA,2230,,,PSEMEN,0,0,,,,,,,,,,0,,DEAD/GONE
+D1,SA,2194,,,UMBCAL,0,1,,,,,1.06,0,,62.2,1,0,,OG DEAD
+D1,SA,2211,,,PSEMEN,0,0,,,,,1.82,0,0.77,,,0,,
+D1,SA,2209,,,PSEMEN,0,0,,,,,,,,,,0,,DEAD/GONE
+D1,SA,2191,,,ARBMEN,0,0,,,,,,,,,,0,,DEAD/GONE
+D1,SA,2210,,,PSEMEN,0,0,,,,,1.64,0,0.78,,,0,,
+D1,SA,2208,,,PSEMEN,0,0,,,,,0.74,0,,,,0,,DEAD
+D1,SA,2190,,,PSEMEN,0,0,,,,,0.47,0,,,,0,,DEAD
+D1,SA,2195,,,PSEMEN,0,0,,,,,,,,,,0,,DEAD/GONE
+D1,TR,2200,,,PSEMEN,1,0,0,1,3,,,,7.7,,,0,,
+D1,SA,2192,,,UMBCAL,0,0,,,,,1.01,0,,,,0,,DEAD
+D1,TR,2199,,,PSEMEN,1,0,0,1,2,,,,8.3,,,0,,
+D1,TR,2206,,,PSEMEN,1,0,0,1,2,,,,4.7,,,0,,
+D1,TR,2202,,,PSEMEN,0,0,0,0,0,,,,2.5,,,0,,DEAD
+D1,TR,2205,,,PSEMEN,0,0,0,0,0,,,,2.2,,,0,,DEAD
+D1,TR,2204,,,PSEMEN,1,0,0,1,3,,,,7.8,,,0,,
+D1,SA,2193,,,UMBCAL,0,1,,,,,1.08,0,,27.5,0,0,,OG DEAD
+D1,SA,2188,,,ARBMEN,0,0,,,,,,,,,,0,,DEAD/GONE
+D1,SA,2187,,,PSEMEN,0,0,,,,,0.88,0,,,,0,,
+D1,TR,2201,,,PSEMEN,1,0,0,1,3,,,,6,,,0,,
+D1,TR,2207,,,PSEMEN,0,0,0,0,0,,,,,,,0,,DEAD/GONE
+D1,TR,2203,,,PSEMEN,0,0,0,0,0,,,,,,,0,,DEAD/GONE
+D1,SA,2225,,,ARBMEN,0,0,,,,,0.57,0,,,,0,,DEAD
+D1,TR,2100,,,PSEMEN,0,0,0,0,0,,,,3.5,,,0,,DEAD
+D1,SA,2185,,,UMBCAL,0,1,,,,,0.64,0,,29,1,0,,OG DEAD
+D1,SA,2189,,,UMBCAL,0,0,,,,,,,,,,0,,DEAD/GONE
+B1,SA,2171,,,PSEMEN,0,0,,,,,,,,,,,,"data from 2019- not found in 2018, assumend dead- mkqc2022"
+C1,SA,2184,,,UMBCAL,0,1,,,,,,,,,,,,"data from 2019- not found in 2018, assumend dead- mkqc2023"
