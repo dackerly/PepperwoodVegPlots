@@ -24,7 +24,7 @@ A1,SA,3464,,,HETARB,0,0,,,,,,,,,,1,,GONE (was misentered as 3484-mkqc2022)
 A1,SA,3461,,,UMBCAL,0,1,,,,,1.33,0,,37.6,0,0,,OG DEAD
 A1,SA,3462,,,UMBCAL,0,1,,,,,0.85,0,,63,1,0,,"OG DEAD- averaged two dups. One with .84 bd and ht62, oither with .86 bd and ht 64- mkqc2022"
 A1,SA,3413,,,QUEAGR,0,1,,,,,0.92,0,,30.6,0,0,,OG DEAD
-A1,SA,3416,,,AMOCAL,1,1,,,,,1.17,0,,91.9,1,0,,
+A1,SA,3416,,,AMOCAL,0,1,,,,,1.17,0,,91.9,1,0,,was 1/ 1 but based on data should have been 0/1- mkqc2023
 A1,TR,3415,,,AMOCAL,0,1,0,0,0,,,,,76.3,4,0,,"OG DEAD, DBH UNAVAILABLE"
 A1,TR,3415.1,,,AMOCAL,0,0,0,0,0,,,,,,,1,,GONE
 A1,TS,3415.2,,,AMOCAL,0,0,,,,,,,,,,1,,GONE
@@ -44,7 +44,7 @@ C4,TS,4000.2,,,HETARB,0,0,,,,,,,,,,1,,GONE
 C4,SA,3938,,,UMBCAL,0,0,,,,,0.5,1,,,,1,,
 C4,TR,3991,,,PSEMEN,0,0,0,0,0,,,,5.6,,,0,,
 C4,TR,3992,,,PSEMEN,1,0,0,1,2,,,,11,,,0,,
-C4,SA,3990,,,UMBCAL,1,1,,,,,15,0,,77.8,1,0,,"EPICORMIC RECORDED ON DATA SHEET, NOT A DATA ENTRY MISTAKE"
+C4,SA,3990,,,UMBCAL,1,1,,,,,15,0,,77.8,1,0,,"EPICORMIC RECORDED ON DATA SHEET, NOT A DATA ENTRY MISTAKE, but an SA so deleteing, also based on data should be 0/1- mkqc2023, also BD as 15 change to 1.5?"
 C4,TR,3989,,,HETARB,0,0,0,0,0,,,,1.7,,,1,,GONE
 C4,TS,3989.1,,,HETARB,0,0,,,,,,,,,,1,,GONE
 C4,SA,3988,,,HETARB,0,0,,,,,,,,,,1,,GONE
@@ -226,8 +226,8 @@ C3,SA,3974,,,PSEMEN,0,0,,,,,1.21,0,0.9,,,0,,
 C3,TR,3963,,,PSEMEN,0,0,0,0,0,,,,1.7,,,0,,
 A3,TR,3445,,,FRACAL,0,1,0,0,0,,,,1.55,84.3,3,0,,CHANGE SP FROM UMBCAL in 13DB- done
 A3,TR,3441,,,UMBCAL,0,0,0,0,0,,,,1.54,,,0,,
-A3,TS,3441.1,,,UMBCAL,0,0,,,,,,,1.12,,,0,,ADDED .1
-A3,SA,3440,,,UMBCAL,0,0,,,,,1.83,0,0.92,84.6,3,0,,
+A3,TS,3441.1,,,UMBCAL,0,0,,,,,,,1.12,,,0,,"ADDED .1 (as a ts, changed to TD based on dbh- not recorded in 2019)"
+A3,SA,3440,,,UMBCAL,0,1,,,,,1.83,0,0.92,84.6,3,0,,
 A3,SA,3442,,,UMBCAL,0,0,,,,,,,,,,1,,GONE
 A3,SA,3439,,,UMBCAL,0,0,,,,,1.49,0,,,,0,,
 A3,SA,3450,,,UMBCAL,1,0,,,,84.1,0.99,0,,,,0,,
@@ -240,8 +240,8 @@ A3,SA,3702,,,UMBCAL,0,0,,,,,0.8,0,,,,0,,
 A3,SA,3706,,,UMBCAL,0,0,,,,,,,,,,1,,GONE
 A3,TR,3701,,,QUEAGR,0,0,0,0,0,,,,,,,1,,GONE
 A3,SA,3715,,,UMBCAL,0,0,,,,,1.19,0,,,,0,,
-A3,SA,3710,,,FRACAL,0,0,,,,,,,,,,0,,"GONE, NO TAG"
-A3,SA,3500,,,FRACAL,1,1,,,,,0.88,0,,40.1,0,1,,GONE
+A3,SA,3710,,,FRACAL,0,0,,,,,,,,,,1,,"GONE, NO TAG"
+A3,SA,3500,,,FRACAL,0,1,,,,,0.88,0,,40.1,,,,OG DEAD- was mistakenly marked as tag pulled- mkqc2023
 A3,SA,3712,,,FRACAL,0,0,,,,,1.83,0,,,,0,,
 A3,SA,3448,,,HETARB,0,0,,,,,,,,,,0,,"GONE, NO TAG"
 A3,TR,5706,290,150,HETARB,0,1,0,0,0,,,,,75,6,0,,"OG DEAD, DBH UNAVAILABLE"
@@ -617,7 +617,7 @@ D1,SA,4061,,,HETARB,0,0,,,,,1.43,0,0.92,,,0,,MAIN BRANCH IS GONE
 D1,TR,4063,,,HETARB,0,0,0,0,0,,1.34,2,,,,0,,
 D1,TS,4063.1,,,HETARB,0,0,,,,,,,,,,1,,GONE
 D1,SA,4122,,,HETARB,0,0,,,,,,,,,,1,,GONE
-D1,SA,4053,,,UMBCAL,0,0,,,,,0.69,0,,,,0,,GONE
+D1,SA,4053,,,UMBCAL,0,0,,,,,0.69,0,,,,0,,dead
 D1,SA,4050,,,UMBCAL,0,1,,,,,0.82,0,,56.8,1,0,,OG DEAD
 D1,TR,5691,292,58,UMBCAL,0,1,0,0,0,,1.74,0,,61.9,1,0,,OG DEAD
 D1,TR,4600,,,ARBMEN,1,1,1,1,2,,,,12.5,63,3,0,,

@@ -5,7 +5,7 @@ Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% 
 B1,TR,1660,,,QUEAGR,0,0,0,0,0,,,,26.3,,,0,,
 B1,TR,1660.1,,,QUEAGR,0,0,0,0,0,,,,15.7,,,0,,
 B1,TR,1658,,,ARBMEN,0,1,0,0,0,,,,4.62,99.6,2,0,,
-C1,SA,5866,202,152,UMBCAL,0,0,,,,,1.8,0,,39.6,0,0,,NEW SA OG DEAD
+C1,SA,5866,202,152,UMBCAL,0,1,,,,,1.8,0,,39.6,0,0,,NEW SA OG DEAD
 C1,SA,1661,,,UMBCAL,0,1,,,,,1.7,0,,43.1,0,0,,OG DEAD BD@4CM
 D1,TR,1709,,,NOTDEN,0,1,0,0,0,,,,11.5,109.5,19,0,,
 D1,SA,1712,,,NOTDEN,0,0,,,,,,,,,,0,,DEAD/GONE TAG NOT FOUND
