@@ -57,7 +57,7 @@ D1,TR,4985,,,QUEAGRI,1,0,1,1,3,,,,21.3,,,,,
 D1,SA,5883,,,FRACAL,1,0,,,,21.1,0.2,NA,,,,,,BD OF BSPT 
 C2,SA,4880,,,ARBMEN,0,0,,,,NA,NA,NA,,,,1,,
 D2,SA,4961,,,PSEMEN,0,0,,,,NA,NA,NA,,,,1,,deleted an identical dup- sme quad that also said tag pulled- could be someone else but its dead and will never be found if tag was pulled - mkqc2022
-D2,SA,4966,,,PSEMEN,0,0,,,,NA,NA,NA,,,,1,,
+D2,TR,4966,,,PSEMEN,0,0,0,0,0,NA,NA,NA,,,,1,,
 D2,TR,4979,,,QUEAGRI,1,1,1,0,1,,,,8.5,1,0,,,
 D2,TR,4980,,,QUEAGRI,1,0,1,0,1,,,,10.6,,,,,
 D2,TR,4981,,,QUEAGRI,1,1,1,1,4,,,,19.8,1,0,,,

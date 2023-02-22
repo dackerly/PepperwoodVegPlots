@@ -19,7 +19,7 @@ D1,TR,1954.2,,,HETARB,0,1,0,0,0,,,,2.9,,,0,,should have been their own tree. Sep
 D1,SA,1953,,,QUEAGR,0,0,,,,,,,,,,0,,"dead and gone, tag not found"
 D2,TR,1952,,,QUEGAR,1,0,0,1,4,,,,19.2,,,0,,in 2019 confirm this didn't die in fire 
 C2,SA,1916,,,HETARB,0,1,,,,,0.81,0,,36.6,0,0,,
-D2,SA,1949,,,QUEAGR,0,0,,,,,,,,,,0,,"dead and gone, tag not found"
+D2,SA,1949,,,QUEAGR,0,0,,,,,,,,,,0,,dead and gone tag not found
 D3,TR,1955,,,QUEGAR,1,0,0,1,3,,,,28.1,,,0,,
 D3,TR,1957,,,ARCMAN,0,0,0,0,0,,,,3.4,,,0,,dead
 D3,TR,1957.1,,,ARCMAN,0,0,0,0,0,,,,1.9,,,0,,
@@ -75,7 +75,7 @@ A3,TR,2259.2,,,ARCMAN,0,0,0,0,0,,,,7.35,,,0,,
 A3,TR,2259.3,,,ARCMAN,0,0,0,0,0,,,,2.1,,,0,,
 A3,TR,2274,,,UMBCAL,0,1,0,0,0,,,,1.01,92.5,4,0,,og dead
 A3,SA,2278,,,UMBCAL,0,1,,,,,2.22,0,,91.1,3,0,,og dead
-A3,SA,2276,,,UMBCAL,0,1,0,0,0,,1.52,0,,90.2,1,0,,og dead (marked as HETARB)
+A3,SA,2276,,,UMBCAL,0,1,,,,,1.52,0,,90.2,1,0,,og dead (marked as HETARB)
 A3,TR,2277,,,ARCMAN,0,0,0,0,0,,,,5.75,,,0,,
 A3,TR,2258,,,PSEMEN,1,0,0,1,4,,,,16.8,,,0,,
 A4,TR,2280,,,HETARB,0,1,0,0,0,,,,7.28,125.2,23,0,,

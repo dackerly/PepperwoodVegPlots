@@ -25,21 +25,21 @@ D1,SA,3263.6,,,HETARB,0,0,,,,,,,,,,1,,
 D2,SA,3208,,,PSEMEN,0,0,,,,,2.23,,,,,1,,
 C2,SA,3209,,,UMBCAL,0,0,,,,,,,,,,,,
 D3,SA,3243,,,UMBCAL,0,0,,,,,,,,,,1,,
-A2,SA,3065,,,QUEAGRI,0,1,,,,NA,0.34,NA,,43.5,0,,,BD OF BSPRT
-A3,SA,3074,,,UMBCAL,0,1,,,,NA,0.38,NA,,39.6,0,,,BD OF BSPRT
-A3,SA,3075,,,UMBCAL,0,1,,,,NA,0.41,NA,,47.5,0,,,BD OF BSPRT
-A3,SA,3161,,,AMOCAL,0,1,,,,NA,0.58,NA,,,,,,BD OF BSPRT
+A2,SA,3065,,,QUEAGRI,1,0,,,,43.5,0.34,NA,,,,,,BD OF BSPRT
+A3,SA,3074,,,UMBCAL,1,0,,,,39.6,0.38,NA,,,,,,BD OF BSPRT
+A3,SA,3075,,,UMBCAL,1,0,,,,47.5,0.41,NA,,,,,,BD OF BSPRT
+A3,SA,3161,,,AMOCAL,0,1,,,,,0.58,,,95.5,8,,,"BD OF BSPRT 9was dead in 2018- first time sprouting, no bd og OG tho- mkqc2023"
 A4,SA,3125,,,UMBCAL,0,0,,,,,,,,,,,,"not found, presumed dead based on dead in 18 and 20 status- mistakely got assigned data as an amocal, see 3126.1 for details. Where I created a dummy to not lose the data- mkqc2022"
-A4,SA,6880,136,227,AMOCAL,0,1,,,,90.8,1.3,5,,,,,,BSPTBD = .65
-A4,SA,6881,170,227,AMOCAL,0,1,,,,117.8,0.84,5,,,,,,BSPTBD = .58
-C4,SA,3178,,,UMBCAL,0,1,,,,NA,,NA,0.33,29.5,,,,BD OF BSPRT
-C4,SA,6188,,,UMBCAL,0,1,,,,NA,0.46,NA,,34.2,,,,BD OF BSPRT
-D1,SA,3263,,,HETARB,0,1,,,,,,,,105.6,1,,,
-D1,SA,3263.2,,,HETARB,0,1,,,,,,,,105.3,11,,,
-D1,SA,3263.4,,,HETARB,0,1,,,,,,,,108.5,7,,,
-D1,SA,3263.5,,,HETARB,0,1,,,,,,,,52.4,1,,,
-D1,SA,3195,,,HETARB,0,1,,,,,,,,133.8,38,,,
-D1,SA,3195.3,,,HETARB,0,1,,,,,,,,123.5,27,,,
+A4,SA,6880,136,227,AMOCAL,0,1,,,,,1.3,5,,90.8,,,,BSPTBD = .65
+A4,SA,6881,170,227,AMOCAL,0,1,,,,,0.84,5,,117.8,,,,BSPTBD = .58
+C4,SA,3178,,,UMBCAL,1,0,,,,29.5,0.33,NA,,,,,,BD OF BSPRT
+C4,SA,6188,,,UMBCAL,1,0,,,,34.2,0.46,NA,,,,,,BD OF BSPRT
+D1,TR,3263,,,HETARB,0,1,0,0,0,,,,,105.6,1,,,
+D1,TR,3263.2,,,HETARB,0,1,0,0,0,,,,,105.3,11,,,
+D1,TR,3263.4,,,HETARB,0,1,0,0,0,,,,,108.5,7,,,
+D1,TR,3263.5,,,HETARB,0,1,0,0,0,,,,,52.4,1,,,
+D1,TR,3195,,,HETARB,0,1,0,0,0,,,,,133.8,38,,,
+D1,TR,3195.3,,,HETARB,0,1,0,0,0,,,,,123.5,27,,,
 A2,SA,6164,,,AMOCAL,1,0,,,,86.5,0.52,13,,,,,,BD OF BSPRT
 A2,SA,6165,,,AMOCAL,1,0,,,,90.2,0.51,9,,,,,,
 A2,SA,3106,,,AMOCAL,1,0,,,,104.5,0.58,19,,,,,,BD OF BSPRT
@@ -60,7 +60,7 @@ A4,SA,3129,,,AMOCAL,1,0,,,,102.3,0.61,7,,,,,,BD OF BSPRT
 A4,SA,3119,,,AMOCAL,1,0,,,,114,0.74,14,,,,,,BD OF BSPRT
 A4,SA,6179,,,AMOCAL,1,0,,,,99,0.67,3,,,,,,
 A4,SA,3126,,,AMOCAL,1,0,,,,113,0.62,10,,,,,,BD OF BSPRT
-A4,SA,3126.1,,,AMOCAL,0,1,,,,NA,0.67,6,,73,,,,"BD OF BSPRT ( created this point 1 to deal with data taken for 3125 as an amocal- except it's a bay and the data waS MISTAKENLY ASSIGNED - in order to not lose it- created .1 and will then ""kill"" it in 2020 by indicating tag pulled- mkqc2022"
+A4,SA,3126.1,,,AMOCAL,0,1,,,,,0.67,6,,73,,,,"BD OF BSPRT ( created this point 1 to deal with data taken for 3125 as an amocal- except it's a bay and the data waS MISTAKENLY ASSIGNED - in order to not lose it- created .1 and will then ""kill"" it in 2020 by indicating tag pulled- mkqc2022"
 A4,SA,3127,,,AMOCAL,1,0,,,,116.5,0.76,8,,,,,,BD OF BSPRT
 A4,SA,3083,,,AMOCAL,1,0,,,,119.5,0.83,14,,,,,,BD OF BSPRT
 A4,SA,6865,240,470,AMOCAL,1,0,,,,191,1.18,16,,,,,,

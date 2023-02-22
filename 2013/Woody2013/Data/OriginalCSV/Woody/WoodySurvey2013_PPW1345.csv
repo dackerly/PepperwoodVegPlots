@@ -39,9 +39,9 @@ A2,TR,2273.9,HETARB,1,,,,,1.63,141,-137,
 A2,TR,2273.01,HETARB,1,,,,,1.47,141,-137,"changing smaller .1 to .01, It represents the 10 tag- qc2022mk"
 A2,TR,2273.11,HETARB,1,,,,,2.14,141,-137,
 A2,SA,2235,UMBCAL,1,,130,0.92,1,,71,-74,
-A2,TR,2276,UMBCAL,1,,,,,2.55,94,-67,changed from 2275- closest one and no tag in 2013. but changed from tr to sa?
+A2,TR,2275,HETARB,1,,,,,2.55,94,-67,
 A2,SA,2256,HETARB,1,,195,2.68,4,,67,-54,
-A3,SA,2275,HETARB,1,,110,1.19,1,,34,37,
+A3,SA,2276,UMBCAL,1,,110,1.19,1,,34,37,changed from 2275- closest one and no tag in 2013-mkqc2022
 A3,TR,2277,ARCMAN,1,,,,,5.7,-184,92,
 A3,SA,2274,UMBCAL,1,,239,2.14,1,,238,99,
 A3,TR,2259,ARCMAN,1,,,,,9.9,175,-100,was misidentified as arbmen-mkqc2022
