@@ -1,7 +1,7 @@
 ﻿Plot ID,1312,,Sampler(s),"MO,MK,TT,RF,MF,BM",,,,,Date ,20201023,20201030,,,,,,,,
 Notes,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,Height,BD,,,Height ,Count >50,,,
-Quad,Type,Tree Tag No.,X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,SOD on Bay ,Notes
+Quad,Type,Tree Tag No.,X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,SOD on Bay ,Notes
 A4,TR,1385,,,QUEAGRI,1,0,0,1,4,,,,,,,,,
 A4,TR,1385.1,,,QUEAGRI,1,0,1,1,4,,,,,,,,,
 A4,SA,1349,,,QUEAGRI,0,1,,,,24.5,0.24,0,,,,,,
