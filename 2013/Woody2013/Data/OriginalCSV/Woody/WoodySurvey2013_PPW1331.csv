@@ -2,7 +2,7 @@ Plot ID,PPW1331,,Sampler(s),"MFO, MNB, MMJ, MJP",,,,,Date ,20130313,,
 Notes,Trees with Poison Oak all over trunk and took dbh with ruler rather than DBH tape,,,,,,,,,,,
 ,,,,,,,,,,,,
 Quad,Type,Tree Tag No.,Species,Confidence ,Dead/ Stump,SA or Stump Height (cm),SA or Stump BD (cm),SA  Branch #,DBH (cm), X (cm),Y (cm),Notes
-A1,SA,2662,UMBCAL,1,,60,17,1,,-10,234,
+A1,SA,2662,UMBCAL,1,,60,1.7,1,,-10,234,changing from 17 to 1.7- mkqc2023
 A1,TR,2661,PSEMEN,1,,,,,3.1,228,345,
 A1,TR,2666,PSEMEN,1,,,,,4.34,296,10,"CHANGED TREE NUM FROM 2660, INPUTED AFTER AUG2013 RESURVEY 20130810 MFO"
 A2,TR,2664,QUEAGR,1,,,,,23.5,260,50,
