@@ -15,7 +15,7 @@ B3,TR,1061,,,PSEMEN,0,0,0,0,0,,,,7,,,,,BD OF BSPRT
 B2,SA,5988,,,UMBCAL,1,0,,,,45.1,0.51,0,,,,,,
 B2,TR,1094,,,PSEMEN,0,0,0,0,0,,,,NA,,,,,was typo 1044
 B2,TR,1082,,,PSEMEN,0,0,0,0,0,,,,NA,,,,,"*NO TAG, XY CORRECT/ BD OF BSPRT"
-B2,SA,9998.99,,,BACPIL,1,0,,,,56.2,0.39,6,,,,,,BD OF BSPRT-  Using 9998 as placeholder until incorrect handmade tag 1067 is removed (this is a bay in 1305)-mkqc2022
+B2,SA,5604,,,BACPIL,1,0,,,,56.2,0.39,6,,,,,,"BD OF BSPRT-  Using 9998 as placeholder until incorrect handmade tag 1067 is removed (this is a bay in 1305)-mkqc2022, REPLACED IN 2023MK"
 B1,SA,1013,,,UMBCAL,1,0,,,,71.5,0.69,1,,,,,,BD OF BSPRT
 B1,SA,1016,,,UMBCAL,1,0,,,,49.5,0.64,0,,,,,,
 A1,TR,1027,,,UMBCAL,0,1,0,0,0,,,,,60.5,3,,,BD OF BSPRT
