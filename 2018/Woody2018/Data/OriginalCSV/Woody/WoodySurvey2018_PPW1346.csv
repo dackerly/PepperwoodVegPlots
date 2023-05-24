@@ -161,9 +161,9 @@ A2,SA,5078,,,AMOCAL,0,1,,,,,1.92,0,,100.2,2,0,,OG DEAD AND GONE
 A2,SA,5095,,,AMOCAL,0,0,,,,,,,,,,1,,DEad and gone 
 A2,SA,5639,168,190,AMOCAL,1,0,,,,158.4,0.86,4,,,,0,,NEW SA
 A2,SA,5640,155,250,AMOCAL,1,0,,,,127.6,0.64,5,,,,0,,NEW SA
-A2,TR,5059,,,QUEGAR,1,0,1,1,3,,,,23.4,,,0,,CONFIRM quekel not quegar - changing back to quegar to match other years but need to confirm in field- mkqc2022
-A2,TR,5059.1,,,QUEGAR,1,0,1,1,3,,,,20.5,,,0,,CONFIRM quekel not quegar - changing back to quegar to match other years but need to confirm in field- mkqc2022
-A2,SA,5099,,,QUEGAR,0,1,,,,97.3,0.3,9,,,,0,,CONFIRM quekel not quegar - changing back to quegar to match other years but need to confirm in field- mkqc2022- changing to dead with resprout - mkqc
+A2,TR,5059,,,QUEGAR,1,0,1,1,3,,,,23.4,,,0,,"CONFIRM quekel not quegar - changing back to quegar to match other years but need to confirm in field- mkqc2022, MK confirmed in field 2023- QUEGAR"
+A2,TR,5059.1,,,QUEGAR,1,0,1,1,3,,,,20.5,,,0,,"CONFIRM quekel not quegar - changing back to quegar to match other years but need to confirm in field- mkqc2022, MK confirmed in field 2023- QUEGAR"
+A2,SA,5099,,,QUEGAR,0,1,,,,97.3,0.3,9,,,,0,,changed to dead with resprout- mkqc2022/ CONFIRMed not quekel based on 2019 note saying this should be a resprout of 5059- that is confirned GAR by MK
 A2,SA,5096,,,AMOCAL,0,1,,,,,5.2,1,,134.4,6,0,,og dead 
 A2,SA,5060,,,AMOCAL,0,1,,,,,0.8,0,,168.5,12,0,,og dead - changed from dup 5090 bc that one wasn't found  in 18 and was a dup in 2013 too and in the right quad-mkqc2022
 A1,TR,5000,,,ADEFAS,0,1,0,0,0,,,,0.9,62,8,0,,

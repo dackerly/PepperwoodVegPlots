@@ -365,3 +365,5 @@ D1,SA,2185,,,UMBCAL,0,1,,,,,0.64,0,,29,1,0,,OG DEAD
 D1,SA,2189,,,UMBCAL,0,0,,,,,,,,,,0,,DEAD/GONE
 B1,SA,2171,,,PSEMEN,0,0,,,,,,,,,,,,"data from 2019- not found in 2018, assumend dead- mkqc2022"
 C1,SA,2184,,,UMBCAL,0,1,,,,,,,,,,,,"data from 2019- not found in 2018, assumend dead- mkqc2023"
+B4,SA,2007,,,UMBCAL,0,0,,,,,,,,,,,,MKADDED / NOT ON OG DATASHEET
+A4,TR,2001,,,PSEMEN,0,0,0,0,0,,,,,,,,,MKADDED / NOT ON OG DATASHEET

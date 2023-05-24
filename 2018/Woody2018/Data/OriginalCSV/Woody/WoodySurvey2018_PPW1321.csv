@@ -108,7 +108,7 @@ C4,SA,2428,,,UMBCAL,0,1,,,,,1.17,0,,74.4,1,0,,
 C4,SA,99325,,,UMBCAL,0,0,,,,,0.67,0,,,,0,,
 C4,SA,5971,409,195,FRACAL,0,1,,,,,0.66,0,,37.5,0,0,,OG dead
 C4,SA,2423,,,UMBCAL,0,1,,,,,2.18,0,,65.6,1,0,,was typo 2432- mkqc2022
-C4,SA,6472,35,402,UMBCAL,0,1,,,,,1.06,0,,45.2,0,0,,"og dead- this tag gott pulled in 2020- but is double tagged so changing 5972 to 6472 to match exsisitng tag in field, was 5972.. Mkqc2022"
+C4,SA,6472,35,402,UMBCAL,0,1,,,,,1.06,0,,45.2,0,0,,og dead- this tag (5972) got pulled in 2020- but is double tagged so changing 5972 to 6472 to match exsisitng tag in field. Mkqc2022
 C4,SA,2430,,,FRACAL,0,0,,,,,,,,,,0,,"dead/gone, tag not found"
 C4,SA,2431,,,FRACAL,0,0,,,,,,,,,,0,,"dead/gone, tag not found"
 C3,SA,5973,476,,UMBCAL,0,1,,,,,0.84,0,,58.1,1,0,,og dead
@@ -178,3 +178,4 @@ D4,SA,5955,273,365,UMBCAL,0,1,,,,,1.76,1,,76.8,3,0,,
 C3,SA,5956,428,388,UMBCAL,0,1,,,,,0.85,0,,52.4,1,0,,
 A1,SA,5957,450,135,UMBCAL,0,1,,,,,1.02,0,,44.9,0,0,,BD at 8
 D3,SA,5958,468,175,UMBCAL,0,1,,,,,0.53,0,,26.1,0,0,,
+B3,SA,2394,,,ARBMEN,0,0,,,,,,,,,,,,MK ADDED / NOT ON OG DATASHEET
