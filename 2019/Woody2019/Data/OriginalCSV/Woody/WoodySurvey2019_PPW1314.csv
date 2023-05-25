@@ -18,3 +18,12 @@ B3,TR,1921,470,290,QUEDOU,1,1,1,1,3,,,,19.7,,0,,,CHANGE QUAD AND -X/Y…resprout
 C4,TR,1960,,,QUEDOU,1,0,1,1,4,,,,36,,,,,
 C4,TR,1960.1,,,QUEDOU,1,0,1,1,3,,,,10.5,,,,,
 D4,TR,1913,,,QUEDOU,1,0,1,1,4,,,,37.6,,,,,
+B3,TR,1903,,,ARCMAN,0,0,0,0,0,,,,,,,,,added by MK to match dead in 2018 and 2020
+B3,TR,1903.1,,,ARCMAN,0,0,0,0,0,,,,,,,,,added by MK to match dead in 2018 and 2020
+B3,TR,1903.2,,,ARCMAN,0,0,0,0,0,,,,,,,,,added by MK to match dead in 2018 and 2020
+D4,SA,1905,,,ARBMEN,0,0,,,,,,,,,,,,not found in 2019- added by MK to match living one in 2018 and 2020
+,SA,1910,,,ARCMAN,0,0,,,,,,,,,,,,added by MK to match dead in 2018 and 2020
+,SA,1959,,,ARCMAN,0,0,,,,,,,,,,,,added by MK to match dead in 2018 and 2020
+,TS,1959.1,,,ARCMAN,0,0,,,,,,,,,,,,added by MK to match dead in 2018 and 2020
+,TS,1959.2,,,ARCMAN,0,0,,,,,,,,,,,,added by MK to match dead in 2018 and 2020
+,SA,1958,,,ARCMAN,0,0,,,,,,,,,,,,added by MK to match dead in 2018 and 2020

@@ -27,8 +27,8 @@ A2,SA,5072,AMOCAL,1,,144,1.3,6,,-188,268,
 A2,SA,5079,AMOCAL,1,,136,1.45,9,,-71,240,
 A3,TR,5062,UMBCAL,1,,,,,25.4,152,260,
 A3,TR,5061,UMBCAL,1,,,,,19,231,153,
-A3,TR,5061.1,UMBCAL,1,,,,,10.5,231,153,"CHANGED SPECIES FROM UMBCAL, INPUTED AFTER AUG2013 RESURVEY 20130810 MFO/////  MKQC2022_ after the mfo note this tree is listed as AMOCAL 5060.1, im now changing it to UMBCAL 5061.1 bc this doesnt make sense otherwise . There is no .1 on  amocal 5060 in the future but there is a .1 on umbcal 5061"
-A3,TR,5063,AMOCAL,1,,,,,20.1,152,262,
+A3,TR,5061.1,UMBCAL,1,,,,,10.5,231,153,"CHANGED SPECIES FROM UMBCAL, INPUTED AFTER AUG2013 RESURVEY 20130810 MFO/////  MKQC2022_ after the mfo note this tree is listed as AMOCAL 5060.1, im now changing it to UMBCAL 5061.1 bc this doesnt make sense otherwise . There is no .1 on  amocal 5060 in the future but there is a .1 on umbcal 5061- all are umbcal on scans"
+A3,TR,5063,UMBCAL,1,,,,,20.1,152,262,changed species from amocal- misentered- umbcal on scans-mkqc2023
 ,,,,,,,,,,,,
 A3,TR,5064,UMBCAL,1,,,,,19.8,122,245,
 A3,TR,5064.1,UMBCAL,1,,,,,2.68,122,245,

@@ -36,7 +36,7 @@ A1,SA,1024,,,UMBCAL,0,0,,,,,,,,,,1,,
 D4,SA,5969,,,QUEAGRI,0,1,,,,26.8,0.42,4,,,,,,
 D4,SA,5968,,,QUEAGRI,0,1,,,,49.4,0.45,2,,,,,,
 D4,SA,5966,,,QUEAGRI,0,1,,,,38.8,0.35,3,,,,,,
-D4,SA,5997,,,QUEAGRI,0,1,,,,32.6,0.3,1,,,,,,19 DB says tag pulled. 
+D4,SA,5997,,,QUEAGRI,0,1,,,,32.6,0.3,1,,,,,,19 DB says tag pulled. - typo on list generating?- sacns don't say that
 D4,SA,5963,,,QUEAGRI,0,1,,,,42.7,0.32,3,,,,,,
 D4,SA,5964,,,QUEAGRI,0,1,,,,29.9,0.33,1,,,,,,
 D4,SA,5999,,,QUEAGRI,0,1,,,,27,0.24,4,,,,,,
@@ -45,9 +45,9 @@ D4,SA,5962,,,QUEAGRI,0,1,,,,19.4,0.22,0,,,,,,
 D4,SA,5965,,,QUEAGRI,0,1,,,,49.5,0.41,8,,,,,,
 D4,SA,5967,,,QUEAGRI,0,1,,,,20.9,0.35,0,,,,,,
 D4,SA,5996,,,QUEAGRI,0,1,,,,36.4,0.34,5,,,,,,Not on 19 list.
-D4,SA,5998,,,QUEAGRI,0,0,,,,,,,,,,,,"Not found, 19 tag pulled? No."
-D3,SA,5995,,,QUEAGRI,0,1,,,,33.9,0.35,0,,,,,,19 DB says not found & pulled.
-D2,SA,5992,,,QUEAGRI,0,1,,,,19,0.19,1,,,,,,19 DB says pulled. 
+D4,SA,5998,,,QUEAGRI,0,0,,,,,,,,,,,,"Not found, 19 tag pulled? No.- typo in list generating? Scans don't say that"
+D3,SA,5995,,,QUEAGRI,0,1,,,,33.9,0.35,0,,,,,,"19 DB says not found & pulled.- pulled was made up entry, scan just says not found- mkqc2023"
+D2,SA,5992,,,QUEAGRI,0,1,,,,19,0.19,1,,,,,,"19 DB says pulled. No it doesn't, not on scan anyway - list error?- mkqc"
 D2,SA,1040,,,QUEAGRI,0,1,,,,67.6,0.58,4,,,,,,
 D2,SA,5993,,,QUEAGRI,0,1,,,,58.9,0.55,5,,,,,,
 D2,SA,1036,,,QUEAGRI,0,1,,,,43.4,0.36,3,,,,,,

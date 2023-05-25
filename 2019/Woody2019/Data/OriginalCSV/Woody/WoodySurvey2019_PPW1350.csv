@@ -274,3 +274,6 @@ C2,SA,6945,483,120,AMOCAL,1,0,,,,90.6,0.59,11,,,,,,
 C2,SA,4243,,,FRACAL,0,0,,,,,,,,,,1,,
 C1,SA,6925,450,473,AMOCAL,1,0,,,,99.5,0.56,1,,,,,,
 A4,TR,4086,499,5,PSEMEN,0,0,0,0,0,,,,,,,,,
+B3,TR,4096,,,HETARB,0,0,0,0,0,,,,,,,,,not found but live in 2020- mkaddedqc23
+B3,TS,4096.1,,,HETARB,0,0,,,,,,,,,,,,not found but live in 2020- mkaddedqc23
+B3,SA,4091,,,AMOCAL,0,0,,,,,,,,,,,,not found but live in 2020- mkaddedqc23

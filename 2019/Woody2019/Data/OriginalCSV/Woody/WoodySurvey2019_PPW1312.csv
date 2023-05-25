@@ -466,3 +466,7 @@ B4,SA,5509,,,UMBCAL,1,0,,,,77.5,0.62,0,,,,,,*
 B4,SA,5507,,,UMBCAL,1,0,,,,83,0.7,0,,,,,,*
 B1,SA,5583,492,498,UMBCAL,1,0,,,,95.5,0.81,0,,,,,,*
 B1,SA,5584,288,160,UMBCAL,1,0,,,,87.6,0.65,0,,,,,1,
+D1,SA,1608,,,UMBCAL,0,0,,,,,,,,,,,,mk added-alive in 2018 and in 2020
+D1,SA,1590,,,UMBCAL,0,0,,,,,,,,,,,,mk added-not found in 2018 and dead in 2020
+C1,SA,1494,,,QUEAGR,0,0,,,,,,,,,,,,mk added-alive in 2020 but not found in 2018- added by MK
+B2,SA,1423,,,QUEAGR,0,0,,,,,,,,,,,,mk added-alive in 2020 but not found in 2018- added by MK

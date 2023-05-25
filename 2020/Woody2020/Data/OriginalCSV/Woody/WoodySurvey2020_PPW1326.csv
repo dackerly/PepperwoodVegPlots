@@ -62,7 +62,7 @@ A4,TR,3537,,,QUEGAR,1,0,0,1,99,,,,,,,,,
 A4,TR,3538,,,QUEGAR,1,0,0,1,99,,,,,,,,,
 A4,SA,3528,,,UMBCAL,0,1,,,,75.9,0.65,3,,,,,,
 A4,TR,3541,,,QUEGAR,0,0,0,0,0,,,,,,,1,,NO TAG
-A4,SA,3533,,,UMBCAL,0,0,,,,,,,,,,1,,TYPO 3583 IN '19 DB
+A4,SA,3533,,,UMBCAL,0,0,,,,,,,,,,1,,TYPO 3583 IN '19 DB ( fixed there- 3583 was pulled in 2018 so not in 2019 or 2020)
 A4,SA,3532,,,UMBCAL,0,0,,,,,,,,,,,,TAG NOT FOUND; TYPO 2532 IN '19 DB
 A4,SA,3530,,,UMBCAL,0,0,,,,,,,,,,1,,
 B4,TR,3557,,,PSEMEN,1,0,0,1,4,,,,,,,,,
