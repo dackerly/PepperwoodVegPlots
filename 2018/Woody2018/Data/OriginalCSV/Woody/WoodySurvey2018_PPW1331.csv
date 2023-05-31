@@ -18,7 +18,7 @@ B2,SA,2672,,,UMBCAL,0,0,,,,,1,0,,,,0,,DEAD
 B2,SA,99390,,,UMBCAL,0,0,,,,,1,0,,,,0,,"NEW DEAD SA- (tag 5607 also in 1330- but then here it says pulled in 2019- maybe tag was never put out? Should have been 999 anyway, can change this is 18 and 19 and just leave the 5607 to 1330- no change- Ok- changing to 99###-mkqc22)"
 B1,TR,2684,,,PSEMEN,1,0,0,1,4,,,,15.4,,,0,,
 B1,TR,2685,,,QUEAGR,1,1,1,1,2,,,,26,,0,0,,
-B1,SA,99643,,,UMBCAL,0,0,,,,,0.67,1,,,,0,,"NEW DEAD SA- should have been 999, was 5605, tp in 2019- 5605 open for qc"
+B1,SA,99463,,,UMBCAL,0,0,,,,,0.67,1,,,,0,,"NEW DEAD SA- should have been 999, was 5605, tp in 2019- 5605 open for qc"
 B1,TR,2705,,,PSEMEN,0,0,0,0,0,,,,4.7,,,0,,
 B1,TR,2679,,,QUEAGR,1,0,0,1,4,,,,25.6,,,0,,
 B1,TR,2680,,,QUEAGR,1,0,1,1,4,,,,30.9,,,0,,
