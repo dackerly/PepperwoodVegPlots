@@ -1,5 +1,5 @@
 ﻿Plot ID,1330,,Sampler(s),"MO, MK, AC, KO",,,,,Date ,20180711,,,,,,,,,
-Notes,the individuals without species names are not listed in the 2013 data but there was a physical tag in the field around a dead and gone individual and we removed the tag…who were they?!?,,,,,,,,,,,,,,,,,,
+Notes,"the individuals without species names are not listed in the 2013 data but there was a physical tag in the field around a dead and gone individual and we removed the tag…who were they?!? Deleted 3431, 3705,4110,3793,3814,4072",,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,Height,BD,,,Height ,Count >50,,,
 Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,SOD on Bay ,Notes
 A1,SA,3447,,,UMBCAL,0,1,,,,,1.64,0,,84.5,3,0,,OG DEAD
@@ -114,7 +114,6 @@ D4,TR,4141.5,,,HETARB,0,0,0,0,0,,,,1.88,,,0,,
 D4,TS,4141.6,,,HETARB,0,1,,,,,1.2,0,,120.5,13,0,,
 D4,SA,4144,,,QUEAGR,0,1,,,,,0.5,0,,64.9,1,0,,
 A2,TR,3425,,,UMBCAL,0,1,0,0,0,,2.01,0,1.02,42.5,0,0,,0G DEAD
-A2,,3431,,,,0,0,,,,,,,,,,1,,GONE
 A2,SA,3480,,,QUEAGR,0,1,,,,,,,,70.5,1,0,,
 A2,TR,3420,,,UMBCAL,1,1,1,1,4,,,,6.19,141.5,14,0,,
 A2,SA,3476,,,AMOCAL,0,1,,,,,,,,103,4,0,,
@@ -244,7 +243,7 @@ A3,SA,3710,,,FRACAL,0,0,,,,,,,,,,1,,"GONE, NO TAG"
 A3,SA,3500,,,FRACAL,0,1,,,,,0.88,0,,40.1,,,,OG DEAD- was mistakenly marked as tag pulled- mkqc2023
 A3,SA,3712,,,FRACAL,0,0,,,,,1.83,0,,,,0,,
 A3,SA,3448,,,HETARB,0,0,,,,,,,,,,0,,"GONE, NO TAG"
-A3,TR,5706,290,150,HETARB,0,1,0,0,0,,,,,75,6,0,,"OG DEAD, DBH UNAVAILABLE"
+A3,TR,5603,290,150,HETARB,0,1,0,0,0,,,,,75,6,0,,"OG DEAD, DBH UNAVAILABLE. THIS WAS  DUP 5706 IN 2018 AND 2019, SOMEWHOW WITH DATA FOR BOTH. IM LEAVING THE OTHER/ SECOND ONE AS THE ONE ""WITH THE TAG 5706"" CHANGING THIS ONE TO AVAIL TAG NUM 5603- NOT DEPLOTED IN FIELD!! I BELIVE ITS TAGGLESS, NOT SURE WHAT HAPPENED HERE TBH-MKQC2023"
 A4,TR,3497,,,PSEMEN,0,0,0,0,0,,,,13.3,,,0,,
 A4,SA,3726,,,UMBCAL,0,1,,,,,1.69,0,,71.5,3,0,,OG DEAD
 A4,TR,3723,,,PSEMEN,0,0,0,0,0,,,,8.5,,,0,,
@@ -270,7 +269,6 @@ A4,SA,3766,,,UMBCAL,0,0,,,,,,,,,,1,,GONE
 A4,SA,3496,,,PSEMEN,0,0,,,,,,,,,,1,,GONE
 A4,SA,3770,,,AMOCAL,0,0,,,,,,,,,,1,,GONE
 A4,SA,3765,,,UMBCAL,0,0,,,,,0.71,0,,,,0,,
-A4,,3705,,,,0,0,,,,,,,,,,1,,GONE
 A4,SA,3704,,,AMOCAL,0,1,,,,,,,,59,1,0,,
 A4,SA,3707,,,FRACAL,0,0,,,,,,,,,,0,,"GONE, NOT FOUND"
 A4,SA,3768,,,UMBCAL,0,0,,,,,,,,,,0,,"GONE, NOT FOUND"
@@ -286,7 +284,6 @@ C3,SA,3971,,,UMBCAL,0,1,,,,,1.31,0,,57.9,2,0,,OG DEAD
 D3,SA,3964,,,UMBCAL,0,0,,,,,1.07,0,,,,0,,OG DEAD
 D3,TR,3965,,,UMBCAL,0,1,0,0,0,,,,2.1,109.1,7,0,,OG DEAD
 D3,SA,4171,,,QUEAGR,0,1,,,,,1.71,0,0.8,69.2,1,0,,OG DEAD
-C3,,4110,,,,0,0,,,,,,,,,,1,,GONE
 C3,TR,3984,,,UMBCAL,0,0,0,0,0,,1.45,0,0.94,,,0,,
 C3,SA,3982,,,AMOCAL,0,1,,,,,0.86,0,,22.5,0,0,,OG DEAD
 C3,TR,3981,,,UMBCAL,1,1,1,1,3,,,,5.2,168.1,5,0,,
@@ -316,7 +313,7 @@ B4,TR,3788.6,,,HETARB,0,0,0,0,0,,,,2.34,,,0,,
 B4,TR,3788.1,,,HETARB,0,0,0,0,0,,,,,,,1,,GONE
 B4,TR,3788.4,,,HETARB,0,0,0,0,0,,,,1.86,,,0,,
 B4,TR,3788.2,,,HETARB,0,0,0,0,0,,,,1.27,,,0,,
-B4,TR,5706,40,460,UMBCAL,0,1,0,0,0,,,,1.87,114.5,6,0,,"USED TO BE hetarb 3788.5, but its an unbcal- gave it a new tag- changed it in 2013 DB to match , OG DEAD- deleted hetarb 3788.5 bc its an umbcal and had no data and deosnt exsist"
+B4,TR,5706,40,460,UMBCAL,0,1,0,0,0,,,,1.87,114.5,6,0,,"USED TO BE hetarb 3788.5, but its an unbcal- gave it a new tag- changed it in 2013 DB to match , OG DEAD- deleted hetarb 3788.5 bc its an umbcal and had no data and deosnt exsist- NOW THE ""REAL 5706"" NEEDS FILED CONF THAT THIS TAG IS ON A BAY AND NOT A HETARB"
 B4,TR,3791,,,HETARB,0,1,0,0,0,,,,2.05,81,4,0,,
 B4,TS,3791.1,,,HETARB,0,0,,,,,,,,,,1,,GONE
 B4,TR,3772,,,PSEMEN,1,0,0,1,1,,,,7.5,,,0,,
@@ -327,9 +324,7 @@ B4,SA,3783,,,UMBCAL,0,1,,,,,,,,,,1,,GONE
 B3,TR,3795,,,UMBCAL,0,0,0,0,0,,,,4.23,183.5,4,0,,
 B4,SA,3786,,,UMBCAL,0,0,,,,,0.9,0,,,,0,,
 B4,TR,3794,,,PSEMEN,0,0,0,0,0,,,,,,,1,,GONE
-B4,,3793,,,,0,0,,,,,,,,,,1,,GONE
 B4,TR,3779,,,PSEMEN,1,0,0,1,2,,,,19.7,,,0,,
-B4,TR,3792,,,AMOCAL,0,1,0,0,0,,,,1.97,117,9,0,,DUP
 B4,TR,3776,,,HETARB,0,1,0,0,0,,,,6.21,125.2,9,0,,
 B4,TR,3776.1,,,HETARB,0,1,0,0,0,,,,6.85,150.8,21,0,,
 B4,TR,3776.2,,,HETARB,0,1,0,0,0,,,,6.07,115,12,0,,
@@ -347,7 +342,7 @@ B4,SA,3780,,,UMBCAL,0,0,,,,,0.31,0,,,,0,,
 B4,SA,5707,267,304,AMOCAL,1,0,,,,78.6,0.42,0,,,,0,,
 B4,SA,3777,,,UMBCAL,0,1,,,,,,,,47.6,0,0,,
 B4,SA,5708,247,304,UMBCAL,1,0,,,,62,0.39,2,,,,0,,was dup 5705- mkqc2022
-B4,TR,3782,,,UMBCAL,0,0,0,0,0,,,,,,,0,,GONE
+B4,TR,3782,,,UMBCAL,0,0,0,0,0,,,,,,,1,,GONE- deleted an sa dup at line 279 where TP was noted-mkqc2023
 B4,SA,3734,,,UMBCAL,0,0,,,,,,,,,,1,,GONE
 B3,SA,3785,,,UMBCAL,0,0,,,,,,,,,,1,,GONE
 A2,SA,3481,,,AMOCAL,0,0,,,,,,,,,,1,,GONE ( DELETED AN IDENTICAL DUP 2 LINE 180ISH WITH NO DATA-MKQC2022)
@@ -444,7 +439,7 @@ D3,TR,4167.9,,,HETARB,0,1,0,0,0,,,,1.4,139.4,1,0,,OG DEAD
 D3,TR,4167.01,,,HETARB,0,1,0,0,0,,,,,106,5,0,,"POINT 10, GONE"
 D3,TS,4167.11,,,HETARB,0,1,,,,,1.4,0,,90.4,1,0,,
 D2,SA,4077,,,FRACAL,0,0,,,,,,,,,,0,,GONE
-D2,,4078,,,,0,0,,,,,,,,,,0,,GONE
+D2,SA,4078,,,UMBCAL,0,0,,,,,,,,,,0,,GONE
 C2,SA,3911,,,AMOCAL,0,1,,,,,,,,20.3,0,0,,OG DEAD/GONE
 D2,TR,4069,,,HETARB,0,1,0,0,0,,,,5.2,133.1,20,0,,OG DEAD
 B3,TR,3746,,,HETARB,0,1,0,0,0,,,,3.26,93,5,0,,OG DEAD
@@ -463,7 +458,7 @@ B3,TS,3754.1,,,HETARB,0,0,,,,,1.33,0,,,,0,,
 B3,TR,3747,,,UMBCAL,1,1,1,1,2,,,,4.64,96.8,9,0,,
 B3,SA,3749,,,UMBCAL,0,1,,,,,1.2,0,,97.3,2,0,,OG DEAD
 B3,TR,3813,,,UMBCAL,0,1,0,0,0,,,,1.23,120.3,2,0,,Maybe 3818 in old data
-B3,TR,3792,,,AMOCAL,0,1,0,0,0,,,,1.93,119.8,8,0,,OG DEAD/ dup in B4 but this one with the .1 is real- who is missing in b4?
+B3,TR,3792,,,AMOCAL,0,1,0,0,0,,,,1.93,119.8,8,0,,OG DEAD/ dup in B4 but this one with the .1 is real- who is missing in b4? Deleted dup at line 328 1.97/117/9
 B3,TS,3792.1,,,AMOCAL,0,0,,,,,,,,,,0,,GONE
 B3,SA,3787,,,UMBCAL,0,0,,,,,,,,,,1,,GONE
 B3,SA,3740,,,UMBCAL,0,1,,,,,1.61,0,0.88,91,2,0,,OG DEAD
@@ -474,7 +469,6 @@ B2,TR,3755,,,PSEMEN,0,0,0,0,0,,,,1.55,,,0,,
 B2,TR,3756,,,FRACAL,0,0,0,0,0,,,,,,,1,,GONE
 B2,TR,3758,,,QUEGAR,1,1,0,1,3,,,,18.5,65.5,2,0,,
 B2,SA,5710,297,310,QUEGAR,1,0,,,,52,0.57,3,,,,0,,
-B2,,3814,,,,0,0,,,,,,,,,,1,,GONE
 B2,TR,3816,,,PSEMEN,0,0,0,0,0,,,,20.8,,,0,,
 B2,SA,3757,,,AMOCAL,0,1,,,,,1.7,0,,138.5,5,0,,OG DEAD
 B2,TR,3876,,,QUEGAR,1,1,1,1,2,,,,15.1,,,0,,
@@ -482,7 +476,6 @@ B2,TR,3825,,,QUEGAR,1,1,0,1,3,,,,16.3,62.8,1,0,,
 B2,TR,3875,,,ARBMEN,1,1,0,1,1,,,,13.7,53,2,0,,was typo 3873-mkqc22
 B2,SA,3874,,,UMBCAL,0,0,,,,,0.83,0,,,,0,,
 B2,SA,99405,,,UMBCAL,0,0,,,,,0.69,0,,,,0,,
-B2,SA,3877,,,UMBCAL,0,1,,,,,1.23,0,,58,1,0,,OG DEAD
 B2,TR,3821,,,PSEMEN,0,0,0,0,0,,,,3.6,,,0,,was misentered as umbcal-mkqc22
 B2,SA,3824,,,UMBCAL,0,1,,,,,0.8,0,,56.2,1,0,,OG DEAD
 B2,SA,3823,,,UMBCAL,0,1,,,,,1.86,0,,133.3,4,0,,OG DEAD
@@ -514,7 +507,6 @@ D2,TR,3912,,,PSEMEN,0,0,0,0,0,,,,1.2,,,0,,
 C2,TR,3910,,,UMBCAL,0,1,0,0,0,,,,3.7,109.8,4,0,,
 C2,TR,3910.1,,,UMBCAL,0,1,0,0,0,,,,2.2,155,8,0,,
 D2,SA,4071,,,UMBCAL,0,1,,,,,1.7,0,,33.2,0,0,,OG DEAD
-D2,,4072,,,,0,0,,,,,,,,,,1,,GONE
 D2,SA,4073,,,AMOCAL,0,0,,,,,,,,,,1,,GONE
 D2,SA,4068,,,UMBCAL,0,0,,,,,,,,,,1,,"GONE- deleted a dup with no data, tag not found- leftover dup typo from 2013-mkqc2022"
 D2,TR,4586,,,PSEMEN,0,0,0,0,0,,,,4.2,,,0,,
@@ -543,7 +535,7 @@ B2,SA,3767,,,UMBCAL,0,0,,,,,,,,,,0,,GONE (read in dup resolving)
 B1,TR,3879,,,ARBMEN,1,1,1,1,2,,,,1.2,81.5,3,0,,
 B1,TS,3879.1,,,ARBMEN,0,0,,,,,0.99,0,,,,0,,
 B1,SA,5713,399,185,UMBCAL,1,0,,,,69.5,0.43,2,,,,0,,
-B1,SA,3877,,,UMBCAL,0,1,,,,,0.96,0,,59.5,1,0,,OG DEAD
+B1,SA,3877,,,UMBCAL,0,1,,,,,1.1,0,,58.8,1,0,,OG DEAD- averaged with a dup in b2 this one .96/0/59.5.1 with other one at line 485 on scans 1.23/0/58/1
 B1,TR,3829,,,UMBCAL,0,1,0,0,0,,,,1.67,129.1,1,0,,
 B1,SA,3880,,,UMBCAL,0,0,,,,,,,,,,1,,GONE
 B1,SA,3484,,,AMOCAL,0,1,,,,,,,,21.7,0,0,,GONE
