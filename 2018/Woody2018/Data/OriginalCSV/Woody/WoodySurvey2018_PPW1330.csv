@@ -63,15 +63,12 @@ A1,SA,3456,,,UMBCAL,0,0,,,,,,,,,,1,,GONE
 A1,SA,3457,,,AMOCAL,0,0,,,,,,,,,,1,,GONE
 A1,SA,3460,,,FRACAL,0,0,,,,,,,,,,1,,GONE
 A1,SA,3465,,,QUEAGR,0,0,,,,,,,,,,1,,GONE
-B1,SA,3839,,,QUEAGR,0,0,,,,,0.54,0,,,,0,,
 A1,SA,3463,,,UMBCAL,0,1,,,,,1.58,0,,68.3,1,0,,OG DEAD
-B1,SA,3836,,,UMBCAL,0,1,,,,,1.26,0,,67.7,1,0,,OG DEAD
 A1,TR,3468,,,UMBCAL,0,1,0,0,0,,,,2.66,122.1,9,0,,OG DEAD
 A1,SA,3473,,,UMBCAL,0,1,,,,,1.52,0,,59.5,1,0,,OG DEAD
 A1,SA,3471,,,UMBCAL,0,0,,,,,,,,,,1,,
 A1,TR,3467,,,AMOCAL,0,1,0,0,0,,,,,157.4,5,0,,"OG DEAD, DBH UNAVAILABLE"
 A1,TS,3467.1,,,AMOCAL,0,0,,,,,,,,,,0,,GONE
-B1,SA,3835,,,AMOCAL,0,1,,,,,1.08,0,,138.2,1,0,,OG DEAD
 A1,SA,3789,,,FRACAL,0,0,,,,,,,,,,0,,GONE
 A1,SA,5701,175,138,UMBCAL,0,1,,,,,0.6,0,,50.6,1,0,,OG DEAD
 A1,SA,5702,370,180,AMOCAL,0,1,,,,,,,,101.8,1,0,,"OG DEAD, BD UNAVAILABLE"
@@ -153,7 +150,7 @@ D4,TS,4124,,,QUEGAR,0,0,,,,,,,,,,1,,GONE
 D4,TR,4152,,,PSEMEN,1,0,0,1,2,,,,6.3,,,0,,
 D4,SA,4162,,,UMBCAL,0,0,,,,,0.83,0,,,,0,,
 D4,SA,4154,,,QUEAGR,0,0,,,,,0.91,0,,,,0,,
-D4,SA,4174,,,QUEAGR,0,0,,,,,0.5,0,,,,0,,
+D4,SA,4174,,,QUEAGR,0,0,,,,,0.5,0,,,,0,,deleted an identical dup at line 372 in D3- indentical data- mkqc2023
 D4,TR,4145.1,,,ARCMAN,0,0,0,0,0,,,,,,,1,,GONE
 D4,TS,4163.1,,,QUEGAR,1,0,,,,115.4,,,,,,0,,
 D4,TR,4151,,,PSEMEN,1,0,0,1,3,,,,10.5,,,0,,
@@ -372,7 +369,6 @@ D3,TR,4136,,,QUEGAR,1,1,1,1,3,,,,21.3,92.6,24,0,,QUEDOUXGAR?- was typo 4163- mis
 D3,TR,4138,,,QUEGAR,1,1,1,1,4,,,,17.5,50.1,1,0,,QUEDOUXGAR?
 D3,TR,4140,,,QUEGAR,1,1,1,1,3,,,,20,72.4,12,0,,QUEDOUXGAR?
 D3,TR,4137,,,QUEGAR,1,1,1,1,4,,,,29.7,106.9,51,0,,QUEDOUXGAR?
-D3,SA,4174,,,QUEAGR,0,0,,,,,0.5,0,,,,0,,OG DEAD
 D3,SA,4130,,,AMOCAL,0,1,,,,,,,,86,3,0,,"OG DEAD, GONE"
 D3,TR,4183,,,QUEAGR,0,0,0,0,0,,2.1,0,,,,1,,GONE
 D3,SA,4165,,,UMBCAL,0,0,,,,,1.9,0,,,,0,,OG DEAD
@@ -545,7 +541,7 @@ B1,TR,3840,,,PSEMEN,1,0,0,1,2,,,,5.03,,,0,,
 B1,TR,3842,,,UMBCAL,0,1,0,0,0,,2.55,0,1.09,85.6,7,0,,OG DEAD
 B1,SA,3841,,,AMOCAL,0,1,,,,,,,,67.5,,0,,OG DEAD/GONE
 B1,SA,3993,,,PSEMEN,0,0,,,,,1.15,0,,,,0,,
-B1,SA,3836,,,UMBCAL,0,1,,,,,0.97,0,,69.4,1,0,,OG DEAD
+B1,SA,3836,,,UMBCAL,0,1,,,,,1.12,0,,68.6,1,0,,"OG DEAD- averaged a dup in B1, this one (.97/0/69.4/1) with one at line 68 (1.26/0/67.7/1)- mkqc2023"
 B1,SA,3838,,,UMBCAL,0,1,,,,,0.72,0,,64.7,2,0,,OG DEAD
 D2,TR,4069.4,,,HETARB,0,1,0,0,0,,,,3.6,101.5,12,0,,OG DEAD
 D2,TS,4069.5,,,HETARB,0,0,,,,,1.2,0,,,,0,,
@@ -575,13 +571,13 @@ D1,TR,4592.1,,,HETARB,0,0,0,0,0,,,,1.7,,,0,,
 D1,TR,4592.2,,,HETARB,0,0,0,0,0,,,,1.4,,,0,,
 D1,TR,4592.3,,,HETARB,0,1,0,0,0,,,,1.8,102.6,13,0,,
 D1,TR,4592.4,,,HETARB,0,0,0,0,0,,,,1.5,,,0,,
-B1,SA,3839,,,QUEAGR,0,0,,,,,0.59,0,,,,0,,
+B1,SA,3839,,,QUEAGR,0,0,,,,,0.57,0,,,,0,,deleted at dup in B1 this one .59/0 and one at line 66 .54/0
 B1,SA,3837,,,UMBCAL,0,0,,,,,,,,,,1,,GONE (deleted a dup with no data in c1- probably a dropped tag- mkqc2022)
 B1,TR,3881,,,PSEMEN,1,0,0,1,2,,,,22.4,,,0,,
 B1,SA,3832,,,UMBCAL,0,1,,,,,2.17,0,,73.5,1,0,,OG DEAD
 B1,SA,3834,,,PSEMEN,0,0,,,,,1.38,0,,,,0,,
 B1,TR,3833,,,UMBCAL,0,1,0,0,0,,,,1.21,95.3,4,0,,OG DEAD
-B1,SA,3835,,,AMOCAL,0,1,,,,,0.81,0,,134.9,1,0,,OG DEAD
+B1,SA,3835,,,AMOCAL,0,1,,,,,0.95,0,,136.6,1,0,,"OG DEAD (averaging two dups, this one (.81/1/134.9/1) with one at line 74 (1.08/0/138.2/1)- mkqc2023"
 B1,SA,3831,,,UMBCAL,0,1,,,,,1.56,0,,33.5,0,0,,OG DEAD
 B1,SA,3830,,,AMOCAL,0,1,,,,,0.97,0,,76.4,1,0,,"OG DEAD, BD @ 9CM"
 C1,SA,3844,,,HETARB,0,0,,,,,,,,,,1,,GONE
