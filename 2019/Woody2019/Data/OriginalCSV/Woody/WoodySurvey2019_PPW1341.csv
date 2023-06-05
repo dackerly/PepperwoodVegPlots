@@ -15,7 +15,7 @@ B2,SA,6200,165,356,BACPIL,1,0,,,,50.5,0.48,1,,,,,,
 B2,SA,6326,500,161,BACPIL,1,0,,,,136.9,0.97,0,,,,,,
 B1,SA,6327,,,BACPIL,1,0,,,,88.5,0.84,5,,,,,,
 B1,TR,1972,,,QUEAGRI,1,1,1,1,2,,,,27.3,NA,0,,,
-B1,TR,1972.1,,,QUEAGRI,1,0,0,0,0,,,,3,,,,,
+B1,TR,1972.1,,,QUEAGRI,0,0,0,0,0,,,,3,,,,,typo in survival- shanged from 0 to 1- had t0 be misentered  bc was dead in 2018 and violoated gcrown in r script- mkqc2023
 B1,SA,1970,,,NOTDEN,1,0,,,,126.6,1.21,5,,,,,,
 B1,SA,6347,115,205,BACPIL,1,0,,,,96,0.83,4,,,,,,
 C1,SA,6328,499,40,BACPIL,1,0,,,,94.6,1.73,4,,,,,,

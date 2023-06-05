@@ -584,7 +584,7 @@ C1,SA,3843,,,HETARB,0,0,,,,,,,,,,1,,GONE
 C1,TR,3887,,,PSEMEN,0,0,0,0,0,,,,2.12,,,0,,was typo 3837-mkqc22
 C1,TR,3849,,,PSEMEN,0,0,0,0,0,,,,6.3,,,0,,
 C1,TR,3883,,,ARBMEN,1,0,0,1,3,,,,25.4,,,0,,
-C1,TR,3883.1,,,ARBMEN,1,1,0,0,0,,,,10.4,58.6,1,0,,
+C1,TR,3883.1,,,ARBMEN,0,1,0,0,0,,,,10.4,58.6,1,0,,"misrecorded as survival 1. changed to 0/1, found error bc it violated r code bc no info for apical- also 0/1 in 2019-mkqc2023"
 C1,TR,3869,,,PSEMEN,0,0,0,0,0,,,,5.22,,,0,,
 C1,TR,3873,,,AMOCAL,0,1,0,0,0,,,,,124.2,5,0,,OG DEAD/GONE
 C1,TS,3873.1,,,AMOCAL,0,1,,,,,2.11,0,,131.3,6,0,,
