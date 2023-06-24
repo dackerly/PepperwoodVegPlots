@@ -44,7 +44,7 @@ B3,SA,4602,,,FRACAL,0,0,,,,,,,,,,1,,
 B2,TR,4613,,,HETARB,0,1,0,0,0,,3.11,0,1.28,58.5,2,0,,
 B2,TR,4651,,,HETARB,0,1,0,0,0,,,,1.93,35,0,0,,
 B2,TR,4651.2,,,HETARB,0,0,0,0,0,,,,2.39,,,0,,
-B2,TR,4651.1,,,HETARB,0,0,0,0,0,,0.64,0,1.23,,,0,,
+B2,TR,4651.1,,,HETARB,0,0,0,0,0,,,0,1.23,,,0,,deleting dup BD. 64- I think it belongs to the next line even tho on scan- why take a BD for this TR? Wouldn't have…-not a new tr-mkqc2023
 B2,TS,4651.3,,,HETARB,0,0,,,,,0.64,0,,,,0,,
 B2,TR,4653,,,HETARB,0,0,0,0,0,,,,1.75,113.5,13,0,,
 B2,TS,4653.1,,,HETARB,0,0,,,,,,,2.48,,,0,,
