@@ -41,10 +41,10 @@ for (i in 1:length(plot.data)){
   plot.info$Aspect[i]<-plot.data[[i]][3,8]
 }
 # Slope and aspect are missing for plot PPW1302 and not applicable for PPW1329 (on crest) 
-plot.info$Slope[2]<-NA # changes slope for plot 1302 to NA
-plot.info$Aspect[2]<-NA # same for 1329 aspect
-plot.info$Slope[29]<-NA # changes slope for plot 1329 to NA
-plot.info$Aspect[29]<-NA # same for 1329 aspect
+#plot.info$Slope[2]<-NA # changes slope for plot 1302 to NA
+#plot.info$Aspect[2]<-NA # same for 1329 aspect
+#plot.info$Slope[29]<-NA # changes slope for plot 1329 to NA
+#plot.info$Aspect[29]<-NA # same for 1329 aspect
 # calculate Aspect from field data 
 plot.info$Aspect<- as.numeric(plot.info$Aspect)
 #plot.info$Aspect<-cos(2*pi*(as.numeric(plot.info$Aspect)/360))
