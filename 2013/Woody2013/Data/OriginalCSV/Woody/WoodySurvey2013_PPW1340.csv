@@ -20,7 +20,7 @@ A2,SA,1624,UMBCAL,1,,70,1.13,1,,-35,-127,
 A3,SA,1626,PSEMEN,1,,63,0.58,1,,170,90,
 A3,SA,1627,PSEMEN,1,,66,0.53,1,,-29,69,
 A3,SA,1628,PSEMEN,1,,68,0.59,1,,-210,262,
-A3,TR,1629,PSEMEN,0,S,72,0.58,1,,-81,-31,
+A3,TR,1629,PSEMEN,0,,72,0.58,1,,-81,-31,removing S bc it has a tag- mkqc2023
 A3,TR,1630,UMBCAL,1,,,,1,23.6,150,-70,DBH at 120cm; REMOVED 1630.13 & 1630.8 MFO 20130617
 A3,TR,1630.1,UMBCAL,1,,,,1,8.8,150,-70,
 A3,TR,1630.01,UMBCAL,1,,,,1,1.18,150,-70,"changed .1 with smaller dbh to .01, in field TAG says .10-changing here to match other years -2022 qc MK"
@@ -96,7 +96,7 @@ C3,SA,1667,PSEMEN,1,,71,1.06,1,,-94,182,
 C3,SA,1668,PSEMEN,1,,56,0.73,1,,185,-160,
 C3,SA,1669,UMBCAL,1,,96,1.03,2,,83,-192,
 C3,SA,1670,PSEMEN,1,,65,0.64,1,,-151,-6,
-C3,SA,1671,UMBCAL,0,S,57,0.27,1,,-89,-118,was bacpil- chaned to match relocated plany in 2019 with an uncal resprout. - mkqc2023
+C3,SA,1671,UMBCAL,0,,57,0.27,1,,-89,-118,was bacpil- chaned to match relocated plany in 2019 with an uncal resprout. - mkqc2023- removing S bc it has a tag- mkqc2023
 C3,SA,1672,PSEMEN,1,,55,0.74,1,,-8,245,
 C3,SA,1673,PSEMEN,1,,51,0.56,1,,-38,203,
 C3,SA,1674,PSEMEN,1,,61,0.51,1,,-27,159,
@@ -122,7 +122,7 @@ B3,SA,1694,UMBCAL,1,,66,1.01,1,,-87,-213,
 C3,SA,1695,BACPIL,1,,51,0.23,1,,-214,161,
 C3,SA,1696,PSEMEN,1,,194,0.73,1,,25,-171,
 D3,SA,1697,PSEMEN,1,,54,0.64,1,,-254,-42,
-D3,SA,1698,PSEMEN,1,S,70,0.66,1,,-219,-144,
+D3,SA,1698,PSEMEN,1,,70,0.66,1,,-219,-144,removing S bc it has a tag- mkqc2023
 D3,SA,1699,PSEMEN,1,,73,0.64,1,,31,223,
 D3,SA,1701,PSEMEN,1,,78,0.65,1,,147,225,
 D3,SA,1702,UMBCAL,1,,59,0.52,1,,88,69,
