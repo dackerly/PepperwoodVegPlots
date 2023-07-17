@@ -473,7 +473,7 @@ B2,SA,3874,,,UMBCAL,0,0,,,,,0.83,0,,,,0,,
 B2,SA,99405,,,UMBCAL,0,0,,,,,0.69,0,,,,0,,
 B2,TR,3821,,,PSEMEN,0,0,0,0,0,,,,3.6,,,0,,was misentered as umbcal-mkqc22
 B2,SA,3824,,,UMBCAL,0,1,,,,,0.8,0,,56.2,1,0,,OG DEAD
-B2,SA,3823,,,UMBCAL,0,1,,,,,1.86,0,,133.3,4,0,,OG DEAD
+B2,TR,3823,,,UMBCAL,0,1,0,0,0,,1.86,0,,133.3,4,0,,OG DEAD- was measuers as an SA but I'm chaging it to tree based on 2013 type-mkqc2023
 B2,TR,3826,,,HETARB,0,1,0,0,0,,,,2.46,119.8,6,0,,OG DEAD- note in 2013 says no 3826.2
 B2,TR,3826.1,,,HETARB,0,1,0,0,0,,,,1.4,109.5,4,0,,OG DEAD
 B2,TR,3826.4,,,HETARB,0,0,0,0,0,,,,,,,1,,GONE

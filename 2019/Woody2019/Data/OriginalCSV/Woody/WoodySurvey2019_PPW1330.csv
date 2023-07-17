@@ -366,8 +366,8 @@ C2,TR,3956,,,UMBCAL,0,0,0,0,0,,,,NA,,,,,GONE/ TAG NOT FOUND
 B3,TR,3808,,,HETARB,0,1,0,0,0,,,,NA,221.5,5,,,
 B3,TR,3808.1,,,HETARB,0,0,0,0,0,,,,NA,,,1,,
 B3,TS,3808.3,,,HETARB,0,0,,,,NA,NA,,,,,1,,
-B2,SA,3823,,,UMBCAL,1,0,,,,149.1,1.03,7,,,,,,RESPROUT IN BD
-B1,SA,3877,,,UMBCAL,1,0,,,,59.9,0.55,1,,,,,,"RESPROUT IN BD, {?SCAN ILLEGIBLE IN MARGIN} - averaged with a dup at scan line 154 61/.56/1 and this one 58.8/.55/1"
+B2,TR,3823,,,UMBCAL,0,1,0,0,0,,1.03,,,149.1,7,,,RESPROUT BD-was measuers as an SA but I'm chaging it to tree based on 2013 type-mkqc2023
+B1,SA,3877,,,UMBCAL,1,0,,,,59.9,0.55,1,,,,,,"RESPROUT BD, {?SCAN ILLEGIBLE IN MARGIN} - averaged with a dup at scan line 154 61/.56/1 and this one 58.8/.55/1"
 B2,TR,3811,,,HETARB,0,1,0,0,0,,,,NA,144.5,15,,,
 B2,TR,3811.1,,,HETARB,0,0,0,0,0,,,,4.14,,,,,
 B2,TR,3811.2,,,HETARB,0,1,0,0,0,,,,4.22,164.8,11,,,

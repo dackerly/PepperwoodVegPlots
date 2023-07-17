@@ -57,7 +57,7 @@ C2,SA,6485,25,147,QUEAGRI,1,0,,,,56.5,0.62,0,,,,,,NEW SA
 C2,TR,4690,,,HETARB,0,1,0,0,0,,,,NA,58.5,1,,,
 C1,TR,4659,,,QUEAGRI,1,0,1,1,3,,,,29.4,,,,,
 C1,SA,4684,,,UMBCAL,0,0,,,,NA,NA,NA,,,,1,,
-C1,SA,4688,,,UMBCAL,1,0,,,,109,1.04,9,,,,,,BD OF BSPRT
+C1,TR,4688,,,UMBCAL,0,1,0,0,0,,1.04,9,,109,,,,BD OF BSPRT- was measuers as an SA but I'm chaging it to tree based on 2013 type-mkqc2023
 C1,SA,5980,,,UMBCAL,1,0,,,,66.8,0.83,2,,,,,,BD OF BSPRT
 C1,SA,5979,,,FRACAL,1,0,,,,84.8,0.65,4,,,,,,
 C1,SA,4686,,,HETARB,0,0,,,,NA,NA,NA,,,,1,,
