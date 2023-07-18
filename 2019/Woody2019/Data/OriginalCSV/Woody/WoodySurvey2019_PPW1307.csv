@@ -78,7 +78,7 @@ C1,TR,1159.1,,,QUEAGRI,0,0,0,0,0,,,,NA,,,,,
 C1,TR,1160,,,QUEGAR,0,1,0,0,0,,,,NA,58.8,1,,,changed from queagri to match 2020 data mkqc2022
 C1,TR,1158,,,QUEAGRI,0,0,0,0,0,,,,NA,,,,,
 C1,SA,6466,123,297,BACPIL,1,0,,,,61.3,0.55,2,,,,,,NEW SA
-C1,SA,1134,,,QUEAGRI,1,0,,,,64,0.65,9,,,,,,BD OF BSPRT (used to be a tree?? In 2018 and 2013 but 2019 and 2020 have clear SA meanurments- mkqc23)
+C1,TR,1134,,,QUEAGRI,0,1,0,0,0,,0.65,9,,64,,,,BD OF BSPRT (used to be a tree?? In 2018 and 2013 but 2019 and 2020 took SA meanurments- changged back to a TR -mkqc23)
 C1,SA,1161,,,QUEAGRI,0,0,,,,NA,NA,NA,,,,1,,
 B1,SA,1144,,,QUEAGRI,1,0,,,,74.3,0.58,3,,,,,,BD OF BSPRT
 B1,SA,1142,,,QUEAGRI,0,0,,,,NA,NA,NA,,,,1,,

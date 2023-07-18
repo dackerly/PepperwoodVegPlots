@@ -27,7 +27,7 @@ C1,TR,1159.1,,,QUEAGRI,0,0,0,0,0,,,,,,,1,,TAG PULLED
 C1,TR,1158,,,QUEAGRI,0,0,0,0,0,,,,,,,1,,TAG PULLED
 C1,TR,1160,,,QUEGAR,0,1,0,0,0,,0.6,,,66.8,1,,,CM SAYS QUEGAR!!
 C1,SA,6466,,,BACPIL,0,0,,,,,,,,,,,,BLUE FLAGGED
-C1,SA,1134,,,QUEAGRI,0,1,,,,54.1,0.47,6,,,,,,
+C1,TR,1134,,,QUEAGRI,0,1,0,0,0,,0.47,6,,,54.1,1,,measured as an SA so data is weird- changed to a TR-mkqc2023
 C4,SA,5817,,,UMBCAL,0,1,,,,20.2,0.22,2,,,,,,
 C4,SA,5816,,,UMBCAL,0,1,,,,25.5,0.32,2,,,,,,
 C4,SA,5815,,,ARBMEN,0,1,,,,19.3,0.35,1,,,,,,

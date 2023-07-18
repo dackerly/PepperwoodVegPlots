@@ -117,7 +117,7 @@ D4,TR,3010,,,AMOCAL,0,1,0,0,0,,0.99,,,173.9,5,0,,
 D4,SA,3059,,,AMOCAL,0,1,,,,74.3,0.56,7,,,,0,,
 D4,SA,6171,,,AMOCAL,0,1,,,,71.1,0.46,5,,,,0,,
 D4,SA,3055,,,AMOCAL,0,1,,,,89,0.78,14,,,,0,,ENTERED AS 2055 IN 19 DB- fixed mkqc 2022
-D4,SA,3054,,,AMOCAL,0,1,,,,95.9,0.58,14,,,,0,,became a tree 2018 but 2019 and 2020 took  SA meanurments
+D4,TR,3054,,,AMOCAL,0,1,0,0,0,95.9,0.58,14,,95.9,,0,,became a tree 2018 but 2019 and 2020 took  SA meanurments
 D4,SA,6169,,,AMOCAL,0,0,,,,,,,,,,0,,
 D4,SA,3057,232,104,AMOCAL,0,1,,,,64,0.37,2,,,,0,,LISTED IN D1 AND D4 IN 19 DB
 D4,SA,3056,,,AMOCAL,0,1,,,,87.2,0.61,3,,,,0,,
