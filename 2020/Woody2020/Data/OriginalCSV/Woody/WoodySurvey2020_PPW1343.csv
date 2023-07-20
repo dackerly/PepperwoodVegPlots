@@ -11,7 +11,7 @@ D1,TR,2211,,,PSEMEN,0,0,0,0,0,,,,,,,1,,NOT ON LIST
 D1,TR,2212,,,PSEMEN,0,0,0,0,0,,,,,,,1,, NOT ON LIST
 D1,TR,2223,,,PSEMEN,0,0,0,0,0,,,,,,,1,,
 D1,TR,2198,,,PSEMEN,0,0,0,0,0,,,,,,,0,,
-D1,SA,2197,,,ARBMEN,0,0,,,,,,,,,,1,,
+D1,TR,2197,,,ARBMEN,0,0,0,0,0,,,,,,,1,,
 D1,TR,2200,,,PSEMEN,1,0,0,1,2,,,,,,,0,,
 D1,TR,2205,,,PSEMEN,0,0,0,0,0,,,,,,,1,,
 D1,TR,2204,,,PSEMEN,1,0,0,1,2,,,,,,,0,,
@@ -88,7 +88,7 @@ D2,TR,2170,,,PSEMEN,1,0,0,1,3,,,,,,,0,,
 D2,TR,2169,,,PSEMEN,1,0,0,1,2,,,,,,,0,,
 A1,SA,1895,,,UMBCAL,0,0,,,,,,,,,,1,,
 B1,SA,2057,,,PSEMEN,0,0,,,,,,,,,,1,,
-B1,SA,2059,,,PSEMEN,0,0,,,,,,,,,,1,,deleted a dup that had no data and said free floating tag in the notes - mkqc2022
+B1,TR,2059,,,PSEMEN,0,0,0,0,0,,,,,,,1,,deleted a dup that had no data and said free floating tag in the notes - mkqc2022
 B1,SA,2063,,,ARBMEN,0,0,,,,,,,,,,1,,DEAD ON GROUND
 B1,TR,2060,,,PSEMEN,1,0,0,1,3,,,,,,,0,,
 B1,SA,2062,,,PSEMEN,0,0,,,,,,,,,,1,,deleted a dup from B2 with no data and note -not found in 19 or 20- maybe bc it was in B1 as 2013 indicates- this says tag pulled - mkqc2022

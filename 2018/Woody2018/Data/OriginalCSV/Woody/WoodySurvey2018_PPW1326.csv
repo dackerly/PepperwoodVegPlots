@@ -145,7 +145,7 @@ C1,SA,3629,,,UMBCAL,1,1,,,,,1.8,0,,62.7,1,0,,
 C1,SA,5662,460,255,UMBCAL,1,1,,,,,0.59,0,,61.4,1,0,,og dead
 C1,TR,3604,,,UMBCAL,0,1,0,0,0,,,,1.38,,0,0,,
 C1,TR,3600,,,PSEMEN,0,0,0,0,0,,,,5.3,,,0,,
-C1,TR,3599,,,QUEAGR,0,0,,,,,,,6.7,,,0,,"dead/gone, basal dead, no tag (changing to 0/0 from 0/1 based on notes - mkqc2023"
+C1,TR,3599,,,QUEAGR,0,0,0,0,0,,,,6.7,,,0,,"dead/gone, basal dead, no tag (changing to 0/0 from 0/1 based on notes - mkqc2023"
 C1,SA,3602,,,UMBCAL,0,0,,,,,,,,,,1,,dead/gone
 C1,TR,3632,,,PSEMEN,1,0,0,1,3,,,,78.6,,,0,,
 C1,SA,3598,,,UMBCAL,0,0,,,,,,,,,,0,,"dead/gone, no tag"

@@ -146,7 +146,7 @@ B2,SA,1431,,,UMBCAL,0,1,,,,69.5,0.44,2,,,,,,
 B2,SA,1432,,,QUEAGRI,0,1,,,,75.9,0.47,2,,,,,,deleted a dup for 1432 with ht 50.1 and bd .34 stem #3- matches 1423 almost exactly so deleted it
 B2,SA,1433,,,QUEAGRI,0,1,,,,47.5,0.6,4,,,,,,
 B2,SA,1435,,,QUEAGRI,0,1,,,,82.2,0.25,2,,,,,,
-B2,SA,1429,,,QUEAGRI,0,1,,,,56.2,0.74,8,,,,,,NOT ON LIST/TYPO IN '19 DB LISTED AS 1439
+B2,TR,1429,,,QUEAGRI,0,1,0,0,0,56.2,0.74,8,,56.2,,,,NOT ON LIST/TYPO IN '19 DB LISTED AS 1439- measured as SA so data is weird- mkqc2023
 B2,SA,1438,,,QUEAGRI,0,1,,,,52.5,0.3,6,,,,,,
 B2,SA,5580,,,QUEAGRI,0,1,,,,24.1,0.23,1,,,,,,
 B2,SA,1437,,,QUEAGRI,0,1,,,,29.4,0.26,3,,,,,,
@@ -154,7 +154,7 @@ B2,SA,5553,,,QUEAGRI,0,1,,,,30.5,0.24,1,,,,,,
 B2,SA,1436,,,QUEAGRI,0,1,,,,55.4,0.36,2,,,,,,
 B2,SA,1447,,,QUEAGRI,0,1,,,,61.3,0.65,2,,,,,,
 B2,SA,6425,,,ARBMEN,0,1,,,,33.6,0.35,0,,,,,,
-B2,SA,1445,,,QUEAGRI,0,1,,,,62.5,0.43,4,,,,,,
+B2,SA,1445,,,QUEAGRI,0,1,0,0,0,62.5,0.43,4,,62.5,,,,measured as SA so data is weird- mkqc2023
 B2,SA,1448,,,ARBMEN,0,1,,,,133.1,1.47,2,,,,,,
 B2,SA,1446,,,QUEAGRI,0,1,,,,116.6,0.84,3,,,,,,
 B2,SA,5564,,,QUEAGRI,0,1,,,,23.2,0.31,2,,,,,,
@@ -198,7 +198,7 @@ D2,SA,6379,40,20,QUEAGRI,0,1,,,,26,0.27,0,,,,,,
 D2,SA,1566,,,HETARB,0,0,,,,,,,,,,1,,TAG PULLED
 D2,SA,5568,,,UMBCAL,0,1,,,,,,,,,,,,
 D2,SA,1570,,,QUEAGRI,0,0,,,,25,0.23,0,,,,,,
-D2,SA,1571,,,HETARB,0,0,,,,,,,,,,,,
+D2,TR,1571,,,HETARB,0,0,0,0,0,,,,,,,,,
 D2,SA,1572,,,QUEAGRI,0,0,,,,,,,,,,,,
 D2,SA,1567,,,QUEAGRI,0,0,,,,,,,,,,1,,
 D2,SA,5524,,,UMBCAL,0,1,,,,29.2,0.29,3,,,,,,
@@ -219,7 +219,7 @@ A2,SA,5556,,,UMBCAL,0,1,,,,66.9,0.48,2,,,,,,
 A2,SA,1305,,,UMBCAL,0,1,,,,58.2,0.44,1,,,,,,
 A2,SA,1303,,,QUEAGRI,0,1,,,,45.1,0.47,6,,,,,,
 A2,SA,1309,,,UMBCAL,0,1,,,,54.2,0.45,0,,,,,,
-A2,SA,1306,,,UMBCAL,0,1,,,,115.5,0.79,3,,,,,,
+A2,TR,1306,,,UMBCAL,0,1,0,0,0,115.5,0.79,3,,115.5,,,,"was measured as an SA so data is werid- mkqc2023- cant say now many ""stems under"" were over 50 cm tall"
 A2,TR,1304,,,UMBCAL,0,1,0,0,0,,,,,126.2,2,,,
 A2,SA,1310,,,UMBCAL,0,1,,,,56.1,0.4,2,,,,,,was misrecorded as queagri-mkqc2022
 A2,SA,1320,,,UMBCAL,0,1,,,,60.4,0.42,1,,,,,,
