@@ -14,8 +14,8 @@ B3,TR,1903.2,,,ARCMAN,0,0,0,0,0,,,,,,,,,LEFT TAGS MARKED IN PLACE
 D4,SA,1905,,,ARBMEN,0,1,,,,14.9,0.22,1,,,,,,DEAD IN 19-BSPROUTS (or not found- No data in 19- mkqc2022)
 B3,TR,1921,,,QUEDOU,1,1,1,1,99,,,,,,0,,,
 B2,SA,1959,,,ARCMAN,0,0,,,,,,,,,,,,TAG NOT FOUND
-B2,SA,1959.1,,,ARCMAN,0,0,,,,,,,,,,1,,
-B2,SA,1959.2,,,ARCMAN,0,0,,,,,,,,,,1,,
+B2,TS,1959.1,,,ARCMAN,0,0,,,,,,,,,,1,,
+B2,TS,1959.2,,,ARCMAN,0,0,,,,,,,,,,1,,
 B2,SA,1958,,,ARCMAN,0,0,,,,,,,,,,1,,Was arbmen- changed to match other years- mkqc2022
 B1,SA,6420,,,QUEDOU,0,1,,,,21.4,0.18,4,,,,,,
 D3,TR,1961,,,QUEAGRI,1,0,1,1,4,,,,,,,,,

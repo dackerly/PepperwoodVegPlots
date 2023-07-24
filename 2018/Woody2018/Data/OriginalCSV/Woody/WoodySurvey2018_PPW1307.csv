@@ -90,7 +90,7 @@ A2,TR,1110.1,,,ARBMEN,1,1,0,1,2,,,,27.5,,0,0,,
 A2,TR,1110.2,,,ARBMEN,1,1,1,1,1,,,,31.2,87.5,2,0,,
 A3,TR,1112,,,ARBMEN,0,1,0,0,0,,,,,111.1,5,0,,
 A3,TS,1112.1,,,ARBMEN,0,0,,,,,1.38,0,,,,0,,"TS, SA OR TRIS BD SUPPOSED TO BE DBH?"
-A3,TS,1114,,,PSEMEN,0,0,,,,,,,,,,1,,DEAD/GONE
+A3,SA,1114,,,PSEMEN,0,0,,,,,,,,,,1,,DEAD/GONE
 A3,SA,99319,,,ARBMEN,0,0,,,,,1.05,0,,,,0,,
 A3,SA,5821,5,490,ARBMEN,0,1,,,,,0.8,1,,31.1,0,0,,"in 2019 notes say bd of bsprt was .6 and bd of og was .8- in 2019, changed this from bsprt bd to og ( was .6 now .8 to match 2019)-mkqc2022"
 A3,SA,99320,,,ARBMEN,0,0,,,,,0.91,1,,,,0,,
