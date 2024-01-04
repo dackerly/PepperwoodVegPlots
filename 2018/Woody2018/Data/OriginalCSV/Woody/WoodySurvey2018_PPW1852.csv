@@ -64,7 +64,7 @@ C3,TR,99062,,,PSEMEN,0,0,0,0,0,,,,13.6,,,,,
 C3,TR,99063,,,PSEMEN,0,0,0,0,0,,,,6.73,,,,,
 C3,SA,6099,85,228,UMBCAL,0,1,,,,,,,,78.5,2,,,BD UNAVAILABLE
 C3,SA,6100,110,158,UMBCAL,0,1,,,,,2.3,0,,65.1,2,,,BD @ 8CM
-C3,SA,6220,256,15,UMBCAL,1,0,,,,98.3,1.03,3,,,,,,
+C3,SA,6220,256,15,UMBCAL,0,1,,,,,1.03,3,,98.3,,,,"changed to 0/1- moved ht was only 1/0 bc over 50cmbut that's not accurate- its didn't survive, it resprouted -mkqc2024"
 B3,TR,99064,,,PSEMEN,0,0,0,0,0,,,,3.27,,,,,
 B3,TR,99065,,,PSEMEN,0,0,0,0,0,,,,3.54,,,,,
 B3,TR,99066,,,PSEMEN,0,0,0,0,0,,,,5.02,,,,,
@@ -120,5 +120,5 @@ C2,TR,99093,,,PSEMEN,0,0,0,0,0,,,,13.1,,,,,
 C2,TR,6231,178,65,UMBCAL,0,0,0,0,0,,5.03,0,,129.6,10,,,"OG DEAD, TOO SHORT FOR DBH"
 C2,SA,6223,360,75,BACPIL,1,1,,,,51.3,0.51,4,,,,,,
 C2,TR,6229,320,270,UMBCAL,0,0,0,0,0,,5.33,0,,98.3,8,,,"OG DEAD, TOO SHORT FOR DBH"
-C2,SA,6226,433,225,UMBCAL,1,0,,,,91.5,0.83,1,,,,,,
-C2,SA,6228,485,187,UMBCAL,1,0,,,,58.3,0.58,1,,,,,,
+C2,SA,6226,433,225,UMBCAL,0,1,,,,,0.83,1,,91.5,,,,"changed to 0/1- moved ht was only 1/0 bc over 50cmbut that's not accurate- its didn't survive, it resprouted -mkqc2024"
+C2,SA,6228,485,187,UMBCAL,0,1,,,,,0.58,1,,58.3,,,,"changed to 0/1- moved ht was only 1/0 bc over 50cmbut that's not accurate- its didn't survive, it resprouted -mkqc2024"

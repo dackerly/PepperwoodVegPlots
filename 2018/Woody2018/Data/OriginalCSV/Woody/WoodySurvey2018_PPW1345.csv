@@ -123,7 +123,7 @@ D4,TR,1944.5,,,ARCMAN,0,0,0,0,0,,,,8.9,,,0,,
 D4,SA,1935,,,HETARB,0,1,,,,,0.93,0,,40,0,0,,og dead
 D4,TR,1919,,,PSEMEN,0,0,0,0,0,,,,1.4,,,0,,"became a tree, but dead"
 D4,SA,1920,,,QUEAGR,0,1,,,,,0.98,0,,17.6,0,0,,og dead
-D4,SA,5587,,,HETARB,1,0,,,,78.6,0.43,0,,,,0,,new SA
+D4,SA,5587,,,HETARB,0,1,,,,,0.43,0,,78.6,,0,,new SA- changing to 0/1 bc only surviving sa? No way- BD is likley of resprout based on size and moved ht- mkqc2024
 C4,TR,1940,,,QUEGAR,1,0,0,1,4,,,,29.4,,,0,,
 C4,TR,1938,,,QUEDOU,1,0,,1,2,,,,18.9,,,0,,
 C3,TR,1936,,,QUEDOU,1,0,0,1,2,,,,24.2,,,0,,

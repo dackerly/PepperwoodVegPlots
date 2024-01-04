@@ -54,9 +54,9 @@ D2,SA,1190,,,UMBCAL,0,0,,,,,,,,,,0,,DEAD/GONE TAG NOT FOUND
 D2,SA,1187,,,UMBCAL,0,0,,,,,,,,,,0,,DEAD/GONE TAG NOT FOUND
 C2,TR,1084,,,QUEAGR,1,0,1,1,2,,,,36,,,0,,
 C3,TR,1085,,,QUEAGR,0,1,,,,,4.45,0,2.1,122,2,0,,
-C3,SA,5875,225,381,UMBCAL,1,0,,,,54.2,0.47,0,,,,0,,NEW SA  
+C3,SA,5875,225,381,UMBCAL,0,1,,,,,0.47,0,,54.2,,0,,"NEW SA  - changed to 0/1 and moved ht- only deemed ""alive"" bc over 50cm- no way they survved the fire these are resprouts -mkqc2024"
 C4,TR,1086,,,QUEAGR,0,1,,,,,,,5.4,78.2,6,0,,
-C4,SA,5876,165,265,UMBCAL,1,0,,,,90.5,0.84,0,,,,0,,NEW SA
+C4,SA,5876,165,265,UMBCAL,0,1,,,,,0.84,0,,90.5,,0,,"NEW SA  - changed to 0/1 and moved ht- only deemed ""alive"" bc over 50cm- no way they survved the fire these are resprouts -mkqc2024"
 C4,SA,1088,,,QUEAGR,0,0,,,,,1.68,0,,,,0,,
 B4,SA,99299,,,UNK,0,0,,,,,1.27,0,,,,0,,
 B3,TR,1060,,,UMBCAL,0,1,0,0,0,,,,2.16,119,5,0,,

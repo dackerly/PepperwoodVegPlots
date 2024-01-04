@@ -28,7 +28,7 @@ A4,TS,2849.3,,,QUEAGR,0,0,,,,,,,5.03,,,0,,
 A4,TS,2849.2,,,QUEAGR,0,0,,,,,,,3.67,,,0,,
 A4,TR,2849.1,,,QUEAGR,1,0,1,1,3,,,,59.6,,,0,,
 A4,TR,2849,,,QUEAGR,1,1,1,1,4,,,,51,,,0,,
-C4,SA,5611,88,233,QUEAGR,1,0,,,,59.5,0.39,0,,,,0,,OG BURNT TO GROUND 
+C4,SA,5611,88,233,QUEAGR,0,1,,,,59.5,0.39,0,,,,0,,"OG BURNT TO GROUND, BD of bsprt- changed to 0/1 from 1/0 based on this note- mkqc2024"
 D4,TR,2839,,,QUEAGR,1,0,1,1,4,,,,65,,,0,,
 C3,SA,2851,,,UMBCAL,0,0,,,,,1.34,0,,,,0,,
 D4,TR,2839.1,,,QUEAGR,1,0,1,1,2,,,,22.7,,,0,,

@@ -41,7 +41,7 @@ D4,SA,5659,455,485,UMBCAL,0,1,,,,,0.91,0,,51,1,0,,"OG DEAD, NEW SA "
 D4,SA,3387,,,UMBCAL,0,0,,,,,1.14,0,,,,1,,GONE
 C4,SA,3353,,,UMBCAL,0,0,,,,,0.91,0,,,,0,,
 C4,SA,3379,,,UMBCAL,0,1,,,,,,,,41.3,0,0,,OG DEAD
-C4,SA,5660,305,500,UMBCAL,1,0,,,,50.1,0.43,0,,,,0,,NEW SA
+C4,SA,5660,305,500,UMBCAL,0,1,,,,,0.43,0,,50.1,,0,,"NEW SA- changing to -0/1 bc size matched resprouts- BD appears to be of OG, also moved ht-mkqc2024"
 C3,SA,3378,,,UMBCAL,0,0,,,,,,,,,,1,,GONE
 B4,SA,99407,,,UMBCAL,0,0,,,,,1.09,0,,,,0,,
 B4,SA,3352,,,UMBCAL,0,1,,,,,1.39,0,,58.2,1,0,,OG DEAD

@@ -17,4 +17,4 @@ D4,TR,4506,,,QUEKEL,0,0,0,0,0,,,,,,,0,,DEAD/GONE
 D4,TR,4506.2,,,QUEKEL,0,0,0,0,0,,,,,,,0,,DEAD/GONE
 D1,TR,4504,,,QUEGAR,1,1,0,1,3,,,,49.2,,,0,,
 D1,SA,4505,,,QUEAGR,0,1,,,,,2.36,0,,96.5,1,0,,
-D1,SA,5618,380,420,QUEGAR,1,0,,,,34.4,0.66,2,,,,0,,
+D1,SA,5618,380,420,QUEGAR,0,1,,,,34.4,0.66,2,,,,0,,changing to 0/1 based on height - this is a resprout not a recruit or it would be over 50cm- mkqc2024

@@ -19,7 +19,7 @@ B4,TR,99008,,,PSEMEN,0,0,0,0,0,,2.81,0,1.31,,,,,
 B4,TR,99009,,,PSEMEN,0,0,0,0,0,,7.75,0,4.67,,,,,
 B4,TR,99010,,,PSEMEN,0,0,0,0,0,,4.51,0,3.14,,,,,
 B4,TR,6278,310,275,UMBCAL,0,1,0,0,0,,3.37,0,1.96,142.3,13,,,
-B4,SA,6279,162,405,QUEAGR,1,0,,,,82.6,0.64,5,,,,,,
+B4,SA,6279,162,405,QUEAGR,0,1,,,,,0.64,5,,82.6,,,,"changing to 0/1 no way one lone tiny survivor- this has to be a resprouti with BD of OG- moved HT, was 1/0 only bc it was over 50- not accutate- mkqc2024"
 B4,SA,6280,152,390,UMBCAL,0,1,0,,,,,,,109.4,4,,,BD UNAVAILABLE
 B4,SA,6281,107,480,UMBCAL,0,1,,,,,,,,109.9,4,,,BD UNAVAILABLE
 B4,SA,6282,300,245,QUEAGR,0,1,,,,,,,,40.6,0,,,BD UNAVAILABLE
