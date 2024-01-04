@@ -17,7 +17,7 @@ D3,SA,1750,,,ARBMEN,0,1,,,,,1.4,0,,21,0,0,,
 D3,SA,1773,,,ARBMEN,0,0,,,,,0.8,0,,,,0,,
 D3,TR,1775,,,ARBMEN,0,1,0,0,0,,,,1.8,68,1,0,,
 D3,TR,1766,,,QUEKEL,1,0,0,1,4,,,,32.7,,,0,,
-D2,SA,5610,230,210,HETARB,0,0,,,,,0.9,0,,,,0,,"NewSA, dead"
+D2,SA,99055,230,210,HETARB,0,0,,,,,0.9,0,,,,0,,"NewSA, dead- should have been 999- deleting tag 5610 and adding in 99055- deleted row in 2019 when tag was pulled- mkqc2024"
 D2,SA,1758,,,HETARB,0,0,,,,,0.8,0,,,,0,,
 D1,TR,1768,,,QUEAGR,1,1,1,1,3,,,,15.9,62,1,0,,Powdery mildew
 C1,TR,1757,,,ARBMEN,0,0,0,0,0,,,,0,,,0,,"dead,gone"

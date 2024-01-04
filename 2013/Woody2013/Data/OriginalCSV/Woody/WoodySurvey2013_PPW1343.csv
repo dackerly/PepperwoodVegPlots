@@ -563,7 +563,7 @@ D1,TR,2203,PSEMEN,1,,,,,1.8,239,193,
 D1,TR,2212,PSEMEN,1,,,,,1.08,128,64,
 D1,SA,,PSEMEN,1,D,134,0.99,1,,139,65,
 D1,TR,2199,PSEMEN,1,,,,,6.4,234,-174,
-D1,SA,2217,ARBMEN,1,D,56,0.68,1,,142,83,
+D1,SA,,ARBMEN,1,D,56,0.68,1,,142,83,"deleting tag number 2217 bc it was dead and shouldn't have gotten a tab, created problems in future - mkqc24"
 D1,TR,2202,PSEMEN,1,,,,,2.7,279,-141,
 D1,TR,2218,PSEMEN,1,,,,,1.3,193,60,
 D1,TR,2206,PSEMEN,1,,,,,4.45,298,-178,

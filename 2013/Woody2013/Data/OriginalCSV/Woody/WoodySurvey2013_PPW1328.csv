@@ -46,7 +46,7 @@ A2,SA,4695,PSEMEN,1,,51,0.52,1,,-150,197,
 A2,SA,4676,PSEMEN,1,,55,0.67,1,,-134,224,
 A2,SA,4747,PSEMEN,1,,51,0.46,1,,-91,260,
 A2,TR,4678,QUEAGR,1,,,,,42.5,-201,-214,"INPUTED DBH, MISSED; 20130602 MFO"
-A2,TR,4678.1,QUEAGR,1,,,,,47,-201,-214,"INPUTED DBH, MISSED; 20130602 MFO"
+A2,TR,4678.1,QUEAGR,1,,,,,27,-201,-214,"INPUTED DBH, MISSED; 20130602 MFO"
 A2,TS,4678.2,QUEAGR,1,,61,0.73,5,,-201,-214,
 A2,SA,4748,PSEMEN,1,,69,0.74,1,,-10,-80,INPUTED 1 FOR SA BANCH # ; 201306065 MFO
 A2,SA,4760,PSEMEN,1,,,0.36,1,,-191,-7,"INPUTED 1 FOR SA BANCH #, HEIGHT IS MISSING ; 201306065 MFO"
@@ -54,7 +54,7 @@ A2,TR,4752,PSEMEN,1,,,,,2.95,-229,-11,"INPUTED DBH, MISSED; 20130602 MFO"
 A2,SA,4751,PSEMEN,1,,,0.35,1,,-243,-25,INPUTED 1 FOR SA BANCH # ; 201306065 MFO
 A2,SA,4750,PSEMEN,1,,,0.56,1,,-261,-69,INPUTED 1 FOR SA BANCH # ; 201306065 MFO
 A2,SA,4822,PSEMEN,1,,,0.59,1,,-270,-94,INPUTED 1 FOR SA BANCH # ; 201306065 MFO
-A2,SA,4749,QUEAGR,1,,154,1.15,1,,-182,-78,INPUTED 1 FOR SA BANCH # ; 201306065 MFO- [convertinf BD from 11.5 to 1.15 bc that makes more sense- mkqc2023]
+A2,SA,4749,QUEAGR,1,,154,1.15,1,,-182,-78,INPUTED 1 FOR SA BANCH # ; 201306065 MFO- [convertinf BD from 11.5 to 1.15 bc that makes more sense- mkqc2023] BUT note that says aatched to dead stump so maybe 
 A2,TS,4749.1,QUEAGR,1,,84,0.47,5,,-182,-78,
 A3,SA,4756,PSEMEN,1,,111,1,1,,76,159,
 A3,SA,4754,UMBCAL,1,,64,0.73,2,,111,102,
@@ -110,7 +110,7 @@ A4,SA,4792,PSEMEN,1,,61,0.41,1,,-67,-39,
 A4,SA,,PSEMEN,1,,69,0.65,1,,-32,-21,
 A4,SA,4790,PSEMEN,1,,168,1.34,1,,-21,-7,
 A4,TR,4789,QUEAGR,1,,,,,16.9,-18,-38,
-A4,TR,4791,QUEAGR,1,,,,,22,-68,-79,
+A4,TR,4791,QUEAGR,1,,,,,2.2,-68,-79, think this dbh 22 should be 2.2 based on future years- I blame the caliper conversion- mkqc2024
 A4,TR,4788,QUEAGR,1,,,,,19.2,-101,-14,
 A4,TR,4787,PSEMEN,1,,,,,10.2,133,-10,
 B4,TR,4831,ARBMEN,1,,,,,2.85,260,126,
@@ -121,17 +121,17 @@ B4,TR,,QUEAGR,0,D,,,,12.78,-219,210,
 B4,SA,4817,PSEMEN,1,,69,0.64,1,,68,-250,
 B4,TS,4821,QUEAGR,1,,50,23,3,,110,287,
 B4,SA,4804,FRACAL,1,,180,0.96,1,,47,-240,
-B4,TR,4811,QUEAGR,1,,,,,50,11,-100,
-B4,TR,4808,QUEAGR,1,,,,,28,44,-220,
-B4,TR,4807,QUEAGR,1,,,,,64,92,-200,
-B4,TR,4806,QUEAGR,1,,,,,48,135,-210,
+B4,TR,4811,QUEAGR,1,,,,,5,11,-100, think this dbh 50 should be 5 based on future years- I blame the caliper conversion-  but also in 2018 the dbh was 161 and should have been 16.1- mkqc2024
+B4,TR,4808,QUEAGR,1,,,,,2.8,44,-220, think this dbh 28 should be 2.8 based on future years- I blame the caliper conversion- mkqc2024
+B4,TR,4807,QUEAGR,1,,,,,6.4,92,-200, think this dbh 64 should be 6.4 based on future years- I blame the caliper conversion- mkqc2024
+B4,TR,4806,QUEAGR,1,,,,,4.8,135,-210, think this dbh 28 should be 2.8 based on future years- I blame the caliper conversion- mkqc2024
 B4,SA,4809,PSEMEN,1,,95,1.1,1,,23,-46,
 B4,SA,4810,PSEMEN,1,,53,0.47,1,,9,-41,
 B4,SA,4805,PSEMEN,1,,69,0.78,1,,109,-50,
 B4,SA,4812,PSEMEN,1,,65,0.54,1,,-200,-23,
 B4,SA,4813,QUEAGR,1,,62,0.79,2,,-67,-42,
 B4,SA,4816,FRACAL,1,,101,0.57,1,,-38,-13,
-B4,TR,4824,QUEAGR,1,,,,,60,-40,-110,
+B4,TR,4824,QUEAGR,1,,,,,60,-40,-110, think this dbh 60 should be 6.0 based on future years- I blame the caliper conversion- mkqc2024
 B4,SA,4825,FRACAL,1,,118,0.93,1,,-18,-53,
 B4,SA,4815,PSEMEN,1,,85,0.95,1,,-30,-116,
 B4,SA,4814,PSEMEN,1,,72,0.81,1,,-242,-232,
@@ -139,8 +139,8 @@ B4,SA,4818,PSEMEN,1,,76,0.79,1,,-138,-219,
 B4,SA,4820,PSEMEN,1,,71,0.56,1,,-122,-273,
 B4,SA,4819,PSEMEN,1,,68,0.57,1,,-20,260,
 B4,SA,4826,PSEMEN,1,,50,0.57,1,,-48,225,
-B4,TR,4830,QUEAGR,1,,,,,25,-141,200,
-B4,TR,,QUEAGR,1,D,,,,31,-170,174,
+B4,TR,4830,QUEAGR,1,,,,,2.5,-141,200,changing dbh from 25 to 2.5 - bc its 7.8 in 2018- another caliper conversion problem mort likeley - mkqc2024
+B4,TR,,QUEAGR,1,D,,,,31,-170,174,changing dbh from 31 to 3.1 - bc its 7.8 in 2018- another caliper conversion problem mort likeley - mkqc2024
 B4,TR,,QUEAGR,0,D,,,,3.65,-59,191,
 B4,TS,4827,QUEAGR,1,,74,0.33,4,,-5,185,
 B4,SA,4828,FRACAL,1,,83,0.47,1,,-26,37,
@@ -148,7 +148,7 @@ B4,TR,4829,PSEMEN,1,,,,,2.01,-31,18,
 ,,,,,,,,,,, ,
 B3,SA,4835,PSEMEN,1,,59,0.44,1,,64,-122,
 B3,TR,4836,PSEMEN,1,,,,,1.2,94,-208,
-B3,TR,4850,QUEAGR,1,,,,,3.89,58,152,
+B3,TR,4850,QUEAGR,1,,,,,38.9,58,152,changing dbh from 3.89 to 38.9 based on future years- mkqc2024
 B3,SA,4849,PSEMEN,1,,65,0.63,1,,29,94,
 B3,SA,4848,PSEMEN,1,,78,0.67,1,,38,69,
 B3,SA,4847,PSEMEN,1,,78,0.59,1,,56,49,

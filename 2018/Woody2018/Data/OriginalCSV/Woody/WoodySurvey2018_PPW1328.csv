@@ -1,5 +1,5 @@
 ﻿Plot ID,1328,,Sampler(s),"MO, KO, MK, AC",,,,,Date ,20180724,,,,,,,,,
-Notes,,,,,,,,,,,,,,,,,,,
+Notes,deleted line for tag 4618- no data and not in 2013 either - just a tag and note Dead/gone- mkqc2024,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,Height,BD,,,Height ,Count >50,,,
 Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,SOD on Bay ,Notes
 C1,TR,4877,,,QUEAGR,0,0,0,0,0,,,,4.02,,,0,,
@@ -91,7 +91,7 @@ A1,TR,4668,,,QUEAGR,1,0,1,0,1,,,,10.2,,,0,,Barely alive
 A1,SA,4680,,,QUEAGR,0,0,,,,,,,,,,0,,
 A1,TR,4667,,,QUEAGR,1,0,1,1,3,,,,12.9,,,0,,
 A1,TR,4666,,,QUEAGR,0,1,0,0,0,,,,7.6,,,0,,
-A1,SA,4618,,,UNK,0,0,,,,,,,,,,1,,Dead/gone. Check 2013 DB.- NOT THERE MKQC2022
+A1,SA,4618,,,UNK,0,0,,,,,,,,,,1,,
 A1,TR,4629,,,QUEAGR,1,1,0,1,3,,,,19.2,,,0,,
 A1,SA,4616,,,PSEMEN,0,0,,,,,,,,,,1,,Dead/gone
 A1,SA,4615,,,PSEMEN,0,0,,,,,,,,,,1,,Dead/gone
@@ -158,7 +158,7 @@ A2,SA,4640,,,PSEMEN,0,0,,,,,0.86,0,,,,0,,
 A2,TR,4644,462,434,QUEAGR,1,1,1,1,3,,,,21,,,0,,Check quad
 A2,TR,4678,,,QUEAGR,1,0,1,1,4,,,,44.5,,,0,,
 A2,TR,4678.1,,,QUEAGR,1,0,1,1,4,,,,27,,,0,,
-A2,TR,4749,,,QUEAGR,0,1,0,0,0,,,,6.3,,,0,,At nail 7.9 cm D
+A2,TR,4749,,,QUEAGR,0,1,0,0,0,,,,6.3,,,0,,At nail 7.9 cm D ( I think this might be a snag with a resprount??
 A2,TS,4749.1,,,QUEAGR,0,0,,,,,,,,,,1,,Dead/gone
 A2,SA,4822,,,PSEMEN,0,0,,,,,0.54,0,,,,0,,
 A2,SA,4750,,,PSEMEN,0,0,,,,,0.62,0,,,,0,,
@@ -317,7 +317,7 @@ A4,SA,4790,,,PSEMEN,0,0,,,,,1.66,0,0.83,,,0,,
 A4,TR,4789,,,QUEAGR,1,0,0,1,4,,,,18.6,,,0,,
 A4,TR,4788,,,QUEAGR,1,0,0,1,4,,,,24,,,0,,
 A4,TR,4791,,,QUEAGR,1,0,1,0,1,,,,7,,,0,,
-A4,TR,4811,,,QUEAGR,1,0,1,1,4,,,,161,,,0,,
+A4,TR,4811,,,QUEAGR,1,0,1,1,4,,,,16.1,,,0,,was typos dbh 161- mkqc2024
 A4,SA,4803,,,PSEMEN,0,0,,,,,0.68,0,,,,0,,
 A4,TR,4797,,,QUEAGR,1,0,1,0,1,,,,6.8,,,0,,
 A4,TS,4797.1,,,QUEAGR,0,0,,,,,0.63,2,,,,0,,
@@ -426,7 +426,7 @@ B3,TR,4843,,,QUEAGR,1,0,0,1,4,,,,23.9,,,0,,
 B3,SA,99396,,,PSEMEN,0,0,,,,,0.75,0,,,,0,,
 B3,SA,5846,495,155,HETARB,0,1,,,,,0.33,0,,14.6,0,0,,
 B3,SA,4835,,,PSEMEN,0,0,,,,,0.73,0,,,,0,,
-B3,TR,4836,,,PSEMEN,1,0,0,1,4,,,,20.5,,,0,,
+B3,TR,4836,,,PSEMEN,1,0,0,1,4,,,,2.05,,,0,,"20.5 cant be the dbh- its on the data sheet but it was 1.2 in 2013 then 3.7 in 2019 so I', gonna guess its 2.05 on the caliper- mkqc2024"
 B3,TR,4850,,,QUEAGR,1,1,0,1,4,,,,33.9,,,0,,
 B3,SA,5847,68,152,PSEMEN,1,0,,,,68.9,0.87,0,,,,0,,
 B3,SA,5050,,,PSEMEN,0,0,,,,,0.84,0,,,,0,,
@@ -470,7 +470,7 @@ B1,TR,4866,,,UMBCAL,0,1,0,0,0,,,,1.31,100.8,2,0,,
 B1,TR,4867,,,QUEAGR,0,0,0,0,0,,,,7.28,,,0,,
 B1,TR,4874,,,QUEAGR,0,0,0,0,0,,,,3.82,,,0,,
 B1,TR,4868,,,QUEAGR,1,0,1,0,1,,,,6.2,,,0,,
-B1,TR,4869,,,QUEAGR,1,0,1,0,1,,,,168,,,0,,
+B1,TR,4869,,,QUEAGR,1,0,1,0,1,,,,11.8,,,0,,typo dbh 168- mkqc2024
 B1,SA,4861,,,PSEMEN,0,0,,,,,,,,,,0,,Dead/gone
 B1,SA,4876,,,PSEMEN,0,0,,,,,0.62,0,,,,0,,
 B1,SA,4875,,,PSEMEN,0,0,,,,,0.42,0,,,,1,,approximate BD

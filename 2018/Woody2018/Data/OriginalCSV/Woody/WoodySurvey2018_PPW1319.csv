@@ -37,8 +37,8 @@ D4,TR,2879,,,UMBCAL,1,1,0,1,4,,,,13.4,,,0,,
 D4,TR,2879.1,,,UMBCAL,1,1,1,1,3,,,,5.4,,,0,,
 C4,TR,2878,,,PSEMEN,0,0,0,0,0,,2.76,0,1.12,,,0,,"WAS SA, NOW TR"
 C2,TR,2877,,,PSEMEN,0,0,0,0,0,,5.1,0,2.8,,,0,,"WAS SA, NOW TR"
-C2,SA,5621,196,72,PSEMEN,0,0,,,,,0.9,0,,,,0,,NEW SA
-C2,SA,5620,126,28,PSEMEN,0,0,,,,,1.16,0,,,,0,,NEW SA
+C2,SA,99466,196,72,PSEMEN,0,0,,,,,0.9,0,,,,0,,"NEW SA, dead- should have been 999- was 5621-deleted in 2019 csv when tag was pulled  mkqc2024"
+C2,SA,99465,126,28,PSEMEN,0,0,,,,,1.16,0,,,,0,,"NEW SA, dead- should have been 999- was 5620- deleted in 2019 csv when tag was pulled -mkqc2024"
 C1,SA,5622,425,5,QUEGAR,0,1,,,,,0.57,1,,23.1,0,0,,"NEW SA, CONFIRM SP. WHEN OLDER"
 C1,SA,5623,495,8,UMBCAL,0,1,,,,,0.7,1,,12.4,0,0,,NEW SA
 B3,TR,2876,,,QUEGAR,1,0,0,1,2,,41.4,,,,,,,

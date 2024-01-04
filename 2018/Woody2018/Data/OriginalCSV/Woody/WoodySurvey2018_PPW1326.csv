@@ -1,5 +1,5 @@
 ﻿Plot ID,1326,,Sampler(s),"AC, MK, MO, KO",,,,,Date ,20180709,,,,,,,,,
-Notes,,,,,,,,,,,,,,,,,,,
+Notes,"deleted line for tag 3609, dead/tag pulled bc no data in 2013 either ",,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,Height,BD,,,Height ,Count >50,,,
 Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,SOD on Bay ,Notes
 A1,TR,3397,,,PSEMEN,1,0,0,1,3,,,,17.1,,,0,,
@@ -100,7 +100,6 @@ C1,TR,3596,,,UMBCAL,0,1,0,0,0,,,,1.92,105,1,0,,og dead
 C1,SA,3603,,,UMBCAL,0,0,,,,,,,,,,1,,dead/gone
 C1,TR,3601,,,PSEMEN,1,0,0,1,3,,,,19.8,,,0,,
 C1,SA,3597,,,UMBCAL,0,0,,,,,,,,,,1,,dead/gone
-C1,SA,3609,,,UMBCAL,0,0,,,,,,,,,,1,,dead/gone
 B1,SA,3578,,,UMBCAL,0,0,,,,,,,,,,0,,"dead/gone, tag not found"
 B1,SA,3579,,,UMBCAL,0,0,,,,,,,,,,0,,"dead/gone, tag not found"
 C1,SA,3608,,,UMBCAL,0,0,,,,,1.11,0,,,,0,,
