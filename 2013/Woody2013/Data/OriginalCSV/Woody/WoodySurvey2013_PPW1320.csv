@@ -135,8 +135,8 @@ B4,TR,4553,UMBCAL,1,,,,,1.03,260,90,
 B4,SA,4552,HETARB,1,,107,0.78,10,,246,129,
 B4,SA,4554,HETARB,1,,120,0.76,14,,-156,20,
 B4,SA,4556,HETARB,1,,11,0.83,3,,-10,60,
-B4,TR,4638,UMBCAL,1,,,,,23,-150,-260,
-B4,TR,4638.1,UMBCAL,1,,,,,22,-150,-260,
+B4,TR,4638,UMBCAL,1,,,,,2.3,-150,-260,changing units from 23 and 22 to 2.3 and 2.2 to match 2018 size - mkqc2024
+B4,TR,4638.1,UMBCAL,1,,,,,2.2,-150,-260,changing units from 23 and 22 to 2.3 and 2.2 to match 2018 size - mkqc2024
 ,,,,,,,,,,,,
 B4,SA,4558,FRACAL,1,,109,0.73,2,,-99,-156,
 B4,TR,,PSEMEN,0,S,,,,11,-150,-55,

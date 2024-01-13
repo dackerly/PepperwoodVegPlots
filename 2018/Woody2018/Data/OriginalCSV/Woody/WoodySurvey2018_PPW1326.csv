@@ -141,12 +141,12 @@ C1,SA,99333,,,UMBCAL,0,0,,,,,0.82,0,,,,0,,
 C1,SA,3631,,,UMBCAL,0,0,,,,,0.52,1,,,,0,,
 C1,SA,3630,,,UMBCAL,1,1,,,,,0.88,0,,50,1,0,,og dead
 C1,SA,3629,,,UMBCAL,1,1,,,,,1.8,0,,62.7,1,0,,
-C1,SA,5662,460,255,UMBCAL,1,1,,,,,0.59,0,,61.4,1,0,,og dead
+C1,SA,5662,460,255,UMBCAL,0,1,,,,,0.59,0,,61.4,1,0,,og dead ( changing from 1/1 to 0/1 based on note and bc it makes moe sense- mkqc2024
 C1,TR,3604,,,UMBCAL,0,1,0,0,0,,,,1.38,,0,0,,
 C1,TR,3600,,,PSEMEN,0,0,0,0,0,,,,5.3,,,0,,
 C1,TR,3599,,,QUEAGR,0,0,0,0,0,,,,6.7,,,0,,"dead/gone, basal dead, no tag (changing to 0/0 from 0/1 based on notes - mkqc2023"
 C1,SA,3602,,,UMBCAL,0,0,,,,,,,,,,1,,dead/gone
-C1,TR,3632,,,PSEMEN,1,0,0,1,3,,,,78.6,,,0,,
+C1,TR,3632,,,PSEMEN,1,0,0,1,3,,,,28.6,,,0,,
 C1,SA,3598,,,UMBCAL,0,0,,,,,,,,,,0,,"dead/gone, no tag"
 C1,SA,3606,,,UMBCAL,0,0,,,,,,,,,,0,,"dead/gone, no tag"
 B3,TR,3559,,,PSEMEN,1,0,0,1,2,,,,18.6,,,0,,
@@ -187,7 +187,7 @@ C2,TR,3654,,,PSEMEN,1,0,0,1,2,,,,9.9,,,0,,
 C3,SA,3627,,,UMBCAL,0,0,,,,,,,,,,1,,gone
 C2,SA,3628,,,UMBCAL,0,0,,,,,,,,,,1,,gone
 B4,SA,3549,,,UMBCAL,0,0,,,,,1.8,0,,,,0,,
-B4,TR,3547,,,PSEMEN,0,0,0,0,0,,,,3.5,,,0,,
+B4,TR,3547,,,PSEMEN,0,0,0,0,0,,,,3.5,,,0,,I suspect this is a typo bc dbh in 2013 in 35.5-mkqc2024
 A3,SA,5663,460,375,UMBCAL,1,0,,,,64.6,0.55,1,,,,0,,SOD
 A3,SA,5664,455,325,UMBCAL,1,0,,,,79,0.76,1,,,,0,,SOD
 A4,TR,3540,,,QUEGAR,1,1,0,1,4,,,,33.9,,,0,,

@@ -1,8 +1,8 @@
 ﻿Plot ID,1320,,Sampler(s),"MO, MK, KO, AC",,,,,Date ,20180730,,,,,,,,,
-Notes,,,,,,,,,,,,,,,,,,,
+Notes,"changing a few new SA FRACALS from 1/0 to 0/1 miscoded as alive in the field but these are not new recruits post fire, they are resprouts- (5959, 5979, 5981, 5983, 5986)",,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,Height,BD,,,Height ,Count >50,,,
 Quad,Type,Tree Tag No., X (cm),Y (cm),Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,SA or Stump Height (cm),SA or Stump BD (cm),SA  Stem#,DBH (cm),Basal resrpout (height),Basal Resprout count ,Tag pulled,SOD on Bay ,Notes
-C1,SA,5979,265,102,FRACAL,1,0,,,,55.3,0.42,5,,,,0,,
+C1,SA,5979,265,102,FRACAL,0,1,,,,55.3,0.42,5,,,,0,,
 C1,SA,4686,,,HETARB,0,0,,,,,1.04,0,,,,0,,
 C1,SA,5980,255,178,UMBCAL,0,1,,,,,0.77,0,,42.1,0,0,,
 C1,SA,4684,,,UMBCAL,0,0,,,,,1.1,2,,,,0,,
@@ -35,7 +35,7 @@ B3,TR,4605,,,PSEMEN,1,0,1,1,2,,,,32.6,,,0,,EPICORMIC ON THIS DF IS CORRECT
 B3,TR,4604,,,FRACAL,0,0,0,0,0,,,,,,,1,,
 B3,SA,4601,,,FRACAL,0,0,,,,,,,,,,1,,
 B3,SA,4603,,,UMBCAL,0,0,,,,,1.61,0,,,,0,,
-B3,SA,5981,398,498,FRACAL,1,0,,,,73.5,0.72,0,,,,0,,
+B3,SA,5981,398,498,FRACAL,0,1,,,,73.5,0.72,0,,,,0,,
 B3,SA,4607,,,UMBCAL,0,0,,,,,,,,,,1,,
 B3,SA,4608,,,UMBCAL,0,0,,,,,,,,,,1,,
 B3,SA,4606,,,FRACAL,0,0,,,,,,,,,,1,,
@@ -74,7 +74,7 @@ D1,SA,4739,,,FRACAL,0,0,,,,,,,,,,1,,TAG NOT FOUND
 D1,TR,4741,,,UMBCAL,0,1,0,0,0,,,,5.7,178.4,16,0,,
 D2,TR,4699,,,ARBMEN,1,1,0,1,4,,,,41.1,95.2,12,0,,
 D2,TR,4699.1,,,ARBMEN,0,0,0,0,0,,,,,,,0,,SNAG
-D2,TR,4727,,,ARBMEN,0,1,0,0,0,,,,20.3,,,1,,
+D2,TR,4727,,,ARBMEN,0,1,0,0,0,,,,28.3,,,1,,
 D2,TR,4730,,,QUEWIS,0,0,0,0,0,,,,,,,0,,
 D2,SA,4731,,,HETARB,0,0,,,,,,,,,,1,,
 D2,SA,4728,,,FRACAL,0,0,,,,,,,,,,1,,
@@ -105,7 +105,7 @@ B1,TR,4632.3,,,HETARB,0,0,0,0,0,,,,1.82,,,0,,
 B1,TS,4632.4,,,HETARB,0,0,,,,,1.14,0,,,,0,,
 B1,SA,4744,,,HETARB,0,0,,,,,0.85,0,,,,0,,
 B1,TR,4631,,,UMBCAL,0,0,0,0,0,,,,2.08,,,0,,
-B1,SA,5983,54,106,FRACAL,1,0,,,,184.9,0.91,10,,,,0,,
+B1,SA,5983,54,106,FRACAL,0,1,,,,184.9,0.91,10,,,,0,,
 B1,TR,4655,,,ARBMEN,1,1,1,1,2,,,,32.9,96.5,6,0,,
 B1,SA,4743,,,ARBMEN,0,0,,,,,,,,,,0,,GONE
 B1,SA,4660,,,FRACAL,0,0,,,,,,,,,,0,,GONE
@@ -213,7 +213,7 @@ A1,SA,4510,,,UMBCAL,0,1,,,,,1.47,0,,66.7,2,0,,og dead
 A1,SA,4508,,,UMBCAL,0,1,,,,,0.75,1,,60.2,1,0,,
 A1,SA,4520,,,UMBCAL,0,1,,,,,2.17,0,,74.1,1,0,,og dead
 A1,SA,4516,,,FRACAL,0,0,,,,,,,,,,1,,GONE
-A1,SA,5959,66,59,FRACAL,1,0,,,,74.6,0.8,2,,,,0,,new sa
+A1,SA,5959,66,59,FRACAL,0,1,,,,74.6,0.8,2,,,,0,,new sa
 A1,SA,4521,,,ARBMEN,0,0,,,,,,,,,,1,,dead/gone
 A1,TR,4524,,,FRACAL,0,0,0,0,0,,2.38,0,1.28,,,1,,
 A1,SA,4525,,,AMOCAL,0,1,,,,,,,,179.5,14,0,,og dead
@@ -267,7 +267,7 @@ A2,SA,4532,,,FRACAL,0,0,,,,,1.63,0,,,,0,,
 A2,TR,4534,,,UMBCAL,0,1,0,0,0,,,,2.19,161.2,3,0,,
 A2,SA,4531,,,FRACAL,0,0,,,,,,,,,,1,,GONE
 A2,TR,4535,,,FRACAL,0,0,0,0,0,,2.47,0,1.38,,,0,,
-A2,SA,5986,241,239,FRACAL,1,0,,,,108.9,0.53,3,,,,0,,
+A2,SA,5986,241,239,FRACAL,0,1,,,,108.9,0.53,3,,,,0,,
 A2,TR,4536,,,QUEAGR,0,1,0,0,0,,,,1.42,108.4,3,0,,
 A2,TS,4536.1,,,QUEAGR,0,0,,,,,1.22,0,,,,0,,
 A2,SA,4533,,,FRACAL,0,1,,,,,,,,142.8,11,0,,BD UNAVAILABLE

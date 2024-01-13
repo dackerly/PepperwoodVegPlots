@@ -32,7 +32,7 @@ C3,SA,3325,,,ARBMEN,0,0,,,,,5.9,0,,,,0,,was 3225 - fixed in 2022qc-mk
 C3,SA,3332,,,ARBMEN,0,0,,,,,2.9,0,,,,0,,
 C3,TR,3334,,,PSEMEN,0,0,0,0,0,,,,10.6,,,0,,CUT DOWN
 C3,SA,3333,,,QUEAGR,0,1,,,,,1.2,2,,56.3,1,0,,
-C3,TR,3335,,,PSEMEN,0,0,0,0,0,,,,26.9,,,0,,"CUT DOWN, TAG NOT FOUND"
+C3,TR,3335,,,PSEMEN,0,0,0,0,0,,,,26.9,,,0,,"CUT DOWN, TAG NOT FOUND. I don't belibve 26.9 dbh- it was only 12 in 2013 and the note indicates this tree is gone. Scan showns 26.9, delete? _mkqc2024"
 C3,TR,3084,,,ARBMEN,0,1,0,0,0,,,,1.75,110.5,1,0,,
 C3,TS,3084.1,,,ARBMEN,0,0,,,,,1.23,0,,,,0,,
 C3,TR,3336,,,PSEMEN,1,0,1,1,2,,,,61.6,,,0,,
