@@ -1,4 +1,4 @@
-﻿Plot,Subplot,Tree Tag No.,UTM E,UTM N,Species,Survival,Basal,Epicormic,Apical,% Living Canopy ,DBH (cm),Basal resrpout (height),Basal Resprout count ,Senesced,Notes
+﻿Plot,Subplot,Num,UTM_E,UTM_N,Species,Survival,Basal,Epicormic,Apical,Perc_Living_Canopy,DBH_cm,Basal_resprout_height,Basal_resprout_count,Senesced,Notes
 1501,A1,7702,,,QUEGAR,1,0,1,0,1,29.2,,,S,
 1501,A1,7703,,,QUEGAR,1,0,1,1,2,29.3,,,S,
 1501,A1,7708,,,QUEGAR,1,0,1,1,2,23.3,,,S,
