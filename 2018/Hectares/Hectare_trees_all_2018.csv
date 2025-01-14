@@ -5071,7 +5071,7 @@
 1549,C5,9950,,,PSEMEN,0,0,0,0,0,23.5,103.9,2,,
 1549,C5,10186,,,QUEGAR,1,0,1,1,2,50.5,,,,"PO in DBH, change sp. In DB"
 1549,C5,10305,,,QUEGAR,0,1,0,0,0,43.3,67,1,,DOG
-1549,C5,10306,,,PSEMEN,0,0,0,0,0,24,,,,"Fire affects DBH; Epicormic originally entered as 2-assumed to be wrong and set to 0"
+1549,C5,10306,,,PSEMEN,0,0,0,0,0,24,,,,Fire affects DBH
 1549,C4,9998,,,QUEKEL,1,1,1,,0,42.1,,,S,
 1549,C4,10178,,,QUEKEL,1,0,1,0,2,44.6,,,S,
 1549,C4,9996,,,QUEKEL,0,1,0,0,0,57.7,,,,
