@@ -1,4 +1,4 @@
-Plot,Subplot,Num,Species,UTM.E,UTM.N,DBH.cm,Accuracy,Year,Notes,QC.notes
+Plot,Subplot,Num,Species,UTM.E,UTM.N,DBH_cm,Accuracy,Year,Notes,QC.notes
 PPT1301,C1,1014,QUEGAR,526272.3864,4270351.435,21.8,from offset using simple slope correction and average angle of declination,2014,NA,
 PPT1301,C1,1012,QUEGAR,526273.53,4270349.609,15.3,from offset using simple slope correction and average angle of declination,2014,NA,
 PPT1301,A2,1002,QUEGAR,526265.5253,4270354.019,22.3,from offset using simple slope correction and average angle of declination,2014,NA,

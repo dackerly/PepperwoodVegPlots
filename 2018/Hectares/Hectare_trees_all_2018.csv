@@ -1,4 +1,4 @@
-﻿Plot,Subplot,Num,UTM.E,UTM.N,Species,Survival,Basal,Epicormic,Apical,Perc_Living_Canopy,DBH.cm,Basal_resprout_height,Basal_resprout_count,Senesced,Notes
+﻿Plot,Subplot,Num,UTM.E,UTM.N,Species,Survival,Basal,Epicormic,Apical,PercLivingCanopy,DBH_cm,BasalResproutHeight,BasalResproutCount,Senesced,Notes
 1501,A1,7702,,,QUEGAR,1,0,1,0,1,29.2,,,S,
 1501,A1,7703,,,QUEGAR,1,0,1,1,2,29.3,,,S,
 1501,A1,7708,,,QUEGAR,1,0,1,1,2,23.3,,,S,
@@ -3055,7 +3055,7 @@
 1535,B4,8838,,,QUEGAR,1,0,1,1,4,38.7,,,S,""""""
 1535,B4,8839,,,QUEKEL,1,0,0,1,3,35.1,,,S,""""""
 1535,B4,8840,,,QUEGAR,1,0,1,1,3,32.6,,,S,""""""
-1535,B4,88??,,,QUEGAR,1,0,1,1,3,44.6,,,S,DIFFICULT TO READ PDF PAGE SCAN
+1535,B4,88??,,,QUEGAR,1,0,1,1,3,44.6,,,S,DIFFICULT TO READ PDF PAGE SCAN.
 1535,B5,8842,,,QUEKEL,0,1,0,0,0,17.6,,,S,
 1535,B5,8843,,,QUEGAR,1,0,0,1,3,27.8,,,S,
 1535,B5,8844,,,UMBCAL,1,1,1,1,4,37.7,,0,,
@@ -4735,7 +4735,7 @@
 1532,E1,8605,,,QUEGAR,1,0,0,1,2,27.2,,,S,
 1532,E1,8601,,,UMBCAL,1,1,0,1,4,33.9,,0,,
 1532,E1,8099,,,UMBCAL,1,0,0,1,3,28.4,,,,
-1532,E1,8611,,,UMBCAL,1,2,0,1,3,27.6,58.5,3,,
+1532,E1,8611,,,UMBCAL,1,1,0,1,3,27.6,58.5,3,,
 1532,E1,8611.1,,,UMBCAL,1,0,1,0,1,13.1,,,,
 1532,C3,8186,,,ACEMAC,0,1,0,0,0,22.7,61.3,1,,DOG
 1532,E1,8084,,,UMBCAL,0,0,0,0,0,,,,,DOG - no DBH
@@ -5008,7 +5008,7 @@
 1549,A1,9937.1,,,QUEAGR,1,0,1,1,4,48.5,,,,
 1549,A1,9939,,,QUEAGR,1,0,1,1,3,74,,,,
 1549,A1,9937.2,,,QUEAGR,1,0,1,1,4,22.5,,,,
-1549,A1,9981,,,QUEAGR,1,0,1,1,2,59.1,,,DBH taken slightly below nail,
+1549,A1,9981,,,QUEAGR,1,0,1,1,2,59.1,,,,DBH taken slightly below nail
 1549,A1,9981.1,,,QUEAGR,1,0,1,1,2,43.3,,,,
 1549,A1,9936.3,,,QUEAGR,0,0,0,0,0,8.5,,,,
 1549,A1,9936.1,,,QUEAGR,1,0,1,0,1,10.4,,,,
@@ -5071,7 +5071,7 @@
 1549,C5,9950,,,PSEMEN,0,0,0,0,0,23.5,103.9,2,,
 1549,C5,10186,,,QUEGAR,1,0,1,1,2,50.5,,,,"PO in DBH, change sp. In DB"
 1549,C5,10305,,,QUEGAR,0,1,0,0,0,43.3,67,1,,DOG
-1549,C5,10306,,,PSEMEN,0,0,2,0,0,24,,,,Fire affects DBH
+1549,C5,10306,,,PSEMEN,0,0,0,0,0,24,,,,Fire affects DBH
 1549,C4,9998,,,QUEKEL,1,1,1,,0,42.1,,,S,
 1549,C4,10178,,,QUEKEL,1,0,1,0,2,44.6,,,S,
 1549,C4,9996,,,QUEKEL,0,1,0,0,0,57.7,,,,
