@@ -1211,8 +1211,8 @@
 1512,D5,10010,,,QUEKEL,1,0,0,1,0,50.4,,,S,
 1512,D5,10010.1,,,QUEKEL,1,0,0,1,0,39.9,,,S,
 1512,D5,10010.2,,,QUEKEL,1,0,0,1,0,33.5,,,S,
-1512,D5,10011,,,QUEAGR,1,1,0,1,5,76.5,,,,
-1512,D5,10011.1,,,QUEAGR,1,0,1,1,4,23.5,,0,,
+1512,D5,10011,,,QUEAGR,1,1,0,1,5,76.5,,0,,moving 0 from basal ht/ct from .1 to .0 to refelct basal presence on .0- mkqc2025
+1512,D5,10011.1,,,QUEAGR,1,0,1,1,4,23.5,,,,
 1512,D5,10023,,,FRALAT,1,0,0,1,0,28.2,,,,s
 1512,D5,10023.1,,,FRALAT,1,0,0,1,0,27.6,,,,s
 1512,D5,10023.2,,,FRALAT,1,0,0,1,0,27.3,,,,
@@ -2996,7 +2996,7 @@
 1535,A4,8829.1,,,UMBCAL,1,0,0,1,4,27.9,,,,
 1535,A4,8830,,,QUEGAR,1,0,0,1,3,33.3,,,S,
 1535,A4,8831,,,QUEGAR,1,0,0,1,4,40.9,,,S,
-1535,A5,8809,,,UMBCAL,1,0,1,1,4,26,,0,,
+1535,A5,8809,,,UMBCAL,1,0,1,1,4,26,,0,,added 1 for basal due to data in basal count column- mght not have epicormic?mkqc2025
 1535,A5,8810,,,UMBCAL,0,1,0,0,0,,79,4,,DEAD ON GROUND D.O.G.
 1535,A5,8811,,,UMBCAL,0,1,0,0,0,29.7,,0,,DEAD ON GROUND D.O.G.
 1535,A5,8812,,,UMBCAL,1,1,1,1,4,18.3,75,4,,
@@ -3036,7 +3036,7 @@
 1535,B3,8287,,,QUEGAR,1,0,1,1,4,43.3,,,S,
 1535,B3,8288,,,QUEGAR,1,0,1,1,4,39.1,,,,
 1535,B3,8290,,,UMBCAL,1,1,1,1,4,31.9,,0,,
-1535,B3,8291,,,UMBCAL,1,0,1,1,4,22.2,,,,
+1535,B3,8291,,,UMBCAL,1,1,1,1,4,22.2,,,,added 1 for basal due to data in basal count column- mght not have epicormic?mkqc2025
 1535,B3,8292,,,UMBCAL,1,1,0,1,4,43.7,,0,,
 1535,B3,8292.1,,,UMBCAL,1,0,0,1,4,32.3,,,,
 1535,B4,8289,,,QUEKEL,1,0,1,1,3,57.8,,,S,
@@ -3197,7 +3197,7 @@
 1535,D4,8708,,,UMBCAL,1,1,1,1,4,23.1,60.6,4,,
 1535,D4,8709,,,UMBCAL,1,1,1,1,4,26,75.1,3,,
 1535,D4,8710,,,AESCAL,1,1,1,1,3,18.4,,0,S,
-1535,D4,8710.1,,,AESCAL,1,0,1,1,3,17.6,,,S,
+1535,D4,8710.1,,,AESCAL,1,0,1,1,3,17.6,,,S,on basal problems list (data in basal ht/# but no 1 for basal- exept I see no problem here) mkqc2025
 1535,D4,8737,,,UMBCAL,1,1,0,1,4,23.4,,0,,
 1535,D4,8737.1,,,UMBCAL,1,0,0,1,4,10,,,,
 1535,D4,8743,,,QUEKEL,1,1,1,1,2,18.9,,0,S,
@@ -3527,8 +3527,8 @@
 1538,C5,9381.2,,,QUEAGR,0,0,0,0,0,19.6,,,,
 1538,C5,9382,,,QUEAGR,1,1,1,1,4,34,,0,,
 1538,C5,9383,,,UMBCAL,1,1,1,1,4,22.8,159.7,1,,
-1538,C5,9384,,,UMBCAL,1,1,0,1,5,28.2,,,,
-1538,C5,9384.1,,,UMBCAL,1,0,0,1,4,23.4,,0,,
+1538,C5,9384,,,UMBCAL,1,1,0,1,5,28.2,,0,,moving basal count data from .1 to .0 to refect basal present in .1 data- mkqc2025
+1538,C5,9384.1,,,UMBCAL,1,0,0,1,4,23.4,,,,
 1538,C5,9385,,,QUEAGR,1,0,0,1,5,32,,,,
 1538,C5,9397,,,QUEAGR,1,0,0,1,4,26.9,,,,
 1538,C5,9398,,,QUEAGR,1,0,1,1,4,26.7,,,,
@@ -3793,15 +3793,15 @@
 1539,B5,9199,,,QUEAGR,1,0,1,1,4,38,,,,
 1539,B5,9199.1,,,QUEAGR,1,0,1,1,4,40.3,,,,
 1539,B5,9199.2,,,QUEAGR,1,0,1,1,5,33,,,,
-1539,C1,9313,,,QUEAGR,1,0,1,1,4,48.4,,0,,
-1539,C1,9313.1,,,QUEAGR,1,0,1,1,4,35,,0,,
-1539,C1,9315,,,QUEAGR,1,0,0,1,4,35.9,,0,,
-1539,C1,9315.1,,,QUEAGR,1,0,0,1,4,18.8,,0,,
-1539,C1,9316,,,QUEAGR,1,0,1,1,3,32.6,,0,,
-1539,C1,9320,,,QUEAGR,1,0,1,1,3,43.9,,0,,
-1539,C1,9321,,,QUEAGR,1,0,0,1,4,41.5,,0,,
-1539,C1,9322,,,QUEAGR,1,0,0,1,4,51,,0,,
-1539,C1,9322.1,,,QUEAGR,1,0,0,1,4,32.5,,0,,Trunk hollow
+1539,C1,9313,,,QUEAGR,1,0,1,1,4,48.4,,,,deleting zero from basal ht over 50 bc it was a section on scan w/ inccorent data collection method- mkqc2025
+1539,C1,9313.1,,,QUEAGR,1,0,1,1,4,35,,,,deleting zero from basal ht over 50 bc it was a section on scan w/ inccorent data collection method- mkqc2026
+1539,C1,9315,,,QUEAGR,1,0,0,1,4,35.9,,,,deleting zero from basal ht over 50 bc it was a section on scan w/ inccorent data collection method- mkqc2027
+1539,C1,9315.1,,,QUEAGR,1,0,0,1,4,18.8,,,,deleting zero from basal ht over 50 bc it was a section on scan w/ inccorent data collection method- mkqc2028
+1539,C1,9316,,,QUEAGR,1,0,1,1,3,32.6,,,,deleting zero from basal ht over 50 bc it was a section on scan w/ inccorent data collection method- mkqc2029
+1539,C1,9320,,,QUEAGR,1,0,1,1,3,43.9,,,,deleting zero from basal ht over 50 bc it was a section on scan w/ inccorent data collection method- mkqc2030
+1539,C1,9321,,,QUEAGR,1,0,0,1,4,41.5,,,,deleting zero from basal ht over 50 bc it was a section on scan w/ inccorent data collection method- mkqc2031
+1539,C1,9322,,,QUEAGR,1,0,0,1,4,51,,,,deleting zero from basal ht over 50 bc it was a section on scan w/ inccorent data collection method- mkqc2032
+1539,C1,9322.1,,,QUEAGR,1,0,0,1,4,32.5,,,,Trunk hollow
 1539,C2,9228,,,QUEAGR,1,0,1,1,4,39.2,,,,
 1539,C2,9228.1,,,QUEAGR,1,1,1,1,3,13.1,,0,,
 1539,C2,9229,,,QUEAGR,1,0,1,1,4,32.8,,,,
@@ -3813,7 +3813,7 @@
 1539,C2,9305.1,,,QUEAGR,1,0,0,1,4,33.5,,,,
 1539,C2,9314,,,QUEAGR,1,0,1,1,4,48.5,,,,
 1539,C2,9314.1,,,QUEAGR,1,0,1,1,4,39.8,,,,
-1539,C2,9323,,,QUEAGR,1,0,1,1,4,30.9,,0,,
+1539,C2,9323,,,QUEAGR,1,0,1,1,4,30.9,,,,deleting zero from basal ht over 50 bc it was a section on scan w/ inccorent data collection method- mkqc2032
 1539,C3,9351,,,QUEDOU,1,0,1,1,0,28.5,,,S,
 1539,C3,9352,,,QUEAGR,1,0,1,1,3,33.8,,,,
 1539,C3,9353,,,QUEAGR,1,0,1,1,4,37.3,,,,
@@ -3956,7 +3956,7 @@
 1540,A1,9568,,,PSEMEN,0,0,0,0,0,,,,,"cut down, no DBH"
 1540,A1,9569,,,UMBCAL,0,1,0,0,0,,152.8,16,,"cut down, no DBH"
 1540,A2,9570,,,UMBCAL,0,1,0,0,0,44.9,283.1,23,,
-1540,A2,9570.1,,,UMBCAL,0,0,0,0,0,5.4,,0,,
+1540,A2,9570.1,,,UMBCAL,0,0,0,0,0,5.4,,,,deleteing 0 from basal ht/ct data bc .1 indicated there is no basal- mkqc2025
 1540,A2,9571,,,PSEMEN,1,0,0,1,2,51,,,,
 1540,A2,9572,,,QUEAGR,1,0,1,1,4,54.7,,,,
 1540,A2,9573,,,PSEMEN,1,0,0,1,1,43.2,,,,
@@ -4065,8 +4065,8 @@
 1540,B3,9747,,,PSEMEN,1,0,0,1,3,79,,,,
 1540,B3,9748,,,UMBCAL,1,1,1,1,2,44.4,223,57,,
 1540,B3,9749,,,QUEAGR,1,1,1,1,2,34.7,,0,,
-1540,B3,9750,,,QUEAGR,1,1,0,1,1,25.7,,,,"Dying, now B3"
-1540,B3,9750.1,,,QUEAGR,0,0,0,0,0,25.4,,0,,Moved to B3
+1540,B3,9750,,,QUEAGR,1,1,0,1,1,25.7,,0,,"Dying, now B3 ( moved basal ht/ct data from .1 to .0 to refelct basal presense on .0- mkqc2025"
+1540,B3,9750.1,,,QUEAGR,0,0,0,0,0,25.4,,,,Moved to B3
 1540,B3,9751,,,PSEMEN,1,0,0,1,3,24.8,,,,
 1540,B4,9688.1,,,QUEAGR,1,0,1,1,3,61,,,,
 1540,B4,9690,,,QUEAGR,1,0,1,1,3,19.7,,,,
