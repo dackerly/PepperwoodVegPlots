@@ -3672,7 +3672,7 @@
 1535,A4,8806,,,UMBCAL,1,1,1,1,4,28.8,73.4,8,,
 1535,B4,8807,,,QUEGAR,1,0,1,1,4,48.2,,,S,
 1535,B4,8808,,,UMBCAL,1,1,1,1,4,32.9,50.9,1,,
-1535,A5,8809,,,UMBCAL,1,0,1,1,4,26,,0,,added 1 for basal due to data in basal count column- mght not have epicormic?mkqc2025
+1535,A5,8809,,,UMBCAL,1,1,1,1,4,26,,0,,added 1 for basal due to data in basal count column- mght not have epicormic?mkqc2025
 1535,A5,8810,,,UMBCAL,0,1,0,0,0,,79,4,,DEAD ON GROUND D.O.G.
 1535,A5,8811,,,UMBCAL,0,1,0,0,0,29.7,,0,,DEAD ON GROUND D.O.G.
 1535,A5,8812,,,UMBCAL,1,1,1,1,4,18.3,75,4,,
@@ -3862,7 +3862,6 @@
 1538,D1,9406,,,QUEAGR,1,0,1,1,4,42.9,,,,
 1538,E1,9407,,,QUEAGR,1,0,0,1,4,37.1,,,,
 1538,D2,9408,,,QUEAGR,1,0,1,1,5,56.2,,,,deleted a tru dup w same data- none missing - mkqc2025
-1538,D2,9408,,,QUEAGR,1,0,1,1,5,56.1,,,,
 1538,D2,9409,,,QUEAGR,1,0,0,1,4,47.2,,,,
 1538,D2,9409.1,,,QUEAGR,1,0,1,1,3,33.9,,,,
 1538,D2,9410,,,QUEAGR,1,0,0,1,4,48.1,,,,
