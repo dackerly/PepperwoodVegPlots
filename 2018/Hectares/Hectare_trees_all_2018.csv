@@ -2263,8 +2263,8 @@
 1521,C5,10651,,,QUEGAR,1,1,1,1,4,19.6,,,S,
 1521,B5,10652,,,QUEGAR,1,0,1,1,4,24.4,,,S,
 1521,B5,10653,,,QUEGAR,1,0,1,1,4,33.7,,,S,
-1521,A3,10998,524723,4269208,UMBCAL,1,1,0,1,3,25.5,,,,changed apical to 1- mkqc2025
-1521,A3,10998.1,524723,4269208,UMBCAL,1,0,0,1,1,4.6,,,,TREE ABOUT TO FALL- changed epicormic to zero- meant for apical on .0- mkqc2025
+1521,A3,10998,524723,4269608,UMBCAL,1,1,0,1,3,25.5,,,,changed apical to 1- mkqc2025 (changed utm n from 208 to 608 to placve it in A3)
+1521,A3,10998.1,524723,4269608,UMBCAL,1,0,0,1,1,4.6,,,,TREE ABOUT TO FALL- changed epicormic to zero- meant for apical on .0- mkqc2025
 1522,B1,8761,,,QUEKEL,1,0,0,1,3,25.2,,,S,
 1522,B1,8762,,,QUEAGR,1,0,0,1,3,26.7,,,,
 1522,B1,8763,,,QUEKEL,1,0,1,1,4,25.8,,,S,
