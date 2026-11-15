@@ -900,6 +900,77 @@ correctTreeCoordinates <- function(indivs) {
   #  plot(dist*cos((angle-mean(angle))),dist*sin((angle-mean(angle))))
 }
 
+loadFireSeverity <- function(fs=fsall,fsmet='Tubbs.MTBS.RDNBR.30',verbose=F)
+{
+  if (verbose) {
+    head(fs)
+    tail(fs)
+    names(fs)
+  }
+  fs$fsvar <- fs[,fsmet]
+  if (verbose) print(summary(fs$fsvar))
+  if (verbose) print(hist(fs$fsvar))
+  
+  # RDNBR fire severity levels
+  # Unburned
+  # Low <170, but burned
+  # Medium 170-700
+  # High: >700
+  # unburned: 1308, 1309, 1311, 1312, 1327, 1344, 1347
+  
+  # Create a discrete FireSev variable
+  if (verbose) hist(fs$fsvar,breaks=c(-400,0,50,100,150,200,300,400,500,600,700,800,1000))
+  fs.breaks <- c(-400,135,430,1000) # Based on Parks et al. 2014, but not using intermediate split at 304
+  # !!this is for RDNBR.30 !!
+  fsCat <- cut(fs$fsvar,fs.breaks)
+  if (verbose) print(table(fsCat))
+  fs$fsLevel <- as.numeric(fsCat)
+  if (verbose) print(table(fs$fsLevel))
+  
+  # manually code unburned as 0
+  unburned.plots <- c('PPW1308','PPW1309','PPW1311','PPW1312','PPW1327','PPW1344','PPW1347')
+  fs$fsLevel[which(fs$Plot %in% unburned.plots)] <- 0
+  if (verbose) print(table(fs$fsLevel))
+  fs$fsCat <- as.factor(fs$fsLevel)
+  if (verbose) print(table(fs$fsCat))
+  if (verbose) print(str(fs$fsCat))
+  return(fs)
+  ####
+}
+
+convertHybrids <- function()
+{
+  # hard code conversion of QUEBEGA to QUEBER
+  tAll$Species.13[which(tAll$Species.13=='QUEBEGA')] <- 'QUEBER'
+  tAll$Species.17[which(tAll$Species.17=='QUEBEGA')] <- 'QUEBER'
+  tAll$Species.18[which(tAll$Species.18=='QUEBEGA')] <- 'QUEBER'
+  tAll$Species.19[which(tAll$Species.19=='QUEBEGA')] <- 'QUEBER'
+  tAll$Species.20[which(tAll$Species.20=='QUEBEGA')] <- 'QUEBER'
+  tAll$Species[which(tAll$Species=='QUEBEGA')] <- 'QUEBER'
+  
+  tAll$Species.13[which(tAll$Species.13=='QUEDOGA')] <- 'QUEDOU'
+  tAll$Species.17[which(tAll$Species.17=='QUEDOGA')] <- 'QUEDOU'
+  tAll$Species.18[which(tAll$Species.18=='QUEDOGA')] <- 'QUEDOU'
+  tAll$Species.19[which(tAll$Species.19=='QUEDOGA')] <- 'QUEDOU'
+  tAll$Species.20[which(tAll$Species.20=='QUEDOGA')] <- 'QUEDOU'
+  tAll$Species[which(tAll$Species=='QUEDOGA')] <- 'QUEDOU'
+  
+  tAll$Species.13[which(tAll$Species.13=='QUEdec')] <- 'QUEDOU'
+  tAll$Species.17[which(tAll$Species.17=='QUEdec')] <- 'QUEDOU'
+  tAll$Species.18[which(tAll$Species.18=='QUEdec')] <- 'QUEDOU'
+  tAll$Species.19[which(tAll$Species.19=='QUEdec')] <- 'QUEDOU'
+  tAll$Species.20[which(tAll$Species.20=='QUEdec')] <- 'QUEDOU'
+  tAll$Species[which(tAll$Species=='QUEdec')] <- 'QUEDOU'
+  
+  tAll <- tAll[-which(tAll$Species=='UNK'),]
+  
+  tAll$Type.13[which(tAll$Type.13=='A2')] <- 'SA'
+  tAll$Type.17[which(tAll$Type.17=='A2')] <- 'SA'
+  #1112.1
+  tAll$Type.18[which(tAll$Num==1112.1)] <- 'SA'
+  return(tAll)
+}
+
 
 # the below function can create raster and spd for all climate variables for the Preserve, but does not currently work within GitHub
 #get.clim.pts<-function(all=F){
