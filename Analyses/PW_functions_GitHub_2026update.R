@@ -938,37 +938,37 @@ loadFireSeverity <- function(fs=fsall,fsmet='Tubbs.MTBS.RDNBR.30',verbose=F)
   ####
 }
 
-convertHybrids <- function()
+convertHybrids <- function(d=tAll)
 {
   # hard code conversion of QUEBEGA to QUEBER
-  tAll$Species.13[which(tAll$Species.13=='QUEBEGA')] <- 'QUEBER'
-  tAll$Species.17[which(tAll$Species.17=='QUEBEGA')] <- 'QUEBER'
-  tAll$Species.18[which(tAll$Species.18=='QUEBEGA')] <- 'QUEBER'
-  tAll$Species.19[which(tAll$Species.19=='QUEBEGA')] <- 'QUEBER'
-  tAll$Species.20[which(tAll$Species.20=='QUEBEGA')] <- 'QUEBER'
-  tAll$Species[which(tAll$Species=='QUEBEGA')] <- 'QUEBER'
+  d$Species.13[which(d$Species.13=='QUEBEGA')] <- 'QUEBER'
+  d$Species.17[which(d$Species.17=='QUEBEGA')] <- 'QUEBER'
+  d$Species.18[which(d$Species.18=='QUEBEGA')] <- 'QUEBER'
+  d$Species.19[which(d$Species.19=='QUEBEGA')] <- 'QUEBER'
+  d$Species.20[which(d$Species.20=='QUEBEGA')] <- 'QUEBER'
+  d$Species[which(d$Species=='QUEBEGA')] <- 'QUEBER'
   
-  tAll$Species.13[which(tAll$Species.13=='QUEDOGA')] <- 'QUEDOU'
-  tAll$Species.17[which(tAll$Species.17=='QUEDOGA')] <- 'QUEDOU'
-  tAll$Species.18[which(tAll$Species.18=='QUEDOGA')] <- 'QUEDOU'
-  tAll$Species.19[which(tAll$Species.19=='QUEDOGA')] <- 'QUEDOU'
-  tAll$Species.20[which(tAll$Species.20=='QUEDOGA')] <- 'QUEDOU'
-  tAll$Species[which(tAll$Species=='QUEDOGA')] <- 'QUEDOU'
+  d$Species.13[which(d$Species.13=='QUEDOGA')] <- 'QUEDOU'
+  d$Species.17[which(d$Species.17=='QUEDOGA')] <- 'QUEDOU'
+  d$Species.18[which(d$Species.18=='QUEDOGA')] <- 'QUEDOU'
+  d$Species.19[which(d$Species.19=='QUEDOGA')] <- 'QUEDOU'
+  d$Species.20[which(d$Species.20=='QUEDOGA')] <- 'QUEDOU'
+  d$Species[which(d$Species=='QUEDOGA')] <- 'QUEDOU'
   
-  tAll$Species.13[which(tAll$Species.13=='QUEdec')] <- 'QUEDOU'
-  tAll$Species.17[which(tAll$Species.17=='QUEdec')] <- 'QUEDOU'
-  tAll$Species.18[which(tAll$Species.18=='QUEdec')] <- 'QUEDOU'
-  tAll$Species.19[which(tAll$Species.19=='QUEdec')] <- 'QUEDOU'
-  tAll$Species.20[which(tAll$Species.20=='QUEdec')] <- 'QUEDOU'
-  tAll$Species[which(tAll$Species=='QUEdec')] <- 'QUEDOU'
+  d$Species.13[which(d$Species.13=='QUEdec')] <- 'QUEDOU'
+  d$Species.17[which(d$Species.17=='QUEdec')] <- 'QUEDOU'
+  d$Species.18[which(d$Species.18=='QUEdec')] <- 'QUEDOU'
+  d$Species.19[which(d$Species.19=='QUEdec')] <- 'QUEDOU'
+  d$Species.20[which(d$Species.20=='QUEdec')] <- 'QUEDOU'
+  d$Species[which(d$Species=='QUEdec')] <- 'QUEDOU'
   
-  tAll <- tAll[-which(tAll$Species=='UNK'),]
+  d <- d[-which(d$Species=='UNK'),]
   
-  tAll$Type.13[which(tAll$Type.13=='A2')] <- 'SA'
-  tAll$Type.17[which(tAll$Type.17=='A2')] <- 'SA'
+  d$Type.13[which(d$Type.13=='A2')] <- 'SA'
+  d$Type.17[which(d$Type.17=='A2')] <- 'SA'
   #1112.1
-  tAll$Type.18[which(tAll$Num==1112.1)] <- 'SA'
-  return(tAll)
+  d$Type.18[which(d$Num==1112.1)] <- 'SA'
+  return(d)
 }
 
 
