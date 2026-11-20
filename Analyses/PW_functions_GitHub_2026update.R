@@ -134,6 +134,19 @@ get.indv.data <- function(year, stump=F, orig.dead=F, survival=F, bsprout=F, epi
   names(mega.data) <- plot.list # assigns a name to each item of the list
   #print(names(mega.data[[1]]))
   i=40
+  
+  first.line<-lapply(paste(file.list, plot.list, ".csv", sep=''), function(x) read.csv(text=getURL(x, followlocation = TRUE, cainfo = system.file("CurlSSL", "cacert.pem", package = "RCurl")), na.strings=c("","NA") , nrow=1,header=F)) 
+  names(first.line) <- plot.list # assigns a name to each item of the list
+  
+  sample.date <- NA
+  for (i in 1:length(first.line)) sample.date[i] <- first.line[[i]][11]
+  sample.date <- do.call(rbind,sample.date)
+  
+  sYear <- substr(sample.date,1,4)
+  sDate <- round(decimal_date(mdy(paste(substr(sample.date,5,6),
+                                        substr(sample.date,7,8)
+                                        ,sYear,sep='/'))),2)
+  
   for (i in 1:length(mega.data)) 
   {
     Plot<-plot.list[i]
@@ -144,6 +157,8 @@ get.indv.data <- function(year, stump=F, orig.dead=F, survival=F, bsprout=F, epi
     {
       # remove any excess columns created by excel
       mega.data[[i]] <- mega.data[[i]][,1:21]
+      mega.data[[i]]$sYear <- sYear[i]
+      mega.data[[i]]$sDate <- sDate[i]
       nm <- colnames(mega.data[[i]])
       #nm$SOD.on.Bay <- NA
       nm <-replace(nm,grep('X..cm',nm),'X_cm')
@@ -170,11 +185,13 @@ get.indv.data <- function(year, stump=F, orig.dead=F, survival=F, bsprout=F, epi
     } else {
       # THIS SECTION FOR 2013
       mega.data[[i]]<-mega.data[[i]][,1:14] 
+      mega.data[[i]]$sYear <- sYear[i]
+      mega.data[[i]]$sDate <- sDate[i]
       # CLEAN UP COLUMN NAMES - 2013 COLUMNS CAN **NEVER** BE REORDERED, OR THIS LINE NEEDS TO BE EDITED!
       colnames(mega.data[[i]])<-c("Plot", "Quad", "Type", "Num", "Species", "Confidence",
                                   "Dead.Stump", 
                                   "SA.Height_cm", "SA.BD_cm", 
-                                  "SA.Stems", "DBH_cm", "X_cm", "Y_cm", "Notes") 
+                                  "SA.Stems", "DBH_cm", "X_cm", "Y_cm", "Notes","sYear","sDate") 
       if (TRUE) {
         mega.data[[i]]$Num[which(mega.data[[i]]$Dead.Stump %in% c("D","S"))] <- 999
         
@@ -193,15 +210,20 @@ get.indv.data <- function(year, stump=F, orig.dead=F, survival=F, bsprout=F, epi
   
   # turn list of dataframes into a single large dataframe called indv.data for easier manipulations
   indv.data<-do.call(rbind, mega.data)
+  
   # get rid of extra rows - 2013 only
   if (year==2013) indv.data<-indv.data[!is.na(indv.data$Type),]
+  
+  # remove rows with no entry for Num
   if (year>=2018) indv.data<-indv.data[which(!is.na(indv.data$Num)),]
   
   # change SA.Stump.BD_cm into numeric
   indv.data$SA.BD_cm <- suppressWarnings(as.numeric(indv.data$SA.BD_cm))
   indv.data$DBH_cm <- suppressWarnings(as.numeric(indv.data$DBH_cm))
+  
   # make indv.data$TreeNum numeric
   indv.data$Num<-as.numeric(indv.data$Num)
+  
   # cleaning up Types 
   indv.data$Type[indv.data$Type==" TR"]<-"TR"
   indv.data$Type[indv.data$Type=="SA "]<-"SA"
@@ -261,8 +283,7 @@ get.indv.data <- function(year, stump=F, orig.dead=F, survival=F, bsprout=F, epi
   indv.data[which(indv.data$X_cm<0),"X_cm"]<-indv.data[which(indv.data$X_cm<0),"X_cm"]+500
   indv.data[which(indv.data$Y_cm<0),"Y_cm"]<-indv.data[which(indv.data$Y_cm<0),"Y_cm"]+500
   
-  # condense each individual into a single row 
-  #indv.data$Point <- indv.data$Num %% 1
+  # create variables for TreeNum and Point separately
   indv.data$iNum<-floor(indv.data$Num) #strips away decimal point values
   indv.data$Point <- indv.data$Num - indv.data$iNum
   
@@ -357,8 +378,9 @@ get.indv.data <- function(year, stump=F, orig.dead=F, survival=F, bsprout=F, epi
     
     # Get rid of the extra columns "DBH_cm", ... 
     indv.data<-as.data.frame(indv.data)
-    indv.data<-indv.data[,c("Plot","Quad","Type","Num","Species","X_cm","Y_cm","Basal.Area","dbh","Survival","Dead","Live","bSprout","Topkill","Epicormic","Apical","gCrown")]
+    indv.data<-indv.data[,c("Plot","Quad","Type","Num","Species","X_cm","Y_cm","Basal.Area","dbh","Survival","Dead","Live","bSprout","Topkill","Epicormic","Apical","gCrown","sYear","sDate")]
   } 
+  
   # else {
   #   indv.data[indv.data$Type=="SA", "Basal.Area" ]<-(((indv.data[indv.data$Type=="SA", "SA.Stump.BD_cm"]/2)^2)*(pi))*(indv.data[indv.data$Type=="SA","SA.Stem.Num"])
   #   indv.data[indv.data$Type=="TR", "Basal.Area"]<- (((indv.data[indv.data$Type=="TR","DBH_cm"]/2)^2)*(pi))
@@ -366,9 +388,7 @@ get.indv.data <- function(year, stump=F, orig.dead=F, survival=F, bsprout=F, epi
   # 
   
   if (year=="none"){
-    indv.data<-subset(indv.data, subset=(indv.data$Dead.Stump=="D" | indv.data$Dead.Stum=="S"))  
-  } else {
-    indv.data$Year<-year
+    indv.data<-subset(indv.data, subset=(indv.data$Dead.Stump=="D" | indv.data$Dead.Stump=="S"))  
   }
   
   row.names(indv.data) <- NULL
