@@ -96,9 +96,9 @@ B3,TR,2238,,,QUEGAR,0,1,0,1,99,,,,,,,,,SAYS QUEAGRI IN '19
 B3,SA,2249,,,QUEAGRI,0,1,,,,22,0.18,0,,,,,,SAYS 2248 IN '19 DATABASE- fixed it- mkqc2022
 A3,TR,2277,,,ARCMAN,0,0,0,0,0,,,,,,,,,BLUE FLAG
 A3,TR,2259,,,ARCMAN,0,0,0,0,0,,,,,,,,,BLUE FLAG
-A4,TR,2259.1,,,ARCMAN,0,0,0,0,0,,,,,,,,,
-A5,TR,2259.2,,,ARCMAN,0,0,0,0,0,,,,,,,,,
-A6,TR,2259.3,,,ARCMAN,0,0,0,0,0,,,,,,,,,
+A3,TR,2259.1,,,ARCMAN,0,0,0,0,0,,,,,,,,,Changed Quad from A4-dda2026
+A3,TR,2259.2,,,ARCMAN,0,0,0,0,0,,,,,,,,,Changed Quad from A5-dda2026
+A3,TR,2259.3,,,ARCMAN,0,0,0,0,0,,,,,,,,,Changed Quad from A6-dda2026
 A3,TR,2258,,,PSEMEN,1,0,1,1,3,,,,,,,,,
 A3,TR,2274,,,UMBCAL,0,1,0,0,0,,0.3,,,58.5,2,,,
 A3,SA,2276,,,UMBCAL,0,1,,,,61.5,0.41,3,,,,,,
