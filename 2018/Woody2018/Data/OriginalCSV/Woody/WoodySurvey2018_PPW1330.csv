@@ -457,7 +457,7 @@ B3,TR,3792,,,AMOCAL,0,1,0,0,0,,,,1.93,119.8,8,0,,OG DEAD/ dup in B4 but this one
 B3,TS,3792.1,,,AMOCAL,0,0,,,,,,,,,,0,,GONE
 B3,SA,3787,,,UMBCAL,0,0,,,,,,,,,,1,,GONE
 B3,SA,3740,,,UMBCAL,0,1,,,,,1.61,0,0.88,91,2,0,,OG DEAD
-3B,SA,3741,,,FRACAL,0,0,,,,,,,,,,0,,GONE
+B3,SA,3741,,,FRACAL,0,0,,,,,,,,,,0,,GONE;changed Quad from 3B
 B3,TR,3803,,,UMBCAL,0,1,0,0,0,,,,2.58,143.5,9,0,,3003 IN PAST DATA/ confusion btwn 3883/3803/3083
 B3,SA,3737,,,UMBCAL,0,1,,,,,1.26,0,,77.5,1,0,,OG DEAD
 B2,TR,3755,,,PSEMEN,0,0,0,0,0,,,,1.55,,,0,,
