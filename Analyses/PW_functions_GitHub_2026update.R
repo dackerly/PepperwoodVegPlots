@@ -118,6 +118,22 @@ kill.trees<-function(year,prefix='https://raw.githubusercontent.com/dackerly/Pep
   all.dead
 }
 
+## for troubleshooting, set defaults
+year=2018
+stump=F
+orig.dead=F
+survival=F
+bsprout=F
+epicormic=F
+apical=F
+canopy=F
+bsprout.height=F
+bsprout.count=F
+tag.pulled=F
+keep.999=F
+branches=F
+prefix='https://raw.githubusercontent.com/dackerly/PepperwoodVegPlots/master/'
+plot.list=NA
 ######################################################################
 ### get.indv.data() ### 
 ######################################################################
@@ -148,6 +164,7 @@ get.indv.data <- function(year, stump=F, orig.dead=F, survival=F, bsprout=F, epi
                                         substr(sample.date,7,8)
                                         ,sYear,sep='/'))),2)
   
+  i=1
   for (i in 1:length(mega.data)) 
   {
     Plot<-plot.list[i]
@@ -189,7 +206,8 @@ get.indv.data <- function(year, stump=F, orig.dead=F, survival=F, bsprout=F, epi
       mega.data[[i]]$sYear <- sYear[i]
       mega.data[[i]]$sDate <- sDate[i]
       # CLEAN UP COLUMN NAMES - 2013 COLUMNS CAN **NEVER** BE REORDERED, OR THIS LINE NEEDS TO BE EDITED!
-      colnames(mega.data[[i]])<-c("Plot", "Quad", "Type", "Num", "Species", "Confidence",
+      colnames(mega.data[[i]])<-c("Plot", "Quad", "Type", "Num",
+                                  "Species", "Confidence",
                                   "Dead.Stump", 
                                   "SA.Height_cm", "SA.BD_cm", 
                                   "SA.Stems", "DBH_cm", "X_cm", "Y_cm", "Notes","sYear","sDate") 
@@ -281,6 +299,7 @@ get.indv.data <- function(year, stump=F, orig.dead=F, survival=F, bsprout=F, epi
   
   # change coordinates to all be positive
   indv.data$Y_cm<-suppressWarnings(as.numeric(indv.data$Y_cm))
+  write.csv(indv.data[,c('Plot','Num','X_cm')],'tmp/xcm.csv')
   indv.data[which(indv.data$X_cm<c(-500)),"X_cm"]<-NA
   indv.data[which(indv.data$Y_cm<c(-500)),"Y_cm"]<-NA
   indv.data[which(indv.data$X_cm<0),"X_cm"]<-indv.data[which(indv.data$X_cm<0),"X_cm"]+500
@@ -923,7 +942,7 @@ correctTreeCoordinates <- function(indivs) {
   #  plot(dist*cos((angle-mean(angle))),dist*sin((angle-mean(angle))))
 }
 
-loadFireSeverity <- function(fs=fsall,fsmet='Tubbs.MTBS.RDNBR.30',verbose=F)
+loadFireSeverity <- function(fs=fsall,fsmet='Tubbs.MTBS.RDNBR.30',fire='Tubbs',verbose=F)
 {
   if (verbose) {
     head(fs)
@@ -939,7 +958,8 @@ loadFireSeverity <- function(fs=fsall,fsmet='Tubbs.MTBS.RDNBR.30',verbose=F)
   # Low <170, but burned
   # Medium 170-700
   # High: >700
-  # unburned: 1308, 1309, 1311, 1312, 1327, 1344, 1347
+  # Tubbs unburned: 1308, 1309, 1311, 1312, 1327, 1344, 1347
+  # Kincade unburned: 1305, 1306, 1320, 1325, 1328, 1330, 1340, 1341, 1342, 1346, 1349, 1351, 1352, 1352, 1354
   
   # Create a discrete FireSev variable
   if (verbose) hist(fs$fsvar,breaks=c(-400,0,50,100,150,200,300,400,500,600,700,800,1000))
@@ -951,7 +971,10 @@ loadFireSeverity <- function(fs=fsall,fsmet='Tubbs.MTBS.RDNBR.30',verbose=F)
   if (verbose) print(table(fs$fsLevel))
   
   # manually code unburned as 0
-  unburned.plots <- c('PPW1308','PPW1309','PPW1311','PPW1312','PPW1327','PPW1344','PPW1347')
+  if (fire=='Tubbs') 
+    unburned.plots <- c('PPW1308','PPW1309','PPW1311','PPW1312','PPW1327','PPW1344','PPW1347') else if (fire=='Kincade') 
+      unburned.plots <- c('PPW1305', 'PPW1306', 'PPW1320', 'PPW1325', 'PPW1328', 'PPW1330', 'PPW1340', 'PPW1341', 'PPW1342', 'PPW1346', 'PPW1349', 'PPW1351', 'PPW1352', 'PPW1353', 'PPW1354')
+
   fs$fsLevel[which(fs$Plot %in% unburned.plots)] <- 0
   if (verbose) print(table(fs$fsLevel))
   fs$fsCat <- as.factor(fs$fsLevel)
