@@ -124,6 +124,7 @@ kill.trees<-function(year,prefix='https://raw.githubusercontent.com/dackerly/Pep
 get.indv.data <- function(year, stump=F, orig.dead=F, survival=F, bsprout=F, epicormic=F, apical=F, canopy=F, bsprout.height=F, bsprout.count=F, tag.pulled=F, keep.999=F, branches=F, prefix='https://raw.githubusercontent.com/dackerly/PepperwoodVegPlots/master/',plot.list=NA)
 {
   require(RCurl)
+  require(lubridate)
   options(stringsAsFactors=FALSE) 
   #getURL('https://github.com/dackerly/PepperwoodVegPlots/tree/master/2020/Woody2020/Data/OriginalCSV/Woody')
   #dir.list <- dir(paste(prefix,year,"/Woody",year,"/Data/OriginalCSV/Woody/",sep=''))
@@ -280,6 +281,8 @@ get.indv.data <- function(year, stump=F, orig.dead=F, survival=F, bsprout=F, epi
   
   # change coordinates to all be positive
   indv.data$Y_cm<-suppressWarnings(as.numeric(indv.data$Y_cm))
+  indv.data[which(indv.data$X_cm<c(-500)),"X_cm"]<-NA
+  indv.data[which(indv.data$Y_cm<c(-500)),"Y_cm"]<-NA
   indv.data[which(indv.data$X_cm<0),"X_cm"]<-indv.data[which(indv.data$X_cm<0),"X_cm"]+500
   indv.data[which(indv.data$Y_cm<0),"Y_cm"]<-indv.data[which(indv.data$Y_cm<0),"Y_cm"]+500
   
